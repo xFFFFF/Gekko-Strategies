@@ -1,3 +1,5 @@
+Auto-learning strategy using ConvNetJS library.
+
 1. Install dependencies:
 
 `cd gekko`
