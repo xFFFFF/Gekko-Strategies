@@ -1,0 +1,210 @@
+// Everything is explained here:
+// @link https://gekko.wizb.it/docs/commandline/plugins.html
+
+var config = {};
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                          GENERAL SETTINGS
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.debug = true; // for additional logging / debugging
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                         WATCHING A MARKET
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.watch = {
+
+  // see https://gekko.wizb.it/docs/introduction/supported_exchanges.html
+  exchange: 'kraken',
+  currency: 'USD',
+  asset: 'XBT',
+
+  // You can set your own tickrate (refresh rate).
+  // If you don't set it, the defaults are 2 sec for
+  // okcoin and 20 sec for all other exchanges.
+  // tickrate: 20
+}
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                       CONFIGURING TRADING ADVICE
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.tradingAdvisor = {
+  enabled: true,
+  method: 'mounirs-ga-version-2',
+  candleSize: 5,
+  historySize: 12,
+}
+
+// Exponential Moving Averages settings:
+config.rsibull = { 
+ //SMA Trends
+ SMA_long: 1000,
+ SMA_short: 50, 
+
+ //BULL
+ BULL_RSI: 10, 
+ BULL_RSI_high: 80, 
+ BULL_RSI_low: 60, 
+
+ //BEAR
+ BEAR_RSI: 15, 
+ BEAR_RSI_high: 50, 
+ BEAR_RSI_low: 20,
+ 
+ ADX: 3, 
+ ADX_high: 70, 
+ ADX_low: 50
+};
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                       CONFIGURING PLUGINS
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+// do you want Gekko to simulate the profit of the strategy's own advice?
+config.paperTrader = {
+  enabled: true,
+  // report the profit in the currency or the asset?
+  reportInCurrency: true,
+  // start balance, on what the current balance is compared with
+  simulationBalance: {
+    // these are in the unit types configured in the watcher.
+    asset: 0,
+    currency: 400,
+  },
+  // how much fee in % does each trade cost?
+  feeMaker: 0.1,
+  feeTaker: 0.1,
+  feeUsing: 'maker',
+  // how much slippage/spread should Gekko assume per trade?
+  slippage: 0.05,
+}
+
+config.performanceAnalyzer = {
+  enabled: true,
+  riskFreeReturn: 5
+}
+
+config.trader = {
+  enabled: false,
+  key: '',
+  secret: '',
+  username: '', // your username, only required for specific exchanges.
+  passphrase: '', // GDAX, requires a passphrase.
+  orderUpdateDelay: 1, // Number of minutes to adjust unfilled order prices
+}
+
+config.adviceLogger = {
+  enabled: false,
+  muteSoft: true // disable advice printout if it's soft
+}
+
+config.candleWriter = {
+  enabled: false
+}
+
+config.adviceWriter = {
+  enabled: false,
+  muteSoft: true,
+}
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                       CONFIGURING ADAPTER
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.adapter = 'sqlite';
+
+config.sqlite = {
+  path: 'plugins/sqlite',
+
+  dataDirectory: 'history',
+  version: 0.1,
+
+  journalMode: require('./web/isWindows.js') ? 'DELETE' : 'WAL',
+
+  dependencies: []
+}
+
+config.backtest = {
+  daterange:  'scan',
+  batchSize: 50
+}
+
+// set this to true if you understand that Gekko will
+// invest according to how you configured the indicators.
+// None of the advice in the output is Gekko telling you
+// to take a certain position. Instead it is the result
+// of running the indicators you configured automatically.
+//
+// In other words: Gekko automates your trading strategies,
+// it doesn't advice on itself, only set to true if you truly
+// understand this.
+//
+// Not sure? Read this first: https://github.com/askmike/gekko/issues/201
+config['I understand that Gekko only automates MY OWN trading strategies'] = true;
+
+module.exports = config;
+
+-------------------------------
+    ______   ________  __    __  __    __   ______
+   /      \ /        |/  |  /  |/  |  /  | /      \
+  /$$$$$$  |$$$$$$$$/ $$ | /$$/ $$ | /$$/ /$$$$$$  |
+  $$ | _$$/ $$ |__    $$ |/$$/  $$ |/$$/  $$ |  $$ |
+  $$ |/    |$$    |   $$  $$<   $$  $$<   $$ |  $$ |
+  $$ |$$$$ |$$$$$/    $$$$$  \  $$$$$  \  $$ |  $$ |
+  $$ \__$$ |$$ |_____ $$ |$$  \ $$ |$$  \ $$ \__$$ |
+  $$    $$/ $$       |$$ | $$  |$$ | $$  |$$    $$/ 
+   $$$$$$/  $$$$$$$$/ $$/   $$/ $$/   $$/  $$$$$$/
+
+	Gekko v0.5.13
+	I'm gonna make you rich, Bud Fox. 
+
+
+2018-02-11 23:19:47 (INFO):	Setting up Gekko in backtest mode
+2018-02-11 23:19:47 (INFO):	
+2018-02-11 23:19:47 (INFO):	Setting up:
+2018-02-11 23:19:47 (INFO):		 Trading Advisor
+2018-02-11 23:19:47 (INFO):		 Calculate trading advice
+2018-02-11 23:19:47 (INFO):		 Using the strategy: mounirs-ga-version-2
+2018-02-11 23:19:48 (INFO):	
+
+2018-02-11 23:19:48 (INFO):	Setting up:
+2018-02-11 23:19:48 (INFO):		 Paper Trader
+2018-02-11 23:19:48 (INFO):		 Paper trader that simulates fake trades.
+2018-02-11 23:19:48 (INFO):	
+
+2018-02-11 23:19:48 (INFO):	Setting up:
+2018-02-11 23:19:48 (INFO):		 Performance Analyzer
+2018-02-11 23:19:48 (INFO):		 Analyzes performances of trades
+2018-02-11 23:19:48 (INFO):	
+
+2018-02-11 23:19:49 (INFO):	Scanning local history for backtestable dateranges.
+2018-02-11 23:19:49 (DEBUG):	Available 83520
+2018-02-11 23:19:49 (DEBUG):	Optimal 83519
+2018-02-11 23:19:49 (INFO):	Gekko is able to fully use the local history.
+2018-02-11 23:19:49 (INFO):	Gekko was able to find a single daterange in the locally stored history:
+2018-02-11 23:19:49 (INFO):		 from: 2017-12-15 18:08:00
+2018-02-11 23:19:49 (INFO):		 to: 2018-02-11 18:07:00
+
+2018-02-11 23:19:49 (INFO):		WARNING: BACKTESTING FEATURE NEEDS PROPER TESTING
+2018-02-11 23:19:49 (INFO):		WARNING: ACT ON THESE NUMBERS AT YOUR OWN RISK!
+
+2018-02-11 23:19:50 (INFO):	2017-12-16 05:23:00: Paper trader simulated a SELL 	400.00000000 USD <= 0.00000000 XBT
+2018-02-12 00:47:54 (INFO):	
+2018-02-12 00:47:54 (INFO):	(ROUNDTRIP) REPORT:
+2018-02-12 00:47:54 (INFO):	(ROUNDTRIP) entry date (UTC)  	exit date (UTC)  	exposed duration	P&L 	profit
+2018-02-12 00:47:54 (INFO):	
+2018-02-12 00:47:54 (INFO):	(PROFIT REPORT) start time:			 2017-12-15 18:08:00
+2018-02-12 00:47:54 (INFO):	(PROFIT REPORT) end time:			 2018-02-11 18:07:00
+2018-02-12 00:47:54 (INFO):	(PROFIT REPORT) timespan:			 2 months
+2018-02-12 00:47:54 (INFO):	
+2018-02-12 00:47:54 (INFO):	(PROFIT REPORT) start price:			 17696.8 USD
+2018-02-12 00:47:54 (INFO):	(PROFIT REPORT) end price:			 8220.3 USD
+2018-02-12 00:47:54 (INFO):	(PROFIT REPORT) Market:				 -53.54922924%
+2018-02-12 00:47:54 (INFO):	
+2018-02-12 00:47:54 (INFO):	(PROFIT REPORT) amount of trades:		 1
+2018-02-12 00:47:54 (INFO):	(PROFIT REPORT) original simulated balance:	 400.00000000 USD
+2018-02-12 00:47:54 (INFO):	(PROFIT REPORT) current simulated balance:	 400.00000000 USD
+2018-02-12 00:47:54 (INFO):	(PROFIT REPORT) simulated profit:		 0.00000000 USD (0.00000000%)
+2018-02-12 00:47:54 (INFO):	(PROFIT REPORT) simulated yearly profit:	 0.00000000 USD (0.00000000%)
