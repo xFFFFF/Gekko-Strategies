@@ -1,0 +1,62 @@
+
+    ______   ________  __    __  __    __   ______
+   /      \ /        |/  |  /  |/  |  /  | /      \
+  /$$$$$$  |$$$$$$$$/ $$ | /$$/ $$ | /$$/ /$$$$$$  |
+  $$ | _$$/ $$ |__    $$ |/$$/  $$ |/$$/  $$ |  $$ |
+  $$ |/    |$$    |   $$  $$<   $$  $$<   $$ |  $$ |
+  $$ |$$$$ |$$$$$/    $$$$$  \  $$$$$  \  $$ |  $$ |
+  $$ \__$$ |$$ |_____ $$ |$$  \ $$ |$$  \ $$ \__$$ |
+  $$    $$/ $$       |$$ | $$  |$$ | $$  |$$    $$/ 
+   $$$$$$/  $$$$$$$$/ $$/   $$/ $$/   $$/  $$$$$$/
+
+	Gekko v0.5.13
+	I'm gonna make you rich, Bud Fox. 
+
+
+2018-02-12 10:07:09 (INFO):	Setting up Gekko in backtest mode
+2018-02-12 10:07:09 (INFO):	
+2018-02-12 10:07:09 (INFO):	Setting up:
+2018-02-12 10:07:09 (INFO):		 Trading Advisor
+2018-02-12 10:07:09 (INFO):		 Calculate trading advice
+2018-02-12 10:07:09 (INFO):		 Using the strategy: mounirs-ga-version-2
+2018-02-12 10:07:10 (INFO):	
+
+2018-02-12 10:07:10 (INFO):	Setting up:
+2018-02-12 10:07:10 (INFO):		 Paper Trader
+2018-02-12 10:07:10 (INFO):		 Paper trader that simulates fake trades.
+2018-02-12 10:07:10 (INFO):	
+
+2018-02-12 10:07:10 (INFO):	Setting up:
+2018-02-12 10:07:10 (INFO):		 Performance Analyzer
+2018-02-12 10:07:10 (INFO):		 Analyzes performances of trades
+2018-02-12 10:07:10 (INFO):	
+
+2018-02-12 10:07:10 (INFO):	Scanning local history for backtestable dateranges.
+2018-02-12 10:07:10 (DEBUG):	Available 21170
+2018-02-12 10:07:10 (DEBUG):	Optimal 21169
+2018-02-12 10:07:10 (INFO):	Gekko is able to fully use the local history.
+2018-02-12 10:07:10 (INFO):	Gekko was able to find a single daterange in the locally stored history:
+2018-02-12 10:07:10 (INFO):		 from: 2018-01-26 00:00:00
+2018-02-12 10:07:10 (INFO):		 to: 2018-02-09 16:49:00
+
+2018-02-12 10:07:10 (INFO):		WARNING: BACKTESTING FEATURE NEEDS PROPER TESTING
+2018-02-12 10:07:10 (INFO):		WARNING: ACT ON THESE NUMBERS AT YOUR OWN RISK!
+
+2018-02-12 10:07:11 (INFO):	2018-01-26 04:45:00: Paper trader simulated a SELL 	400.00000000 USDT <= 0.00000000 LTC
+2018-02-12 10:12:58 (INFO):	
+2018-02-12 10:12:58 (INFO):	(ROUNDTRIP) REPORT:
+2018-02-12 10:12:58 (INFO):	(ROUNDTRIP) entry date (UTC)  	exit date (UTC)  	exposed duration	P&L 	profit
+2018-02-12 10:12:58 (INFO):	
+2018-02-12 10:12:58 (INFO):	(PROFIT REPORT) start time:			 2018-01-26 00:00:00
+2018-02-12 10:12:58 (INFO):	(PROFIT REPORT) end time:			 2018-02-09 16:49:00
+2018-02-12 10:12:58 (INFO):	(PROFIT REPORT) timespan:			 15 days
+2018-02-12 10:12:58 (INFO):	
+2018-02-12 10:12:58 (INFO):	(PROFIT REPORT) start price:			 179.52 USDT
+2018-02-12 10:12:58 (INFO):	(PROFIT REPORT) end price:			 152.6 USDT
+2018-02-12 10:12:58 (INFO):	(PROFIT REPORT) Market:				 -14.99554367%
+2018-02-12 10:12:58 (INFO):	
+2018-02-12 10:12:58 (INFO):	(PROFIT REPORT) amount of trades:		 1
+2018-02-12 10:12:58 (INFO):	(PROFIT REPORT) original simulated balance:	 400.00000000 USDT
+2018-02-12 10:12:58 (INFO):	(PROFIT REPORT) current simulated balance:	 400.00000000 USDT
+2018-02-12 10:12:58 (INFO):	(PROFIT REPORT) simulated profit:		 0.00000000 USDT (0.00000000%)
+2018-02-12 10:12:58 (INFO):	(PROFIT REPORT) simulated yearly profit:	 0.00000000 USDT (0.00000000%)

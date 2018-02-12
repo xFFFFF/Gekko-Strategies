@@ -1,0 +1,1570 @@
+
+    ______   ________  __    __  __    __   ______
+   /      \ /        |/  |  /  |/  |  /  | /      \
+  /$$$$$$  |$$$$$$$$/ $$ | /$$/ $$ | /$$/ /$$$$$$  |
+  $$ | _$$/ $$ |__    $$ |/$$/  $$ |/$$/  $$ |  $$ |
+  $$ |/    |$$    |   $$  $$<   $$  $$<   $$ |  $$ |
+  $$ |$$$$ |$$$$$/    $$$$$  \  $$$$$  \  $$ |  $$ |
+  $$ \__$$ |$$ |_____ $$ |$$  \ $$ |$$  \ $$ \__$$ |
+  $$    $$/ $$       |$$ | $$  |$$ | $$  |$$    $$/ 
+   $$$$$$/  $$$$$$$$/ $$/   $$/ $$/   $$/  $$$$$$/
+
+	Gekko v0.5.13
+	I'm gonna make you rich, Bud Fox. 
+
+
+2018-02-12 15:00:16 (INFO):	Setting up Gekko in backtest mode
+2018-02-12 15:00:16 (INFO):	
+2018-02-12 15:00:16 (INFO):	Setting up:
+2018-02-12 15:00:16 (INFO):		 Trading Advisor
+2018-02-12 15:00:16 (INFO):		 Calculate trading advice
+2018-02-12 15:00:16 (INFO):		 Using the strategy: mounirs-ga-version-2
+2018-02-12 15:00:17 (INFO):	
+
+2018-02-12 15:00:17 (INFO):	Setting up:
+2018-02-12 15:00:17 (INFO):		 Paper Trader
+2018-02-12 15:00:17 (INFO):		 Paper trader that simulates fake trades.
+2018-02-12 15:00:17 (INFO):	
+
+2018-02-12 15:00:17 (INFO):	Setting up:
+2018-02-12 15:00:17 (INFO):		 Performance Analyzer
+2018-02-12 15:00:17 (INFO):		 Analyzes performances of trades
+2018-02-12 15:00:17 (INFO):	
+
+2018-02-12 15:00:17 (INFO):	Scanning local history for backtestable dateranges.
+2018-02-12 15:00:17 (DEBUG):	Available 46887
+2018-02-12 15:00:17 (DEBUG):	Optimal 46886
+2018-02-12 15:00:17 (INFO):	Gekko is able to fully use the local history.
+2018-02-12 15:00:17 (INFO):	Gekko was able to find a single daterange in the locally stored history:
+2018-02-12 15:00:17 (INFO):		 from: 2018-01-08 21:38:00
+2018-02-12 15:00:17 (INFO):		 to: 2018-02-10 11:04:00
+
+2018-02-12 15:00:17 (INFO):		WARNING: BACKTESTING FEATURE NEEDS PROPER TESTING
+2018-02-12 15:00:17 (INFO):		WARNING: ACT ON THESE NUMBERS AT YOUR OWN RISK!
+
+2018-02-12 15:00:18 (INFO):	2018-01-09 02:28:00: Paper trader simulated a SELL 	400.00000000 USD <= 0.00000000 BAT
+2018-02-12 15:00:18 (DEBUG):	IA - Buy - Predicted variation:  1.8524313402712327
+2018-02-12 15:00:18 (DEBUG):	IA - Buy - Predicted variation:  2.0093751454191286
+2018-02-12 15:00:18 (INFO):	2018-01-09 03:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 459.13323370 BAT
+2018-02-12 15:00:18 (DEBUG):	IA - Buy - Predicted variation:  1.8632410101893688
+2018-02-12 15:00:18 (DEBUG):	IA - Buy - Predicted variation:  1.9967338837666109
+2018-02-12 15:00:18 (DEBUG):	IA - Buy - Predicted variation:  1.7136141933132127
+2018-02-12 15:00:18 (INFO):	2018-01-09 07:58:00: Paper trader simulated a SELL 	407.04831715 USD <= 0.00000000 BAT
+2018-02-12 15:00:19 (DEBUG):	IA - Buy - Predicted variation:  1.7912233579383843
+2018-02-12 15:00:19 (DEBUG):	IA - Buy - Predicted variation:  2.929984062247274
+2018-02-12 15:00:19 (DEBUG):	IA - Buy - Predicted variation:  3.509004919540287
+2018-02-12 15:00:19 (DEBUG):	IA - Buy - Predicted variation:  2.871335022016614
+2018-02-12 15:00:19 (DEBUG):	IA - Buy - Predicted variation:  2.4979055641336356
+2018-02-12 15:00:19 (INFO):	2018-01-09 14:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 480.25256371 BAT
+2018-02-12 15:00:19 (INFO):	2018-01-09 15:38:00: Paper trader simulated a SELL 	426.78364452 USD <= 0.00000000 BAT
+2018-02-12 15:00:19 (DEBUG):	IA - Buy - Predicted variation:  1.7953591662222057
+2018-02-12 15:00:19 (DEBUG):	IA - Buy - Predicted variation:  2.6903582798846633
+2018-02-12 15:00:19 (INFO):	2018-01-10 00:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 486.74296865 BAT
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.249784546610924
+2018-02-12 15:00:20 (INFO):	2018-01-10 00:58:00: Paper trader simulated a SELL 	443.43812816 USD <= 0.00000000 BAT
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.0731973484434674
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  1.8772447292145262
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  1.9589553471087595
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  1.8849289750997134
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.090553095326045
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.385079605034516
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.615247023357828
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  3.185737794339121
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  3.0871657405950814
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  3.5459295325746383
+2018-02-12 15:00:20 (INFO):	2018-01-10 01:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 511.52145444 BAT
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  3.670422233563348
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  3.698093135005427
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  3.440672423358498
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  3.4661441797455184
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  3.568859407850621
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  4.696729990088011
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  4.617694978700185
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  5.248712269357116
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  3.604259497633372
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  3.424735679544352
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  3.8074418753340686
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  3.2949408907983
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  3.465723264915544
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  3.747294699403301
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  3.3904503434485775
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  3.1449311812783725
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  3.0511847712042046
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  3.0274496817173895
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.5285306313410487
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.469688515941878
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  1.7854915134778149
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  1.905582234791681
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  3.1261519757307172
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.411063849678528
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.674947565144097
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.4745180885128253
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.1171573061914413
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.2660036427900816
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.1246679238436332
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.2269769561031354
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.156274053455351
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.2517106445508137
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.144121015056681
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.248959777766822
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.212281306312225
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.0849390324105794
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  1.706115029088418
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  1.708393695723243
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  1.7251587301121631
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.031714259062916
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  1.9649426640039596
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  1.8322323562985097
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.8547037988379578
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.1327857473213956
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  1.9198988738195526
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  1.8593457932584898
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  4.2758534385454094
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.7121313500607855
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.756808733580676
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.5473622148288926
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.3208911591664245
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.8556125823878546
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  1.8826290979012938
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.1395714924047318
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  2.1358131816567885
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  1.8727463102740773
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  1.7956204400789968
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  1.8552701194973364
+2018-02-12 15:00:20 (INFO):	2018-01-10 11:03:00: Paper trader simulated a SELL 	402.57643857 USD <= 0.00000000 BAT
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  1.7392125316106553
+2018-02-12 15:00:20 (DEBUG):	IA - Buy - Predicted variation:  1.7492577905479312
+2018-02-12 15:00:20 (INFO):	2018-01-10 15:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 542.03421509 BAT
+2018-02-12 15:00:20 (INFO):	2018-01-10 16:08:00: Paper trader simulated a SELL 	419.55464615 USD <= 0.00000000 BAT
+2018-02-12 15:00:21 (DEBUG):	IA - Buy - Predicted variation:  2.329254894071058
+2018-02-12 15:00:21 (DEBUG):	IA - Buy - Predicted variation:  1.8732113872238223
+2018-02-12 15:00:21 (DEBUG):	IA - Buy - Predicted variation:  1.9025072175489108
+2018-02-12 15:00:21 (INFO):	2018-01-11 02:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 551.21751865 BAT
+2018-02-12 15:00:21 (DEBUG):	IA - Buy - Predicted variation:  1.7903711363771744
+2018-02-12 15:00:21 (DEBUG):	IA - Buy - Predicted variation:  1.9184068680098667
+2018-02-12 15:00:21 (DEBUG):	IA - Buy - Predicted variation:  1.8880123860045637
+2018-02-12 15:00:21 (DEBUG):	IA - Buy - Predicted variation:  1.8525926336537153
+2018-02-12 15:00:21 (DEBUG):	IA - Buy - Predicted variation:  1.9026580377078064
+2018-02-12 15:00:21 (DEBUG):	IA - Buy - Predicted variation:  2.0807557979944122
+2018-02-12 15:00:21 (DEBUG):	IA - Buy - Predicted variation:  1.9838956742360936
+2018-02-12 15:00:21 (DEBUG):	IA - Buy - Predicted variation:  1.8535390471520352
+2018-02-12 15:00:21 (DEBUG):	IA - Buy - Predicted variation:  2.139434688542293
+2018-02-12 15:00:21 (DEBUG):	IA - Buy - Predicted variation:  2.375753013888171
+2018-02-12 15:00:21 (DEBUG):	IA - Buy - Predicted variation:  2.893424505410656
+2018-02-12 15:00:21 (DEBUG):	IA - Buy - Predicted variation:  2.892195902174044
+2018-02-12 15:00:21 (DEBUG):	IA - Buy - Predicted variation:  2.736081944370495
+2018-02-12 15:00:21 (DEBUG):	IA - Buy - Predicted variation:  2.7367071694851752
+2018-02-12 15:00:21 (DEBUG):	IA - Buy - Predicted variation:  2.578327440378573
+2018-02-12 15:00:21 (DEBUG):	IA - Buy - Predicted variation:  3.7013530926158738
+2018-02-12 15:00:21 (DEBUG):	IA - Buy - Predicted variation:  3.603599056786193
+2018-02-12 15:00:21 (DEBUG):	IA - Buy - Predicted variation:  5.316595720168383
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  5.91937825334621
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  6.870926279397762
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  5.742158744471581
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  5.739805152880412
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  8.325891299815437
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  7.043804142329104
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  6.556046907665438
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  9.826763528440898
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  9.726359898203224
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  9.522373813464856
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  8.294981452222595
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  7.242102339084547
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  1.888864922689212
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  1.81327824341236
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  1.8749287100691365
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  2.2420071461039153
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  1.9701172010592045
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  2.3694094325827026
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  2.243211440449243
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  2.584287148949506
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  2.3248871608782884
+2018-02-12 15:00:22 (INFO):	2018-01-11 08:33:00: Paper trader simulated a SELL 	392.42856366 USD <= 0.00000000 BAT
+2018-02-12 15:00:22 (DEBUG):	IA - Buy - Predicted variation:  1.9384440543357733
+2018-02-12 15:00:22 (INFO):	2018-01-11 12:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 580.50358639 BAT
+2018-02-12 15:00:22 (INFO):	2018-01-11 13:08:00: Paper trader simulated a SELL 	410.38004435 USD <= 0.00000000 BAT
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  2.9305819796335704
+2018-02-12 15:00:23 (INFO):	2018-01-11 23:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 630.40688351 BAT
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  3.1567433602527624
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  4.673810763290616
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  4.542874131557187
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  4.815549604397426
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  5.090059637986182
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  5.34117298643492
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  5.024170603607696
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  3.5253026740838256
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  3.749689031993071
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  3.7617262273360095
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  3.7854715501027285
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  2.1749920757912755
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  2.5631360989961154
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  2.4622850799554694
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  3.1660595891006302
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  3.160721706398117
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  3.5263697930726674
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  3.3565634048400774
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  4.2268026819869675
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  4.245960031432666
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  3.620931207860179
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  3.6774622358514812
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  2.5419921699894386
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  2.0373860175344416
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  1.9605843630383095
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  1.742968434484113
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  2.566518836030419
+2018-02-12 15:00:23 (DEBUG):	IA - Buy - Predicted variation:  1.7054631784224625
+2018-02-12 15:00:23 (INFO):	2018-01-12 02:53:00: Paper trader simulated a SELL 	421.73905303 USD <= 0.00000000 BAT
+2018-02-12 15:00:24 (DEBUG):	IA - Buy - Predicted variation:  1.8564408476524292
+2018-02-12 15:00:24 (DEBUG):	IA - Buy - Predicted variation:  1.7552543374334189
+2018-02-12 15:00:24 (DEBUG):	IA - Buy - Predicted variation:  2.0962999659182815
+2018-02-12 15:00:24 (INFO):	2018-01-12 16:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 565.31943140 BAT
+2018-02-12 15:00:24 (DEBUG):	IA - Buy - Predicted variation:  1.7211941993754354
+2018-02-12 15:00:24 (DEBUG):	IA - Buy - Predicted variation:  2.1407282305600814
+2018-02-12 15:00:24 (DEBUG):	IA - Buy - Predicted variation:  1.9404337620974887
+2018-02-12 15:00:24 (DEBUG):	IA - Buy - Predicted variation:  2.963519329938039
+2018-02-12 15:00:24 (DEBUG):	IA - Buy - Predicted variation:  1.846727272985372
+2018-02-12 15:00:24 (DEBUG):	IA - Buy - Predicted variation:  2.2237406562261226
+2018-02-12 15:00:24 (DEBUG):	IA - Buy - Predicted variation:  2.3570670181682303
+2018-02-12 15:00:24 (DEBUG):	IA - Buy - Predicted variation:  1.816636953557254
+2018-02-12 15:00:25 (INFO):	2018-01-12 23:03:00: Paper trader simulated a SELL 	423.86161349 USD <= 0.00000000 BAT
+2018-02-12 15:00:29 (DEBUG):	IA - Buy - Predicted variation:  1.8447616085244887
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  1.8765558997293592
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.0637336227490293
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  1.8834377233398114
+2018-02-12 15:00:30 (INFO):	2018-01-14 05:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 587.81364037 BAT
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  1.7729409433975025
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  1.8067593597215366
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  1.7850313466093333
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.401142564091677
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.02765502638948
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.0074254436148005
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  1.7165427828955577
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  1.9589909821408784
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.336060305530466
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.214158230324868
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.1674620742347748
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  1.7906251024484114
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  1.944679558087862
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.819560728516242
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.7520140732158436
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.5862497743540813
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  3.1718995317110084
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  4.805422770432249
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  4.173245175716144
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  4.058462612105284
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  3.442563352553932
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  3.486718234032144
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  3.650413086177086
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  3.098002634121683
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  3.8671893009604896
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  3.637644783310321
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  3.8382205210859763
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  3.2827722882678607
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  3.1226269191812865
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  3.151746407639853
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  3.2647362016623513
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.8273791557598456
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.3930301378486787
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.3635402886894368
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  1.7874922433636988
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.378272624309983
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.00235387843122
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.199731769428887
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.213597564874174
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.9482112827723688
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.4088544745247966
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.245861345190927
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.4191676635042114
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  1.9167736470680272
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.166674206654842
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.1222257736075356
+2018-02-12 15:00:30 (INFO):	2018-01-14 12:03:00: Paper trader simulated a SELL 	410.85234393 USD <= 0.00000000 BAT
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.1855098655461007
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  1.762500521942557
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  1.8945652896073373
+2018-02-12 15:00:30 (INFO):	2018-01-14 13:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 621.75820766 BAT
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  1.8584926649761986
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  1.7567776681471514
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.48096269135442
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  1.8074517933880703
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.079665253323352
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  1.9982687312077334
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  1.8541830751733244
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  2.085032436926042
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  1.9683759050969036
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  1.7436602875530816
+2018-02-12 15:00:30 (DEBUG):	IA - Buy - Predicted variation:  1.8434097252796042
+2018-02-12 15:00:31 (INFO):	2018-01-14 19:08:00: Paper trader simulated a SELL 	417.88389965 USD <= 0.00000000 BAT
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  1.7340246632115037
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  3.9072763407250934
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  3.6036844254039404
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  3.3260038342415053
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  3.416520380719603
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  4.4279254309505225
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  4.777619906219143
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  4.627031577493307
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  4.526234288298652
+2018-02-12 15:00:34 (INFO):	2018-01-16 01:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 645.30942437 BAT
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  4.210420990245666
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  4.192163244236682
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  5.424455185789795
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  4.731115829946657
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  6.587694687285081
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  5.734059423588498
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  5.223279119793347
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  4.255386977935173
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  4.343834280635974
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  3.822356881197569
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  3.479520451276357
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  4.195082440648208
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  4.124108174994997
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  4.017247540726658
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  4.028082142754607
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  2.9148537464181934
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  2.8636354116277283
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  2.8555201009166087
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  2.808875939046974
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  2.417729712886035
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  2.333813698011872
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  1.7216583844874833
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  1.9543969296219137
+2018-02-12 15:00:34 (DEBUG):	IA - Buy - Predicted variation:  3.9412076611771147
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.6519031181169797
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.583333195900703
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.698893661024107
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.6422284295727843
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.700996778976498
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.4285985704013977
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  4.545654160798064
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.8150750175099257
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.508869170134622
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.4633886871611597
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.331338556581994
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  1.9077094325716013
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.9533928368021747
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.843204241574772
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.1958369600171346
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.0026165640459395
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  1.72103335999378
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  1.9894415975330446
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  1.7961139245678592
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.9929317234621973
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.757318862392677
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.557215065662203
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.478358480202411
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  1.7141461783967915
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.0671801374731666
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  1.7697302166015287
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.079374114056669
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.164368111940463
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.0538247803401486
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  1.9846704260219346
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  4.8914067859077255
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  6.251868625754604
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  6.064938314658554
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  5.914376805983547
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  9.884362846253705
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  8.653006255789958
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  8.795245269072042
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  8.631239084180272
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  11.047134138401663
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  10.819144399880626
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  10.462134746501327
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  7.158346057968339
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  6.482929982809984
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  5.338363355163199
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  5.3667634541237526
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  5.090779947788129
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  6.55202370211968
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  4.991866137911945
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  7.022275686687241
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  6.624375326099762
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  4.842939113613777
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  5.651553816676697
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  4.537280552584163
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  6.912037104312703
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  9.207630668173453
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  7.582065785515692
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  6.357690710164942
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  6.225524306139692
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  4.168010251380723
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  4.681651255016652
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  5.02184252098849
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  1.8494379640645415
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.283859950062066
+2018-02-12 15:00:35 (INFO):	2018-01-16 12:03:00: Paper trader simulated a SELL 	315.27627649 USD <= 0.00000000 BAT
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.029605095347205
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  1.8333491216572178
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.7330542573062444
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.706186673180641
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.641456306851184
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.2127110922645983
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.44001927572743
+2018-02-12 15:00:35 (INFO):	2018-01-16 18:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 668.32974985 BAT
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.546919417662251
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  5.124498889016529
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  4.875553782386089
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  4.642497046001587
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.0682988762829573
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.8427177155800627
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.4935602428865677
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.4415017692021084
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  1.938127767917658
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.784926194207942
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.0053330685133215
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  1.7254881816620884
+2018-02-12 15:00:35 (INFO):	2018-01-16 20:13:00: Paper trader simulated a SELL 	323.58698605 USD <= 0.00000000 BAT
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.059308920507084
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.079728995855067
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  4.03158038039587
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.7805389150821855
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.643028022316999
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  1.8136437556505531
+2018-02-12 15:00:35 (INFO):	2018-01-16 21:43:00: Paper trader simulated a BUY 	0.00000000 USD	=> 718.00356793 BAT
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  4.269853610746791
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  4.615140672063482
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  5.582929047291293
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  6.873038291166123
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  7.116238467069289
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  5.590036434324879
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  5.335107833568553
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.304090384177365
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.457182350956771
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.5167663432946186
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  7.533178879868721
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  6.864755843445307
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  6.620654383673802
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  11.557099668542772
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  11.2549256652991
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  9.124495572104513
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  7.530103833470266
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  4.490276868982511
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.203040884495409
+2018-02-12 15:00:35 (INFO):	2018-01-17 00:18:00: Paper trader simulated a SELL 	316.92455625 USD <= 0.00000000 BAT
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.0191345393602296
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.0620163796026536
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.0101753716926307
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  1.9897346044323383
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  1.9806690895075207
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.0059369735600137
+2018-02-12 15:00:35 (INFO):	2018-01-17 04:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 736.97377539 BAT
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  1.9985228449867787
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.255495841935473
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.552792096954594
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.5087666173098353
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.727869624316862
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.207944315296372
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.868086997368984
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  3.751466198874604
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  2.6576006487287986
+2018-02-12 15:00:35 (DEBUG):	IA - Buy - Predicted variation:  1.7140528177571661
+2018-02-12 15:00:36 (INFO):	2018-01-17 07:33:00: Paper trader simulated a SELL 	339.38246675 USD <= 0.00000000 BAT
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  1.7562498556203687
+2018-02-12 15:00:36 (INFO):	2018-01-17 09:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 778.85815130 BAT
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  2.096969484327958
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  1.8014813833804206
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  1.8569252713330564
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  1.763161343406471
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  1.9479080995187497
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  2.228861962507538
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  2.1571176537180765
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  3.712901120837224
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  2.198769806071605
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  2.2633229355897195
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  2.31175770306262
+2018-02-12 15:00:36 (INFO):	2018-01-17 11:38:00: Paper trader simulated a SELL 	347.62736924 USD <= 0.00000000 BAT
+2018-02-12 15:00:36 (INFO):	2018-01-17 11:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 820.58139051 BAT
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  3.5400161209615892
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  2.797970507330925
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  2.644803354018116
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  2.226309851465754
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  2.8523390203558168
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  3.0453291546766468
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  2.3461941183344166
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  3.8164463889196036
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  4.955270472103052
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  5.972803661682431
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  5.066799599322746
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  6.522501392629836
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  5.880745927439036
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  7.1946073921276295
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  6.844634493430739
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  5.437469494600753
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  8.17356990401953
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  5.925923598783416
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  7.408297145336042
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  7.147927749483681
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  8.059092967425745
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  6.944254276906194
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  5.699333375174346
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  4.946338871471676
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  6.331173104680444
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  6.125222243433311
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  5.986070685760735
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  5.744305929621848
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  5.4237246229262945
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  4.154160092305459
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  3.4180083530102014
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  3.3039013166906503
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  3.7526414841337004
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  3.491316709962893
+2018-02-12 15:00:36 (DEBUG):	IA - Buy - Predicted variation:  1.7163089375131735
+2018-02-12 15:00:36 (INFO):	2018-01-17 17:23:00: Paper trader simulated a SELL 	319.54670218 USD <= 0.00000000 BAT
+2018-02-12 15:00:37 (DEBUG):	IA - Buy - Predicted variation:  2.3982969667889775
+2018-02-12 15:00:37 (INFO):	2018-01-18 07:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 539.02890903 BAT
+2018-02-12 15:00:37 (DEBUG):	IA - Buy - Predicted variation:  3.0312600762414017
+2018-02-12 15:00:37 (DEBUG):	IA - Buy - Predicted variation:  1.9413046613748088
+2018-02-12 15:00:37 (INFO):	2018-01-18 07:48:00: Paper trader simulated a SELL 	322.03877359 USD <= 0.00000000 BAT
+2018-02-12 15:00:37 (INFO):	2018-01-18 08:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 529.48413540 BAT
+2018-02-12 15:00:37 (INFO):	2018-01-18 08:13:00: Paper trader simulated a SELL 	324.02347154 USD <= 0.00000000 BAT
+2018-02-12 15:00:37 (DEBUG):	IA - Buy - Predicted variation:  1.7914328741134824
+2018-02-12 15:00:37 (DEBUG):	IA - Buy - Predicted variation:  1.7827555205241468
+2018-02-12 15:00:37 (DEBUG):	IA - Buy - Predicted variation:  3.8593487566223312
+2018-02-12 15:00:37 (DEBUG):	IA - Buy - Predicted variation:  2.089584733597377
+2018-02-12 15:00:37 (DEBUG):	IA - Buy - Predicted variation:  2.1935900579400953
+2018-02-12 15:00:37 (DEBUG):	IA - Buy - Predicted variation:  2.705317043364625
+2018-02-12 15:00:37 (DEBUG):	IA - Buy - Predicted variation:  2.4740876889328036
+2018-02-12 15:00:37 (INFO):	2018-01-18 08:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 554.41067281 BAT
+2018-02-12 15:00:37 (INFO):	2018-01-18 08:33:00: Paper trader simulated a SELL 	338.23680370 USD <= 0.00000000 BAT
+2018-02-12 15:00:37 (INFO):	2018-01-18 08:43:00: Paper trader simulated a BUY 	0.00000000 USD	=> 570.61423706 BAT
+2018-02-12 15:00:37 (DEBUG):	IA - Buy - Predicted variation:  3.625677189016192
+2018-02-12 15:00:37 (DEBUG):	IA - Buy - Predicted variation:  3.689068477170729
+2018-02-12 15:00:37 (DEBUG):	IA - Buy - Predicted variation:  2.519435733290828
+2018-02-12 15:00:37 (DEBUG):	IA - Buy - Predicted variation:  2.6515193775336385
+2018-02-12 15:00:37 (DEBUG):	IA - Buy - Predicted variation:  2.012136932220846
+2018-02-12 15:00:37 (DEBUG):	IA - Buy - Predicted variation:  4.320747479835737
+2018-02-12 15:00:37 (DEBUG):	IA - Buy - Predicted variation:  4.520225185270301
+2018-02-12 15:00:37 (DEBUG):	IA - Buy - Predicted variation:  4.04080261086045
+2018-02-12 15:00:37 (DEBUG):	IA - Buy - Predicted variation:  3.5605322958199523
+2018-02-12 15:00:37 (DEBUG):	IA - Buy - Predicted variation:  3.329164086474143
+2018-02-12 15:00:37 (DEBUG):	IA - Buy - Predicted variation:  1.7509442790713283
+2018-02-12 15:00:37 (INFO):	2018-01-18 11:58:00: Paper trader simulated a SELL 	349.88858167 USD <= 0.00000000 BAT
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  1.942298859628039
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  1.812851201131385
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  3.1152150604422983
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  2.5717303657829187
+2018-02-12 15:00:38 (INFO):	2018-01-18 22:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 585.19890920 BAT
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  4.605161052066904
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  4.4990022710089965
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  4.274528721216524
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  3.046146632714107
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  2.904387265718036
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  2.77315499073208
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  2.5128392729484537
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  2.575941059761295
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  2.48681164043949
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  4.282843005427099
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  4.134366691310084
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  4.260741109822479
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  4.374287291919102
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  4.319613828339891
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  2.8145017667302215
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  2.9404403853649472
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  2.622045271499013
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  2.64176172389149
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  2.280597443873893
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  2.2175844249247456
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  2.0366941315320553
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  1.976278412065796
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  1.8022151001955828
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  1.8440918243159152
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  1.8160499238345564
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  1.8028611232430842
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  1.727051947179636
+2018-02-12 15:00:38 (INFO):	2018-01-19 01:53:00: Paper trader simulated a SELL 	355.85155649 USD <= 0.00000000 BAT
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  1.8477230307277237
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  1.7450257229212496
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  2.371177441099891
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  2.2576389458969057
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  2.0277458302201525
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  1.9907361219695323
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  3.192812907841188
+2018-02-12 15:00:38 (INFO):	2018-01-19 03:43:00: Paper trader simulated a BUY 	0.00000000 USD	=> 625.55947034 BAT
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  2.926247587377236
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  1.718493243144171
+2018-02-12 15:00:38 (DEBUG):	IA - Buy - Predicted variation:  2.578612127798727
+2018-02-12 15:00:38 (INFO):	2018-01-19 05:58:00: Paper trader simulated a SELL 	362.28025605 USD <= 0.00000000 BAT
+2018-02-12 15:00:39 (DEBUG):	IA - Buy - Predicted variation:  2.163951219610708
+2018-02-12 15:00:39 (DEBUG):	IA - Buy - Predicted variation:  2.0042186517250977
+2018-02-12 15:00:39 (INFO):	2018-01-19 18:43:00: Paper trader simulated a BUY 	0.00000000 USD	=> 607.45060565 BAT
+2018-02-12 15:00:39 (DEBUG):	IA - Buy - Predicted variation:  2.5479100966370463
+2018-02-12 15:00:39 (DEBUG):	IA - Buy - Predicted variation:  2.2343553627073995
+2018-02-12 15:00:39 (DEBUG):	IA - Buy - Predicted variation:  2.4998466765154044
+2018-02-12 15:00:39 (DEBUG):	IA - Buy - Predicted variation:  2.2070517457670507
+2018-02-12 15:00:39 (DEBUG):	IA - Buy - Predicted variation:  1.967730537479203
+2018-02-12 15:00:39 (DEBUG):	IA - Buy - Predicted variation:  1.739759090704935
+2018-02-12 15:00:39 (DEBUG):	IA - Buy - Predicted variation:  1.803272331446411
+2018-02-12 15:00:40 (DEBUG):	IA - Buy - Predicted variation:  2.2562805382099644
+2018-02-12 15:00:40 (INFO):	2018-01-20 02:28:00: Paper trader simulated a SELL 	369.38251271 USD <= 0.00000000 BAT
+2018-02-12 15:00:41 (DEBUG):	IA - Buy - Predicted variation:  2.268818664940507
+2018-02-12 15:00:41 (DEBUG):	IA - Buy - Predicted variation:  2.586697187188259
+2018-02-12 15:00:41 (DEBUG):	IA - Buy - Predicted variation:  2.981113308440957
+2018-02-12 15:00:41 (DEBUG):	IA - Buy - Predicted variation:  1.8611340186711716
+2018-02-12 15:00:41 (DEBUG):	IA - Buy - Predicted variation:  1.8525746529430185
+2018-02-12 15:00:41 (DEBUG):	IA - Buy - Predicted variation:  1.7472862957749435
+2018-02-12 15:00:41 (INFO):	2018-01-20 13:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 594.20411938 BAT
+2018-02-12 15:00:41 (DEBUG):	IA - Buy - Predicted variation:  1.7075134192494863
+2018-02-12 15:00:41 (DEBUG):	IA - Buy - Predicted variation:  1.8481212458269005
+2018-02-12 15:00:41 (INFO):	2018-01-20 14:23:00: Paper trader simulated a SELL 	395.73964640 USD <= 0.00000000 BAT
+2018-02-12 15:00:41 (DEBUG):	IA - Buy - Predicted variation:  2.2187614921464798
+2018-02-12 15:00:41 (INFO):	2018-01-20 15:23:00: Paper trader simulated a BUY 	0.00000000 USD	=> 617.41568270 BAT
+2018-02-12 15:00:42 (INFO):	2018-01-20 23:48:00: Paper trader simulated a SELL 	414.08987200 USD <= 0.00000000 BAT
+2018-02-12 15:00:42 (DEBUG):	IA - Buy - Predicted variation:  2.123138876749697
+2018-02-12 15:00:42 (DEBUG):	IA - Buy - Predicted variation:  2.204640250407805
+2018-02-12 15:00:42 (DEBUG):	IA - Buy - Predicted variation:  2.402427447359569
+2018-02-12 15:00:42 (DEBUG):	IA - Buy - Predicted variation:  3.403949719630789
+2018-02-12 15:00:42 (DEBUG):	IA - Buy - Predicted variation:  3.6533019165437364
+2018-02-12 15:00:42 (DEBUG):	IA - Buy - Predicted variation:  3.913390408236283
+2018-02-12 15:00:42 (DEBUG):	IA - Buy - Predicted variation:  4.310909596884932
+2018-02-12 15:00:42 (INFO):	2018-01-21 01:43:00: Paper trader simulated a BUY 	0.00000000 USD	=> 653.62284168 BAT
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  4.4103404778763515
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  3.2972445087549347
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  3.3510333600541258
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  3.041400741265781
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.7586098725476553
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.4420228016756633
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.235709534532201
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.144433725730043
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.023633876174747
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  1.8131950234938121
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.0334142829099973
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  1.9103356755111336
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  1.892019894854923
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.01021501439556
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.016278645489015
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  1.7959218432783368
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  1.782892584826162
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.156645928747538
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.806844328332022
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.492454446980294
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.067141861428467
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.1026540561371627
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  1.9028540494593922
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.175406290358982
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  1.9665917663609744
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.0112851923576462
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  1.882759266950592
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  1.7975664695543476
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.300125331154617
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.219491683902786
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.1769440384154124
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  1.9534847109259168
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  1.8580873380144562
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.3901588834174388
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.168448235241324
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.092728547817252
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  1.9735534820563894
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  1.9438322413078652
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  1.8145895839038224
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  1.7998666662557845
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  3.886275052874207
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  4.419102464191245
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  4.303120650964448
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  3.172661047655288
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  3.189624569739687
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  4.294985291156832
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  4.08793862551817
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  4.590627770093781
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  4.726493591550871
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  5.13802492474813
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  4.3007925423273345
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  4.175331356938248
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  3.91250007065335
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.366947900636297
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.28007994693795
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  1.7005759753114593
+2018-02-12 15:00:43 (INFO):	2018-01-21 12:53:00: Paper trader simulated a SELL 	388.32223241 USD <= 0.00000000 BAT
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.138769059107777
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.008838672399336
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.061650624987309
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  1.973185993286528
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  1.9574050607456224
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.8769136707723626
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  4.411960288388087
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  4.427755444467481
+2018-02-12 15:00:43 (INFO):	2018-01-21 16:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 705.50728554 BAT
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  4.184904326560545
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  4.9275012778245
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  4.21502245324036
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  4.405971119459328
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  4.353493684202072
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  4.135971003924365
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  3.0586506080554954
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.3673692905607764
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.9285751726725033
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  4.067932112493688
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  3.60902113896262
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.4844467267450834
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.2388200797859676
+2018-02-12 15:00:43 (DEBUG):	IA - Buy - Predicted variation:  2.2312438411443
+2018-02-12 15:00:43 (INFO):	2018-01-21 19:58:00: Paper trader simulated a SELL 	393.37137983 USD <= 0.00000000 BAT
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  2.0716837537762527
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  2.170424302453857
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  2.1006584371331396
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  2.135958640332859
+2018-02-12 15:00:45 (INFO):	2018-01-22 12:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 718.06457543 BAT
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  2.473492752230541
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  2.185740339885866
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  2.3516012182990234
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  2.1090961335439466
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  2.2654849076725716
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  1.8942430550803753
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  4.639903696178213
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  4.5332375360084285
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  5.381628513041337
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  5.64208091408625
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  5.5938982207840935
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  5.580722604647742
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  5.405187806359012
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  5.570414782307804
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  5.41254401968307
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  5.298919317262606
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  5.484737442388759
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  5.296960695566676
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  6.222788750605019
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  5.274779299011175
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  4.4437374155032785
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  3.3666743434318387
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  3.0479029862541975
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  2.994926583618266
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  4.311198547161876
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  4.131725119788027
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  4.398702333903279
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  4.315935003511626
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  3.8695083970003403
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  4.376440253388126
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  4.712966202856451
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  4.52824955094913
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  4.037162618600581
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  2.414404059607769
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  2.913718108613176
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  2.6914430037291512
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  2.5254929324839597
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  4.338888802890961
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  4.002288663263432
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  3.570917975911916
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  3.3905470796566264
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  2.8320548535398844
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  3.2931290592383293
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  2.3443036643244826
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  2.158792908636335
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  2.2623598032531786
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  2.009206686373799
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  2.0484132661542294
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  1.8852601148063828
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  3.0158154492107725
+2018-02-12 15:00:45 (DEBUG):	IA - Buy - Predicted variation:  2.00856424795317
+2018-02-12 15:00:45 (INFO):	2018-01-22 23:08:00: Paper trader simulated a SELL 	353.43897755 USD <= 0.00000000 BAT
+2018-02-12 15:00:46 (DEBUG):	IA - Buy - Predicted variation:  2.042103979823544
+2018-02-12 15:00:46 (INFO):	2018-01-23 08:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 726.71804926 BAT
+2018-02-12 15:00:46 (DEBUG):	IA - Buy - Predicted variation:  1.7854527231705752
+2018-02-12 15:00:46 (INFO):	2018-01-23 09:48:00: Paper trader simulated a SELL 	379.50342945 USD <= 0.00000000 BAT
+2018-02-12 15:00:46 (DEBUG):	IA - Buy - Predicted variation:  1.7651341775062845
+2018-02-12 15:00:46 (DEBUG):	IA - Buy - Predicted variation:  2.950113133462616
+2018-02-12 15:00:46 (DEBUG):	IA - Buy - Predicted variation:  2.6126315814191967
+2018-02-12 15:00:46 (INFO):	2018-01-23 12:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 759.72207046 BAT
+2018-02-12 15:00:46 (DEBUG):	IA - Buy - Predicted variation:  2.3719883839982256
+2018-02-12 15:00:46 (DEBUG):	IA - Buy - Predicted variation:  2.346776794564173
+2018-02-12 15:00:46 (DEBUG):	IA - Buy - Predicted variation:  3.6228044575644955
+2018-02-12 15:00:46 (DEBUG):	IA - Buy - Predicted variation:  3.2378594590928302
+2018-02-12 15:00:46 (DEBUG):	IA - Buy - Predicted variation:  1.9687047617098603
+2018-02-12 15:00:46 (DEBUG):	IA - Buy - Predicted variation:  3.0150576004655254
+2018-02-12 15:00:46 (DEBUG):	IA - Buy - Predicted variation:  2.8360481195531237
+2018-02-12 15:00:46 (DEBUG):	IA - Buy - Predicted variation:  2.624237605678185
+2018-02-12 15:00:46 (DEBUG):	IA - Buy - Predicted variation:  1.9467045928569702
+2018-02-12 15:00:46 (DEBUG):	IA - Buy - Predicted variation:  2.5242464343019173
+2018-02-12 15:00:46 (DEBUG):	IA - Buy - Predicted variation:  2.4342075287734617
+2018-02-12 15:00:46 (DEBUG):	IA - Buy - Predicted variation:  2.185212223246023
+2018-02-12 15:00:46 (DEBUG):	IA - Buy - Predicted variation:  2.2807248127777586
+2018-02-12 15:00:46 (DEBUG):	IA - Buy - Predicted variation:  2.068080549094135
+2018-02-12 15:00:47 (DEBUG):	IA - Buy - Predicted variation:  1.9543495508053983
+2018-02-12 15:00:47 (DEBUG):	IA - Buy - Predicted variation:  1.857831967931065
+2018-02-12 15:00:47 (DEBUG):	IA - Buy - Predicted variation:  1.815998147422996
+2018-02-12 15:00:47 (INFO):	2018-01-23 16:13:00: Paper trader simulated a SELL 	378.94988155 USD <= 0.00000000 BAT
+2018-02-12 15:00:48 (DEBUG):	IA - Buy - Predicted variation:  1.8895283055721457
+2018-02-12 15:00:48 (DEBUG):	IA - Buy - Predicted variation:  2.8844448018108446
+2018-02-12 15:00:48 (DEBUG):	IA - Buy - Predicted variation:  1.819658020653542
+2018-02-12 15:00:48 (INFO):	2018-01-24 03:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 680.82382411 BAT
+2018-02-12 15:00:48 (DEBUG):	IA - Buy - Predicted variation:  1.8971053766463415
+2018-02-12 15:00:48 (DEBUG):	IA - Buy - Predicted variation:  1.7246546668202893
+2018-02-12 15:00:48 (DEBUG):	IA - Buy - Predicted variation:  3.0366918531000944
+2018-02-12 15:00:48 (DEBUG):	IA - Buy - Predicted variation:  1.8238992124674698
+2018-02-12 15:00:48 (DEBUG):	IA - Buy - Predicted variation:  1.9736875189004706
+2018-02-12 15:00:48 (DEBUG):	IA - Buy - Predicted variation:  2.444525284836679
+2018-02-12 15:00:48 (DEBUG):	IA - Buy - Predicted variation:  3.4992573445897617
+2018-02-12 15:00:48 (DEBUG):	IA - Buy - Predicted variation:  2.9860833057134095
+2018-02-12 15:00:48 (DEBUG):	IA - Buy - Predicted variation:  1.981772436639614
+2018-02-12 15:00:48 (INFO):	2018-01-24 12:38:00: Paper trader simulated a SELL 	384.08846243 USD <= 0.00000000 BAT
+2018-02-12 15:00:49 (DEBUG):	IA - Buy - Predicted variation:  1.7626022706656248
+2018-02-12 15:00:49 (DEBUG):	IA - Buy - Predicted variation:  1.7094454820969478
+2018-02-12 15:00:49 (INFO):	2018-01-24 16:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 723.10336130 BAT
+2018-02-12 15:00:49 (DEBUG):	IA - Buy - Predicted variation:  1.9358076699057607
+2018-02-12 15:00:49 (DEBUG):	IA - Buy - Predicted variation:  2.0237093271690254
+2018-02-12 15:00:49 (DEBUG):	IA - Buy - Predicted variation:  1.8765313286091336
+2018-02-12 15:00:49 (DEBUG):	IA - Buy - Predicted variation:  1.7679408974326951
+2018-02-12 15:00:49 (DEBUG):	IA - Buy - Predicted variation:  1.9622263933579238
+2018-02-12 15:00:49 (INFO):	2018-01-24 20:18:00: Paper trader simulated a SELL 	392.60489171 USD <= 0.00000000 BAT
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  1.7167957443564252
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  1.8343989417013082
+2018-02-12 15:00:56 (INFO):	2018-01-26 08:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 731.81000666 BAT
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  1.73557628432873
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  2.974242010877643
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  3.7786763827338627
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  3.278627912725727
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  3.4887727810158684
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  4.269491259993142
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  4.105582926210398
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  4.860006178673056
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  4.3833837067903865
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  4.2682324322656156
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  3.4423392940997295
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  3.4474530462224995
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  2.568791678540383
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  2.964516510708632
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  3.8807875557675744
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  3.9026214702282824
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  3.7511832653934847
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  4.13797602331834
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  5.0726500407727615
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  5.085086035533843
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  5.042362441820151
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  4.9140450191326
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  5.986178204167306
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  5.864336329717943
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  5.492433707061512
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  4.262583663391195
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  3.7953158412872523
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  5.060741794979843
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  4.831148066947112
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  4.487374260500702
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  3.959819059386947
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  4.312019352390028
+2018-02-12 15:00:56 (DEBUG):	IA - Buy - Predicted variation:  2.1315099764079837
+2018-02-12 15:00:57 (DEBUG):	IA - Buy - Predicted variation:  2.295369933717619
+2018-02-12 15:00:57 (DEBUG):	IA - Buy - Predicted variation:  2.03434068655636
+2018-02-12 15:00:57 (DEBUG):	IA - Buy - Predicted variation:  1.7604026777213604
+2018-02-12 15:00:57 (DEBUG):	IA - Buy - Predicted variation:  1.7322559050128787
+2018-02-12 15:00:57 (DEBUG):	IA - Buy - Predicted variation:  1.9879239604796837
+2018-02-12 15:00:57 (DEBUG):	IA - Buy - Predicted variation:  1.9845687935665208
+2018-02-12 15:00:57 (DEBUG):	IA - Buy - Predicted variation:  2.158778702473651
+2018-02-12 15:00:57 (DEBUG):	IA - Buy - Predicted variation:  1.7142544418534564
+2018-02-12 15:00:57 (DEBUG):	IA - Buy - Predicted variation:  1.7137748328893836
+2018-02-12 15:00:57 (INFO):	2018-01-26 14:13:00: Paper trader simulated a SELL 	385.61879767 USD <= 0.00000000 BAT
+2018-02-12 15:00:58 (DEBUG):	IA - Buy - Predicted variation:  1.7018952839406674
+2018-02-12 15:00:58 (INFO):	2018-01-27 05:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 697.41055872 BAT
+2018-02-12 15:00:59 (INFO):	2018-01-27 10:13:00: Paper trader simulated a SELL 	397.10878719 USD <= 0.00000000 BAT
+2018-02-12 15:01:01 (DEBUG):	IA - Buy - Predicted variation:  2.022406061182389
+2018-02-12 15:01:01 (DEBUG):	IA - Buy - Predicted variation:  1.9198292908972965
+2018-02-12 15:01:01 (DEBUG):	IA - Buy - Predicted variation:  1.7940126245508727
+2018-02-12 15:01:01 (INFO):	2018-01-28 01:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 612.11078453 BAT
+2018-02-12 15:01:01 (DEBUG):	IA - Buy - Predicted variation:  2.3239706016106267
+2018-02-12 15:01:02 (DEBUG):	IA - Buy - Predicted variation:  1.8486755109606055
+2018-02-12 15:01:02 (DEBUG):	IA - Buy - Predicted variation:  1.7879315606967512
+2018-02-12 15:01:02 (DEBUG):	IA - Buy - Predicted variation:  1.815590876643843
+2018-02-12 15:01:02 (DEBUG):	IA - Buy - Predicted variation:  1.8978459822124285
+2018-02-12 15:01:02 (DEBUG):	IA - Buy - Predicted variation:  3.2769940836594422
+2018-02-12 15:01:02 (DEBUG):	IA - Buy - Predicted variation:  4.018018372489747
+2018-02-12 15:01:02 (DEBUG):	IA - Buy - Predicted variation:  3.7396059241212494
+2018-02-12 15:01:02 (DEBUG):	IA - Buy - Predicted variation:  4.986562945514487
+2018-02-12 15:01:02 (DEBUG):	IA - Buy - Predicted variation:  6.089640424809522
+2018-02-12 15:01:02 (DEBUG):	IA - Buy - Predicted variation:  6.902726637897106
+2018-02-12 15:01:02 (DEBUG):	IA - Buy - Predicted variation:  6.536657223855322
+2018-02-12 15:01:02 (DEBUG):	IA - Buy - Predicted variation:  6.427080065099482
+2018-02-12 15:01:02 (DEBUG):	IA - Buy - Predicted variation:  6.254276550759994
+2018-02-12 15:01:02 (DEBUG):	IA - Buy - Predicted variation:  5.425891580865603
+2018-02-12 15:01:02 (DEBUG):	IA - Buy - Predicted variation:  4.459287729405306
+2018-02-12 15:01:02 (DEBUG):	IA - Buy - Predicted variation:  3.600113529672065
+2018-02-12 15:01:02 (DEBUG):	IA - Buy - Predicted variation:  2.556203831536596
+2018-02-12 15:01:02 (DEBUG):	IA - Buy - Predicted variation:  2.106530314419413
+2018-02-12 15:01:02 (DEBUG):	IA - Buy - Predicted variation:  1.8002089233653988
+2018-02-12 15:01:02 (DEBUG):	IA - Buy - Predicted variation:  1.7054077595701225
+2018-02-12 15:01:03 (INFO):	2018-01-28 12:58:00: Paper trader simulated a SELL 	393.36356917 USD <= 0.00000000 BAT
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.0334601238901766
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  1.979214341788965
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.015491108216395
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.077630629957473
+2018-02-12 15:01:05 (INFO):	2018-01-29 04:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 617.07361049 BAT
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.121806195652544
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.1788024910742347
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.1847373188030215
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.0499015583945326
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.337378233260917
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.3455818126657504
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.4894543047792324
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.504533893425033
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.777470460102785
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.631105505506074
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.443626776818848
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.1738985123159953
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  1.9921310347777186
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  1.8772743302067503
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  1.7746153429539397
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.128919475380906
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.041224813401099
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  1.9254138312670652
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  1.8534119228410177
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  1.809907373932372
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  1.7893429907292968
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  1.734605970229143
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.1963774647833882
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.0860261313445236
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  1.8959202945070337
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  1.7734223661731954
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.616993243934592
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.4750139227080674
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.4718037684747705
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.2111658705578674
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.014208106002629
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.444641273558621
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.2668347101515334
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.0351508584264244
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.440779738089027
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.574505649832646
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.5795269131800476
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  2.317565009093715
+2018-02-12 15:01:05 (DEBUG):	IA - Buy - Predicted variation:  1.8482528066225061
+2018-02-12 15:01:05 (INFO):	2018-01-29 11:18:00: Paper trader simulated a SELL 	386.94094404 USD <= 0.00000000 BAT
+2018-02-12 15:01:08 (DEBUG):	IA - Buy - Predicted variation:  2.6106222965033123
+2018-02-12 15:01:08 (DEBUG):	IA - Buy - Predicted variation:  2.077962539325106
+2018-02-12 15:01:08 (DEBUG):	IA - Buy - Predicted variation:  1.9294657027251967
+2018-02-12 15:01:08 (DEBUG):	IA - Buy - Predicted variation:  1.9387370602945357
+2018-02-12 15:01:08 (DEBUG):	IA - Buy - Predicted variation:  1.916177470929311
+2018-02-12 15:01:08 (DEBUG):	IA - Buy - Predicted variation:  1.823386628937031
+2018-02-12 15:01:08 (DEBUG):	IA - Buy - Predicted variation:  2.318064315766416
+2018-02-12 15:01:08 (DEBUG):	IA - Buy - Predicted variation:  1.903158548280377
+2018-02-12 15:01:08 (INFO):	2018-01-30 14:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 686.14348083 BAT
+2018-02-12 15:01:08 (DEBUG):	IA - Buy - Predicted variation:  1.799399626970879
+2018-02-12 15:01:08 (DEBUG):	IA - Buy - Predicted variation:  1.8129496438163328
+2018-02-12 15:01:08 (DEBUG):	IA - Buy - Predicted variation:  1.700493735226111
+2018-02-12 15:01:08 (DEBUG):	IA - Buy - Predicted variation:  1.7626906642170144
+2018-02-12 15:01:08 (DEBUG):	IA - Buy - Predicted variation:  2.4437706996628505
+2018-02-12 15:01:08 (DEBUG):	IA - Buy - Predicted variation:  2.4938313446152938
+2018-02-12 15:01:08 (DEBUG):	IA - Buy - Predicted variation:  3.696159492195186
+2018-02-12 15:01:08 (DEBUG):	IA - Buy - Predicted variation:  3.4509458726683246
+2018-02-12 15:01:08 (DEBUG):	IA - Buy - Predicted variation:  3.7236715808581438
+2018-02-12 15:01:08 (DEBUG):	IA - Buy - Predicted variation:  3.5989902656942037
+2018-02-12 15:01:08 (DEBUG):	IA - Buy - Predicted variation:  3.236092074079063
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.8400703482113285
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.8930025823856185
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.922259511932824
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.704738634517811
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.553011009380865
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.509468966965619
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.346107711436886
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.2640043217310026
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  1.988989746791873
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  1.8942791522256215
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  1.931119248737466
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  1.828279834081013
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.0578196273983367
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  1.9823317697749934
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  1.7594589260303577
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  1.707187374424131
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.366099217826933
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  3.6443801268911176
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  3.215918785640618
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  3.34114968798692
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.978338132088171
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  3.495659013098827
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.786076538276321
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.5752763053491385
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.494145159220892
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.2767532366871075
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.036846323119555
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  1.9660467385820093
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.3306158568671203
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.130047991852166
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  1.9126618744009392
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.6844514689488626
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.6295596622623467
+2018-02-12 15:01:09 (INFO):	2018-01-30 23:23:00: Paper trader simulated a SELL 	375.48372440 USD <= 0.00000000 BAT
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.3692100083675314
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.2133593303796792
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.087626579012239
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  1.961200881873907
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  1.9589815146798943
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  1.8368454056497798
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  1.786127357749682
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  1.77518795518331
+2018-02-12 15:01:09 (INFO):	2018-01-31 00:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 725.31098027 BAT
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  1.716152333939835
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.3753388320328885
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.525336427452881
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.53329783073706
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.574796448942502
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  3.1688897447897726
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  3.0342140793457526
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  3.939576271506613
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  3.902982398836246
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.7038887094247697
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.631229575074328
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.580147463820899
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.4868541015594996
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  3.62279480331789
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  3.572226040125838
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  2.018145877125053
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  1.9957232918362253
+2018-02-12 15:01:09 (DEBUG):	IA - Buy - Predicted variation:  1.9328945941163678
+2018-02-12 15:01:09 (INFO):	2018-01-31 07:28:00: Paper trader simulated a SELL 	372.25062909 USD <= 0.00000000 BAT
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.24093759761376
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.1666319484772028
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.2330045733214283
+2018-02-12 15:01:12 (INFO):	2018-02-01 09:43:00: Paper trader simulated a BUY 	0.00000000 USD	=> 740.42281503 BAT
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.2783004918863847
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.419617058963836
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.6211225178940847
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.763411579324066
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.898010659208364
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.98648152794407
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.9772354580495266
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  3.0112960360643686
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  4.297593121627684
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  4.928835051940277
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  4.804860197881084
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  4.630003467031836
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  3.36831598024632
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  3.3082691282070726
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  4.939547953876222
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  4.884596516345543
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  4.744849072777523
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  4.8657279202042485
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  4.815998693945823
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  4.635953432646538
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  4.483054260352291
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  4.506938403660419
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  4.795956386504134
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  4.389655027842198
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  4.495982661227048
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  5.0311109416233375
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  4.789696288125645
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  4.711400810683286
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  3.7436121834599994
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  3.7492337606109234
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  4.306897445497799
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  3.991443143659828
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.607842379813384
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.506287823748062
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.2574456652856507
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.2349642466568236
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.086771424953318
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  1.8215769507164508
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  1.758762409813329
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.1047374671282344
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.034083371626465
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  1.958743063059862
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  1.8758608330418434
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.3075500784821936
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  1.8761823053883986
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.532935718357381
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.297220363464921
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.121701254393094
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  1.8309052980013427
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.414977642896097
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.293647412249804
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.0960225524030522
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.122729052030393
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  1.9167169069138978
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  1.864046381566859
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  1.7417826495951356
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  1.716594239904086
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  1.7850379998643868
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  1.7559747019305907
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.628387569551328
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.5834537614531237
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.440634997563498
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  3.2999055614083717
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  2.291861020977066
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  1.955956339770867
+2018-02-12 15:01:12 (DEBUG):	IA - Buy - Predicted variation:  1.7016182900055559
+2018-02-12 15:01:12 (INFO):	2018-02-01 19:48:00: Paper trader simulated a SELL 	345.15528473 USD <= 0.00000000 BAT
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.082130807490944
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.0994067557172
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.1745713441301144
+2018-02-12 15:01:13 (INFO):	2018-02-02 02:23:00: Paper trader simulated a BUY 	0.00000000 USD	=> 794.09574148 BAT
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.6269378733665842
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.696432184583872
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.6575443585446807
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.7274411440579276
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.7359350195043723
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.782778410331126
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.819915534706454
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.76884008794753
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.8252782963647847
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.2844594548161066
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.2603181560367718
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.1755211207474603
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.1568951097777407
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.1504410808828633
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.120429639172308
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  3.210954485949765
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.8463466806138156
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.929850451702979
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.6798632161557756
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.564397489837587
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.699243594442244
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.5170236876752625
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.464239625839367
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.2134025207022257
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  1.850699620929836
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  1.753706994873005
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  4.302410074424507
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  3.9107549963427224
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  3.7167827583326063
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.995399073881803
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  1.747696455136421
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.000007446649373
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  1.9067944163643857
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  1.8132190296808677
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  1.8956983410848904
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  1.8132581673006367
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  1.708305508789313
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.327663340157691
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.3430463615116004
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.149856323079194
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.1018889136134242
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  1.802033125501025
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.503574406705033
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.355240376568407
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.485370377678635
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.2676260324963153
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.0182744530281345
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  3.8149919519262236
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  3.658814755106048
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  3.303840978440613
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  3.931980812022665
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  3.0539258331271504
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  3.55850473732616
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  3.3608265595443285
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  3.031766894849994
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  3.264795321283301
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.4171134900589624
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.326123025781214
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.3704274386567747
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  3.6974861494805054
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  3.525859451825585
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  3.3406223089175477
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.952138948256063
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.850301569136716
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.6435340712827253
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  1.7740080307797572
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  1.7311438993621162
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.703150083677124
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  1.803429661918266
+2018-02-12 15:01:13 (INFO):	2018-02-02 13:13:00: Paper trader simulated a SELL 	332.68691117 USD <= 0.00000000 BAT
+2018-02-12 15:01:13 (INFO):	2018-02-02 13:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 921.28541144 BAT
+2018-02-12 15:01:13 (INFO):	2018-02-02 13:23:00: Paper trader simulated a SELL 	354.06165169 USD <= 0.00000000 BAT
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  1.8528126748736073
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.470203499632739
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.198056062789626
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.504598404732395
+2018-02-12 15:01:13 (DEBUG):	IA - Buy - Predicted variation:  2.0125292692702836
+2018-02-12 15:01:13 (INFO):	2018-02-02 13:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 982.05661049 BAT
+2018-02-12 15:01:13 (INFO):	2018-02-02 13:53:00: Paper trader simulated a SELL 	368.69940561 USD <= 0.00000000 BAT
+2018-02-12 15:01:14 (DEBUG):	IA - Buy - Predicted variation:  3.544195921348462
+2018-02-12 15:01:14 (DEBUG):	IA - Buy - Predicted variation:  2.792720530540508
+2018-02-12 15:01:14 (DEBUG):	IA - Buy - Predicted variation:  3.434200190497551
+2018-02-12 15:01:14 (INFO):	2018-02-03 04:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 909.00334938 BAT
+2018-02-12 15:01:14 (DEBUG):	IA - Buy - Predicted variation:  3.06463467814916
+2018-02-12 15:01:14 (DEBUG):	IA - Buy - Predicted variation:  2.8374889058561177
+2018-02-12 15:01:14 (DEBUG):	IA - Buy - Predicted variation:  2.6201851058675154
+2018-02-12 15:01:14 (DEBUG):	IA - Buy - Predicted variation:  2.5980268792187857
+2018-02-12 15:01:14 (DEBUG):	IA - Buy - Predicted variation:  2.505237964905485
+2018-02-12 15:01:14 (DEBUG):	IA - Buy - Predicted variation:  2.4940974007548986
+2018-02-12 15:01:14 (DEBUG):	IA - Buy - Predicted variation:  2.3950644970019552
+2018-02-12 15:01:14 (DEBUG):	IA - Buy - Predicted variation:  2.386676923558559
+2018-02-12 15:01:14 (DEBUG):	IA - Buy - Predicted variation:  2.390437074520246
+2018-02-12 15:01:14 (DEBUG):	IA - Buy - Predicted variation:  4.74414157837255
+2018-02-12 15:01:14 (DEBUG):	IA - Buy - Predicted variation:  4.621860598559914
+2018-02-12 15:01:14 (DEBUG):	IA - Buy - Predicted variation:  4.504472881799459
+2018-02-12 15:01:14 (DEBUG):	IA - Buy - Predicted variation:  4.590553973854682
+2018-02-12 15:01:14 (DEBUG):	IA - Buy - Predicted variation:  1.8229059143081687
+2018-02-12 15:01:14 (DEBUG):	IA - Buy - Predicted variation:  1.751040512665102
+2018-02-12 15:01:14 (DEBUG):	IA - Buy - Predicted variation:  1.8005734545807779
+2018-02-12 15:01:14 (DEBUG):	IA - Buy - Predicted variation:  1.7086074782709169
+2018-02-12 15:01:14 (INFO):	2018-02-03 07:58:00: Paper trader simulated a SELL 	379.48421892 USD <= 0.00000000 BAT
+2018-02-12 15:01:15 (DEBUG):	IA - Buy - Predicted variation:  2.2547725071726887
+2018-02-12 15:01:15 (DEBUG):	IA - Buy - Predicted variation:  2.126381536799102
+2018-02-12 15:01:15 (DEBUG):	IA - Buy - Predicted variation:  1.8938019990890975
+2018-02-12 15:01:15 (DEBUG):	IA - Buy - Predicted variation:  1.729481380540519
+2018-02-12 15:01:15 (INFO):	2018-02-03 20:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 842.03331687 BAT
+2018-02-12 15:01:15 (DEBUG):	IA - Buy - Predicted variation:  1.7518489763448217
+2018-02-12 15:01:15 (DEBUG):	IA - Buy - Predicted variation:  3.0030519533331304
+2018-02-12 15:01:15 (DEBUG):	IA - Buy - Predicted variation:  2.5669832240646278
+2018-02-12 15:01:15 (DEBUG):	IA - Buy - Predicted variation:  1.911912051290153
+2018-02-12 15:01:15 (DEBUG):	IA - Buy - Predicted variation:  1.9062978700574855
+2018-02-12 15:01:16 (DEBUG):	IA - Buy - Predicted variation:  1.7633433227341269
+2018-02-12 15:01:16 (DEBUG):	IA - Buy - Predicted variation:  1.7303178994445996
+2018-02-12 15:01:16 (INFO):	2018-02-04 07:13:00: Paper trader simulated a SELL 	383.55939575 USD <= 0.00000000 BAT
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.3325832932715476
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  2.4971130195019056
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  2.6796631666034374
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  2.738500200496638
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  2.9975851401326317
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  2.7428133027219057
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  2.865131726778969
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.470170669045149
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  4.124772087071017
+2018-02-12 15:01:17 (INFO):	2018-02-04 13:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 930.27291568 BAT
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  4.041567827807774
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.774677052137046
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.679640008874991
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.571074566098527
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.7591995154521647
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.7765135367976552
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.346643092383151
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.5444193529258325
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.4224699338634044
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.0239876059108255
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.1947301170679565
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  2.7100758268449496
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  2.808647250907234
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  2.68818970771923
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  2.3469677720267783
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  1.7080855818408311
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  1.7593306337990118
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  2.525812779679971
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  2.2185423199989414
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.0362652260918472
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  2.896792556169374
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.2084161376453038
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  2.4410097522387493
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  2.3245315615854576
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  2.325985377332636
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  2.20556472870381
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.9999981280508323
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.8773757320893956
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.7659275803480345
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.8633681481452826
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.8945966666974825
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.664653647757772
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.547077616175351
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.344245331659417
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  5.546809209355653
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  5.885602699271953
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  7.311131448248619
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  5.498002907498386
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  5.867286912551802
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  4.928065862563521
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  4.692643492043624
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  4.60108457549437
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  4.075325583571077
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.911784424326133
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  3.6584918511093982
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  2.967157741320318
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  2.2506515553171607
+2018-02-12 15:01:17 (DEBUG):	IA - Buy - Predicted variation:  2.125441485656212
+2018-02-12 15:01:17 (INFO):	2018-02-04 22:23:00: Paper trader simulated a SELL 	368.76437000 USD <= 0.00000000 BAT
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  3.3556824547481594
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  3.2895316022652916
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  3.182764644914751
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  3.1240570679720476
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  3.0294574694015726
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.913257870579545
+2018-02-12 15:01:18 (INFO):	2018-02-05 03:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1022.80895401 BAT
+2018-02-12 15:01:18 (INFO):	2018-02-05 04:28:00: Paper trader simulated a SELL 	392.85375445 USD <= 0.00000000 BAT
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.420568432742494
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.424587400937177
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.377233918859146
+2018-02-12 15:01:18 (INFO):	2018-02-05 08:43:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1084.86219873 BAT
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.41409938257621
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  4.135807294772367
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  3.9516974031755034
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  4.522123897223682
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  4.498112604605266
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  4.49315940738947
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  4.297371439630535
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  4.286350794339317
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  4.6594591272033785
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  4.345328959303005
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  4.384676668763904
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  4.248955400104527
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  3.9955439263894745
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  3.7961221252342976
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  3.7514301734683415
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  3.5602685900763578
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  1.730746620642865
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  1.8231026995579032
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.1199944982555694
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  1.7459186561512294
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.9863945748865732
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  1.8545745275568497
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  1.8049358853722306
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.1413790351919673
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.149813204127851
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  1.9358110384822518
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  1.8452536732459581
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  1.8072758856543794
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.4661628039093526
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.346421205876895
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.3133678650910654
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.353195562601522
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.3661130051567
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.382197503476399
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  1.7246841834589168
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.3351818288458093
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.384588177354127
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.2874521358208866
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.115542754627314
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.005819212125378
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  1.887826098808497
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  1.98030745124903
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  1.9496707274522906
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  1.759146031335975
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  1.715523010938926
+2018-02-12 15:01:18 (INFO):	2018-02-05 17:18:00: Paper trader simulated a SELL 	379.11055220 USD <= 0.00000000 BAT
+2018-02-12 15:01:18 (INFO):	2018-02-05 17:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1147.09662536 BAT
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  3.6486002969823033
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  4.454995892399173
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.7156851015696954
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.7254511398003736
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.556905974835122
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.3682376347306313
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.1371236562311635
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  3.2440721275749955
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  3.189101427351409
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.9789798811034185
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.839649345232792
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.5139200419537446
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.379953948400782
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  3.871156642466295
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  3.7698988026969666
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  3.620300295335864
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  3.4597271012282653
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  3.781022262530232
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  3.554715543682447
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  4.247972415006647
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  3.0255124193528222
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.914517523634182
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.59951690292857
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.39966299277823
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  4.787993465931167
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.3038137175730045
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  2.026214635916509
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  1.7595929591782817
+2018-02-12 15:01:18 (DEBUG):	IA - Buy - Predicted variation:  1.7140260203213349
+2018-02-12 15:01:18 (INFO):	2018-02-05 21:28:00: Paper trader simulated a SELL 	357.82691004 USD <= 0.00000000 BAT
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  1.7744021776709666
+2018-02-12 15:01:19 (INFO):	2018-02-06 00:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1201.09647922 BAT
+2018-02-12 15:01:19 (INFO):	2018-02-06 01:13:00: Paper trader simulated a SELL 	374.67169924 USD <= 0.00000000 BAT
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  4.282032932007189
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  4.062958673053425
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  4.090157932119062
+2018-02-12 15:01:19 (INFO):	2018-02-06 03:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1321.47542102 BAT
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  4.053334381893253
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  3.961800320266454
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  5.606437846068022
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  5.619886026802011
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  5.628553384104676
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  5.621748317822343
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  5.325166708112247
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  5.183480398806724
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  5.196837320500702
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  6.925325013299991
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  6.502326445563694
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  6.430284563449652
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  6.24999226486895
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  5.725189742489098
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  5.712619409016071
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  6.955249122985734
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  6.916903896025517
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  7.176113249487966
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  2.3370500823300184
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  2.053855129420502
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  1.732438104446092
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  7.017879528142421
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  6.928779796736028
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  5.682079430416329
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  4.997799418844795
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  4.727366729694646
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  4.483955371700429
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  4.16173316236661
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  4.06356857739042
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  3.5660559357827917
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  9.056676742973012
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  2.7505455697718495
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  2.142970764380212
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  1.8350025918362212
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  2.7665162155373513
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  2.5188255324129356
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  3.662885104336104
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  3.6007285946666774
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  6.174207412384449
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  3.8584497056327387
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  3.6496111596819802
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  3.5383643720765243
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  3.4629684826442637
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  2.9821142119465796
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  2.536316504828358
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  3.0228590490514358
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  2.9779791073155946
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  2.4254521833596963
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  1.9268236821388185
+2018-02-12 15:01:19 (DEBUG):	IA - Buy - Predicted variation:  1.9144593716285994
+2018-02-12 15:01:19 (INFO):	2018-02-06 09:38:00: Paper trader simulated a SELL 	327.30029021 USD <= 0.00000000 BAT
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  2.389072675501326
+2018-02-12 15:01:20 (INFO):	2018-02-07 00:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 912.87525076 BAT
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  1.917290591669122
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  1.7339807160123777
+2018-02-12 15:01:20 (INFO):	2018-02-07 01:23:00: Paper trader simulated a SELL 	326.31912576 USD <= 0.00000000 BAT
+2018-02-12 15:01:20 (INFO):	2018-02-07 01:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 910.13867897 BAT
+2018-02-12 15:01:20 (INFO):	2018-02-07 01:43:00: Paper trader simulated a SELL 	325.34090260 USD <= 0.00000000 BAT
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  1.7152113277178005
+2018-02-12 15:01:20 (INFO):	2018-02-07 01:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 917.66353459 BAT
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  2.795563394963567
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  1.944312613681634
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  1.863768282241986
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  3.9182621858897213
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  3.5020615239439157
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  3.3974126155499103
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  3.2989683871880344
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  3.0301739122109415
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  3.250557053795671
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  3.27913469854505
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  3.3711909209467477
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  3.426664467276751
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  2.5097327059767887
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  2.5467986660696607
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  2.610024219471797
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  2.697977819277084
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  2.7297656735460323
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  2.7981267797097678
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  2.6112538476709575
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  2.6206792548782913
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  2.377467620017322
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  3.854224257435092
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  3.713814918881267
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  3.561948866019249
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  2.811367428055443
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  2.583189075832227
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  2.368924659426165
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  3.730572048139283
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  2.3296058506673143
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  2.220520672170752
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  2.9172320173284207
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  2.0767181425711256
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  2.010433207658172
+2018-02-12 15:01:20 (DEBUG):	IA - Buy - Predicted variation:  1.8085826568903625
+2018-02-12 15:01:20 (INFO):	2018-02-07 08:48:00: Paper trader simulated a SELL 	315.56925633 USD <= 0.00000000 BAT
+2018-02-12 15:01:22 (DEBUG):	IA - Buy - Predicted variation:  2.1247018802979514
+2018-02-12 15:01:22 (DEBUG):	IA - Buy - Predicted variation:  1.9381680659487182
+2018-02-12 15:01:22 (DEBUG):	IA - Buy - Predicted variation:  1.877933752231637
+2018-02-12 15:01:22 (DEBUG):	IA - Buy - Predicted variation:  3.435467135510341
+2018-02-12 15:01:22 (INFO):	2018-02-07 23:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 863.27644505 BAT
+2018-02-12 15:01:22 (DEBUG):	IA - Buy - Predicted variation:  2.7081913605619943
+2018-02-12 15:01:22 (DEBUG):	IA - Buy - Predicted variation:  2.215888049511393
+2018-02-12 15:01:22 (DEBUG):	IA - Buy - Predicted variation:  2.2080112510367154
+2018-02-12 15:01:22 (DEBUG):	IA - Buy - Predicted variation:  1.706084766807885
+2018-02-12 15:01:22 (DEBUG):	IA - Buy - Predicted variation:  1.7009009306059952
+2018-02-12 15:01:22 (DEBUG):	IA - Buy - Predicted variation:  1.7129726568256998
+2018-02-12 15:01:22 (DEBUG):	IA - Buy - Predicted variation:  1.709047832833933
+2018-02-12 15:01:22 (DEBUG):	IA - Buy - Predicted variation:  2.953019245488891
+2018-02-12 15:01:22 (DEBUG):	IA - Buy - Predicted variation:  3.0376298391822143
+2018-02-12 15:01:22 (DEBUG):	IA - Buy - Predicted variation:  1.867557870048698
+2018-02-12 15:01:22 (DEBUG):	IA - Buy - Predicted variation:  1.8443966936083975
+2018-02-12 15:01:22 (INFO):	2018-02-08 02:33:00: Paper trader simulated a SELL 	321.51911083 USD <= 0.00000000 BAT
+2018-02-12 15:01:23 (DEBUG):	IA - Buy - Predicted variation:  1.7214485331936915
+2018-02-12 15:01:23 (DEBUG):	IA - Buy - Predicted variation:  1.8982951554958158
+2018-02-12 15:01:23 (DEBUG):	IA - Buy - Predicted variation:  2.0385579180712803
+2018-02-12 15:01:23 (DEBUG):	IA - Buy - Predicted variation:  2.0982310299849742
+2018-02-12 15:01:23 (DEBUG):	IA - Buy - Predicted variation:  2.065381438293488
+2018-02-12 15:01:23 (INFO):	2018-02-08 16:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 844.83376885 BAT
+2018-02-12 15:01:23 (DEBUG):	IA - Buy - Predicted variation:  1.9557666602114407
+2018-02-12 15:01:23 (DEBUG):	IA - Buy - Predicted variation:  2.26173660469746
+2018-02-12 15:01:23 (DEBUG):	IA - Buy - Predicted variation:  2.137138859875644
+2018-02-12 15:01:23 (DEBUG):	IA - Buy - Predicted variation:  2.042130241877795
+2018-02-12 15:01:23 (DEBUG):	IA - Buy - Predicted variation:  2.327626801443427
+2018-02-12 15:01:23 (DEBUG):	IA - Buy - Predicted variation:  2.1704958703835895
+2018-02-12 15:01:23 (DEBUG):	IA - Buy - Predicted variation:  1.8708561207279146
+2018-02-12 15:01:24 (DEBUG):	IA - Buy - Predicted variation:  2.1261918523158854
+2018-02-12 15:01:24 (DEBUG):	IA - Buy - Predicted variation:  1.770330996444215
+2018-02-12 15:01:25 (INFO):	2018-02-09 02:58:00: Paper trader simulated a SELL 	312.11961173 USD <= 0.00000000 BAT
+2018-02-12 15:01:30 (DEBUG):	IA - Buy - Predicted variation:  1.8990408606958242
+2018-02-12 15:01:30 (INFO):	2018-02-10 09:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 809.10595646 BAT
+2018-02-12 15:01:30 (DEBUG):	IA - Buy - Predicted variation:  2.0037470355792157
+2018-02-12 15:01:30 (DEBUG):	IA - Buy - Predicted variation:  2.111138490736824
+2018-02-12 15:01:30 (DEBUG):	IA - Buy - Predicted variation:  2.144660687765372
+2018-02-12 15:01:30 (DEBUG):	IA - Buy - Predicted variation:  2.130284864074102
+2018-02-12 15:01:30 (DEBUG):	IA - Buy - Predicted variation:  2.0726193006820455
+2018-02-12 15:01:30 (DEBUG):	IA - Buy - Predicted variation:  1.8999540598932856
+2018-02-12 15:01:31 (DEBUG):	IA - Buy - Predicted variation:  1.7504948667775202
+2018-02-12 15:01:31 (DEBUG):	IA - Buy - Predicted variation:  4.05637047957001
+2018-02-12 15:01:31 (DEBUG):	IA - Buy - Predicted variation:  5.042509552095154
+2018-02-12 15:01:31 (DEBUG):	IA - Buy - Predicted variation:  5.03744825026067
+2018-02-12 15:01:31 (DEBUG):	IA - Buy - Predicted variation:  3.5521650951636237
+2018-02-12 15:01:31 (DEBUG):	IA - Buy - Predicted variation:  3.591048466461601
+2018-02-12 15:01:31 (DEBUG):	IA - Buy - Predicted variation:  3.8384840031681358
+2018-02-12 15:01:31 (DEBUG):	IA - Buy - Predicted variation:  3.8885310036822944
+2018-02-12 15:01:31 (INFO):	
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) REPORT:
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) entry date (UTC)  	exit date (UTC)  	exposed duration	P&L 	profit
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-09 02:38	2018-01-09 06:58	4 hours         	7.65	1.91
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-09 13:38	2018-01-09 14:38	an hour         	20.35	5.01
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-09 23:13	2018-01-09 23:58	an hour         	17.29	4.06
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-10 00:18	2018-01-10 10:03	10 hours        	-40.20	-9.08
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-10 14:13	2018-01-10 15:08	an hour         	17.58	4.37
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-11 01:38	2018-01-11 07:33	6 hours         	-26.50	-6.32
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-11 11:38	2018-01-11 12:08	30 minutes      	18.54	4.73
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-11 22:53	2018-01-12 01:53	3 hours         	11.97	2.92
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-12 15:18	2018-01-12 22:03	7 hours         	2.76	0.65
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-14 04:33	2018-01-14 11:03	7 hours         	-12.37	-2.92
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-14 12:13	2018-01-14 18:08	6 hours         	7.65	1.86
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-16 00:33	2018-01-16 11:03	11 hours        	-101.98	-24.44
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-16 17:08	2018-01-16 19:13	2 hours         	8.78	2.79
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-16 20:43	2018-01-16 23:18	3 hours         	-6.18	-1.91
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-17 03:28	2018-01-17 06:33	3 hours         	22.93	7.25
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-17 08:18	2018-01-17 10:38	2 hours         	8.75	2.58
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-17 10:58	2018-01-17 16:23	5 hours         	-27.56	-7.94
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-18 06:28	2018-01-18 06:48	20 minutes      	2.97	0.93
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-18 07:08	2018-01-18 07:13	5 minutes       	2.47	0.77
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-18 07:28	2018-01-18 07:33	5 minutes       	14.70	4.54
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-18 07:43	2018-01-18 10:58	3 hours         	12.16	3.60
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-18 21:48	2018-01-19 00:53	3 hours         	6.49	1.86
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-19 02:43	2018-01-19 04:58	2 hours         	6.96	1.96
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-19 17:43	2018-01-20 01:28	8 hours         	7.65	2.11
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-20 12:13	2018-01-20 13:23	an hour         	26.91	7.30
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-20 14:23	2018-01-20 22:48	8 hours         	18.94	4.79
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-21 00:43	2018-01-21 11:53	11 hours        	-25.15	-6.08
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-21 15:38	2018-01-21 18:58	3 hours         	5.63	1.45
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-22 11:58	2018-01-22 22:08	10 hours        	-39.34	-10.02
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-23 07:18	2018-01-23 08:48	2 hours         	26.59	7.54
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-23 11:13	2018-01-23 15:13	4 hours         	0.02	0.00
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-24 02:48	2018-01-24 11:38	9 hours         	5.71	1.51
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-24 15:18	2018-01-24 19:18	4 hours         	9.09	2.37
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-26 07:48	2018-01-26 13:13	5 hours         	-6.40	-1.63
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-27 04:18	2018-01-27 09:13	5 hours         	12.07	3.13
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-28 00:58	2018-01-28 11:58	11 hours        	-3.15	-0.79
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-29 03:08	2018-01-29 10:18	7 hours         	-5.83	-1.48
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-30 13:48	2018-01-30 22:23	9 hours         	-10.88	-2.82
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-01-30 23:38	2018-01-31 06:28	7 hours         	-2.67	-0.71
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-02-01 08:43	2018-02-01 18:48	10 hours        	-26.54	-7.14
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-02-02 01:23	2018-02-02 12:13	11 hours        	-11.95	-3.47
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-02-02 12:18	2018-02-02 12:23	5 minutes       	21.87	6.58
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-02-02 12:28	2018-02-02 12:53	25 minutes      	15.17	4.29
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-02-03 03:13	2018-02-03 06:58	4 hours         	11.34	3.08
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-02-03 19:28	2018-02-04 06:13	11 hours        	4.64	1.23
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-02-04 12:03	2018-02-04 21:23	9 hours         	-14.22	-3.71
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-02-05 02:58	2018-02-05 03:28	30 minutes      	24.64	6.69
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-02-05 07:43	2018-02-05 16:18	9 hours         	-13.15	-3.35
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-02-05 16:38	2018-02-05 20:28	4 hours         	-20.71	-5.47
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-02-05 23:58	2018-02-06 00:13	15 minutes      	17.38	4.86
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-02-06 02:03	2018-02-06 08:38	7 hours         	-46.81	-12.51
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-02-06 23:53	2018-02-07 00:23	30 minutes      	-0.49	-0.15
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-02-07 00:38	2018-02-07 00:43	5 minutes       	-0.49	-0.15
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-02-07 00:53	2018-02-07 07:48	7 hours         	-9.28	-2.86
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-02-07 22:28	2018-02-08 01:33	3 hours         	6.42	2.04
+2018-02-12 15:01:31 (INFO):	(ROUNDTRIP) 2018-02-08 15:33	2018-02-09 01:58	10 hours        	-8.92	-2.78
+2018-02-12 15:01:31 (INFO):	
+2018-02-12 15:01:31 (INFO):	(PROFIT REPORT) start time:			 2018-01-08 21:38:00
+2018-02-12 15:01:31 (INFO):	(PROFIT REPORT) end time:			 2018-02-10 11:04:00
+2018-02-12 15:01:31 (INFO):	(PROFIT REPORT) timespan:			 a month
+2018-02-12 15:01:31 (INFO):	(PROFIT REPORT) sharpe ratio:			 -0.9174352698728113
+2018-02-12 15:01:31 (INFO):	
+2018-02-12 15:01:31 (INFO):	(PROFIT REPORT) start price:			 1 USD
+2018-02-12 15:01:31 (INFO):	(PROFIT REPORT) end price:			 0.371 USD
+2018-02-12 15:01:31 (INFO):	(PROFIT REPORT) Market:				 -62.90000000%
+2018-02-12 15:01:31 (INFO):	
+2018-02-12 15:01:31 (INFO):	(PROFIT REPORT) amount of trades:		 114
+2018-02-12 15:01:31 (INFO):	(PROFIT REPORT) original simulated balance:	 400.00000000 USD
+2018-02-12 15:01:31 (INFO):	(PROFIT REPORT) current simulated balance:	 300.17830985 USD
+2018-02-12 15:01:31 (INFO):	(PROFIT REPORT) simulated profit:		 -99.82169015 USD (-24.95542254%)
+2018-02-12 15:01:31 (INFO):	(PROFIT REPORT) simulated yearly profit:	 -1119.76150831 USD (-279.94037708%)
