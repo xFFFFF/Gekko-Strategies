@@ -1,0 +1,225 @@
+// Everything is explained here:
+// @link https://gekko.wizb.it/docs/commandline/plugins.html
+
+var config = {};
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                          GENERAL SETTINGS
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.debug = true; // for additional logging / debugging
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                         WATCHING A MARKET
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.watch = {
+
+  // see https://gekko.wizb.it/docs/introduction/supported_exchanges.html
+  exchange: 'bitfinex',
+  currency: 'USD',
+  asset: 'BAT',
+
+  // You can set your own tickrate (refresh rate).
+  // If you don't set it, the defaults are 2 sec for
+  // okcoin and 20 sec for all other exchanges.
+  // tickrate: 20
+}
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                       CONFIGURING TRADING ADVICE
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.tradingAdvisor = {
+  enabled: true,
+  method: 'mounirs-ga-version-1',
+  candleSize: 5,
+  historySize: 12,
+}
+
+// Exponential Moving Averages settings:
+config.rsibull = { 
+ //SMA Trends
+ SMA_long: 1000,
+ SMA_short: 50, 
+
+ //BULL
+ BULL_RSI: 10, 
+ BULL_RSI_high: 80, 
+ BULL_RSI_low: 60, 
+
+ //BEAR
+ BEAR_RSI: 15, 
+ BEAR_RSI_high: 50, 
+ BEAR_RSI_low: 20,
+ 
+ ADX: 3, 
+ ADX_high: 70, 
+ ADX_low: 50
+};
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                       CONFIGURING PLUGINS
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+// do you want Gekko to simulate the profit of the strategy's own advice?
+config.paperTrader = {
+  enabled: true,
+  // report the profit in the currency or the asset?
+  reportInCurrency: true,
+  // start balance, on what the current balance is compared with
+  simulationBalance: {
+    // these are in the unit types configured in the watcher.
+    asset: 0,
+    currency: 400,
+  },
+  // how much fee in % does each trade cost?
+  feeMaker: 0.1,
+  feeTaker: 0.1,
+  feeUsing: 'maker',
+  // how much slippage/spread should Gekko assume per trade?
+  slippage: 0.05,
+}
+
+config.performanceAnalyzer = {
+  enabled: true,
+  riskFreeReturn: 5
+}
+
+config.trader = {
+  enabled: false,
+  key: '',
+  secret: '',
+  username: '', // your username, only required for specific exchanges.
+  passphrase: '', // GDAX, requires a passphrase.
+  orderUpdateDelay: 1, // Number of minutes to adjust unfilled order prices
+}
+
+config.adviceLogger = {
+  enabled: false,
+  muteSoft: true // disable advice printout if it's soft
+}
+
+config.candleWriter = {
+  enabled: false
+}
+
+config.adviceWriter = {
+  enabled: false,
+  muteSoft: true,
+}
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                       CONFIGURING ADAPTER
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.adapter = 'sqlite';
+
+config.sqlite = {
+  path: 'plugins/sqlite',
+
+  dataDirectory: 'history',
+  version: 0.1,
+
+  journalMode: require('./web/isWindows.js') ? 'DELETE' : 'WAL',
+
+  dependencies: []
+}
+
+config.backtest = {
+  daterange:  'scan',
+  batchSize: 50
+}
+
+// set this to true if you understand that Gekko will
+// invest according to how you configured the indicators.
+// None of the advice in the output is Gekko telling you
+// to take a certain position. Instead it is the result
+// of running the indicators you configured automatically.
+//
+// In other words: Gekko automates your trading strategies,
+// it doesn't advice on itself, only set to true if you truly
+// understand this.
+//
+// Not sure? Read this first: https://github.com/askmike/gekko/issues/201
+config['I understand that Gekko only automates MY OWN trading strategies'] = true;
+
+module.exports = config;
+
+-----------------
+    ______   ________  __    __  __    __   ______
+   /      \ /        |/  |  /  |/  |  /  | /      \
+  /$$$$$$  |$$$$$$$$/ $$ | /$$/ $$ | /$$/ /$$$$$$  |
+  $$ | _$$/ $$ |__    $$ |/$$/  $$ |/$$/  $$ |  $$ |
+  $$ |/    |$$    |   $$  $$<   $$  $$<   $$ |  $$ |
+  $$ |$$$$ |$$$$$/    $$$$$  \  $$$$$  \  $$ |  $$ |
+  $$ \__$$ |$$ |_____ $$ |$$  \ $$ |$$  \ $$ \__$$ |
+  $$    $$/ $$       |$$ | $$  |$$ | $$  |$$    $$/ 
+   $$$$$$/  $$$$$$$$/ $$/   $$/ $$/   $$/  $$$$$$/
+
+	Gekko v0.5.13
+	I'm gonna make you rich, Bud Fox. 
+
+
+2018-02-12 15:39:58 (INFO):	Setting up Gekko in backtest mode
+2018-02-12 15:39:58 (INFO):	
+2018-02-12 15:39:58 (INFO):	Setting up:
+2018-02-12 15:39:58 (INFO):		 Trading Advisor
+2018-02-12 15:39:58 (INFO):		 Calculate trading advice
+2018-02-12 15:39:58 (INFO):		 Using the strategy: mounirs-ga-version-1
+2018-02-12 15:39:59 (DEBUG):	12
+2018-02-12 15:39:59 (DEBUG):	Options Set
+2018-02-12 15:39:59 (INFO):	
+
+2018-02-12 15:39:59 (INFO):	Setting up:
+2018-02-12 15:39:59 (INFO):		 Paper Trader
+2018-02-12 15:39:59 (INFO):		 Paper trader that simulates fake trades.
+2018-02-12 15:39:59 (INFO):	
+
+2018-02-12 15:39:59 (INFO):	Setting up:
+2018-02-12 15:39:59 (INFO):		 Performance Analyzer
+2018-02-12 15:39:59 (INFO):		 Analyzes performances of trades
+2018-02-12 15:39:59 (INFO):	
+
+2018-02-12 15:39:59 (INFO):	Scanning local history for backtestable dateranges.
+2018-02-12 15:39:59 (DEBUG):	Available 46887
+2018-02-12 15:39:59 (DEBUG):	Optimal 46886
+2018-02-12 15:39:59 (INFO):	Gekko is able to fully use the local history.
+2018-02-12 15:39:59 (INFO):	Gekko was able to find a single daterange in the locally stored history:
+2018-02-12 15:39:59 (INFO):		 from: 2018-01-08 21:38:00
+2018-02-12 15:39:59 (INFO):		 to: 2018-02-10 11:04:00
+
+2018-02-12 15:39:59 (INFO):		WARNING: BACKTESTING FEATURE NEEDS PROPER TESTING
+2018-02-12 15:39:59 (INFO):		WARNING: ACT ON THESE NUMBERS AT YOUR OWN RISK!
+
+2018-02-12 15:40:00 (INFO):	2018-01-09 02:23:00: Paper trader simulated a BUY 	0.00000000 USD	=> 453.03478862 BAT
+2018-02-12 15:40:00 (INFO):	2018-01-09 08:43:00: Paper trader simulated a SELL 	428.33517338 USD <= 0.00000000 BAT
+2018-02-12 15:40:00 (INFO):	2018-01-09 09:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 464.93387392 BAT
+2018-02-12 15:40:00 (INFO):	2018-01-09 09:38:00: Paper trader simulated a SELL 	440.04511049 USD <= 0.00000000 BAT
+2018-02-12 15:40:00 (INFO):	2018-01-09 09:43:00: Paper trader simulated a BUY 	0.00000000 USD	=> 472.66541467 BAT
+2018-02-12 15:40:01 (INFO):	2018-01-09 21:13:00: Paper trader simulated a SELL 	444.53574874 USD <= 0.00000000 BAT
+2018-02-12 15:40:01 (INFO):	2018-01-09 22:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 476.92971280 BAT
+2018-02-12 15:40:01 (INFO):	2018-01-09 23:03:00: Paper trader simulated a SELL 	451.80833442 USD <= 0.00000000 BAT
+2018-02-12 15:40:01 (INFO):	2018-01-09 23:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 490.35937165 BAT
+2018-02-12 15:57:24 (INFO):	
+2018-02-12 15:57:24 (INFO):	(ROUNDTRIP) REPORT:
+2018-02-12 15:57:24 (INFO):	(ROUNDTRIP) entry date (UTC)  	exit date (UTC)  	exposed duration	P&L 	profit
+2018-02-12 15:57:24 (INFO):	(ROUNDTRIP) 2018-01-09 01:23	2018-01-09 07:43	6 hours         	28.94	7.24
+2018-02-12 15:57:24 (INFO):	(ROUNDTRIP) 2018-01-09 08:33	2018-01-09 08:38	5 minutes       	12.35	2.89
+2018-02-12 15:57:24 (INFO):	(ROUNDTRIP) 2018-01-09 08:43	2018-01-09 20:13	12 hours        	5.15	1.17
+2018-02-12 15:57:24 (INFO):	(ROUNDTRIP) 2018-01-09 21:58	2018-01-09 22:03	5 minutes       	7.94	1.79
+2018-02-12 15:57:24 (INFO):	
+2018-02-12 15:57:24 (INFO):	(PROFIT REPORT) start time:			 2018-01-08 21:38:00
+2018-02-12 15:57:24 (INFO):	(PROFIT REPORT) end time:			 2018-02-10 11:04:00
+2018-02-12 15:57:24 (INFO):	(PROFIT REPORT) timespan:			 a month
+2018-02-12 15:57:24 (INFO):	(PROFIT REPORT) sharpe ratio:			 -0.727360042419032
+2018-02-12 15:57:24 (INFO):	
+2018-02-12 15:57:24 (INFO):	(PROFIT REPORT) start price:			 1 USD
+2018-02-12 15:57:24 (INFO):	(PROFIT REPORT) end price:			 0.371 USD
+2018-02-12 15:57:24 (INFO):	(PROFIT REPORT) Market:				 -62.90000000%
+2018-02-12 15:57:24 (INFO):	
+2018-02-12 15:57:24 (INFO):	(PROFIT REPORT) amount of trades:		 9
+2018-02-12 15:57:24 (INFO):	(PROFIT REPORT) original simulated balance:	 400.00000000 USD
+2018-02-12 15:57:24 (INFO):	(PROFIT REPORT) current simulated balance:	 181.92332688 USD
+2018-02-12 15:57:24 (INFO):	(PROFIT REPORT) simulated profit:		 -218.07667312 USD (-54.51916828%)
+2018-02-12 15:57:24 (INFO):	(PROFIT REPORT) simulated yearly profit:	 -2446.30063910 USD (-611.57515978%)
