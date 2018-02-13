@@ -1,0 +1,4 @@
+buyat = 1.20
+sellat = 0.98
+stop_loss_pct = 0.85
+sellat_up = 1.01
