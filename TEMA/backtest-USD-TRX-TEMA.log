@@ -1,0 +1,379 @@
+
+// Everything is explained here:
+// @link https://gekko.wizb.it/docs/commandline/plugins.html
+
+var config = {};
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                          GENERAL SETTINGS
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.debug = true; // for additional logging / debugging
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                         WATCHING A MARKET
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.watch = {
+
+  // see https://gekko.wizb.it/docs/introduction/supported_exchanges.html
+  exchange: 'bitfinex',
+  currency: 'USD',
+  asset: 'TRX',
+
+  // You can set your own tickrate (refresh rate).
+  // If you don't set it, the defaults are 2 sec for
+  // okcoin and 20 sec for all other exchanges.
+  // tickrate: 20
+}
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                       CONFIGURING TRADING ADVICE
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.tradingAdvisor = {
+  enabled: true,
+  method: 'TEMA',
+  candleSize: 5,
+  historySize: 12,
+}
+
+config.bestone_updated_hardcoded = {
+myStoch: {
+highThreshold: 80,
+lowThreshold: 20,
+optInFastKPeriod: 14,
+optInSlowKPeriod: 5,
+optInSlowDPeriod: 5 
+},
+myLongEma: {
+optInTimePeriod: 100 
+},
+myShortEma: {
+optInTimePeriod: 50 
+},
+stopLoss: {
+percent: 0.9 }
+};
+
+config.BodhiDI_public = { 
+optInTimePeriod: 14,
+diplus: 23.5,
+diminus: 23
+};
+
+config.buyatsellat_ui = { 
+buyat: 1.20,
+sellat: 0.98,
+stop_loss_pct: 0.85,
+sellat_up: 1.01
+};
+
+config.DynBuySell = { 
+thresholds:  {
+interval: 8,
+sell_at: 1.05,
+buy_at: 0.97,
+buy_at_up: 1.003,
+stop_loss_pct: 0.85 }
+};
+
+config.RSI_BULL_BEAR = { 
+SMA_long: 1000,
+SMA_short: 50,
+BULL_RSI: 10,
+BULL_RSI_high: 80,
+BULL_RSI_low: 60,
+BEAR_RSI: 15,
+BEAR_RSI_high: 50,
+BEAR_RSI_low: 20
+};
+
+config.RSI_BULL_BEAR_ADX = { 
+SMA_long: 1000,
+SMA_short: 50, 
+BULL_RSI: 10, 
+BULL_RSI_high: 80, 
+BULL_RSI_low: 60, 
+BEAR_RSI: 15, 
+BEAR_RSI_high: 50, 
+BEAR_RSI_low: 20,
+ADX: 3, 
+ADX_high: 70, 
+ADX_low: 50
+};
+
+config.rsidyn = { 
+interval: 8,
+sellat: 0.4,
+buyat: 1.5 ,
+stop_percent: 0.96,
+stop_enabled: true
+};
+
+config.TEMA = {
+short: 10,
+long: 80,
+
+SMA_long: 200
+};
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                       CONFIGURING PLUGINS
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+// do you want Gekko to simulate the profit of the strategy's own advice?
+config.paperTrader = {
+  enabled: true,
+  // report the profit in the currency or the asset?
+  reportInCurrency: true,
+  // start balance, on what the current balance is compared with
+  simulationBalance: {
+    // these are in the unit types configured in the watcher.
+    asset: 0,
+    currency: 400,
+  },
+  // how much fee in % does each trade cost?
+  feeMaker: 0.1,
+  feeTaker: 0.1,
+  feeUsing: 'maker',
+  // how much slippage/spread should Gekko assume per trade?
+  slippage: 0.05,
+}
+
+config.performanceAnalyzer = {
+  enabled: true,
+  riskFreeReturn: 5
+}
+
+config.trader = {
+  enabled: false,
+  key: '',
+  secret: '',
+  username: '', // your username, only required for specific exchanges.
+  passphrase: '', // GDAX, requires a passphrase.
+  orderUpdateDelay: 1, // Number of minutes to adjust unfilled order prices
+}
+
+config.adviceLogger = {
+  enabled: false,
+  muteSoft: true // disable advice printout if it's soft
+}
+
+config.candleWriter = {
+  enabled: false
+}
+
+config.adviceWriter = {
+  enabled: false,
+  muteSoft: true,
+}
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                       CONFIGURING ADAPTER
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.adapter = 'sqlite';
+
+config.sqlite = {
+  path: 'plugins/sqlite',
+
+  dataDirectory: 'history',
+  version: 0.1,
+
+  journalMode: require('./web/isWindows.js') ? 'DELETE' : 'WAL',
+
+  dependencies: []
+}
+
+config.backtest = {
+  daterange:  'scan',
+  batchSize: 50
+}
+
+// set this to true if you understand that Gekko will
+// invest according to how you configured the indicators.
+// None of the advice in the output is Gekko telling you
+// to take a certain position. Instead it is the result
+// of running the indicators you configured automatically.
+//
+// In other words: Gekko automates your trading strategies,
+// it doesn't advice on itself, only set to true if you truly
+// understand this.
+//
+// Not sure? Read this first: https://github.com/askmike/gekko/issues/201
+config['I understand that Gekko only automates MY OWN trading strategies'] = true;
+
+module.exports = config;
+
+    ______   ________  __    __  __    __   ______
+   /      \ /        |/  |  /  |/  |  /  | /      \
+  /$$$$$$  |$$$$$$$$/ $$ | /$$/ $$ | /$$/ /$$$$$$  |
+  $$ | _$$/ $$ |__    $$ |/$$/  $$ |/$$/  $$ |  $$ |
+  $$ |/    |$$    |   $$  $$<   $$  $$<   $$ |  $$ |
+  $$ |$$$$ |$$$$$/    $$$$$  \  $$$$$  \  $$ |  $$ |
+  $$ \__$$ |$$ |_____ $$ |$$  \ $$ |$$  \ $$ \__$$ |
+  $$    $$/ $$       |$$ | $$  |$$ | $$  |$$    $$/ 
+   $$$$$$/  $$$$$$$$/ $$/   $$/ $$/   $$/  $$$$$$/
+
+	Gekko v0.5.13
+	I'm gonna make you rich, Bud Fox. 
+
+
+2018-02-13 18:25:57 (INFO):	Setting up Gekko in backtest mode
+2018-02-13 18:25:57 (INFO):	
+2018-02-13 18:25:57 (INFO):	Setting up:
+2018-02-13 18:25:57 (INFO):		 Trading Advisor
+2018-02-13 18:25:57 (INFO):		 Calculate trading advice
+2018-02-13 18:25:57 (INFO):		 Using the strategy: TEMA
+2018-02-13 18:25:57 (INFO):	
+
+2018-02-13 18:25:57 (INFO):	Setting up:
+2018-02-13 18:25:57 (INFO):		 Paper Trader
+2018-02-13 18:25:57 (INFO):		 Paper trader that simulates fake trades.
+2018-02-13 18:25:57 (INFO):	
+
+2018-02-13 18:25:57 (INFO):	Setting up:
+2018-02-13 18:25:57 (INFO):		 Performance Analyzer
+2018-02-13 18:25:57 (INFO):		 Analyzes performances of trades
+2018-02-13 18:25:57 (INFO):	
+
+2018-02-13 18:25:58 (INFO):	Scanning local history for backtestable dateranges.
+2018-02-13 18:25:58 (DEBUG):	Available 20020
+2018-02-13 18:25:58 (DEBUG):	Optimal 20019
+2018-02-13 18:25:58 (INFO):	Gekko is able to fully use the local history.
+2018-02-13 18:25:58 (INFO):	Gekko was able to find a single daterange in the locally stored history:
+2018-02-13 18:25:58 (INFO):		 from: 2018-01-24 15:53:00
+2018-02-13 18:25:58 (INFO):		 to: 2018-02-07 13:32:00
+
+2018-02-13 18:25:58 (INFO):		WARNING: BACKTESTING FEATURE NEEDS PROPER TESTING
+2018-02-13 18:25:58 (INFO):		WARNING: ACT ON THESE NUMBERS AT YOUR OWN RISK!
+
+2018-02-13 18:25:58 (INFO):	2018-01-25 12:38:00: Paper trader simulated a SELL 	400.00000000 USD <= 0.00000000 TRX
+2018-02-13 18:25:59 (INFO):	2018-01-26 02:23:00: Paper trader simulated a BUY 	0.00000000 USD	=> 5707.34495570 TRX
+2018-02-13 18:25:59 (INFO):	2018-01-26 02:43:00: Paper trader simulated a SELL 	390.48067545 USD <= 0.00000000 TRX
+2018-02-13 18:25:59 (INFO):	2018-01-26 03:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 5499.22361688 TRX
+2018-02-13 18:25:59 (INFO):	2018-01-26 04:48:00: Paper trader simulated a SELL 	389.63407951 USD <= 0.00000000 TRX
+2018-02-13 18:25:59 (INFO):	2018-01-26 17:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 5704.54000572 TRX
+2018-02-13 18:25:59 (INFO):	2018-01-26 17:58:00: Paper trader simulated a SELL 	386.52372367 USD <= 0.00000000 TRX
+2018-02-13 18:26:00 (INFO):	2018-01-27 00:43:00: Paper trader simulated a BUY 	0.00000000 USD	=> 5730.50732875 TRX
+2018-02-13 18:26:00 (INFO):	2018-01-27 02:08:00: Paper trader simulated a SELL 	375.12280047 USD <= 0.00000000 TRX
+2018-02-13 18:26:00 (INFO):	2018-01-27 03:23:00: Paper trader simulated a BUY 	0.00000000 USD	=> 5686.43999862 TRX
+2018-02-13 18:26:00 (INFO):	2018-01-27 03:33:00: Paper trader simulated a SELL 	373.08413253 USD <= 0.00000000 TRX
+2018-02-13 18:26:00 (INFO):	2018-01-27 07:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 5439.10799140 TRX
+2018-02-13 18:26:00 (INFO):	2018-01-27 08:48:00: Paper trader simulated a SELL 	366.04598480 USD <= 0.00000000 TRX
+2018-02-13 18:26:00 (INFO):	2018-01-27 11:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 5304.74478697 TRX
+2018-02-13 18:26:01 (INFO):	2018-01-27 12:28:00: Paper trader simulated a SELL 	356.26723545 USD <= 0.00000000 TRX
+2018-02-13 18:26:01 (INFO):	2018-01-27 16:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 5216.86539759 TRX
+2018-02-13 18:26:01 (INFO):	2018-01-27 18:48:00: Paper trader simulated a SELL 	359.35604934 USD <= 0.00000000 TRX
+2018-02-13 18:26:01 (INFO):	2018-01-27 20:23:00: Paper trader simulated a BUY 	0.00000000 USD	=> 5148.02030510 TRX
+2018-02-13 18:26:01 (INFO):	2018-01-27 21:03:00: Paper trader simulated a SELL 	359.71807325 USD <= 0.00000000 TRX
+2018-02-13 18:26:01 (INFO):	2018-01-27 23:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 5147.51990111 TRX
+2018-02-13 18:26:01 (INFO):	2018-01-27 23:43:00: Paper trader simulated a SELL 	354.64610486 USD <= 0.00000000 TRX
+2018-02-13 18:26:01 (INFO):	2018-01-28 00:43:00: Paper trader simulated a BUY 	0.00000000 USD	=> 5138.41885950 TRX
+2018-02-13 18:26:01 (INFO):	2018-01-28 00:48:00: Paper trader simulated a SELL 	349.66310111 USD <= 0.00000000 TRX
+2018-02-13 18:26:01 (INFO):	2018-01-28 00:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 5004.20826525 TRX
+2018-02-13 18:26:01 (INFO):	2018-01-28 00:58:00: Paper trader simulated a SELL 	348.56992823 USD <= 0.00000000 TRX
+2018-02-13 18:26:01 (INFO):	2018-01-28 01:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 4972.10104768 TRX
+2018-02-13 18:26:01 (INFO):	2018-01-28 02:33:00: Paper trader simulated a SELL 	344.04975270 USD <= 0.00000000 TRX
+2018-02-13 18:26:02 (INFO):	2018-01-28 04:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 4938.73802198 TRX
+2018-02-13 18:26:02 (INFO):	2018-01-28 04:58:00: Paper trader simulated a SELL 	343.01837755 USD <= 0.00000000 TRX
+2018-02-13 18:26:02 (INFO):	2018-01-28 05:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 4954.48936762 TRX
+2018-02-13 18:26:02 (INFO):	2018-01-28 08:38:00: Paper trader simulated a SELL 	353.95702662 USD <= 0.00000000 TRX
+2018-02-13 18:26:05 (INFO):	2018-01-29 19:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 5375.38352035 TRX
+2018-02-13 18:26:05 (INFO):	2018-01-29 19:18:00: Paper trader simulated a SELL 	348.87582892 USD <= 0.00000000 TRX
+2018-02-13 18:26:05 (INFO):	2018-01-29 19:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 5316.81672761 TRX
+2018-02-13 18:26:05 (INFO):	2018-01-29 19:38:00: Paper trader simulated a SELL 	346.70982084 USD <= 0.00000000 TRX
+2018-02-13 18:26:10 (INFO):	2018-01-31 14:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 6334.78665865 TRX
+2018-02-13 18:26:10 (INFO):	2018-01-31 14:38:00: Paper trader simulated a SELL 	339.91446259 USD <= 0.00000000 TRX
+2018-02-13 18:26:10 (INFO):	2018-01-31 20:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 6262.07732280 TRX
+2018-02-13 18:26:11 (INFO):	2018-01-31 21:28:00: Paper trader simulated a SELL 	338.45779611 USD <= 0.00000000 TRX
+2018-02-13 18:26:11 (INFO):	2018-01-31 21:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 6144.54744392 TRX
+2018-02-13 18:26:11 (INFO):	2018-01-31 22:28:00: Paper trader simulated a SELL 	333.20980612 USD <= 0.00000000 TRX
+2018-02-13 18:26:11 (INFO):	2018-02-01 01:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 5917.79003612 TRX
+2018-02-13 18:26:12 (INFO):	2018-02-01 03:13:00: Paper trader simulated a SELL 	342.59879609 USD <= 0.00000000 TRX
+2018-02-13 18:26:12 (INFO):	2018-02-01 06:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 6036.54375224 TRX
+2018-02-13 18:26:12 (INFO):	2018-02-01 07:28:00: Paper trader simulated a SELL 	336.74977939 USD <= 0.00000000 TRX
+2018-02-13 18:26:17 (INFO):	2018-02-02 16:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 7828.74632644 TRX
+2018-02-13 18:26:18 (INFO):	2018-02-02 17:48:00: Paper trader simulated a SELL 	351.05379702 USD <= 0.00000000 TRX
+2018-02-13 18:26:18 (INFO):	2018-02-02 23:43:00: Paper trader simulated a BUY 	0.00000000 USD	=> 8558.00230289 TRX
+2018-02-13 18:26:19 (INFO):	2018-02-03 01:48:00: Paper trader simulated a SELL 	353.76984339 USD <= 0.00000000 TRX
+2018-02-13 18:26:20 (INFO):	2018-02-03 10:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 8122.68185763 TRX
+2018-02-13 18:26:21 (INFO):	2018-02-03 11:33:00: Paper trader simulated a SELL 	338.28075419 USD <= 0.00000000 TRX
+2018-02-13 18:26:21 (INFO):	2018-02-03 13:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 7676.66666042 TRX
+2018-02-13 18:26:21 (INFO):	2018-02-03 13:23:00: Paper trader simulated a SELL 	334.34625027 USD <= 0.00000000 TRX
+2018-02-13 18:26:21 (INFO):	2018-02-03 14:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 6955.09856030 TRX
+2018-02-13 18:26:21 (INFO):	2018-02-03 16:08:00: Paper trader simulated a SELL 	340.06640040 USD <= 0.00000000 TRX
+2018-02-13 18:26:22 (INFO):	2018-02-03 20:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 7160.76468924 TRX
+2018-02-13 18:26:22 (INFO):	2018-02-03 20:53:00: Paper trader simulated a SELL 	338.55361472 USD <= 0.00000000 TRX
+2018-02-13 18:26:23 (INFO):	2018-02-04 00:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 7439.71531092 TRX
+2018-02-13 18:26:23 (INFO):	2018-02-04 01:53:00: Paper trader simulated a SELL 	333.91358042 USD <= 0.00000000 TRX
+2018-02-13 18:26:24 (INFO):	2018-02-04 07:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 7110.68075773 TRX
+2018-02-13 18:26:24 (INFO):	2018-02-04 08:28:00: Paper trader simulated a SELL 	329.34838358 USD <= 0.00000000 TRX
+2018-02-13 18:26:30 (INFO):	2018-02-05 07:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 8411.88829499 TRX
+2018-02-13 18:26:30 (INFO):	2018-02-05 07:18:00: Paper trader simulated a SELL 	330.41050145 USD <= 0.00000000 TRX
+2018-02-13 18:26:36 (INFO):	2018-02-06 14:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 10999.72946013 TRX
+2018-02-13 18:26:37 (INFO):	2018-02-06 15:53:00: Paper trader simulated a SELL 	333.69248978 USD <= 0.00000000 TRX
+2018-02-13 18:26:38 (INFO):	2018-02-06 20:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 10252.06003216 TRX
+2018-02-13 18:26:38 (INFO):	2018-02-06 22:23:00: Paper trader simulated a SELL 	364.42587713 USD <= 0.00000000 TRX
+2018-02-13 18:26:40 (INFO):	2018-02-07 05:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 10712.09745103 TRX
+2018-02-13 18:26:40 (INFO):	2018-02-07 06:08:00: Paper trader simulated a SELL 	363.44037974 USD <= 0.00000000 TRX
+2018-02-13 18:26:40 (INFO):	2018-02-07 06:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 10515.65398928 TRX
+2018-02-13 18:26:40 (INFO):	2018-02-07 06:38:00: Paper trader simulated a SELL 	351.68299774 USD <= 0.00000000 TRX
+2018-02-13 18:26:41 (INFO):	2018-02-07 09:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 10149.00211686 TRX
+2018-02-13 18:26:42 (INFO):	2018-02-07 12:38:00: Paper trader simulated a SELL 	381.01994209 USD <= 0.00000000 TRX
+2018-02-13 18:26:42 (DEBUG):	Finished in 44.549 seconds
+2018-02-13 18:26:42 (INFO):	
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) REPORT:
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) entry date (UTC)  	exit date (UTC)  	exposed duration	P&L 	profit
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-01-26 01:23	2018-01-26 01:43	20 minutes      	-8.92	-2.23
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-01-26 02:28	2018-01-26 03:48	an hour         	-0.26	-0.07
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-01-26 16:13	2018-01-26 16:58	an hour         	-2.53	-0.65
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-01-26 23:43	2018-01-27 01:08	an hour         	-10.82	-2.80
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-01-27 02:23	2018-01-27 02:33	10 minutes      	-1.48	-0.39
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-01-27 06:28	2018-01-27 07:48	an hour         	-6.48	-1.74
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-01-27 10:13	2018-01-27 11:28	an hour         	-9.23	-2.53
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-01-27 15:38	2018-01-27 17:48	2 hours         	3.62	1.02
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-01-27 19:23	2018-01-27 20:03	40 minutes      	0.90	0.25
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-01-27 22:18	2018-01-27 22:43	25 minutes      	-4.53	-1.26
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-01-27 23:43	2018-01-27 23:48	5 minutes       	-4.45	-1.26
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-01-27 23:53	2018-01-27 23:58	5 minutes       	-0.57	-0.16
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-01-28 00:33	2018-01-28 01:33	an hour         	-4.00	-1.15
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-01-28 03:53	2018-01-28 03:58	5 minutes       	-0.52	-0.15
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-01-28 04:03	2018-01-28 07:38	4 hours         	11.45	3.34
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-01-29 18:03	2018-01-29 18:18	15 minutes      	-4.55	-1.29
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-01-29 18:33	2018-01-29 18:38	5 minutes       	-1.64	-0.47
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-01-31 13:13	2018-01-31 13:38	25 minutes      	-6.28	-1.81
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-01-31 19:03	2018-01-31 20:28	an hour         	-0.95	-0.28
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-01-31 20:48	2018-01-31 21:28	40 minutes      	-4.74	-1.40
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-02-01 00:28	2018-02-01 02:13	2 hours         	9.89	2.97
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-02-01 05:53	2018-02-01 06:28	35 minutes      	-5.34	-1.56
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-02-02 15:38	2018-02-02 16:48	an hour         	14.81	4.40
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-02-02 22:43	2018-02-03 00:48	2 hours         	3.24	0.93
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-02-03 09:03	2018-02-03 10:33	2 hours         	-14.96	-4.23
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-02-03 12:13	2018-02-03 12:23	10 minutes      	-3.43	-1.01
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-02-03 13:48	2018-02-03 15:08	an hour         	6.22	1.86
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-02-03 19:33	2018-02-03 19:53	20 minutes      	-1.00	-0.30
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-02-03 23:28	2018-02-04 00:53	an hour         	-4.13	-1.22
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-02-04 06:38	2018-02-04 07:28	an hour         	-4.06	-1.22
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-02-05 06:13	2018-02-05 06:18	5 minutes       	1.56	0.47
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-02-06 13:33	2018-02-06 14:53	an hour         	3.78	1.15
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-02-06 19:38	2018-02-06 21:23	2 hours         	31.23	9.37
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-02-07 04:58	2018-02-07 05:08	10 minutes      	-0.44	-0.12
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-02-07 05:18	2018-02-07 05:38	20 minutes      	-11.21	-3.09
+2018-02-13 18:26:42 (INFO):	(ROUNDTRIP) 2018-02-07 08:28	2018-02-07 11:38	3 hours         	29.86	8.50
+2018-02-13 18:26:42 (INFO):	
+2018-02-13 18:26:42 (INFO):	(PROFIT REPORT) start time:			 2018-01-24 15:53:00
+2018-02-13 18:26:42 (INFO):	(PROFIT REPORT) end time:			 2018-02-07 13:32:00
+2018-02-13 18:26:42 (INFO):	(PROFIT REPORT) timespan:			 14 days
+2018-02-13 18:26:42 (INFO):	(PROFIT REPORT) sharpe ratio:			 -1.789937584963763
+2018-02-13 18:26:42 (INFO):	
+2018-02-13 18:26:42 (INFO):	(PROFIT REPORT) start price:			 0.084 USD
+2018-02-13 18:26:42 (INFO):	(PROFIT REPORT) end price:			 0.04077 USD
+2018-02-13 18:26:42 (INFO):	(PROFIT REPORT) Market:				 -51.46428571%
+2018-02-13 18:26:42 (INFO):	
+2018-02-13 18:26:42 (INFO):	(PROFIT REPORT) amount of trades:		 73
+2018-02-13 18:26:42 (INFO):	(PROFIT REPORT) original simulated balance:	 400.00000000 USD
+2018-02-13 18:26:42 (INFO):	(PROFIT REPORT) current simulated balance:	 381.01994209 USD
+2018-02-13 18:26:42 (INFO):	(PROFIT REPORT) simulated profit:		 -18.98005791 USD (-4.74501448%)
+2018-02-13 18:26:42 (INFO):	(PROFIT REPORT) simulated yearly profit:	 -498.65359277 USD (-124.66339819%)

@@ -1,0 +1,576 @@
+
+// Everything is explained here:
+// @link https://gekko.wizb.it/docs/commandline/plugins.html
+
+var config = {};
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                          GENERAL SETTINGS
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.debug = true; // for additional logging / debugging
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                         WATCHING A MARKET
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.watch = {
+
+  // see https://gekko.wizb.it/docs/introduction/supported_exchanges.html
+  exchange: 'bitfinex',
+  currency: 'USD',
+  asset: 'BAT',
+
+  // You can set your own tickrate (refresh rate).
+  // If you don't set it, the defaults are 2 sec for
+  // okcoin and 20 sec for all other exchanges.
+  // tickrate: 20
+}
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                       CONFIGURING TRADING ADVICE
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.tradingAdvisor = {
+  enabled: true,
+  method: 'TEMA',
+  candleSize: 5,
+  historySize: 12,
+}
+
+config.bestone_updated_hardcoded = {
+myStoch: {
+highThreshold: 80,
+lowThreshold: 20,
+optInFastKPeriod: 14,
+optInSlowKPeriod: 5,
+optInSlowDPeriod: 5 
+},
+myLongEma: {
+optInTimePeriod: 100 
+},
+myShortEma: {
+optInTimePeriod: 50 
+},
+stopLoss: {
+percent: 0.9 }
+};
+
+config.BodhiDI_public = { 
+optInTimePeriod: 14,
+diplus: 23.5,
+diminus: 23
+};
+
+config.buyatsellat_ui = { 
+buyat: 1.20,
+sellat: 0.98,
+stop_loss_pct: 0.85,
+sellat_up: 1.01
+};
+
+config.DynBuySell = { 
+thresholds:  {
+interval: 8,
+sell_at: 1.05,
+buy_at: 0.97,
+buy_at_up: 1.003,
+stop_loss_pct: 0.85 }
+};
+
+config.RSI_BULL_BEAR = { 
+SMA_long: 1000,
+SMA_short: 50,
+BULL_RSI: 10,
+BULL_RSI_high: 80,
+BULL_RSI_low: 60,
+BEAR_RSI: 15,
+BEAR_RSI_high: 50,
+BEAR_RSI_low: 20
+};
+
+config.RSI_BULL_BEAR_ADX = { 
+SMA_long: 1000,
+SMA_short: 50, 
+BULL_RSI: 10, 
+BULL_RSI_high: 80, 
+BULL_RSI_low: 60, 
+BEAR_RSI: 15, 
+BEAR_RSI_high: 50, 
+BEAR_RSI_low: 20,
+ADX: 3, 
+ADX_high: 70, 
+ADX_low: 50
+};
+
+config.rsidyn = { 
+interval: 8,
+sellat: 0.4,
+buyat: 1.5 ,
+stop_percent: 0.96,
+stop_enabled: true
+};
+
+config.TEMA = {
+short: 10,
+long: 80,
+
+SMA_long: 200
+};
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                       CONFIGURING PLUGINS
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+// do you want Gekko to simulate the profit of the strategy's own advice?
+config.paperTrader = {
+  enabled: true,
+  // report the profit in the currency or the asset?
+  reportInCurrency: true,
+  // start balance, on what the current balance is compared with
+  simulationBalance: {
+    // these are in the unit types configured in the watcher.
+    asset: 0,
+    currency: 400,
+  },
+  // how much fee in % does each trade cost?
+  feeMaker: 0.1,
+  feeTaker: 0.1,
+  feeUsing: 'maker',
+  // how much slippage/spread should Gekko assume per trade?
+  slippage: 0.05,
+}
+
+config.performanceAnalyzer = {
+  enabled: true,
+  riskFreeReturn: 5
+}
+
+config.trader = {
+  enabled: false,
+  key: '',
+  secret: '',
+  username: '', // your username, only required for specific exchanges.
+  passphrase: '', // GDAX, requires a passphrase.
+  orderUpdateDelay: 1, // Number of minutes to adjust unfilled order prices
+}
+
+config.adviceLogger = {
+  enabled: false,
+  muteSoft: true // disable advice printout if it's soft
+}
+
+config.candleWriter = {
+  enabled: false
+}
+
+config.adviceWriter = {
+  enabled: false,
+  muteSoft: true,
+}
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                       CONFIGURING ADAPTER
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.adapter = 'sqlite';
+
+config.sqlite = {
+  path: 'plugins/sqlite',
+
+  dataDirectory: 'history',
+  version: 0.1,
+
+  journalMode: require('./web/isWindows.js') ? 'DELETE' : 'WAL',
+
+  dependencies: []
+}
+
+config.backtest = {
+  daterange:  'scan',
+  batchSize: 50
+}
+
+// set this to true if you understand that Gekko will
+// invest according to how you configured the indicators.
+// None of the advice in the output is Gekko telling you
+// to take a certain position. Instead it is the result
+// of running the indicators you configured automatically.
+//
+// In other words: Gekko automates your trading strategies,
+// it doesn't advice on itself, only set to true if you truly
+// understand this.
+//
+// Not sure? Read this first: https://github.com/askmike/gekko/issues/201
+config['I understand that Gekko only automates MY OWN trading strategies'] = true;
+
+module.exports = config;
+
+    ______   ________  __    __  __    __   ______
+   /      \ /        |/  |  /  |/  |  /  | /      \
+  /$$$$$$  |$$$$$$$$/ $$ | /$$/ $$ | /$$/ /$$$$$$  |
+  $$ | _$$/ $$ |__    $$ |/$$/  $$ |/$$/  $$ |  $$ |
+  $$ |/    |$$    |   $$  $$<   $$  $$<   $$ |  $$ |
+  $$ |$$$$ |$$$$$/    $$$$$  \  $$$$$  \  $$ |  $$ |
+  $$ \__$$ |$$ |_____ $$ |$$  \ $$ |$$  \ $$ \__$$ |
+  $$    $$/ $$       |$$ | $$  |$$ | $$  |$$    $$/ 
+   $$$$$$/  $$$$$$$$/ $$/   $$/ $$/   $$/  $$$$$$/
+
+	Gekko v0.5.13
+	I'm gonna make you rich, Bud Fox. 
+
+
+2018-02-13 17:39:33 (INFO):	Setting up Gekko in backtest mode
+2018-02-13 17:39:33 (INFO):	
+2018-02-13 17:39:33 (INFO):	Setting up:
+2018-02-13 17:39:33 (INFO):		 Trading Advisor
+2018-02-13 17:39:33 (INFO):		 Calculate trading advice
+2018-02-13 17:39:33 (INFO):		 Using the strategy: TEMA
+2018-02-13 17:39:33 (INFO):	
+
+2018-02-13 17:39:33 (INFO):	Setting up:
+2018-02-13 17:39:33 (INFO):		 Paper Trader
+2018-02-13 17:39:33 (INFO):		 Paper trader that simulates fake trades.
+2018-02-13 17:39:33 (INFO):	
+
+2018-02-13 17:39:33 (INFO):	Setting up:
+2018-02-13 17:39:33 (INFO):		 Performance Analyzer
+2018-02-13 17:39:33 (INFO):		 Analyzes performances of trades
+2018-02-13 17:39:33 (INFO):	
+
+2018-02-13 17:39:33 (INFO):	Scanning local history for backtestable dateranges.
+2018-02-13 17:39:33 (DEBUG):	Available 46887
+2018-02-13 17:39:33 (DEBUG):	Optimal 46886
+2018-02-13 17:39:33 (INFO):	Gekko is able to fully use the local history.
+2018-02-13 17:39:33 (INFO):	Gekko was able to find a single daterange in the locally stored history:
+2018-02-13 17:39:33 (INFO):		 from: 2018-01-08 21:38:00
+2018-02-13 17:39:33 (INFO):		 to: 2018-02-10 11:04:00
+
+2018-02-13 17:39:33 (INFO):		WARNING: BACKTESTING FEATURE NEEDS PROPER TESTING
+2018-02-13 17:39:33 (INFO):		WARNING: ACT ON THESE NUMBERS AT YOUR OWN RISK!
+
+2018-02-13 17:39:34 (INFO):	2018-01-09 18:23:00: Paper trader simulated a BUY 	0.00000000 USD	=> 438.61190423 BAT
+2018-02-13 17:39:34 (INFO):	2018-01-09 20:23:00: Paper trader simulated a SELL 	406.20232236 USD <= 0.00000000 BAT
+2018-02-13 17:39:34 (INFO):	2018-01-09 20:43:00: Paper trader simulated a BUY 	0.00000000 USD	=> 437.53292219 BAT
+2018-02-13 17:39:34 (INFO):	2018-01-09 22:53:00: Paper trader simulated a SELL 	414.61775887 USD <= 0.00000000 BAT
+2018-02-13 17:39:35 (INFO):	2018-01-10 17:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 505.73641855 BAT
+2018-02-13 17:39:35 (INFO):	2018-01-10 18:38:00: Paper trader simulated a SELL 	408.72904258 USD <= 0.00000000 BAT
+2018-02-13 17:39:35 (INFO):	2018-01-10 22:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 502.01851161 BAT
+2018-02-13 17:39:35 (INFO):	2018-01-10 23:18:00: Paper trader simulated a SELL 	397.44838948 USD <= 0.00000000 BAT
+2018-02-13 17:39:35 (INFO):	2018-01-11 01:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 509.85690027 BAT
+2018-02-13 17:39:35 (INFO):	2018-01-11 01:38:00: Paper trader simulated a SELL 	394.28675208 USD <= 0.00000000 BAT
+2018-02-13 17:39:37 (INFO):	2018-01-12 05:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 567.65239990 BAT
+2018-02-13 17:39:37 (INFO):	2018-01-12 08:18:00: Paper trader simulated a SELL 	427.88935150 USD <= 0.00000000 BAT
+2018-02-13 17:39:37 (INFO):	2018-01-12 14:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 565.95071990 BAT
+2018-02-13 17:39:37 (INFO):	2018-01-12 14:43:00: Paper trader simulated a SELL 	429.47736330 USD <= 0.00000000 BAT
+2018-02-13 17:39:38 (INFO):	2018-01-13 01:23:00: Paper trader simulated a BUY 	0.00000000 USD	=> 576.61339400 BAT
+2018-02-13 17:39:38 (INFO):	2018-01-13 01:33:00: Paper trader simulated a SELL 	419.73215244 USD <= 0.00000000 BAT
+2018-02-13 17:39:38 (INFO):	2018-01-13 01:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 555.47058212 BAT
+2018-02-13 17:39:38 (INFO):	2018-01-13 03:03:00: Paper trader simulated a SELL 	408.38504650 USD <= 0.00000000 BAT
+2018-02-13 17:39:38 (INFO):	2018-01-13 05:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 546.02633761 BAT
+2018-02-13 17:39:38 (INFO):	2018-01-13 05:48:00: Paper trader simulated a SELL 	403.45885266 USD <= 0.00000000 BAT
+2018-02-13 17:39:38 (INFO):	2018-01-13 06:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 535.26834841 BAT
+2018-02-13 17:39:38 (INFO):	2018-01-13 07:53:00: Paper trader simulated a SELL 	401.46906433 USD <= 0.00000000 BAT
+2018-02-13 17:39:38 (INFO):	2018-01-13 08:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 529.56070270 BAT
+2018-02-13 17:39:38 (INFO):	2018-01-13 09:33:00: Paper trader simulated a SELL 	399.17630173 USD <= 0.00000000 BAT
+2018-02-13 17:39:39 (INFO):	2018-01-13 12:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 529.24915320 BAT
+2018-02-13 17:39:39 (INFO):	2018-01-13 12:08:00: Paper trader simulated a SELL 	393.01219134 USD <= 0.00000000 BAT
+2018-02-13 17:39:39 (INFO):	2018-01-13 13:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 512.97081444 BAT
+2018-02-13 17:39:39 (INFO):	2018-01-13 14:58:00: Paper trader simulated a SELL 	396.34141098 USD <= 0.00000000 BAT
+2018-02-13 17:39:39 (INFO):	2018-01-13 19:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 508.01912562 BAT
+2018-02-13 17:39:39 (INFO):	2018-01-13 20:58:00: Paper trader simulated a SELL 	389.16764476 USD <= 0.00000000 BAT
+2018-02-13 17:39:40 (INFO):	2018-01-13 23:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 501.14638219 BAT
+2018-02-13 17:39:40 (INFO):	2018-01-14 00:33:00: Paper trader simulated a SELL 	381.30073291 USD <= 0.00000000 BAT
+2018-02-13 17:39:44 (INFO):	2018-01-15 18:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 574.25155627 BAT
+2018-02-13 17:39:44 (INFO):	2018-01-15 19:23:00: Paper trader simulated a SELL 	379.46962041 USD <= 0.00000000 BAT
+2018-02-13 17:39:45 (INFO):	2018-01-15 23:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 557.36222765 BAT
+2018-02-13 17:39:45 (INFO):	2018-01-16 00:43:00: Paper trader simulated a SELL 	372.71115089 USD <= 0.00000000 BAT
+2018-02-13 17:39:49 (INFO):	2018-01-17 03:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 761.82617024 BAT
+2018-02-13 17:39:49 (INFO):	2018-01-17 03:53:00: Paper trader simulated a SELL 	357.52121256 USD <= 0.00000000 BAT
+2018-02-13 17:39:49 (INFO):	2018-01-17 08:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 777.74494714 BAT
+2018-02-13 17:39:50 (INFO):	2018-01-17 09:48:00: Paper trader simulated a SELL 	347.20040543 USD <= 0.00000000 BAT
+2018-02-13 17:39:51 (INFO):	2018-01-17 21:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 772.11493278 BAT
+2018-02-13 17:39:52 (INFO):	2018-01-17 23:58:00: Paper trader simulated a SELL 	404.44391649 USD <= 0.00000000 BAT
+2018-02-13 17:39:52 (INFO):	2018-01-18 01:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 661.16118306 BAT
+2018-02-13 17:39:52 (INFO):	2018-01-18 01:33:00: Paper trader simulated a SELL 	400.72285086 USD <= 0.00000000 BAT
+2018-02-13 17:39:54 (INFO):	2018-01-18 10:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 678.63257561 BAT
+2018-02-13 17:39:54 (INFO):	2018-01-18 14:53:00: Paper trader simulated a SELL 	413.34492231 USD <= 0.00000000 BAT
+2018-02-13 17:39:54 (INFO):	2018-01-18 15:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 647.91978795 BAT
+2018-02-13 17:39:55 (INFO):	2018-01-18 17:33:00: Paper trader simulated a SELL 	398.19643753 USD <= 0.00000000 BAT
+2018-02-13 17:39:56 (INFO):	2018-01-18 21:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 629.94984294 BAT
+2018-02-13 17:39:56 (INFO):	2018-01-18 22:53:00: Paper trader simulated a SELL 	375.51593615 USD <= 0.00000000 BAT
+2018-02-13 17:39:58 (INFO):	2018-01-19 09:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 614.67649548 BAT
+2018-02-13 17:39:58 (INFO):	2018-01-19 10:38:00: Paper trader simulated a SELL 	368.25268844 USD <= 0.00000000 BAT
+2018-02-13 17:40:00 (INFO):	2018-01-19 17:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 602.78739247 BAT
+2018-02-13 17:40:00 (INFO):	2018-01-19 18:48:00: Paper trader simulated a SELL 	358.42145237 USD <= 0.00000000 BAT
+2018-02-13 17:40:01 (INFO):	2018-01-20 03:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 581.92491088 BAT
+2018-02-13 17:40:02 (INFO):	2018-01-20 05:23:00: Paper trader simulated a SELL 	363.15751469 USD <= 0.00000000 BAT
+2018-02-13 17:40:02 (INFO):	2018-01-20 06:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 558.72539047 BAT
+2018-02-13 17:40:02 (INFO):	2018-01-20 06:58:00: Paper trader simulated a SELL 	362.62674654 USD <= 0.00000000 BAT
+2018-02-13 17:40:04 (INFO):	2018-01-20 14:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 564.01826630 BAT
+2018-02-13 17:40:04 (INFO):	2018-01-20 15:43:00: Paper trader simulated a SELL 	367.18829976 USD <= 0.00000000 BAT
+2018-02-13 17:40:04 (INFO):	2018-01-20 16:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 561.50933043 BAT
+2018-02-13 17:40:04 (INFO):	2018-01-20 16:28:00: Paper trader simulated a SELL 	368.35826264 USD <= 0.00000000 BAT
+2018-02-13 17:40:04 (INFO):	2018-01-20 18:23:00: Paper trader simulated a BUY 	0.00000000 USD	=> 546.26505658 BAT
+2018-02-13 17:40:05 (INFO):	2018-01-20 18:53:00: Paper trader simulated a SELL 	358.67961089 USD <= 0.00000000 BAT
+2018-02-13 17:40:05 (INFO):	2018-01-20 19:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 528.46627043 BAT
+2018-02-13 17:40:05 (INFO):	2018-01-20 20:28:00: Paper trader simulated a SELL 	357.73629747 USD <= 0.00000000 BAT
+2018-02-13 17:40:11 (INFO):	2018-01-22 01:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 615.86153969 BAT
+2018-02-13 17:40:12 (INFO):	2018-01-22 02:43:00: Paper trader simulated a SELL 	339.98678177 USD <= 0.00000000 BAT
+2018-02-13 17:40:12 (INFO):	2018-01-22 05:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 601.88787914 BAT
+2018-02-13 17:40:12 (INFO):	2018-01-22 05:38:00: Paper trader simulated a SELL 	335.34965640 USD <= 0.00000000 BAT
+2018-02-13 17:40:13 (INFO):	2018-01-22 08:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 587.65642666 BAT
+2018-02-13 17:40:13 (INFO):	2018-01-22 08:53:00: Paper trader simulated a SELL 	330.95867054 USD <= 0.00000000 BAT
+2018-02-13 17:40:13 (INFO):	2018-01-22 09:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 472.08890362 BAT
+2018-02-13 17:40:13 (INFO):	2018-01-22 10:03:00: Paper trader simulated a SELL 	265.79276112 USD <= 0.00000000 BAT
+2018-02-13 17:40:19 (INFO):	2018-01-23 09:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 507.44564431 BAT
+2018-02-13 17:40:19 (INFO):	2018-01-23 11:23:00: Paper trader simulated a SELL 	257.35011212 USD <= 0.00000000 BAT
+2018-02-13 17:40:21 (INFO):	2018-01-23 17:43:00: Paper trader simulated a BUY 	0.00000000 USD	=> 487.60714046 BAT
+2018-02-13 17:40:21 (INFO):	2018-01-23 19:58:00: Paper trader simulated a SELL 	267.24121930 USD <= 0.00000000 BAT
+2018-02-13 17:40:23 (INFO):	2018-01-24 01:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 432.07415633 BAT
+2018-02-13 17:40:23 (INFO):	2018-01-24 02:03:00: Paper trader simulated a SELL 	234.69576853 USD <= 0.00000000 BAT
+2018-02-13 17:40:24 (INFO):	2018-01-24 07:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 427.72039073 BAT
+2018-02-13 17:40:25 (INFO):	2018-01-24 10:18:00: Paper trader simulated a SELL 	228.77757701 USD <= 0.00000000 BAT
+2018-02-13 17:40:26 (INFO):	2018-01-24 12:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 404.30869140 BAT
+2018-02-13 17:40:26 (INFO):	2018-01-24 12:53:00: Paper trader simulated a SELL 	219.69071565 USD <= 0.00000000 BAT
+2018-02-13 17:40:26 (INFO):	2018-01-24 12:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 386.19925981 BAT
+2018-02-13 17:40:26 (INFO):	2018-01-24 15:03:00: Paper trader simulated a SELL 	212.47659846 USD <= 0.00000000 BAT
+2018-02-13 17:40:28 (INFO):	2018-01-24 21:43:00: Paper trader simulated a BUY 	0.00000000 USD	=> 377.64624425 BAT
+2018-02-13 17:40:28 (INFO):	2018-01-24 22:53:00: Paper trader simulated a SELL 	204.97302403 USD <= 0.00000000 BAT
+2018-02-13 17:40:30 (INFO):	2018-01-25 03:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 371.29560700 BAT
+2018-02-13 17:40:30 (INFO):	2018-01-25 05:53:00: Paper trader simulated a SELL 	203.83211724 USD <= 0.00000000 BAT
+2018-02-13 17:40:31 (INFO):	2018-01-25 07:43:00: Paper trader simulated a BUY 	0.00000000 USD	=> 363.85577993 BAT
+2018-02-13 17:40:31 (INFO):	2018-01-25 08:28:00: Paper trader simulated a SELL 	199.53348304 USD <= 0.00000000 BAT
+2018-02-13 17:40:32 (INFO):	2018-01-25 11:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 360.95764695 BAT
+2018-02-13 17:40:32 (INFO):	2018-01-25 11:18:00: Paper trader simulated a SELL 	197.61260404 USD <= 0.00000000 BAT
+2018-02-13 17:40:33 (INFO):	2018-01-25 15:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 357.48276167 BAT
+2018-02-13 17:40:33 (INFO):	2018-01-25 17:18:00: Paper trader simulated a SELL 	199.89006101 USD <= 0.00000000 BAT
+2018-02-13 17:40:34 (INFO):	2018-01-25 19:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 352.27192262 BAT
+2018-02-13 17:40:34 (INFO):	2018-01-25 20:48:00: Paper trader simulated a SELL 	196.09700946 USD <= 0.00000000 BAT
+2018-02-13 17:40:35 (INFO):	2018-01-25 23:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 344.11751132 BAT
+2018-02-13 17:40:35 (INFO):	2018-01-26 00:43:00: Paper trader simulated a SELL 	191.55430827 USD <= 0.00000000 BAT
+2018-02-13 17:40:36 (INFO):	2018-01-26 03:43:00: Paper trader simulated a BUY 	0.00000000 USD	=> 341.37748412 BAT
+2018-02-13 17:40:37 (INFO):	2018-01-26 05:13:00: Paper trader simulated a SELL 	190.03247047 USD <= 0.00000000 BAT
+2018-02-13 17:40:40 (INFO):	2018-01-26 17:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 342.50437141 BAT
+2018-02-13 17:40:40 (INFO):	2018-01-26 17:48:00: Paper trader simulated a SELL 	183.23857143 USD <= 0.00000000 BAT
+2018-02-13 17:40:42 (INFO):	2018-01-27 00:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 325.61614802 BAT
+2018-02-13 17:40:43 (INFO):	2018-01-27 01:53:00: Paper trader simulated a SELL 	183.07291871 USD <= 0.00000000 BAT
+2018-02-13 17:40:44 (INFO):	2018-01-27 05:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 324.68616222 BAT
+2018-02-13 17:40:44 (INFO):	2018-01-27 06:43:00: Paper trader simulated a SELL 	180.73777464 USD <= 0.00000000 BAT
+2018-02-13 17:40:45 (INFO):	2018-01-27 09:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 322.26190710 BAT
+2018-02-13 17:40:46 (INFO):	2018-01-27 12:23:00: Paper trader simulated a SELL 	183.85137189 USD <= 0.00000000 BAT
+2018-02-13 17:40:46 (INFO):	2018-01-27 12:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 300.94359808 BAT
+2018-02-13 17:40:47 (INFO):	2018-01-27 14:18:00: Paper trader simulated a SELL 	183.25515760 USD <= 0.00000000 BAT
+2018-02-13 17:40:47 (INFO):	2018-01-27 17:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 288.15791317 BAT
+2018-02-13 17:40:48 (INFO):	2018-01-27 18:08:00: Paper trader simulated a SELL 	177.75980007 USD <= 0.00000000 BAT
+2018-02-13 17:40:49 (INFO):	2018-01-27 20:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 273.23033877 BAT
+2018-02-13 17:40:49 (INFO):	2018-01-27 21:33:00: Paper trader simulated a SELL 	177.33332062 USD <= 0.00000000 BAT
+2018-02-13 17:40:51 (INFO):	2018-01-28 04:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 287.45628208 BAT
+2018-02-13 17:40:51 (INFO):	2018-01-28 04:43:00: Paper trader simulated a SELL 	175.08530957 USD <= 0.00000000 BAT
+2018-02-13 17:40:52 (INFO):	2018-01-28 07:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 266.09236165 BAT
+2018-02-13 17:40:52 (INFO):	2018-01-28 09:13:00: Paper trader simulated a SELL 	169.47507929 USD <= 0.00000000 BAT
+2018-02-13 17:40:55 (INFO):	2018-01-28 16:23:00: Paper trader simulated a BUY 	0.00000000 USD	=> 262.66335532 BAT
+2018-02-13 17:40:55 (INFO):	2018-01-28 16:43:00: Paper trader simulated a SELL 	168.96703536 USD <= 0.00000000 BAT
+2018-02-13 17:40:55 (INFO):	2018-01-28 16:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 261.87595623 BAT
+2018-02-13 17:40:55 (INFO):	2018-01-28 17:18:00: Paper trader simulated a SELL 	168.46312925 USD <= 0.00000000 BAT
+2018-02-13 17:40:55 (INFO):	2018-01-28 17:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 258.49894663 BAT
+2018-02-13 17:40:56 (INFO):	2018-01-28 19:03:00: Paper trader simulated a SELL 	168.50789575 USD <= 0.00000000 BAT
+2018-02-13 17:40:56 (INFO):	2018-01-28 20:43:00: Paper trader simulated a BUY 	0.00000000 USD	=> 256.87806703 BAT
+2018-02-13 17:40:57 (INFO):	2018-01-28 22:18:00: Paper trader simulated a SELL 	170.05469320 USD <= 0.00000000 BAT
+2018-02-13 17:41:09 (INFO):	2018-01-30 08:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 281.21830268 BAT
+2018-02-13 17:41:10 (INFO):	2018-01-30 10:23:00: Paper trader simulated a SELL 	168.69971435 USD <= 0.00000000 BAT
+2018-02-13 17:41:19 (INFO):	2018-01-31 12:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 325.18661154 BAT
+2018-02-13 17:41:19 (INFO):	2018-01-31 12:23:00: Paper trader simulated a SELL 	168.19399478 USD <= 0.00000000 BAT
+2018-02-13 17:41:22 (INFO):	2018-01-31 18:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 330.25584792 BAT
+2018-02-13 17:41:22 (INFO):	2018-01-31 19:18:00: Paper trader simulated a SELL 	170.19926836 USD <= 0.00000000 BAT
+2018-02-13 17:41:22 (INFO):	2018-01-31 20:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 321.25514075 BAT
+2018-02-13 17:41:23 (INFO):	2018-01-31 21:33:00: Paper trader simulated a SELL 	167.66176651 USD <= 0.00000000 BAT
+2018-02-13 17:41:23 (INFO):	2018-01-31 22:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 317.66655381 BAT
+2018-02-13 17:41:23 (INFO):	2018-01-31 23:08:00: Paper trader simulated a SELL 	164.68190412 USD <= 0.00000000 BAT
+2018-02-13 17:41:24 (INFO):	2018-02-01 01:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 307.93048925 BAT
+2018-02-13 17:41:25 (INFO):	2018-02-01 02:53:00: Paper trader simulated a SELL 	169.10772643 USD <= 0.00000000 BAT
+2018-02-13 17:41:25 (INFO):	2018-02-01 03:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 307.00739061 BAT
+2018-02-13 17:41:25 (INFO):	2018-02-01 03:48:00: Paper trader simulated a SELL 	163.26686803 USD <= 0.00000000 BAT
+2018-02-13 17:41:26 (INFO):	2018-02-01 06:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 305.29030080 BAT
+2018-02-13 17:41:27 (INFO):	2018-02-01 08:28:00: Paper trader simulated a SELL 	162.90241604 USD <= 0.00000000 BAT
+2018-02-13 17:41:34 (INFO):	2018-02-02 00:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 335.37744828 BAT
+2018-02-13 17:41:34 (INFO):	2018-02-02 01:43:00: Paper trader simulated a SELL 	150.35859756 USD <= 0.00000000 BAT
+2018-02-13 17:41:41 (INFO):	2018-02-02 17:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 349.30911973 BAT
+2018-02-13 17:41:41 (INFO):	2018-02-02 18:33:00: Paper trader simulated a SELL 	149.02892147 USD <= 0.00000000 BAT
+2018-02-13 17:41:43 (INFO):	2018-02-02 23:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 349.57920005 BAT
+2018-02-13 17:41:43 (INFO):	2018-02-02 23:58:00: Paper trader simulated a SELL 	149.74452260 USD <= 0.00000000 BAT
+2018-02-13 17:41:43 (INFO):	2018-02-03 00:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 347.96347641 BAT
+2018-02-13 17:41:44 (INFO):	2018-02-03 00:28:00: Paper trader simulated a SELL 	149.29562595 USD <= 0.00000000 BAT
+2018-02-13 17:41:48 (INFO):	2018-02-03 10:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 344.27640302 BAT
+2018-02-13 17:41:49 (INFO):	2018-02-03 11:23:00: Paper trader simulated a SELL 	149.05089337 USD <= 0.00000000 BAT
+2018-02-13 17:41:49 (INFO):	2018-02-03 13:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 323.53764571 BAT
+2018-02-13 17:41:50 (INFO):	2018-02-03 14:03:00: Paper trader simulated a SELL 	145.63199453 USD <= 0.00000000 BAT
+2018-02-13 17:41:52 (INFO):	2018-02-03 20:23:00: Paper trader simulated a BUY 	0.00000000 USD	=> 315.51966180 BAT
+2018-02-13 17:41:52 (INFO):	2018-02-03 20:53:00: Paper trader simulated a SELL 	141.77087203 USD <= 0.00000000 BAT
+2018-02-13 17:41:53 (INFO):	2018-02-03 21:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 307.13433656 BAT
+2018-02-13 17:41:54 (INFO):	2018-02-03 23:08:00: Paper trader simulated a SELL 	136.16309396 USD <= 0.00000000 BAT
+2018-02-13 17:41:54 (INFO):	2018-02-04 01:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 305.05250133 BAT
+2018-02-13 17:41:54 (INFO):	2018-02-04 01:13:00: Paper trader simulated a SELL 	135.75491104 USD <= 0.00000000 BAT
+2018-02-13 17:41:57 (INFO):	2018-02-04 05:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 297.26157603 BAT
+2018-02-13 17:41:57 (INFO):	2018-02-04 06:58:00: Paper trader simulated a SELL 	135.40731488 USD <= 0.00000000 BAT
+2018-02-13 17:41:58 (INFO):	2018-02-04 07:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 295.74163638 BAT
+2018-02-13 17:41:59 (INFO):	2018-02-04 09:03:00: Paper trader simulated a SELL 	132.88411076 USD <= 0.00000000 BAT
+2018-02-13 17:42:24 (INFO):	2018-02-06 14:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 442.28261531 BAT
+2018-02-13 17:42:25 (INFO):	2018-02-06 15:58:00: Paper trader simulated a SELL 	137.07418081 USD <= 0.00000000 BAT
+2018-02-13 17:42:25 (INFO):	2018-02-06 17:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 401.38587506 BAT
+2018-02-13 17:42:25 (INFO):	2018-02-06 17:23:00: Paper trader simulated a SELL 	136.66326668 USD <= 0.00000000 BAT
+2018-02-13 17:42:27 (INFO):	2018-02-06 21:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 374.88536203 BAT
+2018-02-13 17:42:28 (INFO):	2018-02-06 21:58:00: Paper trader simulated a SELL 	135.99904470 USD <= 0.00000000 BAT
+2018-02-13 17:42:34 (INFO):	2018-02-07 10:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 379.42175505 BAT
+2018-02-13 17:42:35 (INFO):	2018-02-07 12:48:00: Paper trader simulated a SELL 	136.52711954 USD <= 0.00000000 BAT
+2018-02-13 17:42:38 (INFO):	2018-02-07 18:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 381.75902114 BAT
+2018-02-13 17:42:38 (INFO):	2018-02-07 18:43:00: Paper trader simulated a SELL 	136.11784536 USD <= 0.00000000 BAT
+2018-02-13 17:42:38 (INFO):	2018-02-07 19:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 370.33697164 BAT
+2018-02-13 17:42:39 (INFO):	2018-02-07 20:58:00: Paper trader simulated a SELL 	135.14403244 USD <= 0.00000000 BAT
+2018-02-13 17:42:39 (INFO):	2018-02-07 21:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 369.22679396 BAT
+2018-02-13 17:42:40 (INFO):	2018-02-07 23:13:00: Paper trader simulated a SELL 	137.14633880 USD <= 0.00000000 BAT
+2018-02-13 17:42:42 (INFO):	2018-02-08 03:23:00: Paper trader simulated a BUY 	0.00000000 USD	=> 368.88349349 BAT
+2018-02-13 17:42:43 (INFO):	2018-02-08 05:08:00: Paper trader simulated a SELL 	135.91751538 USD <= 0.00000000 BAT
+2018-02-13 17:42:44 (INFO):	2018-02-08 05:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 358.08348049 BAT
+2018-02-13 17:42:44 (INFO):	2018-02-08 06:48:00: Paper trader simulated a SELL 	132.64969780 USD <= 0.00000000 BAT
+2018-02-13 17:42:45 (INFO):	2018-02-08 08:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 351.26295715 BAT
+2018-02-13 17:42:46 (INFO):	2018-02-08 10:38:00: Paper trader simulated a SELL 	133.04471066 USD <= 0.00000000 BAT
+2018-02-13 17:42:47 (INFO):	2018-02-08 11:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 338.02835520 BAT
+2018-02-13 17:42:47 (INFO):	2018-02-08 12:33:00: Paper trader simulated a SELL 	129.60818406 USD <= 0.00000000 BAT
+2018-02-13 17:42:48 (INFO):	2018-02-08 13:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 331.66010195 BAT
+2018-02-13 17:42:48 (INFO):	2018-02-08 13:53:00: Paper trader simulated a SELL 	129.48458121 USD <= 0.00000000 BAT
+2018-02-13 17:43:00 (INFO):	2018-02-09 11:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 344.04032554 BAT
+2018-02-13 17:43:00 (INFO):	2018-02-09 12:18:00: Paper trader simulated a SELL 	128.16890329 USD <= 0.00000000 BAT
+2018-02-13 17:43:00 (INFO):	2018-02-09 13:23:00: Paper trader simulated a BUY 	0.00000000 USD	=> 341.27106649 BAT
+2018-02-13 17:43:00 (INFO):	2018-02-09 13:28:00: Paper trader simulated a SELL 	127.78468495 USD <= 0.00000000 BAT
+2018-02-13 17:43:01 (INFO):	2018-02-09 15:23:00: Paper trader simulated a BUY 	0.00000000 USD	=> 335.85945754 BAT
+2018-02-13 17:43:02 (INFO):	2018-02-09 16:53:00: Paper trader simulated a SELL 	125.75837563 USD <= 0.00000000 BAT
+2018-02-13 17:43:03 (INFO):	2018-02-09 18:43:00: Paper trader simulated a BUY 	0.00000000 USD	=> 316.29656943 BAT
+2018-02-13 17:43:04 (INFO):	2018-02-09 20:18:00: Paper trader simulated a SELL 	123.54961513 USD <= 0.00000000 BAT
+2018-02-13 17:43:07 (INFO):	2018-02-10 01:23:00: Paper trader simulated a BUY 	0.00000000 USD	=> 312.94847972 BAT
+2018-02-13 17:43:08 (INFO):	2018-02-10 02:48:00: Paper trader simulated a SELL 	122.25118147 USD <= 0.00000000 BAT
+2018-02-13 17:43:09 (INFO):	2018-02-10 04:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 305.39856066 BAT
+2018-02-13 17:43:09 (INFO):	2018-02-10 05:33:00: Paper trader simulated a SELL 	121.21078456 USD <= 0.00000000 BAT
+2018-02-13 17:43:10 (INFO):	2018-02-10 06:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 296.17504009 BAT
+2018-02-13 17:43:11 (INFO):	2018-02-10 07:38:00: Paper trader simulated a SELL 	119.62014220 USD <= 0.00000000 BAT
+2018-02-13 17:43:13 (DEBUG):	Finished in 3.6647000000000003 minutes
+2018-02-13 17:43:13 (INFO):	
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) REPORT:
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) entry date (UTC)  	exit date (UTC)  	exposed duration	P&L 	profit
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-09 17:23	2018-01-09 19:23	2 hours         	6.80	1.70
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-09 19:43	2018-01-09 21:53	2 hours         	9.02	2.23
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-10 16:48	2018-01-10 17:38	an hour         	-5.27	-1.27
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-10 21:53	2018-01-10 22:18	25 minutes      	-10.67	-2.61
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-11 00:28	2018-01-11 00:38	10 minutes      	-2.57	-0.65
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-12 04:48	2018-01-12 07:18	3 hours         	34.19	8.69
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-12 13:08	2018-01-12 13:43	35 minutes      	2.23	0.52
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-13 00:23	2018-01-13 00:33	10 minutes      	-9.10	-2.12
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-13 00:48	2018-01-13 02:03	an hour         	-10.72	-2.56
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-13 04:08	2018-01-13 04:48	40 minutes      	-4.31	-1.06
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-13 05:38	2018-01-13 06:53	an hour         	-1.38	-0.34
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-13 07:13	2018-01-13 08:33	an hour         	-1.69	-0.42
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-13 11:03	2018-01-13 11:08	5 minutes       	-5.57	-1.40
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-13 12:03	2018-01-13 13:58	2 hours         	3.92	1.00
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-13 18:08	2018-01-13 19:58	2 hours         	-6.58	-1.66
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-13 22:38	2018-01-13 23:33	an hour         	-7.28	-1.87
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-15 17:03	2018-01-15 18:23	an hour         	-1.26	-0.33
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-15 22:13	2018-01-15 23:43	2 hours         	-6.19	-1.63
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-17 02:13	2018-01-17 02:53	40 minutes      	-14.63	-3.93
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-17 07:53	2018-01-17 08:48	an hour         	-9.78	-2.74
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-17 20:28	2018-01-17 22:58	3 hours         	57.76	16.66
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-18 00:13	2018-01-18 00:33	20 minutes      	-3.11	-0.77
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-18 09:13	2018-01-18 13:53	5 hours         	13.22	3.30
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-18 14:48	2018-01-18 16:33	2 hours         	-14.53	-3.52
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-18 20:48	2018-01-18 21:53	an hour         	-22.08	-5.55
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-19 08:28	2018-01-19 09:38	an hour         	-6.70	-1.79
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-19 16:48	2018-01-19 17:48	an hour         	-9.28	-2.52
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-20 02:38	2018-01-20 04:23	2 hours         	5.27	1.47
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-20 05:08	2018-01-20 05:58	an hour         	0.01	0.00
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-20 13:03	2018-01-20 14:43	2 hours         	5.11	1.41
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-20 15:13	2018-01-20 15:28	15 minutes      	1.72	0.47
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-20 17:23	2018-01-20 17:53	30 minutes      	-9.13	-2.48
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-20 18:53	2018-01-20 19:28	35 minutes      	-0.41	-0.11
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-22 00:58	2018-01-22 01:43	an hour         	-17.21	-4.82
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-22 04:33	2018-01-22 04:38	5 minutes       	-4.13	-1.22
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-22 07:08	2018-01-22 07:53	an hour         	-3.89	-1.16
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-22 08:13	2018-01-22 09:03	an hour         	-64.67	-19.57
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-23 08:48	2018-01-23 10:23	2 hours         	-8.04	-3.03
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-23 16:43	2018-01-23 18:58	2 hours         	10.28	4.00
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-24 00:08	2018-01-24 01:03	an hour         	-32.14	-12.05
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-24 06:18	2018-01-24 09:18	3 hours         	-5.57	-2.38
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-24 11:48	2018-01-24 11:53	5 minutes       	-8.74	-3.83
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-24 11:58	2018-01-24 14:03	2 hours         	-6.88	-3.14
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-24 20:43	2018-01-24 21:53	an hour         	-7.18	-3.39
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-25 02:48	2018-01-25 04:53	2 hours         	-0.83	-0.41
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-25 06:43	2018-01-25 07:28	an hour         	-3.99	-1.96
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-25 10:03	2018-01-25 10:18	15 minutes      	-1.62	-0.81
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-25 14:03	2018-01-25 16:18	2 hours         	2.57	1.30
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-25 18:18	2018-01-25 19:48	2 hours         	-3.49	-1.75
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-25 22:48	2018-01-25 23:43	an hour         	-4.25	-2.17
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-26 02:43	2018-01-26 04:13	2 hours         	-1.23	-0.65
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-26 16:08	2018-01-26 16:48	40 minutes      	-6.51	-3.43
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-26 23:53	2018-01-27 00:53	an hour         	0.11	0.06
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-27 04:58	2018-01-27 05:43	an hour         	-2.06	-1.13
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-27 08:38	2018-01-27 11:23	3 hours         	3.38	1.88
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-27 11:58	2018-01-27 13:18	an hour         	-0.32	-0.17
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-27 16:13	2018-01-27 17:08	an hour         	-5.22	-2.85
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-27 19:48	2018-01-27 20:33	an hour         	-0.16	-0.09
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-28 03:33	2018-01-28 03:43	10 minutes      	-1.98	-1.12
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-28 06:53	2018-01-28 08:13	an hour         	-5.35	-3.06
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-28 15:23	2018-01-28 15:43	20 minutes      	-0.25	-0.15
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-28 15:48	2018-01-28 16:18	30 minutes      	-0.25	-0.15
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-28 16:38	2018-01-28 18:03	an hour         	0.30	0.18
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-28 19:43	2018-01-28 21:18	2 hours         	1.80	1.07
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-30 07:58	2018-01-30 09:23	an hour         	-1.10	-0.65
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-31 11:08	2018-01-31 11:23	15 minutes      	-0.25	-0.15
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-31 17:08	2018-01-31 18:18	an hour         	2.26	1.34
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-31 19:18	2018-01-31 20:33	an hour         	-2.28	-1.34
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-01-31 21:58	2018-01-31 22:08	10 minutes      	-2.73	-1.63
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-01 00:13	2018-02-01 01:53	2 hours         	4.67	2.84
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-01 02:03	2018-02-01 02:48	an hour         	-5.59	-3.31
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-01 05:18	2018-02-01 07:28	2 hours         	-0.12	-0.07
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-01 23:58	2018-02-02 00:43	an hour         	-12.30	-7.56
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-02 16:08	2018-02-02 17:33	an hour         	-1.10	-0.74
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-02 22:08	2018-02-02 22:58	an hour         	0.94	0.63
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-02 23:08	2018-02-02 23:28	20 minutes      	-0.22	-0.15
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-03 09:13	2018-02-03 10:23	an hour         	-0.02	-0.01
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-03 12:03	2018-02-03 13:03	an hour         	-3.20	-2.15
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-03 19:23	2018-02-03 19:53	30 minutes      	-3.64	-2.51
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-03 20:53	2018-02-03 22:08	an hour         	-5.40	-3.81
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-04 00:03	2018-02-04 00:13	10 minutes      	-0.20	-0.15
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-04 04:28	2018-02-04 05:58	2 hours         	-0.14	-0.11
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-04 06:38	2018-02-04 08:03	an hour         	-2.32	-1.72
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-06 13:18	2018-02-06 14:58	2 hours         	4.39	3.31
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-06 16:18	2018-02-06 16:23	5 minutes       	-0.21	-0.15
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-06 20:03	2018-02-06 20:58	an hour         	-0.46	-0.34
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-07 09:58	2018-02-07 11:48	2 hours         	0.73	0.54
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-07 17:38	2018-02-07 17:43	5 minutes       	-0.20	-0.15
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-07 18:18	2018-02-07 19:58	2 hours         	-0.77	-0.57
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-07 20:03	2018-02-07 22:13	2 hours         	2.21	1.63
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-08 02:23	2018-02-08 04:08	2 hours         	-1.02	-0.75
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-08 04:38	2018-02-08 05:48	an hour         	-3.06	-2.26
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-08 07:48	2018-02-08 09:38	2 hours         	0.59	0.45
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-08 10:53	2018-02-08 11:33	40 minutes      	-3.24	-2.44
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-08 12:48	2018-02-08 12:53	5 minutes       	0.07	0.05
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-09 10:18	2018-02-09 11:18	an hour         	-1.12	-0.87
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-09 12:23	2018-02-09 12:28	5 minutes       	-0.19	-0.15
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-09 14:23	2018-02-09 15:53	2 hours         	-1.83	-1.44
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-09 17:43	2018-02-09 19:18	2 hours         	-2.02	-1.61
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-10 00:23	2018-02-10 01:48	an hour         	-1.11	-0.90
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-10 03:13	2018-02-10 04:33	an hour         	-0.86	-0.70
+2018-02-13 17:43:13 (INFO):	(ROUNDTRIP) 2018-02-10 05:48	2018-02-10 06:38	an hour         	-1.41	-1.16
+2018-02-13 17:43:13 (INFO):	
+2018-02-13 17:43:13 (INFO):	(PROFIT REPORT) start time:			 2018-01-08 21:38:00
+2018-02-13 17:43:13 (INFO):	(PROFIT REPORT) end time:			 2018-02-10 11:04:00
+2018-02-13 17:43:13 (INFO):	(PROFIT REPORT) timespan:			 a month
+2018-02-13 17:43:13 (INFO):	(PROFIT REPORT) sharpe ratio:			 -1.7283772530290382
+2018-02-13 17:43:13 (INFO):	
+2018-02-13 17:43:13 (INFO):	(PROFIT REPORT) start price:			 1 USD
+2018-02-13 17:43:13 (INFO):	(PROFIT REPORT) end price:			 0.371 USD
+2018-02-13 17:43:13 (INFO):	(PROFIT REPORT) Market:				 -62.90000000%
+2018-02-13 17:43:13 (INFO):	
+2018-02-13 17:43:13 (INFO):	(PROFIT REPORT) amount of trades:		 204
+2018-02-13 17:43:13 (INFO):	(PROFIT REPORT) original simulated balance:	 400.00000000 USD
+2018-02-13 17:43:13 (INFO):	(PROFIT REPORT) current simulated balance:	 119.62014220 USD
+2018-02-13 17:43:13 (INFO):	(PROFIT REPORT) simulated profit:		 -280.37985780 USD (-70.09496445%)
+2018-02-13 17:43:13 (INFO):	(PROFIT REPORT) simulated yearly profit:	 -3145.19391516 USD (-786.29847879%)
