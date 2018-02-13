@@ -1,0 +1,369 @@
+
+// Everything is explained here:
+// @link https://gekko.wizb.it/docs/commandline/plugins.html
+
+var config = {};
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                          GENERAL SETTINGS
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.debug = true; // for additional logging / debugging
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                         WATCHING A MARKET
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.watch = {
+
+  // see https://gekko.wizb.it/docs/introduction/supported_exchanges.html
+  exchange: 'bitfinex',
+  currency: 'USD',
+  asset: 'TNB',
+
+  // You can set your own tickrate (refresh rate).
+  // If you don't set it, the defaults are 2 sec for
+  // okcoin and 20 sec for all other exchanges.
+  // tickrate: 20
+}
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                       CONFIGURING TRADING ADVICE
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.tradingAdvisor = {
+  enabled: true,
+  method: 'buyatsellat_ui',
+  candleSize: 5,
+  historySize: 12,
+}
+
+config.bestone_updated_hardcoded = {
+myStoch: {
+highThreshold: 80,
+lowThreshold: 20,
+optInFastKPeriod: 14,
+optInSlowKPeriod: 5,
+optInSlowDPeriod: 5 
+},
+myLongEma: {
+optInTimePeriod: 100 
+},
+myShortEma: {
+optInTimePeriod: 50 
+},
+stopLoss: {
+percent: 0.9 }
+};
+
+config.BodhiDI_public = { 
+optInTimePeriod: 14,
+diplus: 23.5,
+diminus: 23
+};
+
+config.buyatsellat_ui = { 
+buyat: 1.20,
+sellat: 0.98,
+stop_loss_pct: 0.85,
+sellat_up: 1.01
+};
+
+config.DynBuySell = { 
+thresholds:  {
+interval: 8,
+sell_at: 1.05,
+buy_at: 0.97,
+buy_at_up: 1.003,
+stop_loss_pct: 0.85 }
+};
+
+config.RSI_BULL_BEAR = { 
+SMA_long: 1000,
+SMA_short: 50,
+BULL_RSI: 10,
+BULL_RSI_high: 80,
+BULL_RSI_low: 60,
+BEAR_RSI: 15,
+BEAR_RSI_high: 50,
+BEAR_RSI_low: 20
+};
+
+config.RSI_BULL_BEAR_ADX = { 
+SMA_long: 1000,
+SMA_short: 50, 
+BULL_RSI: 10, 
+BULL_RSI_high: 80, 
+BULL_RSI_low: 60, 
+BEAR_RSI: 15, 
+BEAR_RSI_high: 50, 
+BEAR_RSI_low: 20,
+ADX: 3, 
+ADX_high: 70, 
+ADX_low: 50
+};
+
+config.rsidyn = { 
+interval: 8,
+sellat: 0.4,
+buyat: 1.5 ,
+stop_percent: 0.96,
+stop_enabled: true
+};
+
+config.TEMA = {
+short: 10,
+long: 80,
+
+SMA_long: 200
+};
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                       CONFIGURING PLUGINS
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+// do you want Gekko to simulate the profit of the strategy's own advice?
+config.paperTrader = {
+  enabled: true,
+  // report the profit in the currency or the asset?
+  reportInCurrency: true,
+  // start balance, on what the current balance is compared with
+  simulationBalance: {
+    // these are in the unit types configured in the watcher.
+    asset: 0,
+    currency: 400,
+  },
+  // how much fee in % does each trade cost?
+  feeMaker: 0.1,
+  feeTaker: 0.1,
+  feeUsing: 'maker',
+  // how much slippage/spread should Gekko assume per trade?
+  slippage: 0.05,
+}
+
+config.performanceAnalyzer = {
+  enabled: true,
+  riskFreeReturn: 5
+}
+
+config.trader = {
+  enabled: false,
+  key: '',
+  secret: '',
+  username: '', // your username, only required for specific exchanges.
+  passphrase: '', // GDAX, requires a passphrase.
+  orderUpdateDelay: 1, // Number of minutes to adjust unfilled order prices
+}
+
+config.adviceLogger = {
+  enabled: false,
+  muteSoft: true // disable advice printout if it's soft
+}
+
+config.candleWriter = {
+  enabled: false
+}
+
+config.adviceWriter = {
+  enabled: false,
+  muteSoft: true,
+}
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                       CONFIGURING ADAPTER
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.adapter = 'sqlite';
+
+config.sqlite = {
+  path: 'plugins/sqlite',
+
+  dataDirectory: 'history',
+  version: 0.1,
+
+  journalMode: require('./web/isWindows.js') ? 'DELETE' : 'WAL',
+
+  dependencies: []
+}
+
+config.backtest = {
+  daterange:  'scan',
+  batchSize: 50
+}
+
+// set this to true if you understand that Gekko will
+// invest according to how you configured the indicators.
+// None of the advice in the output is Gekko telling you
+// to take a certain position. Instead it is the result
+// of running the indicators you configured automatically.
+//
+// In other words: Gekko automates your trading strategies,
+// it doesn't advice on itself, only set to true if you truly
+// understand this.
+//
+// Not sure? Read this first: https://github.com/askmike/gekko/issues/201
+config['I understand that Gekko only automates MY OWN trading strategies'] = true;
+
+module.exports = config;
+
+    ______   ________  __    __  __    __   ______
+   /      \ /        |/  |  /  |/  |  /  | /      \
+  /$$$$$$  |$$$$$$$$/ $$ | /$$/ $$ | /$$/ /$$$$$$  |
+  $$ | _$$/ $$ |__    $$ |/$$/  $$ |/$$/  $$ |  $$ |
+  $$ |/    |$$    |   $$  $$<   $$  $$<   $$ |  $$ |
+  $$ |$$$$ |$$$$$/    $$$$$  \  $$$$$  \  $$ |  $$ |
+  $$ \__$$ |$$ |_____ $$ |$$  \ $$ |$$  \ $$ \__$$ |
+  $$    $$/ $$       |$$ | $$  |$$ | $$  |$$    $$/ 
+   $$$$$$/  $$$$$$$$/ $$/   $$/ $$/   $$/  $$$$$$/
+
+	Gekko v0.5.13
+	I'm gonna make you rich, Bud Fox. 
+
+
+2018-02-13 18:03:52 (INFO):	Setting up Gekko in backtest mode
+2018-02-13 18:03:52 (INFO):	
+2018-02-13 18:03:52 (INFO):	Setting up:
+2018-02-13 18:03:52 (INFO):		 Trading Advisor
+2018-02-13 18:03:52 (INFO):		 Calculate trading advice
+2018-02-13 18:03:52 (INFO):		 Using the strategy: buyatsellat_ui
+2018-02-13 18:03:53 (INFO):	
+
+2018-02-13 18:03:53 (INFO):	Setting up:
+2018-02-13 18:03:53 (INFO):		 Paper Trader
+2018-02-13 18:03:53 (INFO):		 Paper trader that simulates fake trades.
+2018-02-13 18:03:53 (INFO):	
+
+2018-02-13 18:03:53 (INFO):	Setting up:
+2018-02-13 18:03:53 (INFO):		 Performance Analyzer
+2018-02-13 18:03:53 (INFO):		 Analyzes performances of trades
+2018-02-13 18:03:53 (INFO):	
+
+2018-02-13 18:03:53 (INFO):	Scanning local history for backtestable dateranges.
+2018-02-13 18:03:53 (DEBUG):	Available 46470
+2018-02-13 18:03:53 (DEBUG):	Optimal 46469
+2018-02-13 18:03:53 (INFO):	Gekko is able to fully use the local history.
+2018-02-13 18:03:53 (INFO):	Gekko was able to find a single daterange in the locally stored history:
+2018-02-13 18:03:53 (INFO):		 from: 2018-01-08 23:28:00
+2018-02-13 18:03:53 (INFO):		 to: 2018-02-10 05:57:00
+
+2018-02-13 18:03:53 (INFO):		WARNING: BACKTESTING FEATURE NEEDS PROPER TESTING
+2018-02-13 18:03:53 (INFO):		WARNING: ACT ON THESE NUMBERS AT YOUR OWN RISK!
+
+2018-02-13 18:03:53 (INFO):	2018-01-08 23:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1171.19230543 TNB
+2018-02-13 18:03:53 (INFO):	2018-01-09 04:28:00: Paper trader simulated a SELL 	332.69271022 USD <= 0.00000000 TNB
+2018-02-13 18:03:53 (INFO):	2018-01-09 04:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1111.75927427 TNB
+2018-02-13 18:03:53 (INFO):	2018-01-09 14:18:00: Paper trader simulated a SELL 	278.41098214 USD <= 0.00000000 TNB
+2018-02-13 18:03:53 (INFO):	2018-01-09 14:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1090.64053382 TNB
+2018-02-13 18:03:54 (INFO):	2018-01-10 08:18:00: Paper trader simulated a SELL 	233.04697862 USD <= 0.00000000 TNB
+2018-02-13 18:03:54 (INFO):	2018-01-10 08:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1129.59906869 TNB
+2018-02-13 18:03:54 (INFO):	2018-01-11 05:13:00: Paper trader simulated a SELL 	197.25924775 USD <= 0.00000000 TNB
+2018-02-13 18:03:54 (INFO):	2018-01-11 05:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1163.46717985 TNB
+2018-02-13 18:03:54 (INFO):	2018-01-11 10:03:00: Paper trader simulated a SELL 	238.03683351 USD <= 0.00000000 TNB
+2018-02-13 18:03:54 (INFO):	2018-01-11 10:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1183.66423436 TNB
+2018-02-13 18:03:54 (INFO):	2018-01-12 00:13:00: Paper trader simulated a SELL 	201.51202983 USD <= 0.00000000 TNB
+2018-02-13 18:03:54 (INFO):	2018-01-12 00:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1161.58504667 TNB
+2018-02-13 18:03:55 (INFO):	2018-01-14 16:23:00: Paper trader simulated a SELL 	167.71324995 USD <= 0.00000000 TNB
+2018-02-13 18:03:55 (INFO):	2018-01-14 16:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1223.15155996 TNB
+2018-02-13 18:03:55 (INFO):	2018-01-16 01:13:00: Paper trader simulated a SELL 	140.19495921 USD <= 0.00000000 TNB
+2018-02-13 18:03:55 (INFO):	2018-01-16 01:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1253.55661118 TNB
+2018-02-13 18:03:55 (INFO):	2018-01-16 08:48:00: Paper trader simulated a SELL 	117.51988557 USD <= 0.00000000 TNB
+2018-02-13 18:03:55 (INFO):	2018-01-16 08:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1275.47397545 TNB
+2018-02-13 18:03:55 (INFO):	2018-01-16 23:08:00: Paper trader simulated a SELL 	95.51705733 USD <= 0.00000000 TNB
+2018-02-13 18:03:55 (INFO):	2018-01-16 23:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1304.70289663 TNB
+2018-02-13 18:03:55 (INFO):	2018-01-17 01:13:00: Paper trader simulated a SELL 	114.49833207 USD <= 0.00000000 TNB
+2018-02-13 18:03:55 (INFO):	2018-01-17 01:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1377.42872978 TNB
+2018-02-13 18:03:55 (INFO):	2018-01-17 15:53:00: Paper trader simulated a SELL 	96.55045358 USD <= 0.00000000 TNB
+2018-02-13 18:03:55 (INFO):	2018-01-17 16:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1348.72658962 TNB
+2018-02-13 18:03:55 (INFO):	2018-01-17 20:38:00: Paper trader simulated a SELL 	117.01506709 USD <= 0.00000000 TNB
+2018-02-13 18:03:55 (INFO):	2018-01-17 20:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1329.53509887 TNB
+2018-02-13 18:03:55 (INFO):	2018-01-18 02:58:00: Paper trader simulated a SELL 	140.02900318 USD <= 0.00000000 TNB
+2018-02-13 18:03:55 (INFO):	2018-01-18 03:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1370.77411446 TNB
+2018-02-13 18:03:55 (INFO):	2018-01-18 08:58:00: Paper trader simulated a SELL 	116.35334449 USD <= 0.00000000 TNB
+2018-02-13 18:03:55 (INFO):	2018-01-18 09:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1298.11632073 TNB
+2018-02-13 18:03:55 (INFO):	2018-01-18 21:33:00: Paper trader simulated a SELL 	139.71407227 USD <= 0.00000000 TNB
+2018-02-13 18:03:55 (INFO):	2018-01-18 21:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1278.91915256 TNB
+2018-02-13 18:03:56 (INFO):	2018-01-19 12:38:00: Paper trader simulated a SELL 	167.28710137 USD <= 0.00000000 TNB
+2018-02-13 18:03:56 (INFO):	2018-01-19 12:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1256.85606258 TNB
+2018-02-13 18:03:56 (INFO):	2018-01-21 06:03:00: Paper trader simulated a SELL 	141.48540556 USD <= 0.00000000 TNB
+2018-02-13 18:03:56 (INFO):	2018-01-21 06:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1212.54121922 TNB
+2018-02-13 18:03:56 (INFO):	2018-01-21 18:08:00: Paper trader simulated a SELL 	119.06244154 USD <= 0.00000000 TNB
+2018-02-13 18:03:56 (INFO):	2018-01-21 18:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1167.58837043 TNB
+2018-02-13 18:03:56 (INFO):	2018-01-22 05:58:00: Paper trader simulated a SELL 	145.28660542 USD <= 0.00000000 TNB
+2018-02-13 18:03:56 (INFO):	2018-01-22 06:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1136.90184570 TNB
+2018-02-13 18:03:56 (INFO):	2018-01-22 14:13:00: Paper trader simulated a SELL 	119.76323000 USD <= 0.00000000 TNB
+2018-02-13 18:03:56 (INFO):	2018-01-22 14:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1166.32775924 TNB
+2018-02-13 18:03:56 (INFO):	2018-01-23 14:43:00: Paper trader simulated a SELL 	145.45582562 USD <= 0.00000000 TNB
+2018-02-13 18:03:56 (INFO):	2018-01-23 14:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1210.91914191 TNB
+2018-02-13 18:03:56 (INFO):	2018-01-24 03:58:00: Paper trader simulated a SELL 	176.16627259 USD <= 0.00000000 TNB
+2018-02-13 18:03:56 (INFO):	2018-01-24 04:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1188.52718365 TNB
+2018-02-13 18:03:56 (INFO):	2018-01-25 00:13:00: Paper trader simulated a SELL 	148.93642130 USD <= 0.00000000 TNB
+2018-02-13 18:03:56 (INFO):	2018-01-25 00:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1170.04733806 TNB
+2018-02-13 18:03:57 (INFO):	2018-01-30 19:03:00: Paper trader simulated a SELL 	123.25483417 USD <= 0.00000000 TNB
+2018-02-13 18:03:57 (INFO):	2018-01-30 19:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1149.21983302 TNB
+2018-02-13 18:03:58 (INFO):	2018-02-01 10:58:00: Paper trader simulated a SELL 	104.42213629 USD <= 0.00000000 TNB
+2018-02-13 18:03:58 (INFO):	2018-02-01 11:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1174.16107078 TNB
+2018-02-13 18:03:58 (INFO):	2018-02-02 03:38:00: Paper trader simulated a SELL 	85.07167640 USD <= 0.00000000 TNB
+2018-02-13 18:03:58 (INFO):	2018-02-02 03:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1150.28666258 TNB
+2018-02-13 18:03:58 (INFO):	2018-02-02 13:23:00: Paper trader simulated a SELL 	71.90223028 USD <= 0.00000000 TNB
+2018-02-13 18:03:58 (INFO):	2018-02-02 13:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1118.29247561 TNB
+2018-02-13 18:03:58 (INFO):	2018-02-02 15:13:00: Paper trader simulated a SELL 	89.21642483 USD <= 0.00000000 TNB
+2018-02-13 18:03:58 (INFO):	2018-02-02 15:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1183.05157030 TNB
+2018-02-13 18:03:58 (INFO):	2018-02-05 12:43:00: Paper trader simulated a SELL 	75.60054627 USD <= 0.00000000 TNB
+2018-02-13 18:03:58 (INFO):	2018-02-05 13:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1166.90594296 TNB
+2018-02-13 18:03:58 (INFO):	2018-02-05 19:58:00: Paper trader simulated a SELL 	63.50097933 USD <= 0.00000000 TNB
+2018-02-13 18:03:58 (INFO):	2018-02-05 20:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1216.62690653 TNB
+2018-02-13 18:03:58 (INFO):	2018-02-06 21:28:00: Paper trader simulated a SELL 	77.13992485 USD <= 0.00000000 TNB
+2018-02-13 18:03:58 (INFO):	2018-02-06 21:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1252.42625955 TNB
+2018-02-13 18:03:59 (INFO):	2018-02-07 14:18:00: Paper trader simulated a SELL 	92.54052389 USD <= 0.00000000 TNB
+2018-02-13 18:03:59 (INFO):	2018-02-07 14:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 1289.08639933 TNB
+2018-02-13 18:03:59 (INFO):	
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) REPORT:
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) entry date (UTC)  	exit date (UTC)  	exposed duration	P&L 	profit
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-08 23:28	2018-01-09 03:28	4 hours         	-66.71	-16.70
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-09 03:33	2018-01-09 13:18	10 hours        	-53.78	-16.19
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-09 13:28	2018-01-10 07:18	18 hours        	-44.95	-16.17
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-10 07:33	2018-01-11 04:13	21 hours        	-35.44	-15.23
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-11 04:18	2018-01-11 09:03	5 hours         	41.07	20.85
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-11 09:38	2018-01-11 23:13	14 hours        	-36.17	-15.22
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-11 23:48	2018-01-14 15:23	3 days          	-33.50	-16.65
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-14 15:28	2018-01-16 00:13	a day           	-27.27	-16.28
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-16 00:33	2018-01-16 07:48	7 hours         	-22.46	-16.05
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-16 07:53	2018-01-16 22:08	14 hours        	-21.83	-18.60
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-16 22:13	2018-01-17 00:13	2 hours         	19.12	20.05
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-17 00:38	2018-01-17 14:53	14 hours        	-17.78	-15.55
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-17 15:18	2018-01-17 19:38	4 hours         	20.61	21.38
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-17 19:53	2018-01-18 01:58	6 hours         	23.19	19.85
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-18 02:03	2018-01-18 07:58	6 hours         	-23.47	-16.78
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-18 08:08	2018-01-18 20:33	12 hours        	23.54	20.26
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-18 20:53	2018-01-19 11:38	15 hours        	27.78	19.92
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-19 11:48	2018-01-21 05:03	2 days          	-25.55	-15.30
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-21 05:18	2018-01-21 17:08	12 hours        	-22.21	-15.72
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-21 17:38	2018-01-22 04:58	11 hours        	26.40	22.21
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-22 05:08	2018-01-22 13:13	8 hours         	-25.31	-17.44
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-22 13:28	2018-01-23 13:43	a day           	25.87	21.64
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-23 13:58	2018-01-24 02:58	13 hours        	30.93	21.30
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-24 03:03	2018-01-24 23:13	20 hours        	-26.97	-15.33
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-24 23:33	2018-01-30 18:03	6 days          	-25.46	-17.12
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-01-30 18:08	2018-02-01 09:58	2 days          	-18.65	-15.15
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-02-01 10:18	2018-02-02 02:38	16 hours        	-19.19	-18.41
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-02-02 02:58	2018-02-02 12:23	9 hours         	-13.04	-15.35
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-02-02 12:53	2018-02-02 14:13	an hour         	17.42	24.27
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-02-02 14:18	2018-02-05 11:43	3 days          	-13.48	-15.13
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-02-05 12:58	2018-02-05 18:58	6 hours         	-11.99	-15.88
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-02-05 19:28	2018-02-06 20:28	a day           	13.73	21.66
+2018-02-13 18:03:59 (INFO):	(ROUNDTRIP) 2018-02-06 20:58	2018-02-07 13:18	16 hours        	15.52	20.14
+2018-02-13 18:03:59 (INFO):	
+2018-02-13 18:03:59 (INFO):	(PROFIT REPORT) start time:			 2018-01-08 23:28:00
+2018-02-13 18:03:59 (INFO):	(PROFIT REPORT) end time:			 2018-02-10 05:57:00
+2018-02-13 18:03:59 (INFO):	(PROFIT REPORT) timespan:			 a month
+2018-02-13 18:03:59 (INFO):	(PROFIT REPORT) sharpe ratio:			 -0.42404952494054327
+2018-02-13 18:03:59 (INFO):	
+2018-02-13 18:03:59 (INFO):	(PROFIT REPORT) start price:			 0.30497 USD
+2018-02-13 18:03:59 (INFO):	(PROFIT REPORT) end price:			 0.0769 USD
+2018-02-13 18:03:59 (INFO):	(PROFIT REPORT) Market:				 -74.78440502%
+2018-02-13 18:03:59 (INFO):	
+2018-02-13 18:03:59 (INFO):	(PROFIT REPORT) amount of trades:		 67
+2018-02-13 18:03:59 (INFO):	(PROFIT REPORT) original simulated balance:	 400.00000000 USD
+2018-02-13 18:03:59 (INFO):	(PROFIT REPORT) current simulated balance:	 99.13074411 USD
+2018-02-13 18:03:59 (INFO):	(PROFIT REPORT) simulated profit:		 -300.86925589 USD (-75.21731397%)
+2018-02-13 18:03:59 (INFO):	(PROFIT REPORT) simulated yearly profit:	 -3405.32278381 USD (-851.33069595%)
