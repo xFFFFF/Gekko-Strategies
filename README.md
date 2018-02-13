@@ -1,4 +1,13 @@
 # Gekko-Strategies
+# Introduction
 Repository of strategies which I found at Git and Google. All strategies was backtested, result is in directory of each strategy.
 
-gekko-auto-backtest.pl - my script which doing backtests on multiple strategies and/or multiple coin pairs. Copy it to Gekko directory, and set @strategies, @pairs and candleSize. Running by perl gekko-auto-backtest.pl. Datasets of pairs must be imported to Gekko via command or UI.
+# Auto multiple backtests script
+gekko-auto-backtest.pl - my script which doing backtests on multiple strategies and/or multiple coin pairs. 
+1. Copy file to Gekko directory.
+2. Import datasets in Gekko UI or Gekko command line
+3. Edit gekko-auto-backtest.pl and set imported @pairs and @strategies
+4. Run scipt:
+`$ perl gekko-auto-backtest.pl`
+5. Results will be in .log files in main Gekko directory.
+
