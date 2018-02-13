@@ -1,0 +1,940 @@
+
+// Everything is explained here:
+// @link https://gekko.wizb.it/docs/commandline/plugins.html
+
+var config = {};
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                          GENERAL SETTINGS
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.debug = true; // for additional logging / debugging
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                         WATCHING A MARKET
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.watch = {
+
+  // see https://gekko.wizb.it/docs/introduction/supported_exchanges.html
+  exchange: 'kraken',
+  currency: 'USD',
+  asset: 'XBT',
+
+  // You can set your own tickrate (refresh rate).
+  // If you don't set it, the defaults are 2 sec for
+  // okcoin and 20 sec for all other exchanges.
+  // tickrate: 20
+}
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                       CONFIGURING TRADING ADVICE
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.tradingAdvisor = {
+  enabled: true,
+  method: 'rsidyn',
+  candleSize: 5,
+  historySize: 12,
+}
+
+config.bestone_updated_hardcoded = {
+myStoch: {
+highThreshold: 80,
+lowThreshold: 20,
+optInFastKPeriod: 14,
+optInSlowKPeriod: 5,
+optInSlowDPeriod: 5 
+},
+myLongEma: {
+optInTimePeriod: 100 
+},
+myShortEma: {
+optInTimePeriod: 50 
+},
+stopLoss: {
+percent: 0.9 }
+};
+
+config.BodhiDI_public = { 
+optInTimePeriod: 14,
+diplus: 23.5,
+diminus: 23
+};
+
+config.buyatsellat_ui = { 
+buyat: 1.20,
+sellat: 0.98,
+stop_loss_pct: 0.85,
+sellat_up: 1.01
+};
+
+config.DynBuySell = { 
+thresholds:  {
+interval: 8,
+sell_at: 1.05,
+buy_at: 0.97,
+buy_at_up: 1.003,
+stop_loss_pct: 0.85 }
+};
+
+config.RSI_BULL_BEAR = { 
+SMA_long: 1000,
+SMA_short: 50,
+BULL_RSI: 10,
+BULL_RSI_high: 80,
+BULL_RSI_low: 60,
+BEAR_RSI: 15,
+BEAR_RSI_high: 50,
+BEAR_RSI_low: 20
+};
+
+config.RSI_BULL_BEAR_ADX = { 
+SMA_long: 1000,
+SMA_short: 50, 
+BULL_RSI: 10, 
+BULL_RSI_high: 80, 
+BULL_RSI_low: 60, 
+BEAR_RSI: 15, 
+BEAR_RSI_high: 50, 
+BEAR_RSI_low: 20,
+ADX: 3, 
+ADX_high: 70, 
+ADX_low: 50
+};
+
+config.rsidyn = { 
+interval: 8,
+sellat: 0.4,
+buyat: 1.5 ,
+stop_percent: 0.96,
+stop_enabled: true
+};
+
+config.TEMA = {
+short: 10,
+long: 80,
+
+SMA_long: 200
+};
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                       CONFIGURING PLUGINS
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+// do you want Gekko to simulate the profit of the strategy's own advice?
+config.paperTrader = {
+  enabled: true,
+  // report the profit in the currency or the asset?
+  reportInCurrency: true,
+  // start balance, on what the current balance is compared with
+  simulationBalance: {
+    // these are in the unit types configured in the watcher.
+    asset: 0,
+    currency: 400,
+  },
+  // how much fee in % does each trade cost?
+  feeMaker: 0.1,
+  feeTaker: 0.1,
+  feeUsing: 'maker',
+  // how much slippage/spread should Gekko assume per trade?
+  slippage: 0.05,
+}
+
+config.performanceAnalyzer = {
+  enabled: true,
+  riskFreeReturn: 5
+}
+
+config.trader = {
+  enabled: false,
+  key: '',
+  secret: '',
+  username: '', // your username, only required for specific exchanges.
+  passphrase: '', // GDAX, requires a passphrase.
+  orderUpdateDelay: 1, // Number of minutes to adjust unfilled order prices
+}
+
+config.adviceLogger = {
+  enabled: false,
+  muteSoft: true // disable advice printout if it's soft
+}
+
+config.candleWriter = {
+  enabled: false
+}
+
+config.adviceWriter = {
+  enabled: false,
+  muteSoft: true,
+}
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                       CONFIGURING ADAPTER
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+config.adapter = 'sqlite';
+
+config.sqlite = {
+  path: 'plugins/sqlite',
+
+  dataDirectory: 'history',
+  version: 0.1,
+
+  journalMode: require('./web/isWindows.js') ? 'DELETE' : 'WAL',
+
+  dependencies: []
+}
+
+config.backtest = {
+  daterange:  'scan',
+  batchSize: 50
+}
+
+// set this to true if you understand that Gekko will
+// invest according to how you configured the indicators.
+// None of the advice in the output is Gekko telling you
+// to take a certain position. Instead it is the result
+// of running the indicators you configured automatically.
+//
+// In other words: Gekko automates your trading strategies,
+// it doesn't advice on itself, only set to true if you truly
+// understand this.
+//
+// Not sure? Read this first: https://github.com/askmike/gekko/issues/201
+config['I understand that Gekko only automates MY OWN trading strategies'] = true;
+
+module.exports = config;
+
+    ______   ________  __    __  __    __   ______
+   /      \ /        |/  |  /  |/  |  /  | /      \
+  /$$$$$$  |$$$$$$$$/ $$ | /$$/ $$ | /$$/ /$$$$$$  |
+  $$ | _$$/ $$ |__    $$ |/$$/  $$ |/$$/  $$ |  $$ |
+  $$ |/    |$$    |   $$  $$<   $$  $$<   $$ |  $$ |
+  $$ |$$$$ |$$$$$/    $$$$$  \  $$$$$  \  $$ |  $$ |
+  $$ \__$$ |$$ |_____ $$ |$$  \ $$ |$$  \ $$ \__$$ |
+  $$    $$/ $$       |$$ | $$  |$$ | $$  |$$    $$/ 
+   $$$$$$/  $$$$$$$$/ $$/   $$/ $$/   $$/  $$$$$$/
+
+	Gekko v0.5.13
+	I'm gonna make you rich, Bud Fox. 
+
+
+2018-02-13 17:00:43 (INFO):	Setting up Gekko in backtest mode
+2018-02-13 17:00:43 (INFO):	
+2018-02-13 17:00:43 (INFO):	Setting up:
+2018-02-13 17:00:43 (INFO):		 Trading Advisor
+2018-02-13 17:00:43 (INFO):		 Calculate trading advice
+2018-02-13 17:00:43 (INFO):		 Using the strategy: rsidyn
+2018-02-13 17:00:44 (INFO):	
+
+2018-02-13 17:00:44 (INFO):	Setting up:
+2018-02-13 17:00:44 (INFO):		 Paper Trader
+2018-02-13 17:00:44 (INFO):		 Paper trader that simulates fake trades.
+2018-02-13 17:00:44 (INFO):	
+
+2018-02-13 17:00:44 (INFO):	Setting up:
+2018-02-13 17:00:44 (INFO):		 Performance Analyzer
+2018-02-13 17:00:44 (INFO):		 Analyzes performances of trades
+2018-02-13 17:00:44 (INFO):	
+
+2018-02-13 17:00:45 (INFO):	Scanning local history for backtestable dateranges.
+2018-02-13 17:00:45 (DEBUG):	Available 83520
+2018-02-13 17:00:45 (DEBUG):	Optimal 83519
+2018-02-13 17:00:45 (INFO):	Gekko is able to fully use the local history.
+2018-02-13 17:00:45 (INFO):	Gekko was able to find a single daterange in the locally stored history:
+2018-02-13 17:00:45 (INFO):		 from: 2017-12-15 18:08:00
+2018-02-13 17:00:45 (INFO):		 to: 2018-02-11 18:07:00
+
+2018-02-13 17:00:45 (INFO):		WARNING: BACKTESTING FEATURE NEEDS PROPER TESTING
+2018-02-13 17:00:45 (INFO):		WARNING: ACT ON THESE NUMBERS AT YOUR OWN RISK!
+
+rsival:			 18.783519563078983
+buying at this rsival:	 19.71181381796128
+ 
+2018-02-13 17:00:45 (INFO):	2017-12-15 23:23:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02282285 XBT
+rsival:			 75.6343326334383
+selling at this rsival:	 75.15118306041427
+ 
+2018-02-13 17:00:45 (INFO):	2017-12-16 01:28:00: Paper trader simulated a SELL 	400.82212540 USD <= 0.00000000 XBT
+rsival:			 14.150817027063354
+buying at this rsival:	 17.28673097212402
+ 
+2018-02-13 17:00:45 (INFO):	2017-12-16 04:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02307599 XBT
+rsival:			 73.35525662797869
+selling at this rsival:	 71.2190121254019
+ 
+2018-02-13 17:00:45 (INFO):	2017-12-16 05:28:00: Paper trader simulated a SELL 	406.22406741 USD <= 0.00000000 XBT
+rsival:			 16.811749018448552
+buying at this rsival:	 18.270884584840303
+ 
+2018-02-13 17:00:46 (INFO):	2017-12-17 10:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02130676 XBT
+rsival:			 76.26130535411795
+selling at this rsival:	 73.90225615375077
+ 
+2018-02-13 17:00:46 (INFO):	2017-12-17 10:58:00: Paper trader simulated a SELL 	412.70771500 USD <= 0.00000000 XBT
+rsival:			 20.15911238979686
+buying at this rsival:	 20.5592125203501
+ 
+2018-02-13 17:00:46 (INFO):	2017-12-17 19:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02180144 XBT
+rsival:			 73.75546201761355
+selling at this rsival:	 73.48370159592508
+ 
+2018-02-13 17:00:46 (INFO):	2017-12-17 23:18:00: Paper trader simulated a SELL 	414.92955822 USD <= 0.00000000 XBT
+rsival:			 17.406595028524578
+buying at this rsival:	 17.80914224804478
+ 
+2018-02-13 17:00:46 (INFO):	2017-12-18 01:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02227218 XBT
+rsival:			 71.28373316533052
+selling at this rsival:	 69.06333021457729
+ 
+2018-02-13 17:00:46 (INFO):	2017-12-18 05:13:00: Paper trader simulated a SELL 	416.13856824 USD <= 0.00000000 XBT
+rsival:			 16.434994855628645
+buying at this rsival:	 17.30026768372021
+ 
+2018-02-13 17:00:46 (INFO):	2017-12-18 14:23:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02203712 XBT
+rsival:			 71.63218254999032
+selling at this rsival:	 67.82428962624496
+ 
+2018-02-13 17:00:46 (INFO):	2017-12-18 16:43:00: Paper trader simulated a SELL 	415.72718801 USD <= 0.00000000 XBT
+rsival:			 17.740912371736044
+buying at this rsival:	 18.311329212440384
+ 
+2018-02-13 17:00:46 (INFO):	2017-12-19 11:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02250005 XBT
+stop loss triggered loss: -3.3579055775380775
+2018-02-13 17:00:46 (INFO):	2017-12-19 12:58:00: Paper trader simulated a SELL 	400.56289451 USD <= 0.00000000 XBT
+rsival:			 16.763087332829528
+buying at this rsival:	 18.83228154615994
+ 
+2018-02-13 17:00:46 (INFO):	2017-12-19 20:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02222011 XBT
+stop loss triggered loss: -5.51611111111112
+2018-02-13 17:00:46 (INFO):	2017-12-19 22:13:00: Paper trader simulated a SELL 	377.33278333 USD <= 0.00000000 XBT
+rsival:			 9.80967437628621
+buying at this rsival:	 10.559636420158164
+ 
+stop loss triggered loss: -1.3012195121951198
+2018-02-13 17:00:46 (INFO):	2017-12-20 01:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02297358 XBT
+2018-02-13 17:00:46 (INFO):	2017-12-20 02:23:00: Paper trader simulated a SELL 	371.30635380 USD <= 0.00000000 XBT
+rsival:			 11.596055127847265
+buying at this rsival:	 15.903126956535601
+ 
+2018-02-13 17:00:46 (INFO):	2017-12-20 07:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02317183 XBT
+rsival:			 69.06706595761399
+selling at this rsival:	 67.72395918702568
+ 
+2018-02-13 17:00:47 (INFO):	2017-12-20 08:48:00: Paper trader simulated a SELL 	377.95333011 USD <= 0.00000000 XBT
+rsival:			 15.024894686059824
+buying at this rsival:	 16.407349861118146
+ 
+2018-02-13 17:00:47 (INFO):	2017-12-20 22:43:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02384160 XBT
+rsival:			 65.84870976203099
+selling at this rsival:	 65.60495575347899
+ 
+2018-02-13 17:00:47 (INFO):	2017-12-21 00:13:00: Paper trader simulated a SELL 	380.89340160 USD <= 0.00000000 XBT
+rsival:			 10.105137596477846
+buying at this rsival:	 12.424716210205647
+ 
+2018-02-13 17:00:47 (INFO):	2017-12-21 16:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02504244 XBT
+stop loss triggered loss: -3.6465157930085472
+2018-02-13 17:00:47 (INFO):	2017-12-21 18:38:00: Paper trader simulated a SELL 	365.90385694 USD <= 0.00000000 XBT
+rsival:			 9.760858079133158
+buying at this rsival:	 15.501191220459427
+ 
+2018-02-13 17:00:47 (INFO):	2017-12-21 20:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02552003 XBT
+rsival:			 73.33527746188291
+selling at this rsival:	 66.17171074437034
+ 
+2018-02-13 17:00:47 (INFO):	2017-12-21 21:03:00: Paper trader simulated a SELL 	386.76454899 USD <= 0.00000000 XBT
+rsival:			 12.552174009937872
+buying at this rsival:	 13.298840938692095
+ 
+2018-02-13 17:00:47 (INFO):	2017-12-22 02:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02663340 XBT
+stop loss triggered loss: -2.3924137931034455
+2018-02-13 17:00:47 (INFO):	2017-12-22 02:48:00: Paper trader simulated a SELL 	376.37975577 USD <= 0.00000000 XBT
+rsival:			 15.801444729263167
+buying at this rsival:	 16.92377903102559
+ 
+stop loss triggered loss: -4.960896124435927
+2018-02-13 17:00:47 (INFO):	2017-12-22 03:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02726499 XBT
+2018-02-13 17:00:47 (INFO):	2017-12-22 04:18:00: Paper trader simulated a SELL 	356.63561194 USD <= 0.00000000 XBT
+rsival:			 16.4197610944901
+buying at this rsival:	 17.677887961910372
+ 
+stop loss triggered loss: -5.417054263565886
+2018-02-13 17:00:47 (INFO):	2017-12-22 08:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02760470 XBT
+2018-02-13 17:00:47 (INFO):	2017-12-22 08:18:00: Paper trader simulated a SELL 	336.30524994 USD <= 0.00000000 XBT
+rsival:			 9.33471026380849
+buying at this rsival:	 10.213257752050076
+ 
+2018-02-13 17:00:47 (INFO):	2017-12-22 15:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02919752 XBT
+stop loss triggered loss: -0.878184505695157
+2018-02-13 17:00:47 (INFO):	2017-12-22 15:48:00: Paper trader simulated a SELL 	332.35245040 USD <= 0.00000000 XBT
+rsival:			 14.681603020113187
+buying at this rsival:	 16.88920066950308
+ 
+2018-02-13 17:00:47 (INFO):	2017-12-24 03:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02415679 XBT
+stop loss triggered loss: -1.0009099181073704
+2018-02-13 17:00:47 (INFO):	2017-12-24 05:38:00: Paper trader simulated a SELL 	328.03954548 USD <= 0.00000000 XBT
+rsival:			 15.118902802037397
+buying at this rsival:	 16.39911786960723
+ 
+2018-02-13 17:00:47 (INFO):	2017-12-24 19:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02556767 XBT
+stop loss triggered loss: -2.232456482710171
+2018-02-13 17:00:47 (INFO):	2017-12-24 20:18:00: Paper trader simulated a SELL 	319.75471414 USD <= 0.00000000 XBT
+rsival:			 13.463996464127987
+buying at this rsival:	 13.659961813929549
+ 
+2018-02-13 17:00:48 (INFO):	2017-12-27 10:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02014735 XBT
+rsival:			 71.61130652912198
+selling at this rsival:	 69.91173491172442
+ 
+2018-02-13 17:00:48 (INFO):	2017-12-27 13:08:00: Paper trader simulated a SELL 	321.85394647 USD <= 0.00000000 XBT
+rsival:			 8.21994116066135
+buying at this rsival:	 11.20272961318688
+ 
+2018-02-13 17:00:48 (INFO):	2017-12-27 16:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02114283 XBT
+stop loss triggered loss: -1.8723684210526341
+2018-02-13 17:00:48 (INFO):	2017-12-27 17:48:00: Paper trader simulated a SELL 	314.88073593 USD <= 0.00000000 XBT
+rsival:			 14.376801003332119
+buying at this rsival:	 14.428902335442523
+ 
+2018-02-13 17:00:48 (INFO):	2017-12-28 03:43:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02110123 XBT
+stop loss triggered loss: -4.489932885906041
+2018-02-13 17:00:48 (INFO):	2017-12-28 04:38:00: Paper trader simulated a SELL 	299.84116672 USD <= 0.00000000 XBT
+rsival:			 16.990228646802535
+buying at this rsival:	 17.129594707519978
+ 
+2018-02-13 17:00:48 (INFO):	2017-12-28 11:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02124820 XBT
+rsival:			 72.29015134211457
+selling at this rsival:	 67.06941266591633
+ 
+2018-02-13 17:00:48 (INFO):	2017-12-28 13:48:00: Paper trader simulated a SELL 	304.98471068 USD <= 0.00000000 XBT
+rsival:			 14.649775341013054
+buying at this rsival:	 16.141514081389165
+ 
+2018-02-13 17:00:48 (INFO):	2017-12-29 08:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02063793 XBT
+stop loss triggered loss: -3.3451479767140855
+2018-02-13 17:00:48 (INFO):	2017-12-29 11:38:00: Paper trader simulated a SELL 	293.89871112 USD <= 0.00000000 XBT
+rsival:			 13.1283536179631
+buying at this rsival:	 15.577148536664865
+ 
+2018-02-13 17:00:48 (INFO):	2017-12-29 21:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02042156 XBT
+rsival:			 68.97148705311287
+selling at this rsival:	 68.48616150560201
+ 
+2018-02-13 17:00:49 (INFO):	2017-12-29 23:48:00: Paper trader simulated a SELL 	295.05672324 USD <= 0.00000000 XBT
+rsival:			 12.421035970432953
+buying at this rsival:	 12.921013722936445
+ 
+2018-02-13 17:00:49 (INFO):	2017-12-30 02:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02134885 XBT
+stop loss triggered loss: -4.349999999999995
+2018-02-13 17:00:49 (INFO):	2017-12-30 05:53:00: Paper trader simulated a SELL 	281.37571772 USD <= 0.00000000 XBT
+rsival:			 16.411666931896306
+buying at this rsival:	 16.489070518872726
+ 
+2018-02-13 17:00:49 (INFO):	2017-12-30 13:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02144684 XBT
+stop loss triggered loss: -4.33587786259542
+2018-02-13 17:00:49 (INFO):	2017-12-30 14:13:00: Paper trader simulated a SELL 	268.36864118 USD <= 0.00000000 XBT
+rsival:			 15.748095351777323
+buying at this rsival:	 16.32094357697372
+ 
+rsival:			 71.67902524774935
+selling at this rsival:	 68.82615202348232
+ 
+2018-02-13 17:00:49 (INFO):	2017-12-31 01:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02143557 XBT
+2018-02-13 17:00:49 (INFO):	2017-12-31 01:43:00: Paper trader simulated a SELL 	277.38827971 USD <= 0.00000000 XBT
+rsival:			 15.25384732104925
+buying at this rsival:	 18.49226441984161
+ 
+2018-02-13 17:00:49 (INFO):	2018-01-01 12:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02037519 XBT
+rsival:			 80.83626625011964
+selling at this rsival:	 69.39838779118294
+ 
+2018-02-13 17:00:49 (INFO):	2018-01-01 16:23:00: Paper trader simulated a SELL 	278.23719071 USD <= 0.00000000 XBT
+rsival:			 12.762529751097915
+buying at this rsival:	 15.068509148185388
+ 
+2018-02-13 17:00:49 (INFO):	2018-01-02 04:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02072369 XBT
+rsival:			 74.36333831953527
+selling at this rsival:	 73.45934655191684
+ 
+2018-02-13 17:00:49 (INFO):	2018-01-02 07:38:00: Paper trader simulated a SELL 	277.23744536 USD <= 0.00000000 XBT
+rsival:			 13.13637257416704
+buying at this rsival:	 14.81379143486241
+ 
+2018-02-13 17:00:50 (INFO):	2018-01-03 09:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01817607 XBT
+rsival:			 71.54968322782548
+selling at this rsival:	 70.86392255390832
+ 
+2018-02-13 17:00:50 (INFO):	2018-01-03 13:08:00: Paper trader simulated a SELL 	272.93081745 USD <= 0.00000000 XBT
+rsival:			 13.03814222888245
+buying at this rsival:	 13.558078902318606
+ 
+2018-02-13 17:00:50 (INFO):	2018-01-03 18:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01809571 XBT
+rsival:			 80.66856100505159
+selling at this rsival:	 79.41658073329947
+ 
+2018-02-13 17:00:50 (INFO):	2018-01-03 21:58:00: Paper trader simulated a SELL 	273.28706732 USD <= 0.00000000 XBT
+rsival:			 14.317825268945654
+buying at this rsival:	 15.805321452878935
+ 
+2018-02-13 17:00:50 (INFO):	2018-01-04 05:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01819180 XBT
+rsival:			 78.102229724728
+selling at this rsival:	 73.85301304180958
+ 
+2018-02-13 17:00:50 (INFO):	2018-01-04 07:08:00: Paper trader simulated a SELL 	275.00345041 USD <= 0.00000000 XBT
+rsival:			 15.729945327631825
+buying at this rsival:	 16.092941919476313
+ 
+2018-02-13 17:00:50 (INFO):	2018-01-06 01:23:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01636544 XBT
+rsival:			 68.04680779040243
+selling at this rsival:	 64.67209701386054
+ 
+2018-02-13 17:00:50 (INFO):	2018-01-06 01:58:00: Paper trader simulated a SELL 	277.40624805 USD <= 0.00000000 XBT
+rsival:			 15.912343317390452
+buying at this rsival:	 16.345125351610275
+ 
+2018-02-13 17:00:50 (INFO):	2018-01-06 08:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01695166 XBT
+rsival:			 71.17638397879448
+selling at this rsival:	 67.83692444452741
+ 
+2018-02-13 17:00:50 (INFO):	2018-01-06 11:33:00: Paper trader simulated a SELL 	278.57024202 USD <= 0.00000000 XBT
+rsival:			 17.936408028685506
+buying at this rsival:	 18.34373524609272
+ 
+2018-02-13 17:00:50 (INFO):	2018-01-06 13:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01708143 XBT
+rsival:			 73.31644607532739
+selling at this rsival:	 71.85982073137134
+ 
+2018-02-13 17:00:50 (INFO):	2018-01-06 15:23:00: Paper trader simulated a SELL 	279.71354324 USD <= 0.00000000 XBT
+rsival:			 16.71727024987341
+buying at this rsival:	 16.887846770747178
+ 
+2018-02-13 17:00:50 (INFO):	2018-01-07 01:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01651454 XBT
+rsival:			 77.74868112115767
+selling at this rsival:	 67.21525877248055
+ 
+2018-02-13 17:00:51 (INFO):	2018-01-07 06:08:00: Paper trader simulated a SELL 	275.85073614 USD <= 0.00000000 XBT
+rsival:			 13.538100346634408
+buying at this rsival:	 15.156848920169445
+ 
+2018-02-13 17:00:51 (INFO):	2018-01-07 14:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01681133 XBT
+stop loss triggered loss: -3.623046875000002
+2018-02-13 17:00:51 (INFO):	2018-01-07 18:48:00: Paper trader simulated a SELL 	265.05943879 USD <= 0.00000000 XBT
+rsival:			 16.406541305895146
+buying at this rsival:	 16.83192369299208
+ 
+2018-02-13 17:00:51 (INFO):	2018-01-08 00:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01646521 XBT
+rsival:			 70.88446686566563
+selling at this rsival:	 68.15854248585222
+ 
+2018-02-13 17:00:51 (INFO):	2018-01-08 05:13:00: Paper trader simulated a SELL 	257.14440703 USD <= 0.00000000 XBT
+rsival:			 10.495712351345276
+buying at this rsival:	 11.553299749390948
+ 
+2018-02-13 17:00:51 (INFO):	2018-01-08 09:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01667155 XBT
+rsival:			 69.8883467919216
+selling at this rsival:	 68.97486130829486
+ 
+2018-02-13 17:00:51 (INFO):	2018-01-08 12:23:00: Paper trader simulated a SELL 	254.84192181 USD <= 0.00000000 XBT
+rsival:			 9.999482091151009
+buying at this rsival:	 13.85836718259355
+ 
+2018-02-13 17:00:51 (INFO):	2018-01-08 14:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01731018 XBT
+stop loss triggered loss: -6.382312925170074
+2018-02-13 17:00:51 (INFO):	2018-01-08 16:03:00: Paper trader simulated a SELL 	237.86190627 USD <= 0.00000000 XBT
+rsival:			 9.098101417730746
+buying at this rsival:	 11.121838516203372
+ 
+2018-02-13 17:00:51 (INFO):	2018-01-09 11:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01592177 XBT
+stop loss triggered loss: -3.994100690487359
+2018-02-13 17:00:51 (INFO):	2018-01-09 15:18:00: Paper trader simulated a SELL 	227.67682424 USD <= 0.00000000 XBT
+rsival:			 14.466372358792825
+buying at this rsival:	 16.34228095510848
+ 
+2018-02-13 17:00:51 (INFO):	2018-01-10 00:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01587869 XBT
+rsival:			 70.34392796977157
+selling at this rsival:	 67.32154425929502
+ 
+2018-02-13 17:00:51 (INFO):	2018-01-10 04:03:00: Paper trader simulated a SELL 	226.68978838 USD <= 0.00000000 XBT
+rsival:			 10.437516029531977
+buying at this rsival:	 17.672953554143803
+ 
+2018-02-13 17:00:51 (INFO):	2018-01-10 09:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01635876 XBT
+rsival:			 67.46682754538875
+selling at this rsival:	 66.80003994536374
+ 
+2018-02-13 17:00:51 (INFO):	2018-01-10 10:38:00: Paper trader simulated a SELL 	227.29069718 USD <= 0.00000000 XBT
+rsival:			 10.8274610076585
+buying at this rsival:	 16.743230440748615
+ 
+2018-02-13 17:00:52 (INFO):	2018-01-11 03:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01589172 XBT
+stop loss triggered loss: -4.418458091170086
+2018-02-13 17:00:52 (INFO):	2018-01-11 04:43:00: Paper trader simulated a SELL 	216.59659503 USD <= 0.00000000 XBT
+rsival:			 0.07341888253743889
+buying at this rsival:	 8.212000361004687
+ 
+2018-02-13 17:00:52 (INFO):	2018-01-11 13:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01601656 XBT
+rsival:			 98.95706088756152
+selling at this rsival:	 70.02193028779324
+ 
+2018-02-13 17:00:52 (INFO):	2018-01-11 15:38:00: Paper trader simulated a SELL 	218.26452061 USD <= 0.00000000 XBT
+rsival:			 13.180837007645266
+buying at this rsival:	 13.99060845933322
+ 
+2018-02-13 17:00:52 (INFO):	2018-01-14 16:23:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01626153 XBT
+rsival:			 70.97166502032297
+selling at this rsival:	 67.82766706412261
+ 
+2018-02-13 17:00:52 (INFO):	2018-01-14 18:48:00: Paper trader simulated a SELL 	220.01321590 USD <= 0.00000000 XBT
+rsival:			 15.473093345256743
+buying at this rsival:	 16.0945299791482
+ 
+2018-02-13 17:00:53 (INFO):	2018-01-16 01:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01665780 XBT
+stop loss triggered loss: -2.1678798908098247
+2018-02-13 17:00:53 (INFO):	2018-01-16 03:18:00: Paper trader simulated a SELL 	214.59822047 USD <= 0.00000000 XBT
+rsival:			 12.668067577236656
+buying at this rsival:	 13.771253779535868
+ 
+stop loss triggered loss: -4.560729343310976
+2018-02-13 17:00:53 (INFO):	2018-01-16 08:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01666819 XBT
+2018-02-13 17:00:53 (INFO):	2018-01-16 09:18:00: Paper trader simulated a SELL 	204.19693439 USD <= 0.00000000 XBT
+rsival:			 10.59869563518329
+buying at this rsival:	 13.25796628914002
+ 
+2018-02-13 17:00:53 (INFO):	2018-01-16 19:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01834835 XBT
+rsival:			 70.7032069361553
+selling at this rsival:	 70.1242419675318
+ 
+2018-02-13 17:00:53 (INFO):	2018-01-16 20:08:00: Paper trader simulated a SELL 	215.58850522 USD <= 0.00000000 XBT
+rsival:			 14.394282367161722
+buying at this rsival:	 16.20548568204071
+ 
+2018-02-13 17:00:53 (INFO):	2018-01-17 10:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02072547 XBT
+stop loss triggered loss: -2.0391854811534134
+2018-02-13 17:00:53 (INFO):	2018-01-17 12:43:00: Paper trader simulated a SELL 	210.55912644 USD <= 0.00000000 XBT
+rsival:			 12.672916300710938
+buying at this rsival:	 13.450667752248627
+ 
+2018-02-13 17:00:53 (INFO):	2018-01-18 08:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01925304 XBT
+rsival:			 68.44536772942811
+selling at this rsival:	 67.35478499873804
+ 
+2018-02-13 17:00:53 (INFO):	2018-01-18 10:03:00: Paper trader simulated a SELL 	215.30675209 USD <= 0.00000000 XBT
+rsival:			 14.854557056383968
+buying at this rsival:	 16.640159993376912
+ 
+2018-02-13 17:00:54 (INFO):	2018-01-19 15:53:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01864479 XBT
+stop loss triggered loss: -2.28524348467109
+2018-02-13 17:00:54 (INFO):	2018-01-19 19:28:00: Paper trader simulated a SELL 	209.75574265 USD <= 0.00000000 XBT
+rsival:			 16.531137534761
+buying at this rsival:	 16.554240513287578
+ 
+2018-02-13 17:00:54 (INFO):	2018-01-20 13:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01689449 XBT
+rsival:			 69.64836979495055
+selling at this rsival:	 69.46988368766385
+ 
+2018-02-13 17:00:54 (INFO):	2018-01-20 13:43:00: Paper trader simulated a SELL 	212.16665155 USD <= 0.00000000 XBT
+rsival:			 14.731248937378396
+buying at this rsival:	 16.353921519493053
+ 
+2018-02-13 17:00:54 (INFO):	2018-01-21 01:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01694841 XBT
+rsival:			 74.35407757029294
+selling at this rsival:	 70.15698718323821
+ 
+2018-02-13 17:00:54 (INFO):	2018-01-21 03:08:00: Paper trader simulated a SELL 	214.38040419 USD <= 0.00000000 XBT
+rsival:			 13.627696139723582
+buying at this rsival:	 13.95436688893494
+ 
+2018-02-13 17:00:54 (INFO):	2018-01-21 06:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01752971 XBT
+stop loss triggered loss: -2.8162670335429887
+2018-02-13 17:00:54 (INFO):	2018-01-21 08:38:00: Paper trader simulated a SELL 	207.71828199 USD <= 0.00000000 XBT
+rsival:			 14.31196192716125
+buying at this rsival:	 15.477090513587685
+ 
+2018-02-13 17:00:55 (INFO):	2018-01-21 15:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01763662 XBT
+stop loss triggered loss: -2.9872448979591777
+2018-02-13 17:00:55 (INFO):	2018-01-21 17:03:00: Paper trader simulated a SELL 	200.90909023 USD <= 0.00000000 XBT
+rsival:			 15.861873794221182
+buying at this rsival:	 17.92830680384333
+ 
+2018-02-13 17:00:55 (INFO):	2018-01-22 12:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01731287 XBT
+stop loss triggered loss: -4.165803645401828
+2018-02-13 17:00:55 (INFO):	2018-01-22 14:08:00: Paper trader simulated a SELL 	191.96238876 USD <= 0.00000000 XBT
+rsival:			 12.837111892727762
+buying at this rsival:	 16.2075207052301
+ 
+2018-02-13 17:00:55 (INFO):	2018-01-23 06:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01822381 XBT
+rsival:			 78.12063492653527
+selling at this rsival:	 73.3666708289874
+ 
+2018-02-13 17:00:55 (INFO):	2018-01-23 09:43:00: Paper trader simulated a SELL 	194.70227484 USD <= 0.00000000 XBT
+rsival:			 16.68072184257052
+buying at this rsival:	 16.862431126941992
+ 
+2018-02-13 17:00:56 (INFO):	2018-01-25 13:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01747507 XBT
+rsival:			 73.17630069278769
+selling at this rsival:	 68.40577609596592
+ 
+2018-02-13 17:00:56 (INFO):	2018-01-25 14:43:00: Paper trader simulated a SELL 	195.94368900 USD <= 0.00000000 XBT
+rsival:			 13.283832567490194
+buying at this rsival:	 15.169002365339084
+ 
+2018-02-13 17:00:56 (INFO):	2018-01-25 16:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01789321 XBT
+rsival:			 76.18322457331797
+selling at this rsival:	 69.22754310218295
+ 
+2018-02-13 17:00:56 (INFO):	2018-01-25 19:13:00: Paper trader simulated a SELL 	198.48286629 USD <= 0.00000000 XBT
+rsival:			 18.618934179969557
+buying at this rsival:	 18.98170953785132
+ 
+2018-02-13 17:00:56 (INFO):	2018-01-26 07:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01753850 XBT
+stop loss triggered loss: -3.427433628318578
+2018-02-13 17:00:56 (INFO):	2018-01-26 09:03:00: Paper trader simulated a SELL 	191.10530036 USD <= 0.00000000 XBT
+rsival:			 18.065675106520132
+buying at this rsival:	 18.700659602348367
+ 
+2018-02-13 17:00:56 (INFO):	2018-01-27 12:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01758697 XBT
+rsival:			 70.97271053677636
+selling at this rsival:	 68.45643896276829
+ 
+2018-02-13 17:00:56 (INFO):	2018-01-27 16:03:00: Paper trader simulated a SELL 	194.65562298 USD <= 0.00000000 XBT
+rsival:			 13.209280194275863
+buying at this rsival:	 15.344772119900103
+ 
+2018-02-13 17:00:57 (INFO):	2018-01-29 02:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01690118 XBT
+rsival:			 71.93265701615772
+selling at this rsival:	 68.31774038274158
+ 
+2018-02-13 17:00:57 (INFO):	2018-01-29 05:08:00: Paper trader simulated a SELL 	192.72195838 USD <= 0.00000000 XBT
+rsival:			 13.992550608955867
+buying at this rsival:	 14.53680967040896
+ 
+2018-02-13 17:00:57 (INFO):	2018-01-29 23:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01732848 XBT
+rsival:			 67.08506368272252
+selling at this rsival:	 66.75212461601969
+ 
+2018-02-13 17:00:57 (INFO):	2018-01-30 00:38:00: Paper trader simulated a SELL 	193.64424689 USD <= 0.00000000 XBT
+rsival:			 12.028405291971055
+buying at this rsival:	 17.854592617127977
+ 
+2018-02-13 17:00:57 (INFO):	2018-01-30 14:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01807044 XBT
+stop loss triggered loss: -5.429906542056075
+2018-02-13 17:00:57 (INFO):	2018-01-30 18:58:00: Paper trader simulated a SELL 	182.58050018 USD <= 0.00000000 XBT
+rsival:			 16.304759788140686
+buying at this rsival:	 17.10621308823048
+ 
+2018-02-13 17:00:57 (INFO):	2018-01-31 02:03:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01905777 XBT
+rsival:			 72.77869246541326
+selling at this rsival:	 67.98078258306344
+ 
+2018-02-13 17:00:57 (INFO):	2018-01-31 03:53:00: Paper trader simulated a SELL 	191.24329261 USD <= 0.00000000 XBT
+rsival:			 14.326805043417508
+buying at this rsival:	 16.823126729171392
+ 
+2018-02-13 17:00:58 (INFO):	2018-01-31 15:43:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01926964 XBT
+rsival:			 68.43407635150194
+selling at this rsival:	 68.25454422521165
+ 
+2018-02-13 17:00:58 (INFO):	2018-01-31 17:58:00: Paper trader simulated a SELL 	191.81089259 USD <= 0.00000000 XBT
+rsival:			 15.441825836243282
+buying at this rsival:	 16.86949304663939
+ 
+2018-02-13 17:00:58 (INFO):	2018-02-01 04:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01926773 XBT
+rsival:			 71.67112793826695
+selling at this rsival:	 67.47189733257466
+ 
+2018-02-13 17:00:58 (INFO):	2018-02-01 05:53:00: Paper trader simulated a SELL 	194.08130094 USD <= 0.00000000 XBT
+rsival:			 13.750138633359143
+buying at this rsival:	 13.924832233585972
+ 
+2018-02-13 17:00:58 (INFO):	2018-02-01 09:08:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01959317 XBT
+stop loss triggered loss: -3.9501754173112182
+2018-02-13 17:00:58 (INFO):	2018-02-01 11:08:00: Paper trader simulated a SELL 	185.85591232 USD <= 0.00000000 XBT
+rsival:			 17.768694797168592
+buying at this rsival:	 18.618377424010227
+ 
+2018-02-13 17:00:58 (INFO):	2018-02-01 17:33:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02079948 XBT
+stop loss triggered loss: -3.1158234516150722
+2018-02-13 17:00:58 (INFO):	2018-02-01 21:08:00: Paper trader simulated a SELL 	179.52517271 USD <= 0.00000000 XBT
+rsival:			 18.39397193785679
+buying at this rsival:	 18.958802764126226
+ 
+2018-02-13 17:00:58 (INFO):	2018-02-02 07:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02144722 XBT
+stop loss triggered loss: -0.8076094759511845
+2018-02-13 17:00:58 (INFO):	2018-02-02 09:38:00: Paper trader simulated a SELL 	177.54146514 USD <= 0.00000000 XBT
+rsival:			 14.284061715534037
+buying at this rsival:	 16.392698965604318
+ 
+2018-02-13 17:00:58 (INFO):	2018-02-02 12:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02225397 XBT
+stop loss triggered loss: -4.313331659553105
+2018-02-13 17:00:58 (INFO):	2018-02-02 13:43:00: Paper trader simulated a SELL 	169.37421793 USD <= 0.00000000 XBT
+rsival:			 15.968585000712608
+buying at this rsival:	 18.252807258227914
+ 
+2018-02-13 17:00:58 (INFO):	2018-02-03 03:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02040050 XBT
+rsival:			 67.8977714246638
+selling at this rsival:	 66.54971919773016
+ 
+2018-02-13 17:00:58 (INFO):	2018-02-03 05:38:00: Paper trader simulated a SELL 	170.82197511 USD <= 0.00000000 XBT
+rsival:			 16.032268922807333
+buying at this rsival:	 18.780949923283792
+ 
+2018-02-13 17:00:59 (INFO):	2018-02-04 09:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01889736 XBT
+stop loss triggered loss: -5.408878892963571
+2018-02-13 17:00:59 (INFO):	2018-02-04 12:58:00: Paper trader simulated a SELL 	161.09798048 USD <= 0.00000000 XBT
+rsival:			 15.773197180592987
+buying at this rsival:	 16.718632352375593
+ 
+2018-02-13 17:00:59 (INFO):	2018-02-04 16:38:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01943601 XBT
+stop loss triggered loss: -1.730262680940537
+2018-02-13 17:00:59 (INFO):	2018-02-04 20:18:00: Paper trader simulated a SELL 	157.83595972 USD <= 0.00000000 XBT
+rsival:			 17.998149471380714
+buying at this rsival:	 18.008585413157547
+ 
+2018-02-13 17:00:59 (INFO):	2018-02-05 15:23:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02133466 XBT
+stop loss triggered loss: -3.4520102883443884
+2018-02-13 17:00:59 (INFO):	2018-02-05 16:18:00: Paper trader simulated a SELL 	151.93055692 USD <= 0.00000000 XBT
+rsival:			 14.17615942449659
+buying at this rsival:	 14.287503977243313
+ 
+2018-02-13 17:00:59 (INFO):	2018-02-05 19:18:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02201173 XBT
+stop loss triggered loss: -0.7530579375788917
+2018-02-13 17:00:59 (INFO):	2018-02-05 20:03:00: Paper trader simulated a SELL 	150.33439285 USD <= 0.00000000 XBT
+rsival:			 16.34300901565102
+buying at this rsival:	 16.90578789433237
+ 
+2018-02-13 17:00:59 (INFO):	2018-02-05 23:58:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02257344 XBT
+stop loss triggered loss: 0.3939968119341907
+2018-02-13 17:00:59 (INFO):	2018-02-06 02:18:00: Paper trader simulated a SELL 	150.47423501 USD <= 0.00000000 XBT
+rsival:			 19.367398795742915
+buying at this rsival:	 19.614967988549438
+ 
+2018-02-13 17:01:00 (INFO):	2018-02-07 03:48:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.02055636 XBT
+rsival:			 70.68687559200166
+selling at this rsival:	 66.07825526129734
+ 
+2018-02-13 17:01:00 (INFO):	2018-02-07 05:43:00: Paper trader simulated a SELL 	152.91516467 USD <= 0.00000000 XBT
+rsival:			 17.32770193389848
+buying at this rsival:	 17.368601814446755
+ 
+2018-02-13 17:01:00 (INFO):	2018-02-07 23:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01948666 XBT
+stop loss triggered loss: -3.73050514332388
+2018-02-13 17:01:00 (INFO):	2018-02-08 00:33:00: Paper trader simulated a SELL 	146.76934030 USD <= 0.00000000 XBT
+rsival:			 17.17422581323632
+buying at this rsival:	 20.0598296580196
+ 
+2018-02-13 17:01:01 (INFO):	2018-02-10 09:28:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01671218 XBT
+rsival:			 72.641257508864
+selling at this rsival:	 71.92087829405631
+ 
+2018-02-13 17:01:01 (INFO):	2018-02-10 14:08:00: Paper trader simulated a SELL 	145.92879207 USD <= 0.00000000 XBT
+rsival:			 14.409706210236536
+buying at this rsival:	 16.677454216942195
+ 
+2018-02-13 17:01:01 (INFO):	2018-02-10 16:13:00: Paper trader simulated a BUY 	0.00000000 USD	=> 0.01722339 XBT
+rsival:			 72.0128425032492
+selling at this rsival:	 67.4984999674874
+ 
+2018-02-13 17:01:01 (INFO):	2018-02-10 23:13:00: Paper trader simulated a SELL 	144.60048123 USD <= 0.00000000 XBT
+2018-02-13 17:01:01 (INFO):	
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) REPORT:
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) entry date (UTC)  	exit date (UTC)  	exposed duration	P&L 	profit
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-15 22:23	2017-12-16 00:28	2 hours         	1.42	0.36
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-16 03:03	2017-12-16 04:28	an hour         	6.00	1.50
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-17 09:13	2017-12-17 09:58	an hour         	7.09	1.75
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-17 18:48	2017-12-17 22:18	4 hours         	2.84	0.69
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-18 00:28	2017-12-18 04:13	4 hours         	1.83	0.44
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-18 13:23	2017-12-18 15:43	2 hours         	0.21	0.05
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-19 10:13	2017-12-19 11:58	2 hours         	-14.54	-3.50
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-19 19:18	2017-12-19 21:13	2 hours         	-22.63	-5.66
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-20 00:48	2017-12-20 01:23	35 minutes      	-5.46	-1.45
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-20 06:13	2017-12-20 07:48	2 hours         	7.20	1.94
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-20 21:43	2017-12-20 23:13	2 hours         	3.51	0.93
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-21 15:33	2017-12-21 17:38	2 hours         	-14.42	-3.79
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-21 19:13	2017-12-21 20:03	an hour         	21.41	5.86
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-22 01:08	2017-12-22 01:48	40 minutes      	-9.80	-2.54
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-22 02:58	2017-12-22 03:18	20 minutes      	-19.18	-5.10
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-22 07:03	2017-12-22 07:18	15 minutes      	-19.80	-5.56
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-22 14:13	2017-12-22 14:48	35 minutes      	-3.45	-1.03
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-24 02:48	2017-12-24 04:38	2 hours         	-3.81	-1.15
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-24 18:03	2017-12-24 19:18	an hour         	-7.79	-2.38
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-27 09:38	2017-12-27 12:08	3 hours         	2.58	0.81
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-27 15:03	2017-12-27 16:48	2 hours         	-6.49	-2.02
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-28 02:43	2017-12-28 03:38	an hour         	-14.57	-4.63
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-28 10:58	2017-12-28 12:48	2 hours         	5.59	1.87
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-29 07:33	2017-12-29 10:38	3 hours         	-10.63	-3.49
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-29 20:48	2017-12-29 22:48	2 hours         	1.60	0.54
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-30 01:58	2017-12-30 04:53	3 hours         	-13.24	-4.49
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-30 12:38	2017-12-30 13:13	35 minutes      	-12.58	-4.48
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2017-12-31 00:13	2017-12-31 00:43	30 minutes      	9.42	3.52
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-01 11:08	2018-01-01 15:23	4 hours         	1.27	0.46
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-02 03:18	2018-01-02 06:38	3 hours         	-0.58	-0.21
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-03 08:28	2018-01-03 12:08	4 hours         	-3.89	-1.41
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-03 17:58	2018-01-03 20:58	3 hours         	0.77	0.28
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-04 04:03	2018-01-04 06:08	2 hours         	2.13	0.78
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-06 00:23	2018-01-06 00:58	35 minutes      	2.82	1.03
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-06 07:18	2018-01-06 10:33	3 hours         	1.58	0.57
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-06 12:53	2018-01-06 14:23	2 hours         	1.56	0.56
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-07 00:08	2018-01-07 05:08	5 hours         	-3.44	-1.23
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-07 13:03	2018-01-07 17:48	5 hours         	-10.38	-3.77
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-07 23:58	2018-01-08 04:13	4 hours         	-7.52	-2.84
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-08 08:53	2018-01-08 11:23	3 hours         	-1.92	-0.75
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-08 13:33	2018-01-08 15:03	2 hours         	-16.60	-6.52
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-09 10:08	2018-01-09 14:18	4 hours         	-9.83	-4.14
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-09 23:13	2018-01-10 03:03	4 hours         	-0.65	-0.28
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-10 08:18	2018-01-10 09:38	an hour         	0.94	0.42
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-11 02:53	2018-01-11 03:43	an hour         	-10.35	-4.56
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-11 12:33	2018-01-11 14:38	2 hours         	1.99	0.92
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-14 15:23	2018-01-14 17:48	2 hours         	2.08	0.95
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-16 00:33	2018-01-16 02:18	2 hours         	-5.08	-2.31
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-16 07:53	2018-01-16 08:18	25 minutes      	-10.08	-4.70
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-16 18:03	2018-01-16 19:08	an hour         	11.70	5.74
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-17 09:48	2018-01-17 11:43	2 hours         	-4.71	-2.19
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-18 07:33	2018-01-18 09:03	2 hours         	5.06	2.41
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-19 14:53	2018-01-19 18:28	4 hours         	-5.23	-2.43
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-20 12:03	2018-01-20 12:43	40 minutes      	2.73	1.30
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-21 00:33	2018-01-21 02:08	2 hours         	2.53	1.20
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-21 05:03	2018-01-21 07:38	3 hours         	-6.34	-2.96
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-21 14:38	2018-01-21 16:03	an hour         	-6.50	-3.13
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-22 11:28	2018-01-22 13:08	2 hours         	-8.65	-4.31
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-23 05:03	2018-01-23 08:43	4 hours         	3.03	1.58
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-25 12:03	2018-01-25 13:43	2 hours         	1.53	0.79
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-25 15:48	2018-01-25 18:13	2 hours         	2.83	1.45
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-26 06:13	2018-01-26 08:03	2 hours         	-7.08	-3.57
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-27 11:28	2018-01-27 15:03	4 hours         	3.84	2.01
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-29 01:18	2018-01-29 04:08	3 hours         	-1.64	-0.84
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-29 22:38	2018-01-29 23:38	an hour         	1.21	0.63
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-30 13:28	2018-01-30 17:58	5 hours         	-10.77	-5.57
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-31 01:03	2018-01-31 02:53	2 hours         	8.94	4.90
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-01-31 14:43	2018-01-31 16:58	2 hours         	0.85	0.45
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-02-01 03:33	2018-02-01 04:53	an hour         	2.56	1.34
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-02-01 08:08	2018-02-01 10:08	2 hours         	-7.93	-4.09
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-02-01 16:33	2018-02-01 20:08	4 hours         	-6.05	-3.26
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-02-02 06:38	2018-02-02 08:38	2 hours         	-1.71	-0.96
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-02-02 11:38	2018-02-02 12:43	an hour         	-7.90	-4.46
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-02-03 02:58	2018-02-03 04:38	2 hours         	1.70	1.01
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-02-04 08:13	2018-02-04 11:58	4 hours         	-9.47	-5.55
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-02-04 15:38	2018-02-04 19:18	4 hours         	-3.02	-1.88
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-02-05 14:23	2018-02-05 15:18	an hour         	-5.67	-3.60
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-02-05 18:18	2018-02-05 19:03	an hour         	-1.37	-0.90
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-02-05 22:58	2018-02-06 01:18	2 hours         	0.37	0.24
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-02-07 02:48	2018-02-07 04:43	2 hours         	2.67	1.77
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-02-07 22:28	2018-02-07 23:33	an hour         	-5.92	-3.87
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-02-10 08:28	2018-02-10 13:08	5 hours         	-0.62	-0.42
+2018-02-13 17:01:01 (INFO):	(ROUNDTRIP) 2018-02-10 15:13	2018-02-10 22:13	7 hours         	-1.11	-0.76
+2018-02-13 17:01:01 (INFO):	
+2018-02-13 17:01:01 (INFO):	(PROFIT REPORT) start time:			 2017-12-15 18:08:00
+2018-02-13 17:01:01 (INFO):	(PROFIT REPORT) end time:			 2018-02-11 18:07:00
+2018-02-13 17:01:01 (INFO):	(PROFIT REPORT) timespan:			 2 months
+2018-02-13 17:01:01 (INFO):	(PROFIT REPORT) sharpe ratio:			 -2.2280405371823484
+2018-02-13 17:01:01 (INFO):	
+2018-02-13 17:01:01 (INFO):	(PROFIT REPORT) start price:			 17696.8 USD
+2018-02-13 17:01:01 (INFO):	(PROFIT REPORT) end price:			 8220.3 USD
+2018-02-13 17:01:01 (INFO):	(PROFIT REPORT) Market:				 -53.54922924%
+2018-02-13 17:01:01 (INFO):	
+2018-02-13 17:01:01 (INFO):	(PROFIT REPORT) amount of trades:		 166
+2018-02-13 17:01:01 (INFO):	(PROFIT REPORT) original simulated balance:	 400.00000000 USD
+2018-02-13 17:01:01 (INFO):	(PROFIT REPORT) current simulated balance:	 144.60048123 USD
+2018-02-13 17:01:01 (INFO):	(PROFIT REPORT) simulated profit:		 -255.39951877 USD (-63.84987969%)
+2018-02-13 17:01:01 (INFO):	(PROFIT REPORT) simulated yearly profit:	 -1608.34268343 USD (-402.08567086%)
