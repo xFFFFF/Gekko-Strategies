@@ -7,3 +7,5 @@ Auto-learning strategy using ConvNetJS library.
 `npm install convnetjs zero-fill stats-lite numbro mathjs cluster lodash`
 
 2. Settings are in .js file.
+
+Source: Gekko Discord - https://discordapp.com/invite/26wMygt
