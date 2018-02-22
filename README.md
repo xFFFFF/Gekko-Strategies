@@ -1,6 +1,6 @@
 # Gekko-Strategies
 # Introduction
-Repository of strategies which I found at Git and Google. All strategies was backtested, result is in directory of each strategy.
+Repository of strategies which I found at Git and Google. All strategies was backtested, result is in directory of each strategy. In addition, I share my tool, which I use to perform multiple backtests at this same time.
 
 # Auto multiple backtests script
 gekko-auto-backtest.pl - my script which doing backtests on multiple strategies and/or multiple coin pairs. 
@@ -12,5 +12,6 @@ gekko-auto-backtest.pl - my script which doing backtests on multiple strategies 
 5. Results will be in .log files in main Gekko directory.
 
 Known bugs
+
 Backtest don't start if pair has multiple datasets (different time period)
 
