@@ -11,3 +11,6 @@ gekko-auto-backtest.pl - my script which doing backtests on multiple strategies 
 `$ perl gekko-auto-backtest.pl`
 5. Results will be in .log files in main Gekko directory.
 
+Known bugs
+Backtest don't start if pair has multiple datasets (different time period)
+
