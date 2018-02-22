@@ -168,7 +168,6 @@ foreach (@pairs) {
 		close $fh;
 		system("cat $btfile > $lfile");
 		system("node gekko -b -c $btfile >> $lfile");
-		$pm->finish;
 		print "Backtesting $_ strategy on pair $sets[1]-$sets[2] is done. Results are in $lfile .\n";
 		unlink $btfile;
 		}
