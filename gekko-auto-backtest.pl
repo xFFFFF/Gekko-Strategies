@@ -1,10 +1,13 @@
 #!/usr/bin/perl -w
 use strict;
+use Parallel::ForkManager;
 
 # Put your strategy names between brackets in line below. Strategy seperate with space.
 my @strategies = qw( bestone_updated_hardcoded BodhiDI_public buyatsellat_ui DynBuySell RSI_BULL_BEAR RSI_BULL_BEAR_ADX rsidyn TEMA );
 # Put your pairs between brackets in line below. Use exchange:currency:asset format. Pair seperate with space.
 my @pairs = qw( binance:USDT:NEO binance:USD:LTC );
+# Between brackets bellow You can change threads amount.
+my $pm = Parallel::ForkManager->new(5);
 # Gekko config file is bellow. Change what You need.
 my $gconfig = q(
 var config = {};
@@ -149,12 +152,13 @@ module.exports = config;
 );
 
 # Lets start!
-my $btfile = "backtest-temp-config.js";
 foreach (@pairs) {
-my @sets = split /:/, $_;
+	my $pid = $pm->start and next;
+	my @sets = split /:/, $_;
 	foreach (@strategies) {
+		my $btfile = "$sets[1]-$sets[2]-$_-config.js";
 		# Log file name. Variables $sets[1], $sets[2] and $_ are required.
-		my $lfile = "backtest2-$sets[1]-$sets[2]-$_.log";
+		my $lfile = "$sets[1]-$sets[2]-$_.log";
 		$gconfig =~ s/(?<=exchange: ')(.*?)(?=',)/$sets[0]/g;
 		$gconfig =~ s/(?<=currency: ')(.*?)(?=',)/$sets[1]/g;
 		$gconfig =~ s/(?<=asset: ')(.*?)(?=',)/$sets[2]/g;
@@ -164,8 +168,12 @@ my @sets = split /:/, $_;
 		close $fh;
 		system("cat $btfile > $lfile");
 		system("node gekko -b -c $btfile >> $lfile");
-		print "Backtesting $_ strategy on pair $sets[1]-$sets[2] is done. Results are in $lfile .\n"
+		$pm->finish;
+		print "Backtesting $_ strategy on pair $sets[1]-$sets[2] is done. Results are in $lfile .\n";
+		unlink $btfile;
+		}
+	$pm->finish;
 	}
-}
-unlink $btfile;
+$pm->wait_all_children;
+
 print "Goodbye!\n";
