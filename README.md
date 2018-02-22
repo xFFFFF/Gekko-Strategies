@@ -7,7 +7,9 @@ gekko-auto-backtest.pl - my script which doing backtests on multiple strategies 
 1. Copy file to Gekko directory.
 2. Import datasets in Gekko UI or Gekko command line
 3. Edit gekko-auto-backtest.pl and set imported @pairs and @strategies. All Gekkos backtest settings are in this file.
-4. Run scipt:
+4. Install perl dependies:
+`$ npm install Parallel::ForkManager`
+5. Run scipt:
 `$ perl gekko-auto-backtest.pl`
 5. Results will be in .log files in main Gekko directory.
 
