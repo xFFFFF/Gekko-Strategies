@@ -1,7 +1,7 @@
 # Gekko-Strategies
 # Introduction
-Repository of strategies which I found at Git and Google. All strategies was backtested, result is in directory of each strategy. In addition, I share my tool, which I use to perform multiple backtests at this same time.
+Repository of strategies which I found at Git and Google, orginal sourse is in README file. All strategies was backtested, results are in backtest_database.csv file.
 
 # GekkoBacktestTool
-Tool to batch backtesting was moved to seperated repository: https://github.com/xFFFFF/GekkoBacktestTool
+To create backtest_database.csv I used: https://github.com/xFFFFF/GekkoBacktestTool
 
