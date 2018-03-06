@@ -1,0 +1,1 @@
+Source: https://raw.githubusercontent.com/Homskiy/gekko/develop/strategies/CCI_custom.js

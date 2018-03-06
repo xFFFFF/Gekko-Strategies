@@ -8,4 +8,4 @@ Auto-learning strategy using ConvNetJS library.
 
 2. Settings are in .js file.
 
-Source: Gekko Discord - https://discordapp.com/invite/26wMygt
+Source: Gekko Discord - https://github.com/mounirlabaied/

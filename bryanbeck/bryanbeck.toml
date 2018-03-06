@@ -1,0 +1,28 @@
+buyImmediately = 'no'
+tradeFactors = 'price'
+priceType = 'open/close'
+buyIfPrice = 'decrease'
+sellIfPrice = 'increase'
+buyIfVol = 'decrease'
+sellIfVol = 'increase'
+changeType = '#'
+buyPricePersistenceThreshold = 3
+sellPricePersistenceThreshold = 2
+buyVolPersistenceThreshold = 3
+sellVolPersistenceThreshold = 2
+priceProtection = 'disabled'
+nextActionBuy = 'yes'
+nextActionSell = 'no'
+
+
+[thresholds]
+priceDecreaseAmt = 0.00001
+priceIncreaseAmt = 0.00002
+priceDecreasePer = 0.000001
+priceIncreasePer = 0.000001
+tradeVolDecreaseAmt = 0.00001
+tradeVolIncreaseAmt = 0.00002
+tradeVolDecreasePer = 0.000001
+tradeVolIncreasePer = 0.000001
+buyPriceThreshold = 5650
+sellPriceThreshold = 5660

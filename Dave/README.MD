@@ -1,0 +1,1 @@
+Source: https://raw.githubusercontent.com/digidigo/gekko/stable/strategies/Dave.js

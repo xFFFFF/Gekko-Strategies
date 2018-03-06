@@ -1,0 +1,24 @@
+# SMA Trends
+# MK 200 worked better - all other changes were worse
+# SMA_long = 1000
+SMA_long = 200
+SMA_short = 50
+
+# BULL
+BULL_RSI = 10
+BULL_FAST_RSI = 5
+BULL_SLOW_RSI = 14
+BULL_RSI_HIGH=80
+BULL_RSI_LOW=60
+
+# BEAR
+BEAR_RSI = 15
+BEAR_FAST_RSI = 5
+BEAR_SLOW_RSI = 14
+BEAR_RSI_HIGH=50
+BEAR_RSI_LOW=20
+
+# BULL/BEAR is defined by the longer SMA trends
+# if SHORT over LONG = BULL
+# if SHORT under LONG = BEAR
+
