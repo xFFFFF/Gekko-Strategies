@@ -14,24 +14,24 @@ Gekko in Quasar Framework - https://github.com/gekko-quasar-ui
 
 # Gekko Addons
 # Indicators
-Wix-Fix https://github.com/caux/gekkostuff
-Indicators by Gab0 - https://github.com/Gab0/gekko-extra-indicators
-Fibonnaci - https://github.com/thegamecat/gekko-trading-stuff
-Neaptic - https://github.com/jmatty1983/gekkoNeatapticIndicator
+- Wix-Fix https://github.com/caux/gekkostuff
+- Indicators by Gab0 - https://github.com/Gab0/gekko-extra-indicators
+- Fibonnaci - https://github.com/thegamecat/gekko-trading-stuff
+- Neaptic - https://github.com/jmatty1983/gekkoNeatapticIndicator
 # Exchanges
-CCXT - https://github.com/Yoyae/gekko
-Cryptopia - https://github.com/trainerbill/gekko/
-Bitmex - https://github.com/Johannnnes/gekko/
-AbuCoins - https://github.com/piotras9000/gekko/
-HitBTC - https://github.com/anhpha/gekko/
-Mercado - https://github.com/brvollino/gekko
-Mock - https://github.com/ilap/gekko/
+- CCXT - https://github.com/Yoyae/gekko
+- Cryptopia - https://github.com/trainerbill/gekko/
+- Bitmex - https://github.com/Johannnnes/gekko/
+- AbuCoins - https://github.com/piotras9000/gekko/
+- HitBTC - https://github.com/anhpha/gekko/
+- Mercado - https://github.com/brvollino/gekko
+- Mock - https://github.com/ilap/gekko/
 # Plugins
-Market report - https://github.com/hiyan/gekkowk/
-Market Risk -https://github.com/ilap/gekko
-Multi Trader - https://github.com/roelplieger/gekko/
-Multi PaperTrader - https://github.com/roelplieger/gekko
-MySQL - https://github.com/jordanmmyers/mb-dev
-Draw indicators results - https://github.com/christianbaier/gekko
-Gekko strategies in Python - https://github.com/pauljherrera/gekko_python
+- Market report - https://github.com/hiyan/gekkowk/
+- Market Risk -https://github.com/ilap/gekko
+- Multi Trader - https://github.com/roelplieger/gekko/
+- Multi PaperTrader - https://github.com/roelplieger/gekko
+- MySQL - https://github.com/jordanmmyers/mb-dev
+- Draw indicators results - https://github.com/christianbaier/gekko
+- Gekko strategies in Python - https://github.com/pauljherrera/gekko_python
 
