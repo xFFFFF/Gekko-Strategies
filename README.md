@@ -6,11 +6,11 @@ Repository of strategies which I found at Git and Google, orginal source is in R
 To create backtest_database.csv I used: https://github.com/xFFFFF/GekkoBacktestTool
 
 # Gekko Tools
-Gekko Backtest Tool - https://github.com/xFFFFF/GekkoBacktestTool
-Japonicus - genetic algorithm - https://github.com/Gab0/japonicus
-GekkoGA - genetic algorithm - https://github.com/gekkowarez/gekkoga
-Complete image to VirtualBox with Gekko - https://github.com/tsungminyang/gekko
-Gekko in Quasar Framework - https://github.com/gekko-quasar-ui
+- Gekko Backtest Tool - https://github.com/xFFFFF/GekkoBacktestTool
+- Japonicus - genetic algorithm - https://github.com/Gab0/japonicus
+- GekkoGA - genetic algorithm - https://github.com/gekkowarez/gekkoga
+- Complete image to VirtualBox with Gekko - https://github.com/tsungminyang/gekko
+- Gekko in Quasar Framework - https://github.com/gekko-quasar-ui
 
 # Gekko Addons
 # Indicators
