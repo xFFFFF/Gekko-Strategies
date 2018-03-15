@@ -16,6 +16,8 @@ Gekko in Quasar Framework - gekko-quasar-ui
 # Indicators
 Wix-Fix caux/gekkostuff
 Indicators by Gab0 - Gab0/gekko-extra-indicators
+Fibonnaci - https://github.com/thegamecat/gekko-trading-stuff
+Neaptic - https://github.com/jmatty1983/gekkoNeatapticIndicator
 # Exchanges
 CCXT - Yoyae/gekko
 Cryptopia - trainerbill/gekko/

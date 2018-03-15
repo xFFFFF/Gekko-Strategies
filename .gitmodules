@@ -1,3 +1,27 @@
 [submodule "Kane2"]
 	path = Kane2
 	url = https://github.com/imkane/gekko
+[submodule "CloggyStrats"]
+	path = CloggyStrats
+	url = https://github.com/cloggy45/Gekko-Bot-Resources/
+[submodule "AdoptedStrategies"]
+	path = AdoptedStrategies
+	url = https://github.com/Gab0/gekko-adapted-strategies
+[submodule "RSI-WR"]
+	path = RSI-WR
+	url = https://github.com/zzmike76/gekko
+[submodule "TommieHansenStrategies"]
+	path = TommieHansenStrategies
+	url = https://github.com/tommiehansen/gekko_tools
+[submodule "SuperTrend"]
+	path = SuperTrend
+	url = https://github.com/Dodo33/gekko-supertrend-strategy
+[submodule "BuyAtSellAt"]
+	path = BuyAtSellAt
+	url = https://github.com/pushkarnagle/gekko-buyatsellat
+[submodule "NeuralNet"]
+	path = NeuralNet
+	url = https://github.com/SirTificate/gekko-neuralnet
+[submodule "Neapticator"]
+	path = Neapticator
+	url = https://github.com/jmatty1983/gekkoNeatapticIndicator
