@@ -6,32 +6,32 @@ Repository of strategies which I found at Git and Google, orginal source is in R
 To create backtest_database.csv I used: https://github.com/xFFFFF/GekkoBacktestTool
 
 # Gekko Tools
-Gekko Backtest Tool - xFFFFF/GekkoBacktestTool
-Japonicus - genetic algorithm - Gab0/japonicus
-GekkoGA - genetic algorithm - gekkowarez/gekkoga
-Complete image to VirtualBox with Gekko - tsungminyang/gekko
-Gekko in Quasar Framework - gekko-quasar-ui
+Gekko Backtest Tool - https://github.com/xFFFFF/GekkoBacktestTool
+Japonicus - genetic algorithm - https://github.com/Gab0/japonicus
+GekkoGA - genetic algorithm - https://github.com/gekkowarez/gekkoga
+Complete image to VirtualBox with Gekko - https://github.com/tsungminyang/gekko
+Gekko in Quasar Framework - https://github.com/gekko-quasar-ui
 
 # Gekko Addons
 # Indicators
-Wix-Fix caux/gekkostuff
-Indicators by Gab0 - Gab0/gekko-extra-indicators
+Wix-Fix https://github.com/caux/gekkostuff
+Indicators by Gab0 - https://github.com/Gab0/gekko-extra-indicators
 Fibonnaci - https://github.com/thegamecat/gekko-trading-stuff
 Neaptic - https://github.com/jmatty1983/gekkoNeatapticIndicator
 # Exchanges
-CCXT - Yoyae/gekko
-Cryptopia - trainerbill/gekko/
-Bitmex - Johannnnes/gekko/
-AbuCoins - piotras9000/gekko/
-HitBTC - anhpha/gekko/
-Mercado - brvollino/gekko
-Mock - ilap/gekko/
+CCXT - https://github.com/Yoyae/gekko
+Cryptopia - https://github.com/trainerbill/gekko/
+Bitmex - https://github.com/Johannnnes/gekko/
+AbuCoins - https://github.com/piotras9000/gekko/
+HitBTC - https://github.com/anhpha/gekko/
+Mercado - https://github.com/brvollino/gekko
+Mock - https://github.com/ilap/gekko/
 # Plugins
-Market report - hiyan/gekkowk/
-Market Risk -ilap/gekko
-Multi Trader - roelplieger/gekko/
-Multi PaperTrader - roelplieger/gekko
-MySQL - /jordanmmyers/mb-dev
-Draw indicators results - christianbaier/gekko
-Gekko strategies in Python - pauljherrera/gekko_python
+Market report - https://github.com/hiyan/gekkowk/
+Market Risk -https://github.com/ilap/gekko
+Multi Trader - https://github.com/roelplieger/gekko/
+Multi PaperTrader - https://github.com/roelplieger/gekko
+MySQL - https://github.com/jordanmmyers/mb-dev
+Draw indicators results - https://github.com/christianbaier/gekko
+Gekko strategies in Python - https://github.com/pauljherrera/gekko_python
 
