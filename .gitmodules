@@ -1,0 +1,3 @@
+[submodule "Kane2"]
+	path = Kane2
+	url = https://github.com/imkane/gekko
