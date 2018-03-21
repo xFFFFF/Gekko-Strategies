@@ -10,7 +10,7 @@ To create backtest_database.csv I used: https://github.com/xFFFFF/GekkoBacktestT
 - Japonicus - genetic algorithm - https://github.com/Gab0/japonicus
 - GekkoGA - genetic algorithm - https://github.com/gekkowarez/gekkoga
 - Complete image to VirtualBox with Gekko - https://github.com/tsungminyang/gekko
-- Gekko in Quasar Framework - https://github.com/gekko-quasar-ui
+- Gekko in Quasar Framework - https://github.com/H256/gekko-quasar-ui
 
 # Gekko Addons
 # Indicators
