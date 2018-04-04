@@ -18,6 +18,7 @@ To create backtest_database.csv I used: https://github.com/xFFFFF/GekkoBacktestT
 - Indicators by Gab0 - https://github.com/Gab0/gekko-extra-indicators
 - Fibonnaci - https://github.com/thegamecat/gekko-trading-stuff
 - Neaptic - https://github.com/jmatty1983/gekkoNeatapticIndicator
+- HMA and others - https://github.com/jmatty1983/gekkoIndicators
 # Exchanges
 - CCXT - https://github.com/Yoyae/gekko
 - Cryptopia - https://github.com/trainerbill/gekko/
@@ -34,4 +35,7 @@ To create backtest_database.csv I used: https://github.com/xFFFFF/GekkoBacktestT
 - MySQL - https://github.com/jordanmmyers/mb-dev
 - Draw indicators results - https://github.com/christianbaier/gekko
 - Gekko strategies in Python - https://github.com/pauljherrera/gekko_python
+- Display indicators in backtest results- https://github.com/Catwhisker/gekko
+- Indicators on chart - https://github.com/PixelGithub/gekko/tree/PixelCrunch-IndicatorsGraph
+- Discord - https://github.com/PixelGithub/gekko/tree/PixelCrunch-DiscordPlugin
 
