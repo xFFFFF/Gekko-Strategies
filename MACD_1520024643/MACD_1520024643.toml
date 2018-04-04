@@ -1,0 +1,10 @@
+# Source: https://raw.githubusercontent.com/jazzbre/gekko/stable/strategies/MACD.js
+short = 10
+long = 21
+signal = 9
+interval = 14
+
+[thresholds]
+down = -0.025
+up = 0.025
+persistence = 1

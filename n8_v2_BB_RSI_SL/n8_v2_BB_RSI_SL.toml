@@ -1,0 +1,31 @@
+# RSI
+interval = 14
+
+# STOP LOSS
+SL = 1
+
+# BULL
+BULL_RSI = 10
+BULL_RSI_high = 80
+BULL_RSI_low = 60
+
+# BEAR
+BEAR_RSI = 15
+BEAR_RSI_high = 50
+BEAR_RSI_low = 20
+
+# ADX
+ADX = 3
+ADX_high = 70
+ADX_low = 50
+
+[thresholds]
+low = 30
+high = 70
+down = 0.1
+persistence = 1
+
+# BULL/BEAR is defined by the longer SMA trends
+# if SHORT over LONG = BULL
+# if SHORT under LONG = BEAR
+

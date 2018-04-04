@@ -25,3 +25,6 @@
 [submodule "Neapticator"]
 	path = Neapticator
 	url = https://github.com/jmatty1983/gekkoNeatapticIndicator
+[submodule "gekko-strat-hl"]
+	path = gekko-strat-hl
+	url = https://github.com/mounirlabaied/gekko-strat-hl

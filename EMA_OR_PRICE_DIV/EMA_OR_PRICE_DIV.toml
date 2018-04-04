@@ -1,0 +1,4 @@
+# Source: https://raw.githubusercontent.com/imperator6/gekko/stable/config/strategies/EMA_OR_PRICE_DIV.toml
+ema = 50
+long = -2.5
+short = 2.5
