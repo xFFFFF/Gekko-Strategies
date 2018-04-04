@@ -1,4 +1,5 @@
 // Source: https://raw.githubusercontent.com/vrfurl/gekko/stable/strategies/EMACrossover.js
+// Downloaded from: https://github.com/xFFFFF/Gekko-Strategies
 // helpers
 var _ = require('lodash');
 var log = require('../core/log.js');

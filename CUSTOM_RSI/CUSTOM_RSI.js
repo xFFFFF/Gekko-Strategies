@@ -1,4 +1,5 @@
 // Source: https://raw.githubusercontent.com/trainerbill/gekko/develop/strategies/CUSTOM-RSI.js
+// Downloaded from: https://github.com/xFFFFF/Gekko-Strategies
 var log = require('../core/log.js');
 const Joi = require('joi');
 // If you want to use your own trading methods you can

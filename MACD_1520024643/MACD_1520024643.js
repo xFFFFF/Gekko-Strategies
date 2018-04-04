@@ -1,4 +1,6 @@
 // Source: https://raw.githubusercontent.com/jazzbre/gekko/stable/strategies/MACD.js
+// Downloaded from: https://github.com/xFFFFF/Gekko-Strategies
+
 /*
 
   MACD - DJM 31/12/2013

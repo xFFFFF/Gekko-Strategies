@@ -1,5 +1,5 @@
 // Source: https://raw.githubusercontent.com/gcobs0834/gekko/develop/strategies/DI.js
-
+// Downloaded from: https://github.com/xFFFFF/Gekko-Strategies
 // let's create our own method
 var method = {};
 

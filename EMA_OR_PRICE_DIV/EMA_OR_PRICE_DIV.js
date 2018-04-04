@@ -1,4 +1,5 @@
 // Source: https://raw.githubusercontent.com/imperator6/gekko/stable/strategies/EMA_OR_PRICE_DIV.js
+// Downloaded from: https://github.com/xFFFFF/Gekko-Strategies
 // helpers
 var _ = require('lodash');
 var log = require('../core/log.js');

@@ -1,3 +1,5 @@
+// Downloaded from: https://github.com/xFFFFF/Gekko-Strategies
+
 var convnetjs = require('convnetjs')
 var z = require('zero-fill')
 var stats = require('stats-lite')

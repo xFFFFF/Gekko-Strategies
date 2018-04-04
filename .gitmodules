@@ -28,3 +28,6 @@
 [submodule "gekko-strat-hl"]
 	path = gekko-strat-hl
 	url = https://github.com/mounirlabaied/gekko-strat-hl
+[submodule "gekko"]
+	path = gekko
+	url = https://github.com/zzmike76/gekko
