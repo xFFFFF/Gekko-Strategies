@@ -1,4 +1,5 @@
 // Downloaded from: https://github.com/xFFFFF/Gekko-Strategies
+// Source: https://github.com/RJPGriffin/
 /*
 	RSI Bull and Bear + ADX modifier
 	1. Use different RSI-strategies depending on a longer trend

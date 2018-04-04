@@ -31,3 +31,21 @@
 [submodule "gekko"]
 	path = gekko
 	url = https://github.com/zzmike76/gekko
+[submodule "GekkoStrategies"]
+	path = GekkoStrategies
+	url = https://github.com/Alocaly/GekkoStrategies
+[submodule "ManuNet"]
+	path = ManuNet
+	url = https://github.com/Alocaly/GekkoStrategies
+[submodule "tether"]
+	path = tether
+	url = https://github.com/alex-kooper/gekko-strategy
+[submodule "Luke_NN"]
+	path = Luke_NN
+	url = https://github.com/WeiWeiOuO/Gekko-Strategies
+[submodule "Gab0"]
+	path = Gab0
+	url = https://github.com/Gab0/gekko-adapted-strategies
+[submodule "neuralnet_zschro"]
+	path = neuralnet_zschro
+	url = https://github.com/zschro/gekko-neuralnet
