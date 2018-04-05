@@ -11,8 +11,11 @@ To create backtest_database.csv I used: https://github.com/xFFFFF/GekkoBacktestT
 - GekkoGA - genetic algorithm - https://github.com/gekkowarez/gekkoga
 - Complete image to VirtualBox with Gekko - https://github.com/tsungminyang/gekko
 - Gekko in Quasar Framework - https://github.com/H256/gekko-quasar-ui
+- Gekko Automated Backtest - https://github.com/tommiehansen/gab
 
 # Gekko Addons
+# Datasets
+- Complete datasets in SQLite files: https://github.com/xFFFFF/Gekko-Datasets
 # Indicators
 - Wix-Fix https://github.com/caux/gekkostuff
 - Indicators by Gab0 - https://github.com/Gab0/gekko-extra-indicators
@@ -38,4 +41,4 @@ To create backtest_database.csv I used: https://github.com/xFFFFF/GekkoBacktestT
 - Display indicators in backtest results- https://github.com/Catwhisker/gekko
 - Indicators on chart - https://github.com/PixelGithub/gekko/tree/PixelCrunch-IndicatorsGraph
 - Discord - https://github.com/PixelGithub/gekko/tree/PixelCrunch-DiscordPlugin
-
+- Store all trades from live in Google SpreadSheet - https://github.com/RJPGriffin/google-forms-gekko-plugin
