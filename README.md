@@ -42,3 +42,5 @@ To create backtest_database.csv I used: https://github.com/xFFFFF/GekkoBacktestT
 - Indicators on chart - https://github.com/PixelGithub/gekko/tree/PixelCrunch-IndicatorsGraph
 - Discord - https://github.com/PixelGithub/gekko/tree/PixelCrunch-DiscordPlugin
 - Store all trades from live in Google SpreadSheet - https://github.com/RJPGriffin/google-forms-gekko-plugin
+# Others
+- Send buy/sell advice to Gekko via IRC - https://github.com/gshearer/hodlgreed
