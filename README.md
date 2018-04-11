@@ -1,6 +1,14 @@
 # Gekko-Strategies
 # Introduction
-Repository of strategies which I found at Git and Google, orginal source is in README file. All strategies was backtested, results are in [backtest_database.csv](https://github.com/xFFFFF/Gekko-Strategies/blob/master/backtest_database.csv) file.
+Repository of strategies which I found at Git and Google, orginal source is in README or .js file. All strategies was backtested, results are in [backtest_database.csv](https://github.com/xFFFFF/Gekko-Strategies/blob/master/backtest_database.csv) file.
+
+Feel free if You want share strategies on this repo. I will backtest it after push.
+
+# Installation
+1. `git clone https://github.com/xFFFFF/Gekko-Strategies`
+2. `cd Gekko-Strategies`
+3. `bash install.sh`
+4. Restart Gekko
 
 # GekkoBacktestTool
 To create backtest_database.csv I used: https://github.com/xFFFFF/GekkoBacktestTool
