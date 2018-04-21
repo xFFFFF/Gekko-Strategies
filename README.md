@@ -53,3 +53,4 @@ To create backtest_database.csv I used: https://github.com/xFFFFF/GekkoBacktestT
 - Store all trades from live in Google SpreadSheet - https://github.com/RJPGriffin/google-forms-gekko-plugin
 # Others
 - Send buy/sell advice to Gekko via IRC - https://github.com/gshearer/hodlgreed
+- NN price predictions strategy via external API - https://github.com/BitBanknz/bitbank-gekko
