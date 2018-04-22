@@ -3,7 +3,7 @@
 Repository of strategies which I found at Git and Google, orginal source is in README or .js file. All strategies was backtested, results are in [backtest_database.csv](https://github.com/xFFFFF/Gekko-Strategies/blob/master/backtest_database.csv) file.
 
 # Best strategy
-Results are sorted by amount of best profit/day on unique datasets and second by percent of profitable backtests.   
+Results are sorted by amount of best profit/day on unique **DATASETS** and second by percent of profitable **BACKTESTS**.   
 .
 ![Stats of strategies](http://i.imgur.com/UFn4P7U.png)
 
