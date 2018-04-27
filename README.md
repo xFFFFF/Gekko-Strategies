@@ -36,6 +36,7 @@ To create backtest_database.csv I used: https://github.com/xFFFFF/GekkoBacktestT
 - Neaptic - https://github.com/jmatty1983/gekkoNeatapticIndicator
 - HMA and others - https://github.com/jmatty1983/gekkoIndicators
 - PSAR - https://github.com/illion20/gekko/tree/develop/strategies/indicators
+- Custom RSI - https://github.com/CyborgDroid/gekkoIndicators
 # Exchanges
 - CCXT - https://github.com/Yoyae/gekko
 - Cryptopia - https://github.com/trainerbill/gekko/
