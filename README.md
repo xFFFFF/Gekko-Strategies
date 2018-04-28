@@ -25,6 +25,7 @@ To create backtest_database.csv I used: https://github.com/xFFFFF/GekkoBacktestT
 - Complete image to VirtualBox with Gekko - https://github.com/tsungminyang/gekko
 - Gekko in Quasar Framework - https://github.com/H256/gekko-quasar-ui
 - Gekko Automated Backtest - https://github.com/tommiehansen/gab
+- Kill, start market watchers/traders in Gekko UI - https://github.com/CyborgDroid/gekko-python
 
 # Gekko Addons
 # Datasets
@@ -45,6 +46,7 @@ To create backtest_database.csv I used: https://github.com/xFFFFF/GekkoBacktestT
 - HitBTC - https://github.com/anhpha/gekko/
 - Mercado - https://github.com/brvollino/gekko
 - Mock - https://github.com/ilap/gekko/
+- Dragonex - https://github.com/BoBoSama/gekko
 # Plugins
 - Market report - https://github.com/hiyan/gekkowk/
 - Market Risk -https://github.com/ilap/gekko
