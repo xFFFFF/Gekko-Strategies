@@ -10,10 +10,16 @@ Results are sorted by amount of best profit/day on unique **DATASETS** and secon
 Feel free if You want share strategies on this repo. I will backtest it after push.
 
 # Installation
+Unix-like
 1. `git clone https://github.com/xFFFFF/Gekko-Strategies`
 2. `cd Gekko-Strategies`
 3. `bash install.sh`
 4. Restart Gekko
+
+Windows
+1. Download: https://github.com/xFFFFF/Gekko-Strategies/archive/master.zip
+2. Open downloaded file
+3. Go to each sub folders and copy .js file to C:\gekko\strategies and .toml file to C:\gekko\config\strategies. Folder indicator (if exist) copy to C:\gekkko\strategies
 
 # GekkoBacktestTool
 To create backtest_database.csv I used: https://github.com/xFFFFF/GekkoBacktestTool
