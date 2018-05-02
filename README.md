@@ -1,30 +1,33 @@
 # Gekko-Strategies
-# Introduction
-Repository of strategies which I found at Git and Google, orginal source is in README or .js file. All strategies was backtested, results are in [backtest_database.csv](https://github.com/xFFFFF/Gekko-Strategies/blob/master/backtest_database.csv) file.
+## Introduction
+[![made-with-bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)](https://www.gnu.org/software/bash/)
+ [![Powered by Gekko-BacktestTool](https://img.shields.io/badge/Made%20with-Gekko%20BacktestTool-blue.svg)](https://github.com/xFFFFF/Gekko-BacktestTool) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) [![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/contributors/)
+ [![HitCount](http://hits.dwyl.com/xFFFFF/Gekko-Strategies.svg)](http://hits.dwyl.com/xFFFFF/Gekko-Strategies)
 
-# Best strategy
-Results are sorted by amount of best profit/day on unique **DATASETS** and second by percent of profitable **BACKTESTS**.   
-.
+    
+[Gekko](http://github.com/askmike/gekko) Trading Bot. Repository of strategies which I found at Git and Google, orginal source is in README or .js file. Strategies was backtested, results are in [backtest_database.csv](https://github.com/xFFFFF/Gekko-Strategies/blob/master/backtest_database.csv) file.
+
+## Best strategy
+Results are sorted by amount of best profit/day on unique **DATASETS** and second by percent of profitable **BACKTESTS**.     
+.   
 ![Stats of strategies](http://i.imgur.com/UFn4P7U.png)
 
-Feel free if You want share strategies on this repo. I will backtest it after push.
+Remember, these are just **BACKTESTS**. Not real trading!
+Feel free if You want share strategies on this repo. I will backtest it after push.   
+## Installation
+### Unix-like   
+1. `git clone https://github.com/xFFFFF/Gekko-Strategies`   
+2. `cd Gekko-Strategies`   
+3. `bash install.sh`   
+4. Restart Gekko   
 
-# Installation
-Unix-like
-1. `git clone https://github.com/xFFFFF/Gekko-Strategies`
-2. `cd Gekko-Strategies`
-3. `bash install.sh`
-4. Restart Gekko
+### Windows
+1. Download: https://github.com/xFFFFF/Gekko-Strategies/archive/master.zip   
+2. Open downloaded file   
+3. Go to each sub folders and copy .js file to Your Gekko folder for example Desktop\Gekko. File .toml copy to Desktop\gekko\config\strategies. Folder indicators (if exist) copy to C:\gekkko\strategies   
 
-Windows
-1. Download: https://github.com/xFFFFF/Gekko-Strategies/archive/master.zip
-2. Open downloaded file
-3. Go to each sub folders and copy .js file to C:\gekko\strategies and .toml file to C:\gekko\config\strategies. Folder indicator (if exist) copy to C:\gekkko\strategies
-
-# GekkoBacktestTool
-To create backtest_database.csv I used: https://github.com/xFFFFF/GekkoBacktestTool
-
-# Gekko Tools
+## Some links
+### Gekko Tools
 - Gekko Backtest Tool - https://github.com/xFFFFF/GekkoBacktestTool
 - Japonicus - genetic algorithm - https://github.com/Gab0/japonicus
 - GekkoGA - genetic algorithm - https://github.com/gekkowarez/gekkoga
@@ -33,10 +36,12 @@ To create backtest_database.csv I used: https://github.com/xFFFFF/GekkoBacktestT
 - Gekko Automated Backtest - https://github.com/tommiehansen/gab
 - Kill, start market watchers/traders in Gekko UI - https://github.com/CyborgDroid/gekko-python
 
-# Gekko Addons
-# Datasets
+### Datasets
 - Complete datasets in SQLite files: https://github.com/xFFFFF/Gekko-Datasets
-# Indicators
+
+### Gekko Addons
+I warn you that not everything can work as it should.
+#### Indicators
 - Wix-Fix https://github.com/caux/gekkostuff
 - Indicators by Gab0 - https://github.com/Gab0/gekko-extra-indicators
 - Fibonnaci - https://github.com/thegamecat/gekko-trading-stuff
@@ -44,7 +49,8 @@ To create backtest_database.csv I used: https://github.com/xFFFFF/GekkoBacktestT
 - HMA and others - https://github.com/jmatty1983/gekkoIndicators
 - PSAR - https://github.com/illion20/gekko/tree/develop/strategies/indicators
 - Custom RSI - https://github.com/CyborgDroid/gekkoIndicators
-# Exchanges
+
+#### Exchanges
 - CCXT - https://github.com/Yoyae/gekko
 - Cryptopia - https://github.com/trainerbill/gekko/
 - Bitmex - https://github.com/Johannnnes/gekko/
@@ -53,7 +59,8 @@ To create backtest_database.csv I used: https://github.com/xFFFFF/GekkoBacktestT
 - Mercado - https://github.com/brvollino/gekko
 - Mock - https://github.com/ilap/gekko/
 - Dragonex - https://github.com/BoBoSama/gekko
-# Plugins
+
+#### Plugins
 - Market report - https://github.com/hiyan/gekkowk/
 - Market Risk -https://github.com/ilap/gekko
 - Multi Trader - https://github.com/roelplieger/gekko/
@@ -65,6 +72,10 @@ To create backtest_database.csv I used: https://github.com/xFFFFF/GekkoBacktestT
 - Indicators on chart - https://github.com/PixelGithub/gekko/tree/PixelCrunch-IndicatorsGraph
 - Discord - https://github.com/PixelGithub/gekko/tree/PixelCrunch-DiscordPlugin
 - Store all trades from live in Google SpreadSheet - https://github.com/RJPGriffin/google-forms-gekko-plugin
-# Others
+
+### Others
 - Send buy/sell advice to Gekko via IRC - https://github.com/gshearer/hodlgreed
-- NN price predictions strategy via external API - https://github.com/BitBanknz/bitbank-gekko
+- Neural network price predictions strategy via external API - https://github.com/BitBanknz/bitbank-gekko
+
+## Donate?
+I am not the author of the strategies posted here. Donate authors. If you like my work then share your strategy. That's all.
