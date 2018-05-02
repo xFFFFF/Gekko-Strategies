@@ -1,7 +1,7 @@
 # Gekko-Strategies
 ## Introduction
 [![made-with-bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)](https://www.gnu.org/software/bash/)
- [![Powered by Gekko-BacktestTool](https://img.shields.io/badge/Made%20with-Gekko%20BacktestTool-blue.svg)](https://github.com/xFFFFF/Gekko-BacktestTool) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/xFFFFF/Gekko-Strategies/issues) [![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/contributors/)
+ [![Powered by Gekko-BacktestTool](https://img.shields.io/badge/Made%20with-Gekko%20BacktestTool-blue.svg)](https://github.com/xFFFFF/Gekko-BacktestTool) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/xFFFFF/Gekko-Strategies/issues) [![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://GitHub.com/xFFFFF/Gekko-Strategies/graphs/contributors/)
  [![HitCount](http://hits.dwyl.com/xFFFFF/Gekko-Strategies.svg)](http://hits.dwyl.com/xFFFFF/Gekko-Strategies)
 
     
@@ -80,4 +80,6 @@ I warn you that not everything can work as it should.
 - Neural network price predictions strategy via external API - https://github.com/BitBanknz/bitbank-gekko
 
 ## Donate?
-I am not the author of the strategies posted here. Donate authors. If you like my work then share your strategy. That's all.
+![Nie biorę](https://i.imgur.com/Ae4Ptmf.jpg) 
+
+I am not the author of the strategies posted here. Donate authors. If you like my work then share your strategy. That's all.   
