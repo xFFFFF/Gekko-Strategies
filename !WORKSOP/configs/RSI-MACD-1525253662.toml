@@ -1,0 +1,17 @@
+[MACD]
+short = 10
+long = 21
+signal = 9
+
+[MACDthresholds]
+down = -0.025
+up = 0.025
+persistence = 1
+
+[RSI]
+interval = 14
+
+[RSIthresholds]
+low = 30
+high = 70
+persistence = 1

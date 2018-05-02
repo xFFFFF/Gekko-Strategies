@@ -1,0 +1,4 @@
+stopBuffer = 0.015
+profitRatio = 1.5
+lowCross = -20
+highCross = 20

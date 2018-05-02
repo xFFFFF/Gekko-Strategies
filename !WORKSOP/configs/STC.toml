@@ -1,0 +1,10 @@
+length = 10
+candleSize = 240
+fastLength = 23
+slowLength = 50
+factor = 0.5
+crossOver = 20
+crossUnder = 80
+takeProfit = 0
+stopLoss = 5
+trailOffset = 7

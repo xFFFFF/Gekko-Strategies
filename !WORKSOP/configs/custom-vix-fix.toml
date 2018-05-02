@@ -1,0 +1,5 @@
+# Note: to launch just before candle size multiple (Ex: 10:14:58)
+pair = 'BTC-EUR'
+candleSize = 900 # 15 minutes
+loadInitialCandles = false
+slackNotification = false

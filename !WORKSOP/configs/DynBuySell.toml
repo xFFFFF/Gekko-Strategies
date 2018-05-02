@@ -1,0 +1,6 @@
+[thresholds]
+interval = 8
+sell_at = 1.05
+buy_at = 0.97
+buy_at_up = 1.003
+stop_loss_pct = 0.85

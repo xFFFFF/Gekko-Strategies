@@ -1,0 +1,33 @@
+# SMA INDICATOR
+SMA_long = 1000
+SMA_short = 50
+
+# STC BULL / BEAR Thresholds
+BULL_STC_high = 80
+BULL_STC_low = 60
+
+BEAR_STC_high = 50
+BEAR_STC_low = 20
+
+# MODIFY STC (depending on ADX)
+BULL_MOD_high = 5
+BULL_MOD_low = -5
+BEAR_MOD_high = 15
+BEAR_MOD_low = -5
+
+# ADX
+ADX = 3
+ADX_high = 70
+ADX_low = 50
+
+[BULL_STC]
+fastLength = 23
+slowLength = 50
+stcLength = 10
+factor = 0.5
+
+[BEAR_STC]
+fastLength = 23
+slowLength = 50
+stcLength = 10
+factor = 0.5

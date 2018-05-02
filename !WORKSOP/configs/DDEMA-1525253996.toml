@@ -1,0 +1,6 @@
+short = 4
+long = 8
+
+[thresholds]
+down = -0.2
+up = 0.2

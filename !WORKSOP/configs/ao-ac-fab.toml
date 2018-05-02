@@ -1,0 +1,4 @@
+[parameters]
+optInFastPeriod = 7
+optInSlowPeriod = 14
+

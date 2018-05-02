@@ -1,0 +1,27 @@
+interval = 14
+microprofit = 3
+minrsiprofit = 55
+maxloss = 1
+checklost = 60
+
+[thresholds]
+low = 30
+high = 70
+persistence = 2
+highpersistence = 1
+
+[dma]
+short = 10
+long = 21
+down = -0.025
+up = 0.025
+
+[macd]
+short = 5
+long = 26
+signal = 9
+signalhigh = -30
+down = -0.0025
+up = 0.025
+persistence = 2
+rsi = 70

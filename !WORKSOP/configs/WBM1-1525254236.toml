@@ -1,0 +1,30 @@
+
+# Tell the bot if the first trade should be a buy or sell
+firstTrade = "buy"
+
+# -1 = no limit
+tradeLimit = -1
+
+# short DEMA
+shortSize = 9
+# long DEMA
+longSize = 34
+
+sellOnOverbought = true
+rsiSize = 14
+rsiSellPoint = 80
+initialBuyPrice = 0
+buyFee = 0.15
+sellFee = 0.15
+profitMarginPercentage = 2
+
+sellOnProfit = true
+
+# Buy on a GC?
+enableBuyOnGC =  true
+
+# Set to true if you want to buy when asset is underbought
+enableBuyLow = false
+rsiBuyPoint = 30
+
+[WBM1]

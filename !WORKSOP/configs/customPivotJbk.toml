@@ -1,0 +1,5 @@
+candlesBeforePivot = 4
+candlesAfterPivot = 2
+
+takeProfitPercents = 4
+stopLossPercents = 5

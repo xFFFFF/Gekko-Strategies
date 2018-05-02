@@ -1,0 +1,16 @@
+
+# Tell the bot if the first trade should be a buy or sell
+firstTrade = "buy"
+
+shortSize = 9
+
+longSize = 34
+
+rsiSize = 14
+rsiReBuyPointLow = 60
+rsiReBuyPointHigh = 65
+rsiSellPoint = 75
+
+[demaRSICrossover]
+
+

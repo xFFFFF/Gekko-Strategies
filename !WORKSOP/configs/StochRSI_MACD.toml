@@ -1,0 +1,16 @@
+short = 10
+long = 21
+signal = 9
+interval = 3
+
+[thresholds]
+down = -0.025
+up = 0.025
+persistence = 1
+low = 20
+high = 80
+
+[bbands]
+TimePeriod = 1
+NbDevDn = 1.96
+NbDevUp = 1.96

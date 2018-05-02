@@ -1,0 +1,3 @@
+[thresholds]
+down = 0.999
+up = 1.0001

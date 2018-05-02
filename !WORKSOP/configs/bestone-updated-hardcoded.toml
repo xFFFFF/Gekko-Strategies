@@ -1,0 +1,15 @@
+[myStoch]
+highThreshold = 80
+lowThreshold = 20
+optInFastKPeriod = 14
+optInSlowKPeriod = 5
+optInSlowDPeriod = 5
+
+[myLongEma]
+optInTimePeriod = 100
+
+[myShortEma] 
+optInTimePeriod = 50
+
+[stopLoss]
+percent = 0.9

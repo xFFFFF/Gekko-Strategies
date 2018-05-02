@@ -1,0 +1,4 @@
+[rsi]
+interval = 6
+[ema]
+ema1 = 10

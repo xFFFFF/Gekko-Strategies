@@ -1,0 +1,17 @@
+# Nothing to configure yet
+
+# Requires a history of at least 34 candles
+
+# Tell the bot if the first trade should be a buy or sell
+firstTrade = "buy"
+
+# shortEMA size
+shortSize = 13
+
+# longEMA size
+longSize = 34
+
+# Delta between the two EMAs after they cross
+delta = 0
+
+[emaCrossover]

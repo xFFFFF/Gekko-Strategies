@@ -1,0 +1,10 @@
+my_custom_setting = 10
+force_short_threshold = 0.1
+volume_avg_date = 5
+volume_multiply = 1
+trend_date_long = 5
+trend_date_short = 5
+hammer_min_multiply = 3
+hammer_max_multiply = 15
+trend_multiply = 1
+regret_hammer = false

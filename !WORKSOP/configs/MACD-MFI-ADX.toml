@@ -1,0 +1,27 @@
+[adx_settings]
+historySize = 10
+optInTimePeriod = 2
+candleSize = 5
+
+[adx_thresholds]
+up = 30
+down = 20
+
+[mfi_settings]
+optInTimePeriod=2
+
+[mfi_thresholds]
+overbought = 80
+oversold = 20
+
+[macd_settings]
+short = 10
+long = 21
+signal = 9
+
+[macd_thresholds]
+down = -0.0001
+up = 0.005
+persistence = 1
+
+

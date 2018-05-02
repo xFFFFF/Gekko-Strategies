@@ -1,0 +1,12 @@
+stcLength = 5
+fastLength = 9
+slowLength = 30
+factor = 0.5
+threshold_high = 80
+threshold_low = 20
+
+enable_stop_loss = true
+stoploss_threshold = 5
+
+adjust_false_signal = true
+threshold_adjustment = 5

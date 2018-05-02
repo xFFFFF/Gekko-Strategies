@@ -1,0 +1,23 @@
+[ema10]
+type = "EMA"
+arg = 10
+
+[ema100]
+type = "EMA"
+arg = 100
+
+[dema1]
+type = "DEMA"
+[dema1.args]
+short = 1
+long = 2
+
+[talibDema10]
+type = "talib.dema"
+[talibDema10.args]
+optInTimePeriod = 10
+
+[talibDema100]
+type = "talib.dema"
+[talibDema100.args]
+optInTimePeriod = 100

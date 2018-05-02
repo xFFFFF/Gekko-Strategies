@@ -1,0 +1,17 @@
+SMA_long = 1150
+SMA_short = 39
+
+interval = 14
+
+Threshold_Ema = 20;
+
+
+historyLength = 24
+Stoploss = 8
+
+BullMarketModifierUpper = 3
+BullMarketModifierLower = 3
+BearMarketModifierUpper = 3
+BearMarketModifierLower = 3
+
+persistence = 1

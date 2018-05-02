@@ -1,0 +1,68 @@
+# Global strategy params
+takeProfit = 0
+minProfit = 3
+takeLoss = 0
+negativeProfit = 1 
+negativeProfitLimit = -10
+botActivity = "uptrend"
+
+# Global params 
+# historySize - сколько свечек пропустить перед началом торговли
+# candleSize - в backtest не используется
+candleSize = 1
+historySize = 1
+
+# stoch
+use_stoch = 1
+stoch_optInFastKPeriod = 50
+stoch_optInSlowKPeriod = 5
+stoch_optInSlowDPeriod = 2
+stoch_up = 80
+stoch_down = 20
+
+#MACD
+use_macd = 0
+macd_optInFastPeriod = 12
+macd_optInSlowPeriod = 300
+macd_optInSignalPeriod = 9
+macd_persistence = 5
+macd_up = 300
+macd_down = -300
+
+
+# RSI
+use_rsi = 0
+RSI_optInTimePeriod = 6
+rsi_up = 55
+rsi_down = 45
+
+# stochRSI
+use_stochRSI = 0
+stochRSI_up = 85
+stochRSI_down = 15
+stochRSI_interval = 16
+stochRSI_persistence = 2
+
+#SMA
+use_sma = 0
+sma_optInTimePeriod = 2
+sma_up = -5
+sma_down = 5
+sma_persistence = 5
+
+# CCI
+use_cci = 0
+cci_up = 150
+cci_down = -150
+
+# ADX
+use_adx = 0
+adx_up = 55.74
+adx_down = 24.52
+
+
+
+#ROC
+use_roc = 0
+roc_up = 0
+roc_down = 0

@@ -1,0 +1,6 @@
+historySize = 80
+optInTimePeriod = 15
+candleSize = 10
+
+up = 30
+down = 20

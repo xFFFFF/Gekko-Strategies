@@ -1,0 +1,16 @@
+fastchoice = 'ma'
+slowchoice = 'ma'
+
+historySize = 27
+candleSize = 60
+stoploss = 0.9
+stophistory = 10
+
+fast_sma = 10
+slow_sma = 10
+
+sma_up = 15
+sma_down = 15
+
+change_up = 91.005
+change_down = -93.114

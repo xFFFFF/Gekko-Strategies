@@ -1,0 +1,10 @@
+[sizing]
+r = 0.05
+trailing = 0.2
+breakEven = 0.012
+
+[entry]
+stochastic = 14
+timeFrames = [1,5,15,60]
+stochasticTresholdMin = 3
+confidence = 0.9

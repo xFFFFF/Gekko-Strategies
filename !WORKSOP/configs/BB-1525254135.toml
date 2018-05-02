@@ -1,0 +1,4 @@
+[bbands]
+TimePeriod = 20
+NbDevUp = 2.25
+NbDevDn = 2

@@ -1,0 +1,19 @@
+#ultimate 1
+[parameters1]
+optInFastPeriod = 7
+optInSlowPeriod = 14
+
+[parameters2]
+optInTimePeriod = 7
+
+[parameters3]
+optInTimePeriod = 14
+
+[parameters4]
+optInFastPeriod = 7
+optInSlowPeriod = 14
+optInSignalPeriod = 9
+
+[stoploss]
+stoploss = 0.01
+

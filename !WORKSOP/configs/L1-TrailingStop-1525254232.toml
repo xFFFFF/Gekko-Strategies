@@ -1,0 +1,7 @@
+trailingValueIncrement = 2
+initialStopValue = 0
+movingStopValue = true
+buy = true
+buyPrice = 340.0146
+sell = true
+sellPrice = 345

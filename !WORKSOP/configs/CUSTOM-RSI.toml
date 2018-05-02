@@ -1,0 +1,6 @@
+[RSI]
+optInTimePeriod = 14
+long = 25
+short = 75
+buffer = 3
+bufferPercent = 75

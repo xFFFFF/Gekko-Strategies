@@ -1,1 +1,0 @@
-Strategies from this directory can not work. I added it because has interesing code from any reason.

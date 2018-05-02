@@ -1,0 +1,7 @@
+# Source: https://raw.githubusercontent.com/gcobs0834/gekko/develop/config/strategies/DI.toml
+optInTimePeriod = 14
+
+diplus = 23.5
+diminus = 23
+
+

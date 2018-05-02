@@ -1,0 +1,9 @@
+[STOCHRSI]
+optInTimePeriod = 14
+optInFastK_Period = 5
+optInFastD_Period = 3
+optInFastD_MAType = 0
+long = 25
+short = 75
+buffer = 3
+bufferPercent = 75

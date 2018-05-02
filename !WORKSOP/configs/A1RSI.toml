@@ -1,0 +1,10 @@
+interval = 14
+
+[thresholds]
+low = 31
+high = 72
+persistenceLow = 2
+persistenceHigh = 1
+bouncesLow = 3
+bouncesHigh = 1
+resetNoTrend = 50

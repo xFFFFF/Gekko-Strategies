@@ -1,0 +1,7 @@
+vixperiod = 20
+swingperiod = 250
+
+[stoploss]
+enabled = false
+trailing = false
+percent = 5

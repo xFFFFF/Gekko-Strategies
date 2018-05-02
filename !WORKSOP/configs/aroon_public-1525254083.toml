@@ -1,0 +1,9 @@
+interval =14
+
+optInTimePeriod = 46
+
+
+beardown = 99
+bearup = 30
+bulldown = 35
+bullup = 99

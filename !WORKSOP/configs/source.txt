@@ -1,0 +1,696 @@
+BuySell.toml https://raw.githubusercontent.com/danielhusar/gekko/stable/config/strategies/BuySell.toml
+
+tulip-multi-strat.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/tulip-multi-strat.toml
+
+ATR_ADX.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/ATR_ADX.toml
+
+MACD.toml https://raw.githubusercontent.com/jazzbre/gekko/stable/config/strategies/MACD.toml
+
+Supertrend_Gab0.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/Supertrend_Gab0.toml
+
+ATR_ADX_v2.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/ATR_ADX_v2.toml
+
+ATR_ADX_v2-1525253572.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/ATR_ADX_v2.toml
+
+ATR_ADX_v2-1525253575.toml https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/config/strategies/ATR_ADX_v2.toml
+
+ATR_ADX_v2-1525253577.toml https://raw.githubusercontent.com/DerSebel/gekko/develop/config/strategies/ATR_ADX_v2.toml
+
+TSI.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/TSI.toml
+
+neuralnet.toml https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/config/strategies/neuralnet.toml
+
+TEMA.toml https://raw.githubusercontent.com/hiyan/gekkowk/develop/config/strategies/TEMA.toml
+
+TEMA-1525253587.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/TEMA.toml
+
+aroon_public.toml https://raw.githubusercontent.com/Saichovsky/gekko/master/config/strategies/aroon_public.toml
+
+aroon_public-1525253592.toml https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/config/strategies/aroon_public.toml
+
+Pascal.toml https://raw.githubusercontent.com/Herklos/gekko/stable/config/strategies/Pascal.toml
+
+RSI_BULL_BEAR.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525253600.toml https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/config/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525253603.toml https://raw.githubusercontent.com/s-ferdie/gekko/develop/config/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525253605.toml https://raw.githubusercontent.com/padioca/gekko/develop/config/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525253608.toml https://raw.githubusercontent.com/Saichovsky/gekko/master/config/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525253610.toml https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/config/strategies/RSI_BULL_BEAR.toml
+
+RSI-custom.toml https://raw.githubusercontent.com/kevinxh/gekko/develop/config/strategies/RSI-custom.toml
+
+RSI_BULL_BEAR-1525253615.toml https://raw.githubusercontent.com/scragz/gekko/develop/config/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525253617.toml https://raw.githubusercontent.com/thanhlmm/gekko/develop/config/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525253620.toml https://raw.githubusercontent.com/dreymen/gekko/develop/config/strategies/RSI_BULL_BEAR.toml
+
+RSI_Autotune.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/RSI_Autotune.toml
+
+RSI_Autotune-1525253625.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/RSI_Autotune.toml
+
+alpha.toml https://raw.githubusercontent.com/bvanhou/gekko/stable/config/strategies/alpha.toml
+
+EMADIV2.toml https://raw.githubusercontent.com/imperator6/gekko/stable/config/strategies/EMADIV2.toml
+
+StochRSI_MACD_BB.toml https://raw.githubusercontent.com/laravellously/nengobot/stable/config/strategies/StochRSI_MACD_BB.toml
+
+BitBankStrategyOnlyBacktestingPreprocessedData.toml https://raw.githubusercontent.com/BitBanknz/gekko/develop/config/strategies/BitBankStrategyOnlyBacktestingPreprocessedData.toml
+
+EMADIV2-1525253636.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/EMADIV2.toml
+
+FIXPRICE.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/FIXPRICE.toml
+
+PPOTSI.toml https://raw.githubusercontent.com/trainerbill/gekko/develop/config/strategies/PPOTSI.toml
+
+ATR_ADX-1525253644.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/ATR_ADX.toml
+
+ATR_ADX-1525253646.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/ATR_ADX.toml
+
+ATR_ADX-1525253648.toml https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/config/strategies/ATR_ADX.toml
+
+ATR_ADX-1525253650.toml https://raw.githubusercontent.com/DerSebel/gekko/develop/config/strategies/ATR_ADX.toml
+
+custom.toml https://raw.githubusercontent.com/Batteryman212/icg-gekko/remotes/origin/stable/config/strategies/custom.toml
+
+RSI_BULL_BEAR_ADX.toml https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/config/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525253658.toml https://raw.githubusercontent.com/s-ferdie/gekko/develop/config/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI-MACD.toml https://raw.githubusercontent.com/NFS002/gekko/stable/config/strategies/RSI-MACD.toml
+
+RSI-MACD-1525253662.toml https://raw.githubusercontent.com/laredoza/gekko/stable/config/strategies/RSI-MACD.toml
+
+jazzbre.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/jazzbre.toml
+
+EMA_OR_PRICE_DIV.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/EMA_OR_PRICE_DIV.toml
+
+CCI_custom.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/CCI_custom.toml
+
+custom-1525253672.toml https://raw.githubusercontent.com/meirarc/gekko/stable/config/strategies/custom.toml
+
+DEMA.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/DEMA.toml
+
+ATR_ADX_v2-1525253676.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/ATR_ADX_v2.toml
+
+RU.toml https://raw.githubusercontent.com/rgermanov/gekko/stable/config/strategies/RU.toml
+
+BBRSI.toml https://raw.githubusercontent.com/hiyan/gekkowk/develop/config/strategies/BBRSI.toml
+
+RSI_BULL_BEAR_ADX-1525253684.toml https://raw.githubusercontent.com/harbop/gekko/develop/config/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525253686.toml https://raw.githubusercontent.com/Saichovsky/gekko/master/config/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525253689.toml https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/config/strategies/RSI_BULL_BEAR_ADX.toml
+
+MK_RSI_BULL_BEAR.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/MK_RSI_BULL_BEAR.toml
+
+MK_RSI_BULL_BEAR-1525253694.toml https://raw.githubusercontent.com/skimonkey/gekko/develop/config/strategies/MK_RSI_BULL_BEAR.toml
+
+EMADIV.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/EMADIV.toml
+
+rsidyn.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/rsidyn.toml
+
+TEMA-1525253702.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/TEMA.toml
+
+aroon_public-1525253704.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/aroon_public.toml
+
+neuralnet-1525253706.toml https://raw.githubusercontent.com/hiyan/gekkowk/develop/config/strategies/neuralnet.toml
+
+enhanced_kdj.toml https://raw.githubusercontent.com/ljm625/gekko/stable/config/strategies/enhanced_kdj.toml
+
+enhanced_kdj-1525253711.toml https://raw.githubusercontent.com/yinqianwu/gekko/stable/config/strategies/enhanced_kdj.toml
+
+saichovsky.toml https://raw.githubusercontent.com/Saichovsky/gekko/master/config/strategies/saichovsky.toml
+
+saichovsky2.toml https://raw.githubusercontent.com/Saichovsky/gekko/master/config/strategies/saichovsky2.toml
+
+saichovsky-1525253719.toml https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/config/strategies/saichovsky.toml
+
+saichovsky2-1525253721.toml https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/config/strategies/saichovsky2.toml
+
+DEMACrossover.toml https://raw.githubusercontent.com/brucebarrera/gekko/develop/config/strategies/DEMACrossover.toml
+
+DEMACrossover-1525253726.toml https://raw.githubusercontent.com/vrfurl/gekko/stable/config/strategies/DEMACrossover.toml
+
+beta.toml https://raw.githubusercontent.com/bvanhou/gekko/stable/config/strategies/beta.toml
+
+RSI_BB_Adx.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/RSI_BB_Adx.toml
+
+RSI_BB_Adx-1525253733.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/RSI_BB_Adx.toml
+
+BBRSI-1525253735.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/BBRSI.toml
+
+BBRSI-1525253738.toml https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/config/strategies/BBRSI.toml
+
+BBRSI-1525253741.toml https://raw.githubusercontent.com/VNadygin/gekko/develop/config/strategies/BBRSI.toml
+
+BBRSI-1525253743.toml https://raw.githubusercontent.com/hellerox/gekko/develop/config/strategies/BBRSI.toml
+
+BBRSI-1525253746.toml https://raw.githubusercontent.com/atselevich/gekko/develop/config/strategies/BBRSI.toml
+
+BB.toml https://raw.githubusercontent.com/hellerox/gekko/develop/config/strategies/BB.toml
+
+BB-1525253750.toml https://raw.githubusercontent.com/atselevich/gekko/develop/config/strategies/BB.toml
+
+BollingerBands.toml https://raw.githubusercontent.com/laravellously/nengobot/stable/config/strategies/BollingerBands.toml
+
+BB-1525253755.toml https://raw.githubusercontent.com/bvanhou/gekko/stable/config/strategies/BB.toml
+
+Combination-3.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/Combination-3.toml
+
+DEMARSICrossover.toml https://raw.githubusercontent.com/brucebarrera/gekko/develop/config/strategies/DEMARSICrossover.toml
+
+DEMARSICrossover-1525253762.toml https://raw.githubusercontent.com/vrfurl/gekko/stable/config/strategies/DEMARSICrossover.toml
+
+talib-macd.toml https://raw.githubusercontent.com/padioca/gekko/develop/config/strategies/talib-macd.toml
+
+tulip-macd.toml https://raw.githubusercontent.com/padioca/gekko/develop/config/strategies/tulip-macd.toml
+
+tulip-adx.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/tulip-adx.toml
+
+CCI_custom-1525253771.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/CCI_custom.toml
+
+CCI_custom-1525253774.toml https://raw.githubusercontent.com/Homskiy/gekko/develop/config/strategies/CCI_custom.toml
+
+NEO.toml https://raw.githubusercontent.com/gcobs0834/gekko/develop/config/strategies/NEO.toml
+
+DEMA_MtGox.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/DEMA_MtGox.toml
+
+RSI_BULL_BEAR_ADX_T.toml https://raw.githubusercontent.com/hiyan/gekkowk/develop/config/strategies/RSI_BULL_BEAR_ADX_T.toml
+
+CandlesPatterns.toml https://raw.githubusercontent.com/pprados/gekko/mydevelop/config/strategies/CandlesPatterns.toml
+
+CCI.toml https://raw.githubusercontent.com/Saichovsky/gekko/master/config/strategies/CCI.toml
+
+CCI-1525253787.toml https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/config/strategies/CCI.toml
+
+jml.toml https://raw.githubusercontent.com/juyeong/gekko/develop/config/strategies/jml.toml
+
+custom-vix-fix.toml https://raw.githubusercontent.com/BDav24/gekko/develop/config/strategies/custom-vix-fix.toml
+
+PPO.toml https://raw.githubusercontent.com/padioca/gekko/develop/config/strategies/PPO.toml
+
+bestone.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/bestone.toml
+
+cloggy_bestone.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/cloggy_bestone.toml
+
+RSI_BULL_BEAR_small.toml https://raw.githubusercontent.com/Saichovsky/gekko/master/config/strategies/RSI_BULL_BEAR_small.toml
+
+RSI_BULL_BEAR_small-1525253804.toml https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/config/strategies/RSI_BULL_BEAR_small.toml
+
+BBRSI-1525253807.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/BBRSI.toml
+
+Bro-StochRSI-ADX-DI.toml https://raw.githubusercontent.com/BrandonYuen/gekko/develop/config/strategies/Bro-StochRSI-ADX-DI.toml
+
+gannswing.toml https://raw.githubusercontent.com/phatwila/gekko/stable/config/strategies/gannswing.toml
+
+gannswing-1525253814.toml https://raw.githubusercontent.com/gobeli/gekko/stable/config/strategies/gannswing.toml
+
+gannswing-1525253816.toml https://raw.githubusercontent.com/pprados/gekko/mydevelop/config/strategies/gannswing.toml
+
+custom-1525253818.toml https://raw.githubusercontent.com/beogip/gekko/develop/config/strategies/custom.toml
+
+RSI_BULL_BEAR-1525253821.toml https://raw.githubusercontent.com/srich36/gekko_bot/stable/config/strategies/RSI_BULL_BEAR.toml
+
+Turtle.toml https://raw.githubusercontent.com/thanhlmm/gekko/develop/config/strategies/Turtle.toml
+
+CCI-1525253825.toml https://raw.githubusercontent.com/padioca/gekko/develop/config/strategies/CCI.toml
+
+neuralnet-1525253828.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/neuralnet.toml
+
+neuralnet_v2.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/neuralnet_v2.toml
+
+RSI_BULL_BEAR_ADX_PINGPONG.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/RSI_BULL_BEAR_ADX_PINGPONG.toml
+
+custom-1525253835.toml https://raw.githubusercontent.com/cgDevimer/gekko/stable/config/strategies/custom.toml
+
+bestone-1525253838.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/bestone.toml
+
+cloggy_bestone-1525253840.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/cloggy_bestone.toml
+
+bestone-1525253843.toml https://raw.githubusercontent.com/wangvincentt/gekko/develop/config/strategies/bestone.toml
+
+cloggy_bestone-1525253845.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/cloggy_bestone.toml
+
+cloggy_bestone-1525253847.toml https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/config/strategies/cloggy_bestone.toml
+
+cloggy_bestone-1525253850.toml https://raw.githubusercontent.com/DerSebel/gekko/develop/config/strategies/cloggy_bestone.toml
+
+CSV_Export.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/CSV_Export.toml
+
+CSV_Export-1525253854.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/CSV_Export.toml
+
+CSV_Export-1525253856.toml https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/config/strategies/CSV_Export.toml
+
+CSV_Export-1525253859.toml https://raw.githubusercontent.com/DerSebel/gekko/develop/config/strategies/CSV_Export.toml
+
+Benny.toml https://raw.githubusercontent.com/bennyn/gekko/develop/config/strategies/Benny.toml
+
+Benny-1525253863.toml https://raw.githubusercontent.com/jovanovicdusan/gekko/develop/config/strategies/Benny.toml
+
+RSI-PHA.toml https://raw.githubusercontent.com/anhpha/gekko/develop/config/strategies/RSI-PHA.toml
+
+RSI_BULL_BEAR-1525253868.toml https://raw.githubusercontent.com/skimonkey/gekko/develop/config/strategies/RSI_BULL_BEAR.toml
+
+alpha-1525253870.toml https://raw.githubusercontent.com/gcobs0834/gekko/develop/config/strategies/alpha.toml
+
+ao-ac-fab.toml https://raw.githubusercontent.com/scidran/gekko-s/stable/config/strategies/ao-ac-fab.toml
+
+ao-fab-base.toml https://raw.githubusercontent.com/scidran/gekko-s/stable/config/strategies/ao-fab-base.toml
+
+talib-macd-1525253878.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/talib-macd.toml
+
+tulip-macd-1525253880.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/tulip-macd.toml
+
+StochRSI_MACD_BB-1525253882.toml https://raw.githubusercontent.com/langhai8045/gekko/stable/config/strategies/StochRSI_MACD_BB.toml
+
+StochRSI_MACD_BB-1525253885.toml https://raw.githubusercontent.com/langhai8045/gekko_template/master/config/strategies/StochRSI_MACD_BB.toml
+
+Supertrend.toml https://raw.githubusercontent.com/padioca/gekko/develop/config/strategies/Supertrend.toml
+
+Supertrend-1525253889.toml https://raw.githubusercontent.com/pprados/gekko/mydevelop/config/strategies/Supertrend.toml
+
+bestone-updated-hardcoded.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/bestone-updated-hardcoded.toml
+
+bestone_updated_hardcoded.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/bestone_updated_hardcoded.toml
+
+RSI_BB_ADX_ReEntry.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/RSI_BB_ADX_ReEntry.toml
+
+RSI_BB_ADX_ReEntry-1525253899.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/RSI_BB_ADX_ReEntry.toml
+
+customPivotJbk.toml https://raw.githubusercontent.com/Fred-grais/gekko_reloaded/stable/config/strategies/customPivotJbk.toml
+
+MACD-1525253904.toml https://raw.githubusercontent.com/padioca/gekko/develop/config/strategies/MACD.toml
+
+DynBuySell.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/DynBuySell.toml
+
+RSI_BULL_BEAR_ADX-1525253909.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/RSI_BULL_BEAR_ADX.toml
+
+ATR_MA.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/ATR_MA.toml
+
+ATR_MA-1525253914.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/ATR_MA.toml
+
+ATR_MA-1525253916.toml https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/config/strategies/ATR_MA.toml
+
+ATR_MA-1525253918.toml https://raw.githubusercontent.com/DerSebel/gekko/develop/config/strategies/ATR_MA.toml
+
+jake.toml https://raw.githubusercontent.com/airbnbbkk/gekko/master/config/strategies/jake.toml
+
+ATR_MA-1525253923.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/ATR_MA.toml
+
+NN_ADX_RSI.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/NN_ADX_RSI.toml
+
+DEMA-1525253928.toml https://raw.githubusercontent.com/gobeli/gekko/stable/config/strategies/DEMA.toml
+
+Dave.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/Dave.toml
+
+Dave-1525253932.toml https://raw.githubusercontent.com/digidigo/gekko/stable/config/strategies/Dave.toml
+
+trix-fab.toml https://raw.githubusercontent.com/scidran/gekko-s/stable/config/strategies/trix-fab.toml
+
+custom-1525253937.toml https://raw.githubusercontent.com/ljm625/gekko/stable/config/strategies/custom.toml
+
+custom-1525253939.toml https://raw.githubusercontent.com/yinqianwu/gekko/stable/config/strategies/custom.toml
+
+TSI-1525253942.toml https://raw.githubusercontent.com/padioca/gekko/develop/config/strategies/TSI.toml
+
+bryanbeck.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/bryanbeck.toml
+
+neuralnet-1525253946.toml https://raw.githubusercontent.com/dreymen/gekko/develop/config/strategies/neuralnet.toml
+
+STC_Bull_Bear_Adx.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/STC_Bull_Bear_Adx.toml
+
+STC_Bull_Bear_Adx-1525253951.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/STC_Bull_Bear_Adx.toml
+
+StochRSI.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/StochRSI.toml
+
+jazzbre-1525253956.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/jazzbre.toml
+
+custom-1525253958.toml https://raw.githubusercontent.com/jazzbre/gekko/stable/config/strategies/custom.toml
+
+RSI_BULL_BEAR_ADX-1525253961.toml https://raw.githubusercontent.com/hiyan/gekkowk/develop/config/strategies/RSI_BULL_BEAR_ADX.toml
+
+mounirs_esto.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/mounirs_esto.toml
+
+mounirs_esto-1525253965.toml https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/config/strategies/mounirs_esto.toml
+
+experimenter.toml https://raw.githubusercontent.com/christianbaier/gekko/feature-backtest-datapreview/config/strategies/experimenter.toml
+
+experimenter-1525253970.toml https://raw.githubusercontent.com/Argiris88/gekko-1/feature-backtest-datapreview/config/strategies/experimenter.toml
+
+experimenter-1525253972.toml https://raw.githubusercontent.com/taddeusb90/gekko-1/feature-backtest-datapreview/config/strategies/experimenter.toml
+
+Dave-1525253974.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/Dave.toml
+
+BodhiDI_public.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/BodhiDI_public.toml
+
+BodhiDI_public-1525253979.toml https://raw.githubusercontent.com/Saichovsky/gekko/master/config/strategies/BodhiDI_public.toml
+
+BodhiDI_public-1525253981.toml https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/config/strategies/BodhiDI_public.toml
+
+BB-1525253984.toml https://raw.githubusercontent.com/okibcn/gekko/stable/config/strategies/BB.toml
+
+CUSTOM-STOCHRSI.toml https://raw.githubusercontent.com/trainerbill/gekko/develop/config/strategies/CUSTOM-STOCHRSI.toml
+
+robbot.toml https://raw.githubusercontent.com/gobeli/gekko/stable/config/strategies/robbot.toml
+
+CUSTOM_RSI.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/CUSTOM_RSI.toml
+
+DDEMA.toml https://raw.githubusercontent.com/christianbaier/gekko/feature-backtest-datapreview/config/strategies/DDEMA.toml
+
+DDEMA-1525253996.toml https://raw.githubusercontent.com/Argiris88/gekko-1/feature-backtest-datapreview/config/strategies/DDEMA.toml
+
+DDEMA-1525253998.toml https://raw.githubusercontent.com/taddeusb90/gekko-1/feature-backtest-datapreview/config/strategies/DDEMA.toml
+
+custom-1525254000.toml https://raw.githubusercontent.com/hariseldon78/gekko/stable/config/strategies/custom.toml
+
+stopTake.toml https://raw.githubusercontent.com/hariseldon78/gekko/stable/config/strategies/stopTake.toml
+
+RSI_Bull_Bear_Adx.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/RSI_Bull_Bear_Adx.toml
+
+RSI_Bull_Bear_Adx_Mod.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/RSI_Bull_Bear_Adx_Mod.toml
+
+RSI_Bull_Bear_Adx-1525254010.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/RSI_Bull_Bear_Adx.toml
+
+RSI_Bull_Bear_Adx_Mod-1525254012.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/RSI_Bull_Bear_Adx_Mod.toml
+
+RSI_Bull_Bear_Adx-1525254014.toml https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/config/strategies/RSI_Bull_Bear_Adx.toml
+
+RSI_Bull_Bear_Adx_Mod-1525254017.toml https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/config/strategies/RSI_Bull_Bear_Adx_Mod.toml
+
+RSI_Bull_Bear_Adx-1525254019.toml https://raw.githubusercontent.com/DerSebel/gekko/develop/config/strategies/RSI_Bull_Bear_Adx.toml
+
+RSI_BULL_BEAR_ADX-1525254021.toml https://raw.githubusercontent.com/padioca/gekko/develop/config/strategies/RSI_BULL_BEAR_ADX.toml
+
+BitBankStrategy.toml https://raw.githubusercontent.com/BitBanknz/gekko/develop/config/strategies/BitBankStrategy.toml
+
+BitBankStrategy2.toml https://raw.githubusercontent.com/BitBanknz/gekko/develop/config/strategies/BitBankStrategy2.toml
+
+BitBankStrategy3.toml https://raw.githubusercontent.com/BitBanknz/gekko/develop/config/strategies/BitBankStrategy3.toml
+
+neuralnet_v2-1525254031.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/neuralnet_v2.toml
+
+neuralnet-1525254033.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/neuralnet.toml
+
+neuralnet_v2-1525254035.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/neuralnet_v2.toml
+
+neuralnet-1525254038.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/neuralnet.toml
+
+neuralnet_v2-1525254040.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/neuralnet_v2.toml
+
+neuralnet-1525254043.toml https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/config/strategies/neuralnet.toml
+
+neuralnet_v2-1525254045.toml https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/config/strategies/neuralnet_v2.toml
+
+neuralnet-1525254047.toml https://raw.githubusercontent.com/DerSebel/gekko/develop/config/strategies/neuralnet.toml
+
+neuralnet_v2-1525254050.toml https://raw.githubusercontent.com/DerSebel/gekko/develop/config/strategies/neuralnet_v2.toml
+
+CUSTOM-RSI.toml https://raw.githubusercontent.com/trainerbill/gekko/develop/config/strategies/CUSTOM-RSI.toml
+
+RSI-overbought.toml https://raw.githubusercontent.com/scidran/gekko-s/stable/config/strategies/RSI-overbought.toml
+
+rsi_bear_bull.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/rsi_bear_bull.toml
+
+rsi_bear_bull-1525254059.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/rsi_bear_bull.toml
+
+rsi_bear_bull-1525254061.toml https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/config/strategies/rsi_bear_bull.toml
+
+rsi_bear_bull-1525254064.toml https://raw.githubusercontent.com/DerSebel/gekko/develop/config/strategies/rsi_bear_bull.toml
+
+RSI_BULL_BEAR-1525254066.toml https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/config/strategies/RSI_BULL_BEAR.toml
+
+FIXPRICE-1525254068.toml https://raw.githubusercontent.com/imperator6/gekko/stable/config/strategies/FIXPRICE.toml
+
+rsi-bull-bear.toml https://raw.githubusercontent.com/scidran/gekko-s/stable/config/strategies/rsi-bull-bear.toml
+
+DI.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/DI.toml
+
+EMACrossover.toml https://raw.githubusercontent.com/brucebarrera/gekko/develop/config/strategies/EMACrossover.toml
+
+EMACrossover-1525254078.toml https://raw.githubusercontent.com/vrfurl/gekko/stable/config/strategies/EMACrossover.toml
+
+aroon_public-1525254081.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/aroon_public.toml
+
+aroon_public-1525254083.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/aroon_public.toml
+
+aroon_public-1525254086.toml https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/config/strategies/aroon_public.toml
+
+aroon_public-1525254088.toml https://raw.githubusercontent.com/DerSebel/gekko/develop/config/strategies/aroon_public.toml
+
+bryanbeck-1525254090.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/bryanbeck.toml
+
+buyatsellat_ui.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/buyatsellat_ui.toml
+
+buyatsellat_ui-1525254095.toml https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/config/strategies/buyatsellat_ui.toml
+
+buyatsellat_ui-1525254097.toml https://raw.githubusercontent.com/today-not-someday/gekko/develop/config/strategies/buyatsellat_ui.toml
+
+RSI_BULL_BEAR-1525254099.toml https://raw.githubusercontent.com/gcobs0834/gekko/develop/config/strategies/RSI_BULL_BEAR.toml
+
+strategy_template.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/strategy_template.toml
+
+strategy_template-1525254104.toml https://raw.githubusercontent.com/wangvincentt/gekko/develop/config/strategies/strategy_template.toml
+
+strategy_template-1525254106.toml https://raw.githubusercontent.com/thanhlmm/gekko/develop/config/strategies/strategy_template.toml
+
+STC.toml https://raw.githubusercontent.com/gobeli/gekko/stable/config/strategies/STC.toml
+
+MK_RSI_BULL_BEAR-1525254111.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/MK_RSI_BULL_BEAR.toml
+
+Combination-1.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/Combination-1.toml
+
+Combination-1-1525254116.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/Combination-1.toml
+
+timeframes.toml https://raw.githubusercontent.com/zappra/gekko/develop/config/strategies/timeframes.toml
+
+tulip-adx-1525254121.toml https://raw.githubusercontent.com/padioca/gekko/develop/config/strategies/tulip-adx.toml
+
+MACD-1525254123.toml https://raw.githubusercontent.com/nani3105/gekko/master/config/strategies/MACD.toml
+
+talib-custom.toml https://raw.githubusercontent.com/Aerius42/gekko/develop/config/strategies/talib-custom.toml
+
+DI-1525254128.toml https://raw.githubusercontent.com/gcobs0834/gekko/develop/config/strategies/DI.toml
+
+RSI_BULL_BEAR-1525254130.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/RSI_BULL_BEAR.toml
+
+BB-1525254132.toml https://raw.githubusercontent.com/amitgandhinz/gekko/develop/config/strategies/BB.toml
+
+BB-1525254135.toml https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/config/strategies/BB.toml
+
+lsma.toml https://raw.githubusercontent.com/hariseldon78/gekko/stable/config/strategies/lsma.toml
+
+custom-fab.toml https://raw.githubusercontent.com/scidran/gekko-s/stable/config/strategies/custom-fab.toml
+
+UO.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/UO.toml
+
+MACD-1525254144.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/MACD.toml
+
+PPO-TSI-RSI.toml https://raw.githubusercontent.com/trainerbill/gekko/develop/config/strategies/PPO-TSI-RSI.toml
+
+loosai.toml https://raw.githubusercontent.com/muphy/gekko/stable/config/strategies/loosai.toml
+
+ghelper_Interface.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/ghelper_Interface.toml
+
+ghelper_Interface-1525254154.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/ghelper_Interface.toml
+
+ghelper_Interface-1525254156.toml https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/config/strategies/ghelper_Interface.toml
+
+EMADIV-1525254158.toml https://raw.githubusercontent.com/imperator6/gekko/stable/config/strategies/EMADIV.toml
+
+EMA_OR_PRICE_DIV-1525254161.toml https://raw.githubusercontent.com/imperator6/gekko/stable/config/strategies/EMA_OR_PRICE_DIV.toml
+
+RSI_BULL_BEAR_ADX-1525254163.toml https://raw.githubusercontent.com/thanhlmm/gekko/develop/config/strategies/RSI_BULL_BEAR_ADX.toml
+
+TEMA-1525254165.toml https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/config/strategies/TEMA.toml
+
+TEMA-1525254168.toml https://raw.githubusercontent.com/padioca/gekko/develop/config/strategies/TEMA.toml
+
+TEMA-1525254170.toml https://raw.githubusercontent.com/Saichovsky/gekko/master/config/strategies/TEMA.toml
+
+TEMA-1525254173.toml https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/config/strategies/TEMA.toml
+
+TEMA-1525254175.toml https://raw.githubusercontent.com/scragz/gekko/develop/config/strategies/TEMA.toml
+
+TEMA-1525254178.toml https://raw.githubusercontent.com/thanhlmm/gekko/develop/config/strategies/TEMA.toml
+
+DEMA-1525254180.toml https://raw.githubusercontent.com/padioca/gekko/develop/config/strategies/DEMA.toml
+
+ultosc-fab.toml https://raw.githubusercontent.com/scidran/gekko-s/stable/config/strategies/ultosc-fab.toml
+
+Strat.toml https://raw.githubusercontent.com/laravellously/nengobot/stable/config/strategies/Strat.toml
+
+STC-1525254187.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/STC.toml
+
+STC_ZSchoro.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/STC_ZSchoro.toml
+
+STC-1525254192.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/STC.toml
+
+STC_ZSchoro-1525254194.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/STC_ZSchoro.toml
+
+gannSwing.toml https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/config/strategies/gannSwing.toml
+
+RSI_BB_ADX_Peak.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/RSI_BB_ADX_Peak.toml
+
+RSI_Bull_Bear_Adx_Stop.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/RSI_Bull_Bear_Adx_Stop.toml
+
+buyatsellat_ui-1525254204.toml https://raw.githubusercontent.com/laravellously/nengobot/stable/config/strategies/buyatsellat_ui.toml
+
+hma-fab-base.toml https://raw.githubusercontent.com/scidran/gekko-s/stable/config/strategies/hma-fab-base.toml
+
+Combination-2.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/Combination-2.toml
+
+SchaffTrendCycle.toml https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/config/strategies/SchaffTrendCycle.toml
+
+ult-obv-fab.toml https://raw.githubusercontent.com/scidran/gekko-s/stable/config/strategies/ult-obv-fab.toml
+
+RSI_BULL_BEAR_ADX-1525254218.toml https://raw.githubusercontent.com/scragz/gekko/develop/config/strategies/RSI_BULL_BEAR_ADX.toml
+
+BodhiDI_public-1525254220.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/BodhiDI_public.toml
+
+Combination-2-1525254222.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/Combination-2.toml
+
+DEMACrossover-1525254225.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/DEMACrossover.toml
+
+oosai.toml https://raw.githubusercontent.com/muphy/gekko/stable/config/strategies/oosai.toml
+
+L1-TrailingStop.toml https://raw.githubusercontent.com/NFS002/gekko/stable/config/strategies/L1-TrailingStop.toml
+
+L1-TrailingStop-1525254232.toml https://raw.githubusercontent.com/laredoza/gekko/stable/config/strategies/L1-TrailingStop.toml
+
+WBM1.toml https://raw.githubusercontent.com/brucebarrera/gekko/develop/config/strategies/WBM1.toml
+
+WBM1-1525254236.toml https://raw.githubusercontent.com/vrfurl/gekko/stable/config/strategies/WBM1.toml
+
+RSI_BULL_BEAR_ADX-1525254239.toml https://raw.githubusercontent.com/srich36/gekko_bot/stable/config/strategies/RSI_BULL_BEAR_ADX.toml
+
+NEO-1525254241.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/NEO.toml
+
+buyatsellat.toml https://raw.githubusercontent.com/laravellously/nengobot/stable/config/strategies/buyatsellat.toml
+
+STC_Compare.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/STC_Compare.toml
+
+STC_Compare-1525254248.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/STC_Compare.toml
+
+MACD_1520024643.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/MACD_1520024643.toml
+
+n8_v2_BB_RSI_SL.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/n8_v2_BB_RSI_SL.toml
+
+MACD-MFI-ADX.toml https://raw.githubusercontent.com/bvanhou/gekko/stable/config/strategies/MACD-MFI-ADX.toml
+
+RSI_Bull_Bear_Adx_Stop-1525254258.toml https://raw.githubusercontent.com/hiyan/gekkowk/develop/config/strategies/RSI_Bull_Bear_Adx_Stop.toml
+
+RSI_BB_ADX_Peak-1525254260.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/RSI_BB_ADX_Peak.toml
+
+RSI_Bull_Bear_Adx_Stop-1525254262.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/RSI_Bull_Bear_Adx_Stop.toml
+
+RSI_Bull_Bear_Adx_Stop-1525254265.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/RSI_Bull_Bear_Adx_Stop.toml
+
+RSI_Bull_Bear_Adx_Stop-1525254267.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/RSI_Bull_Bear_Adx_Stop.toml
+
+RSI_BB_ADX_Peak-1525254270.toml https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/config/strategies/RSI_BB_ADX_Peak.toml
+
+RSI_Bull_Bear_Adx_Stop-1525254272.toml https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/config/strategies/RSI_Bull_Bear_Adx_Stop.toml
+
+RSI_BB_ADX_Peak-1525254275.toml https://raw.githubusercontent.com/DerSebel/gekko/develop/config/strategies/RSI_BB_ADX_Peak.toml
+
+RSI_Bull_Bear_Adx_Stop-1525254277.toml https://raw.githubusercontent.com/DerSebel/gekko/develop/config/strategies/RSI_Bull_Bear_Adx_Stop.toml
+
+rsidyn-1525254279.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/rsidyn.toml
+
+StochRSI_MACD.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/StochRSI_MACD.toml
+
+DEMA-1525254284.toml https://raw.githubusercontent.com/jazzbre/gekko/stable/config/strategies/DEMA.toml
+
+A1RSI.toml https://raw.githubusercontent.com/andreialecu/gekko/stable/config/strategies/A1RSI.toml
+
+StochRSI-1525254288.toml https://raw.githubusercontent.com/padioca/gekko/develop/config/strategies/StochRSI.toml
+
+stratego_smaxv7_SL.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/stratego_smaxv7_SL.toml
+
+bestone-updated-hardcoded-1525254293.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/bestone-updated-hardcoded.toml
+
+alpha-1525254295.toml https://raw.githubusercontent.com/Saichovsky/gekko/master/config/strategies/alpha.toml
+
+alpha-1525254298.toml https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/config/strategies/alpha.toml
+
+alpha-1525254300.toml https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/config/strategies/alpha.toml
+
+alpha-1525254302.toml https://raw.githubusercontent.com/pepijnblom/gekko/stable/config/strategies/alpha.toml
+
+tulip-multi-custom.toml https://raw.githubusercontent.com/Homskiy/gekko/develop/config/strategies/tulip-multi-custom.toml
+
+indicator-test.toml https://raw.githubusercontent.com/christianbaier/gekko/feature-backtest-datapreview/config/strategies/indicator-test.toml
+
+indicator-test-1525254310.toml https://raw.githubusercontent.com/Argiris88/gekko-1/feature-backtest-datapreview/config/strategies/indicator-test.toml
+
+indicator-test-1525254312.toml https://raw.githubusercontent.com/taddeusb90/gekko-1/feature-backtest-datapreview/config/strategies/indicator-test.toml
+
+buyatsellat-1525254315.toml https://raw.githubusercontent.com/Saichovsky/gekko/master/config/strategies/buyatsellat.toml
+
+buyatsellat-1525254319.toml https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/config/strategies/buyatsellat.toml
+
+bestone-1525254321.toml https://raw.githubusercontent.com/10io/gekko/develop/config/strategies/bestone.toml
+
+rider.toml https://raw.githubusercontent.com/10io/gekko/develop/config/strategies/rider.toml
+
+custom-1525254326.toml https://raw.githubusercontent.com/amitgandhinz/gekko/develop/config/strategies/custom.toml
+
+newfile https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/config/strategies/newfile
+
+CCI-1525254330.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/CCI.toml
+
+trix-fab-1.toml https://raw.githubusercontent.com/scidran/gekko-s/stable/config/strategies/trix-fab-1.toml
+
+RSI_BULL_BEAR_ADX-1525254335.toml https://raw.githubusercontent.com/10io/gekko/develop/config/strategies/RSI_BULL_BEAR_ADX.toml
+
+buyatsellat-1525254338.toml https://raw.githubusercontent.com/Scott-S/gekko/stable/config/strategies/buyatsellat.toml
+
+Supertrend-1525254340.toml https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/config/strategies/Supertrend.toml
+
+EMACrossover-1525254342.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/EMACrossover.toml
+
+RsiStopLoss.toml https://raw.githubusercontent.com/RevREB/gekko-estrategias/stable/config/strategies/RsiStopLoss.toml
+
+RsiStopLoss-1525254347.toml https://raw.githubusercontent.com/eduardoarn/gekko-estrategias/stable/config/strategies/RsiStopLoss.toml
+
+ultosc-fab-temp.toml https://raw.githubusercontent.com/scidran/gekko-s/stable/config/strategies/ultosc-fab-temp.toml
+
+RSI.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/RSI.toml
+
+myRSI.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/myRSI.toml
+
+PPO-1525254357.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/PPO.toml
+
+ManuNet.toml https://raw.githubusercontent.com/Alocaly/GekkoStrategies/master/config/strategies/ManuNet.toml
+
+ManuNet-1525254362.toml https://raw.githubusercontent.com/davidle68/GekkoStrategies/master/config/strategies/ManuNet.toml
+
+RSI-1525254364.toml https://raw.githubusercontent.com/padioca/gekko/develop/config/strategies/RSI.toml
+
+stopTrailing.toml https://raw.githubusercontent.com/hariseldon78/gekko/stable/config/strategies/stopTrailing.toml
+
+RSI_BULL_BEAR_ADX_PINGPONG-1525254369.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/RSI_BULL_BEAR_ADX_PINGPONG.toml
+
+MACD-CCI-RSI.toml https://raw.githubusercontent.com/WildcatKSS/gekko-strategies/master/config/strategies/MACD-CCI-RSI.toml
+
+Entry_Plus.toml https://raw.githubusercontent.com/RJPGriffin/gekko/develop/config/strategies/Entry_Plus.toml
+
+Entry_Plus-1525254376.toml https://raw.githubusercontent.com/willianfcamara/gekko/develop/config/strategies/Entry_Plus.toml
+
+varPPO.toml https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/config/strategies/varPPO.toml
+
+TEMA-1525254382.toml https://raw.githubusercontent.com/10io/gekko/develop/config/strategies/TEMA.toml
+
+RsiStopLoss-1525254384.toml https://raw.githubusercontent.com/ipostol/gekko/develop/config/strategies/RsiStopLoss.toml
+
+BuySellOrStopLoss.toml https://raw.githubusercontent.com/brucebarrera/gekko/develop/config/strategies/BuySellOrStopLoss.toml
+
+BuySellOrStopLoss-1525254388.toml https://raw.githubusercontent.com/vrfurl/gekko/stable/config/strategies/BuySellOrStopLoss.toml
+

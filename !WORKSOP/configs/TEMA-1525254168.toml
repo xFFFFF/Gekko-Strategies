@@ -1,0 +1,6 @@
+# Short / Long (EMA/TEMA)
+short = 10
+long = 80
+
+# Safety (SMA, 0 = disable)
+SMA_long = 200

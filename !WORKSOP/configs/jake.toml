@@ -1,0 +1,22 @@
+short = 12
+long = 26
+signal = 9
+
+[linregslope]
+optInTimePeriod = 5
+
+[vosc]
+optInFastPeriod = 5
+optInSlowPeriod = 10
+
+[cci]
+optInTimePeriod = 20
+
+[bb]
+optInTimePeriod = 20
+optInNbStdDevs = 2
+
+[thresholds]
+down = 0
+up =0
+persistence = 1

@@ -1,0 +1,30 @@
+[linearreg]
+optInTimePeriod = 20
+
+[rsi]
+optInTimePeriod = 14
+
+[atr]
+optInTimePeriod = 14
+
+
+[thresholds]
+rsiHigh = 70
+rsiLow = 30
+atrMinPercent = 0.01
+# todo: maxRisk
+
+[exit]
+# there are multiple exit strategies, when one triggers we exit.
+#   takeProfit
+riskRatio = 1
+#   trailing stop
+offsetCoeff = 0.005
+#   trend inversion (how many consecutive candles closing on the opposite side of lr?)
+inversionConfirms = 2
+
+# possible values:
+#   disabled
+#   jumpToEven  (when even price is reached move stop loss to even price)
+#   trailToEven (gradually increase stoploss until even price is reached)
+raiseStopLoss = jumpToEven

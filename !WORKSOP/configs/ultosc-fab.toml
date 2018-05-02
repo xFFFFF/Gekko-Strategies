@@ -1,0 +1,11 @@
+#ultimate 1
+[parameters1]
+optInTimePeriod1 = 7
+optInTimePeriod2 = 14
+optInTimePeriod3 = 28
+
+#ultimate 2
+[parameters2]
+optInTimePeriod1 = 3
+optInTimePeriod2 = 7
+optInTimePeriod3 = 15

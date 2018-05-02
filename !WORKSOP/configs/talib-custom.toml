@@ -1,0 +1,53 @@
+#XMR
+# [bbandsParameters]
+# optInTimePeriod = 20
+# optInNbDevUp = 1
+# optInNbDevDn = 1
+# optInMAType = 0
+#
+# [thresholds]
+# up = 0.0085
+# downMax = -0.01
+# downMid = 0
+# downSet = 0
+# count = 3
+
+#STR
+# [bbandsParameters]
+# optInTimePeriod = 20
+# optInNbDevUp = 2
+# optInNbDevDn = 2
+# optInMAType = 0
+#
+# [thresholds]
+# up = 0.025
+# downMax = -0.08
+# downMid = 0
+# downSet = 0
+# count = 3
+
+#ETC
+[bbandsParameters]
+optInTimePeriod = 20
+optInNbDevUp = 1
+optInNbDevDn = 1
+optInMAType = 0
+
+[thresholds]
+up = 0.002
+downMax = -0.01
+downMid = -0.001
+downSet = -0.005
+count = 3
+bandDev = 0.0025
+
+
+[outputs]
+upperBand = 'FLOAT'
+middleBand = 'FLOAT'
+lowerBand = 'FLOAT'
+settlePrice = 'FLOAT'
+maxPrice = 'FLOAT'
+action = 'FLOAT'
+# indicator = 'FLOAT'
+# indicator2 = 'FLOAT'

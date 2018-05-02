@@ -1,0 +1,5 @@
+enter_fast = 20
+exit_fast = 10
+enter_slow = 55
+exit_slow = 20
+trailingStop = 15

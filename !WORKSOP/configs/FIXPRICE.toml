@@ -1,0 +1,4 @@
+# Source: https://raw.githubusercontent.com/imperator6/gekko/stable/config/strategies/FIXPRICE.toml
+short = 41
+long = 37
+exit = -1

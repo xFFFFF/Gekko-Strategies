@@ -1,0 +1,5 @@
+interval = 3
+
+low = 20
+high = 80
+persistence = 3

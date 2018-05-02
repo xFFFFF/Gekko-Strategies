@@ -1,0 +1,22 @@
+[MACD]
+short = 15
+long = 30
+signal = 9
+
+[CCI]
+constant = 0.015
+history = 31
+
+[RSI]
+interval = 14
+
+[thresholds]
+MACDup = 0.025
+MACDdown = -0.025
+MACDpersistence = 1
+CCIup = 0
+CCIdown = 0
+CCIpersistence = 1
+RSIlow = 30
+RSIhigh = 70
+RSIpersistence = 1

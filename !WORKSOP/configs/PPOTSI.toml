@@ -1,0 +1,14 @@
+persistence = 2
+
+[PPO]
+short = 12
+long = 26
+signal = 9
+down = -0.025
+up = 0.025
+
+[TSI]
+short = 13
+long = 25
+low = -25
+high = 25

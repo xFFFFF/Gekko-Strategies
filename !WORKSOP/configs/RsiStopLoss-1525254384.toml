@@ -1,0 +1,13 @@
+# Source: https://raw.githubusercontent.com/RevREB/gekko-estrategias/stable/config/strategies/RsiStopLoss.toml
+interval = 14
+
+[thresholds]
+low = 30
+high = 70
+persistence = 1
+
+[stoploss]
+loss = 5
+gain = 8
+progressive = true
+progressivegain = 2

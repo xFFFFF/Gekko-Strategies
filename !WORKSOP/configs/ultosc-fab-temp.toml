@@ -1,0 +1,14 @@
+[parameters]
+optInTimePeriod1 = 7
+optInTimePeriod2 = 14
+optInTimePeriod3 = 28
+[trix]
+optInTimePeriod
+candleSize = 1
+historySize = 4
+
+[thresholds]
+down = -0.025
+up = 0.025
+
+

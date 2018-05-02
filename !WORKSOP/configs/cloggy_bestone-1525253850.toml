@@ -1,0 +1,28 @@
+[MACD]
+optInFastPeriod = 12
+optInSlowPeriod = 26
+optInSignalPeriod = 9
+
+[EMAshort]
+optInTimePeriod = 9
+
+[EMAlong]
+optInTimePeriod = 21
+
+[STOCH]
+optInFastKPeriod = 9
+optInSlowKPeriod = 3
+optInSlowKMAType = 1
+optInSlowDPeriod = 3
+optInSlowDMAType = 1
+
+[RSI]
+optInTimePeriod = 14
+
+[thresholds]
+RSIhigh = 70
+RSIlow = 30
+MACDhigh = 0.0
+MACDlow = 0.0
+persistance = 1
+#historySize = 48

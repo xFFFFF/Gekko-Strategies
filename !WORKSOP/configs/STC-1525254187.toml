@@ -1,0 +1,9 @@
+[STC]
+fastLength = 23
+slowLength = 50
+stcLength = 10
+factor = 0.5
+
+[thresholds]
+low = 30
+high = 70

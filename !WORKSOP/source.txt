@@ -1,0 +1,3112 @@
+MACD.js https://raw.githubusercontent.com/bugron/gekko/0.2/methods/MACD.js
+
+MACD-1525216668.js https://raw.githubusercontent.com/AztecSmith/gekko/0.2/methods/MACD.js
+
+MACD-1525216670.js https://raw.githubusercontent.com/consp/gekko/master/methods/MACD.js
+
+MACD-1525216673.js https://raw.githubusercontent.com/NeoBelerophon/gekko/master/methods/MACD.js
+
+MACD-1525216675.js https://raw.githubusercontent.com/ahousley/gekko/master/methods/MACD.js
+
+MACD-1525216677.js https://raw.githubusercontent.com/tauren/gekko/master/methods/MACD.js
+
+MACD-1525216679.js https://raw.githubusercontent.com/netvarun/gekko/master/methods/MACD.js
+
+MACD-1525216682.js https://raw.githubusercontent.com/bobzoller/gekko/master/methods/MACD.js
+
+MACD-1525216684.js https://raw.githubusercontent.com/reixd/gekko/master/methods/MACD.js
+
+MACD-1525216686.js https://raw.githubusercontent.com/wildownes/gekko/master/methods/MACD.js
+
+realtime-candle-fetcher.js https://raw.githubusercontent.com/michalkow/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525216690.js https://raw.githubusercontent.com/KenanY/gekko/master/methods/realtime-candle-fetcher.js
+
+MACD.js https://raw.githubusercontent.com/bugron/gekko/0.2/methods/MACD.js
+
+MACD-1525217154.js https://raw.githubusercontent.com/AztecSmith/gekko/0.2/methods/MACD.js
+
+MACD-1525217156.js https://raw.githubusercontent.com/consp/gekko/master/methods/MACD.js
+
+MACD-1525217159.js https://raw.githubusercontent.com/NeoBelerophon/gekko/master/methods/MACD.js
+
+MACD-1525217161.js https://raw.githubusercontent.com/ahousley/gekko/master/methods/MACD.js
+
+MACD-1525217163.js https://raw.githubusercontent.com/tauren/gekko/master/methods/MACD.js
+
+MACD-1525217166.js https://raw.githubusercontent.com/netvarun/gekko/master/methods/MACD.js
+
+MACD-1525217168.js https://raw.githubusercontent.com/bobzoller/gekko/master/methods/MACD.js
+
+MACD-1525217170.js https://raw.githubusercontent.com/reixd/gekko/master/methods/MACD.js
+
+MACD-1525217172.js https://raw.githubusercontent.com/wildownes/gekko/master/methods/MACD.js
+
+realtime-candle-fetcher.js https://raw.githubusercontent.com/michalkow/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217177.js https://raw.githubusercontent.com/KenanY/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217179.js https://raw.githubusercontent.com/f0ster/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217181.js https://raw.githubusercontent.com/andrepcg/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217183.js https://raw.githubusercontent.com/cyberaa/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217186.js https://raw.githubusercontent.com/milianx/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217188.js https://raw.githubusercontent.com/kamkha/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217190.js https://raw.githubusercontent.com/whiskers75/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217192.js https://raw.githubusercontent.com/alpha492/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217194.js https://raw.githubusercontent.com/1xhabit/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217197.js https://raw.githubusercontent.com/marin8703/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217199.js https://raw.githubusercontent.com/holoiii/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217201.js https://raw.githubusercontent.com/eodgooch/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217203.js https://raw.githubusercontent.com/smallsaucepan/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217205.js https://raw.githubusercontent.com/caffeinewriter/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217208.js https://raw.githubusercontent.com/danielwhite84/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217210.js https://raw.githubusercontent.com/jellea/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217213.js https://raw.githubusercontent.com/valosip4/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217215.js https://raw.githubusercontent.com/oldrev/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217217.js https://raw.githubusercontent.com/ellocofray/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217219.js https://raw.githubusercontent.com/phillipfickl/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217221.js https://raw.githubusercontent.com/AUSTRALIANBITCOINS/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217224.js https://raw.githubusercontent.com/fuerbtc/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217226.js https://raw.githubusercontent.com/stasbovanenko/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217228.js https://raw.githubusercontent.com/ghazi1917/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217230.js https://raw.githubusercontent.com/Thorsson/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217233.js https://raw.githubusercontent.com/skiltz/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217235.js https://raw.githubusercontent.com/mtab3000/gekko/master/methods/realtime-candle-fetcher.js
+
+exponential-moving-averages.js https://raw.githubusercontent.com/netversa/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217239.js https://raw.githubusercontent.com/cha0s/gekko/master/methods/exponential-moving-averages.js
+
+talib-macd.js https://raw.githubusercontent.com/Optictrollz/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217244.js https://raw.githubusercontent.com/Niller2005/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217246.js https://raw.githubusercontent.com/DanielBodnar/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217248.js https://raw.githubusercontent.com/RodrigoSagach/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217250.js https://raw.githubusercontent.com/security-geeks/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217253.js https://raw.githubusercontent.com/CorySavit/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217255.js https://raw.githubusercontent.com/Nophi/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217257.js https://raw.githubusercontent.com/hoddy/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217259.js https://raw.githubusercontent.com/jhnferraris/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217262.js https://raw.githubusercontent.com/cnspot/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217264.js https://raw.githubusercontent.com/valeriominetti/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217266.js https://raw.githubusercontent.com/carlos8f/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217268.js https://raw.githubusercontent.com/digideskio/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217271.js https://raw.githubusercontent.com/jensWorkGit/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217273.js https://raw.githubusercontent.com/fufulabs/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217275.js https://raw.githubusercontent.com/derifo/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217278.js https://raw.githubusercontent.com/cheey2003/gekko/stable/methods/talib-macd.js
+
+exponential-moving-averages-1525217280.js https://raw.githubusercontent.com/gwdp/gekko/master/methods/exponential-moving-averages.js
+
+PPO.js https://raw.githubusercontent.com/NeoBelerophon/gekko/master/methods/PPO.js
+
+PPO-1525217285.js https://raw.githubusercontent.com/ahousley/gekko/master/methods/PPO.js
+
+PPO-1525217287.js https://raw.githubusercontent.com/tauren/gekko/master/methods/PPO.js
+
+PPO-1525217289.js https://raw.githubusercontent.com/netvarun/gekko/master/methods/PPO.js
+
+PPO-1525217291.js https://raw.githubusercontent.com/bobzoller/gekko/master/methods/PPO.js
+
+PPO-1525217293.js https://raw.githubusercontent.com/reixd/gekko/master/methods/PPO.js
+
+PPO-1525217296.js https://raw.githubusercontent.com/wildownes/gekko/master/methods/PPO.js
+
+realtime-candle-fetcher-1525217298.js https://raw.githubusercontent.com/rugumo/gekko/master/methods/realtime-candle-fetcher.js
+
+DEMA.js https://raw.githubusercontent.com/mlmurray/gekko/master/methods/DEMA.js
+
+exponential-moving-averages-1525217302.js https://raw.githubusercontent.com/johndoe75/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217304.js https://raw.githubusercontent.com/noconstruct/gekko/master/methods/exponential-moving-averages.js
+
+custom.js https://raw.githubusercontent.com/robusta/gekko/master/methods/custom.js
+
+CCI.js https://raw.githubusercontent.com/cdyfng/gekko/develop/methods/CCI.js
+
+CCI-1525217311.js https://raw.githubusercontent.com/Aerius42/gekko/develop/methods/CCI.js
+
+x2MACD.js https://raw.githubusercontent.com/astefanetti/gekko/Pascal66_elliot_waves/methods/x2MACD.js
+
+x2MACD-1525217316.js https://raw.githubusercontent.com/nozyqubis/gekko/Pascal66_elliot_waves/methods/x2MACD.js
+
+x2MACD-1525217318.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/x2MACD.js
+
+x2MACD-1525217320.js https://raw.githubusercontent.com/epscylonb/gekko/master/methods/x2MACD.js
+
+x2MACD-1525217322.js https://raw.githubusercontent.com/sushiomsky/gekko/master/methods/x2MACD.js
+
+MACD-1525217324.js https://raw.githubusercontent.com/cdyfng/gekko/develop/methods/MACD.js
+
+MACD-1525217326.js https://raw.githubusercontent.com/Aerius42/gekko/develop/methods/MACD.js
+
+exponential-moving-averages-1525217329.js https://raw.githubusercontent.com/NathanGRomano/gekko/master/methods/exponential-moving-averages.js
+
+noop.js https://raw.githubusercontent.com/cdyfng/gekko/develop/methods/noop.js
+
+noop-1525217333.js https://raw.githubusercontent.com/Aerius42/gekko/develop/methods/noop.js
+
+talib.js https://raw.githubusercontent.com/bugron/gekko/0.2/methods/talib.js
+
+talib-1525217338.js https://raw.githubusercontent.com/AztecSmith/gekko/0.2/methods/talib.js
+
+talib-macd-1525217340.js https://raw.githubusercontent.com/astefanetti/gekko/Pascal66_elliot_waves/methods/talib-macd.js
+
+talib-macd-1525217342.js https://raw.githubusercontent.com/nozyqubis/gekko/Pascal66_elliot_waves/methods/talib-macd.js
+
+talib-macd-1525217344.js https://raw.githubusercontent.com/SkaTeMasTer/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217347.js https://raw.githubusercontent.com/rickyhan/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217349.js https://raw.githubusercontent.com/appop/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217351.js https://raw.githubusercontent.com/saeeds255/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217354.js https://raw.githubusercontent.com/nwfella/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217356.js https://raw.githubusercontent.com/pbreil/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217358.js https://raw.githubusercontent.com/tinyrobot/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217360.js https://raw.githubusercontent.com/JFD3D/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217363.js https://raw.githubusercontent.com/bradparks/gekko__bitcoin_bot__node/stable/methods/talib-macd.js
+
+talib-macd-1525217365.js https://raw.githubusercontent.com/anton164/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217367.js https://raw.githubusercontent.com/exit490/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217369.js https://raw.githubusercontent.com/bitcoinscript/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217371.js https://raw.githubusercontent.com/ArkShen/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217374.js https://raw.githubusercontent.com/3zveruga/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217376.js https://raw.githubusercontent.com/pgorsira/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217379.js https://raw.githubusercontent.com/xcarpentier/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217381.js https://raw.githubusercontent.com/mzuniga84/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217383.js https://raw.githubusercontent.com/hlboys/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217385.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/talib-macd.js
+
+talib-macd-1525217387.js https://raw.githubusercontent.com/Penhall/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217390.js https://raw.githubusercontent.com/tyndallm/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217392.js https://raw.githubusercontent.com/mathvdh/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217394.js https://raw.githubusercontent.com/rsjudge17/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217396.js https://raw.githubusercontent.com/TheArchiver/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217400.js https://raw.githubusercontent.com/mmouse-/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217402.js https://raw.githubusercontent.com/ChazEpps/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217405.js https://raw.githubusercontent.com/gazbert/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217407.js https://raw.githubusercontent.com/Alex-van-der-Peet/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217409.js https://raw.githubusercontent.com/sserrano44/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217411.js https://raw.githubusercontent.com/ucfyao/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217414.js https://raw.githubusercontent.com/fallenangel3k/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217416.js https://raw.githubusercontent.com/larsschenk/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217418.js https://raw.githubusercontent.com/drakotopar/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217420.js https://raw.githubusercontent.com/JetCrusherTorpedo/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217423.js https://raw.githubusercontent.com/nichtdu/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217425.js https://raw.githubusercontent.com/skynode/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217427.js https://raw.githubusercontent.com/hectorj/gekko/stable/methods/talib-macd.js
+
+talib-macd-1525217429.js https://raw.githubusercontent.com/wanguolin/gekko/stable/methods/talib-macd.js
+
+custom-1525217431.js https://raw.githubusercontent.com/cdyfng/gekko/develop/methods/custom.js
+
+custom-1525217434.js https://raw.githubusercontent.com/Aerius42/gekko/develop/methods/custom.js
+
+exponential-moving-averages-1525217436.js https://raw.githubusercontent.com/wildgarden/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217438.js https://raw.githubusercontent.com/sammchardy/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217440.js https://raw.githubusercontent.com/su8z3r0/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217443.js https://raw.githubusercontent.com/iceydee/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217445.js https://raw.githubusercontent.com/ciseugene/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217447.js https://raw.githubusercontent.com/coffeecoco/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217450.js https://raw.githubusercontent.com/andyhite/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217452.js https://raw.githubusercontent.com/jgorton928/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217454.js https://raw.githubusercontent.com/Doken-Tokuyama/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217456.js https://raw.githubusercontent.com/ZECTBynmo/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217459.js https://raw.githubusercontent.com/surivrox/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217461.js https://raw.githubusercontent.com/Kero-it/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217463.js https://raw.githubusercontent.com/ejko/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217465.js https://raw.githubusercontent.com/serial77/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217468.js https://raw.githubusercontent.com/donttrustem/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217470.js https://raw.githubusercontent.com/matrixorz/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217472.js https://raw.githubusercontent.com/DdraigX/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217474.js https://raw.githubusercontent.com/heavyengineer/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217478.js https://raw.githubusercontent.com/onleg/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217480.js https://raw.githubusercontent.com/my8bit/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217482.js https://raw.githubusercontent.com/dremonkey/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217484.js https://raw.githubusercontent.com/killnine/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217487.js https://raw.githubusercontent.com/biddyweb/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217489.js https://raw.githubusercontent.com/johnhowe/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217491.js https://raw.githubusercontent.com/gustavnovotny/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217494.js https://raw.githubusercontent.com/djmuk/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217496.js https://raw.githubusercontent.com/yin/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217499.js https://raw.githubusercontent.com/chevdor/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217501.js https://raw.githubusercontent.com/mateusreis/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217503.js https://raw.githubusercontent.com/wgc-fm/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217506.js https://raw.githubusercontent.com/technocoma/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217508.js https://raw.githubusercontent.com/josephbolus/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217510.js https://raw.githubusercontent.com/TehKiwiz/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217512.js https://raw.githubusercontent.com/Isoform/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217515.js https://raw.githubusercontent.com/Neuro81/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217517.js https://raw.githubusercontent.com/rkabir/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217519.js https://raw.githubusercontent.com/kavanista/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217521.js https://raw.githubusercontent.com/metageektrent/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217524.js https://raw.githubusercontent.com/chris56a/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217526.js https://raw.githubusercontent.com/doness/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217528.js https://raw.githubusercontent.com/pushpan/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217531.js https://raw.githubusercontent.com/nicobrion/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217533.js https://raw.githubusercontent.com/somasundaram/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217535.js https://raw.githubusercontent.com/kennyledet/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217538.js https://raw.githubusercontent.com/rugumo/gekko/master/methods/exponential-moving-averages.js
+
+functions.js https://raw.githubusercontent.com/bugron/gekko/0.2/methods/functions.js
+
+exponential-moving-averages-1525217543.js https://raw.githubusercontent.com/michalkow/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217545.js https://raw.githubusercontent.com/KenanY/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217547.js https://raw.githubusercontent.com/milianx/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217549.js https://raw.githubusercontent.com/kamkha/gekko/master/methods/exponential-moving-averages.js
+
+historical-candle-fetcher.js https://raw.githubusercontent.com/carmaa/gekko/master/methods/historical-candle-fetcher.js
+
+PPO-1525217554.js https://raw.githubusercontent.com/astefanetti/gekko/Pascal66_elliot_waves/methods/PPO.js
+
+PPO-1525217556.js https://raw.githubusercontent.com/nozyqubis/gekko/Pascal66_elliot_waves/methods/PPO.js
+
+PPO-1525217558.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/PPO.js
+
+PPO-1525217560.js https://raw.githubusercontent.com/epscylonb/gekko/master/methods/PPO.js
+
+PPO-1525217563.js https://raw.githubusercontent.com/sushiomsky/gekko/master/methods/PPO.js
+
+Alligator.js https://raw.githubusercontent.com/astefanetti/gekko/Pascal66_elliot_waves/methods/Alligator.js
+
+Alligator-1525217567.js https://raw.githubusercontent.com/nozyqubis/gekko/Pascal66_elliot_waves/methods/Alligator.js
+
+Alligator-1525217569.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/Alligator.js
+
+DEMA-1525217571.js https://raw.githubusercontent.com/consp/gekko/master/methods/DEMA.js
+
+DEMA-1525217574.js https://raw.githubusercontent.com/NeoBelerophon/gekko/master/methods/DEMA.js
+
+DEMA-1525217576.js https://raw.githubusercontent.com/ahousley/gekko/master/methods/DEMA.js
+
+DEMA-1525217578.js https://raw.githubusercontent.com/tauren/gekko/master/methods/DEMA.js
+
+DEMA-1525217580.js https://raw.githubusercontent.com/netvarun/gekko/master/methods/DEMA.js
+
+DEMA-1525217583.js https://raw.githubusercontent.com/bobzoller/gekko/master/methods/DEMA.js
+
+DEMA-1525217585.js https://raw.githubusercontent.com/reixd/gekko/master/methods/DEMA.js
+
+DEMA-1525217587.js https://raw.githubusercontent.com/wildownes/gekko/master/methods/DEMA.js
+
+historical-candle-fetcher-1525217590.js https://raw.githubusercontent.com/mc96107/gekko/master/methods/historical-candle-fetcher.js
+
+historical-candle-fetcher-1525217592.js https://raw.githubusercontent.com/siergiej/gekko/master/methods/historical-candle-fetcher.js
+
+historical-candle-fetcher-1525217594.js https://raw.githubusercontent.com/DanBUK/gekko/master/methods/historical-candle-fetcher.js
+
+historical-candle-fetcher-1525217599.js https://raw.githubusercontent.com/MarcDiethelm/gekko/master/methods/historical-candle-fetcher.js
+
+historical-candle-fetcher-1525217601.js https://raw.githubusercontent.com/alpha1125/gekko/master/methods/historical-candle-fetcher.js
+
+historical-candle-fetcher-1525217603.js https://raw.githubusercontent.com/abgabe/gekko/master/methods/historical-candle-fetcher.js
+
+historical-candle-fetcher-1525217605.js https://raw.githubusercontent.com/mehmeta/gekko/master/methods/historical-candle-fetcher.js
+
+historical-candle-fetcher-1525217608.js https://raw.githubusercontent.com/pulsecat/gekko/master/methods/historical-candle-fetcher.js
+
+historical-candle-fetcher-1525217610.js https://raw.githubusercontent.com/MatracasPT/gekko/master/methods/historical-candle-fetcher.js
+
+historical-candle-fetcher-1525217612.js https://raw.githubusercontent.com/jrose400/gekko/master/methods/historical-candle-fetcher.js
+
+historical-candle-fetcher-1525217614.js https://raw.githubusercontent.com/mshome86/gekko/master/methods/historical-candle-fetcher.js
+
+historical-candle-fetcher-1525217618.js https://raw.githubusercontent.com/sawantuday/gekko/master/methods/historical-candle-fetcher.js
+
+historical-candle-fetcher-1525217620.js https://raw.githubusercontent.com/czzarr/gekko/master/methods/historical-candle-fetcher.js
+
+historical-candle-fetcher-1525217623.js https://raw.githubusercontent.com/Mwako/gekko/master/methods/historical-candle-fetcher.js
+
+historical-candle-fetcher-1525217625.js https://raw.githubusercontent.com/totekp/gekko/master/methods/historical-candle-fetcher.js
+
+historical-candle-fetcher-1525217633.js https://raw.githubusercontent.com/eliransapir/gekko/master/methods/historical-candle-fetcher.js
+
+custom-1525217635.js https://raw.githubusercontent.com/astefanetti/gekko/Pascal66_elliot_waves/methods/custom.js
+
+custom-1525217637.js https://raw.githubusercontent.com/nozyqubis/gekko/Pascal66_elliot_waves/methods/custom.js
+
+custom-1525217639.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/custom.js
+
+DEMA-1525217642.js https://raw.githubusercontent.com/lolocoding/gekko/master/methods/DEMA.js
+
+DEMA-1525217644.js https://raw.githubusercontent.com/daviddahl/gekko/master/methods/DEMA.js
+
+DEMA-1525217646.js https://raw.githubusercontent.com/bhanuc/gekko/master/methods/DEMA.js
+
+DEMA-1525217648.js https://raw.githubusercontent.com/dmdstar/gekko/master/methods/DEMA.js
+
+ZERO.js https://raw.githubusercontent.com/astefanetti/gekko/Pascal66_elliot_waves/methods/ZERO.js
+
+ZERO-1525217653.js https://raw.githubusercontent.com/nozyqubis/gekko/Pascal66_elliot_waves/methods/ZERO.js
+
+ZERO-1525217656.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/ZERO.js
+
+ZERO-1525217658.js https://raw.githubusercontent.com/epscylonb/gekko/master/methods/ZERO.js
+
+ZERO-1525217660.js https://raw.githubusercontent.com/sushiomsky/gekko/master/methods/ZERO.js
+
+CCI-1525217662.js https://raw.githubusercontent.com/bugron/gekko/0.2/methods/CCI.js
+
+CCI-1525217664.js https://raw.githubusercontent.com/AztecSmith/gekko/0.2/methods/CCI.js
+
+PPO-1525217667.js https://raw.githubusercontent.com/mlmurray/gekko/master/methods/PPO.js
+
+MACD-1525217669.js https://raw.githubusercontent.com/epscylonb/gekko/master/methods/MACD.js
+
+MACD-1525217671.js https://raw.githubusercontent.com/sushiomsky/gekko/master/methods/MACD.js
+
+x3nikiehihsa.js https://raw.githubusercontent.com/astefanetti/gekko/Pascal66_elliot_waves/methods/x3nikiehihsa.js
+
+x3nikiehihsa-1525217675.js https://raw.githubusercontent.com/nozyqubis/gekko/Pascal66_elliot_waves/methods/x3nikiehihsa.js
+
+x3nikiehihsa-1525217678.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/x3nikiehihsa.js
+
+x3nikiehihsa-1525217680.js https://raw.githubusercontent.com/epscylonb/gekko/master/methods/x3nikiehihsa.js
+
+x3nikiehihsa-1525217682.js https://raw.githubusercontent.com/sushiomsky/gekko/master/methods/x3nikiehihsa.js
+
+exponential-moving-averages-1525217685.js https://raw.githubusercontent.com/OpJePl44tsm4n/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217687.js https://raw.githubusercontent.com/trevornk/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217689.js https://raw.githubusercontent.com/carmaa/gekko/master/methods/exponential-moving-averages.js
+
+MACD-1525217692.js https://raw.githubusercontent.com/mlmurray/gekko/master/methods/MACD.js
+
+exponential-moving-averages-1525217694.js https://raw.githubusercontent.com/pedropatinho/gekko/master/methods/exponential-moving-averages.js
+
+DEMA-1525217696.js https://raw.githubusercontent.com/astefanetti/gekko/Pascal66_elliot_waves/methods/DEMA.js
+
+DEMA-1525217699.js https://raw.githubusercontent.com/nozyqubis/gekko/Pascal66_elliot_waves/methods/DEMA.js
+
+DEMA-1525217701.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/DEMA.js
+
+StochRSI.js https://raw.githubusercontent.com/astefanetti/gekko/Pascal66_elliot_waves/methods/StochRSI.js
+
+StochRSI-1525217706.js https://raw.githubusercontent.com/nozyqubis/gekko/Pascal66_elliot_waves/methods/StochRSI.js
+
+StochRSI-1525217708.js https://raw.githubusercontent.com/SkaTeMasTer/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217710.js https://raw.githubusercontent.com/rickyhan/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217713.js https://raw.githubusercontent.com/appop/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217715.js https://raw.githubusercontent.com/saeeds255/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217717.js https://raw.githubusercontent.com/nwfella/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217719.js https://raw.githubusercontent.com/pbreil/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217722.js https://raw.githubusercontent.com/tinyrobot/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217724.js https://raw.githubusercontent.com/JFD3D/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217726.js https://raw.githubusercontent.com/bradparks/gekko__bitcoin_bot__node/stable/methods/StochRSI.js
+
+StochRSI-1525217728.js https://raw.githubusercontent.com/anton164/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217731.js https://raw.githubusercontent.com/exit490/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217733.js https://raw.githubusercontent.com/bitcoinscript/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217735.js https://raw.githubusercontent.com/ArkShen/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217737.js https://raw.githubusercontent.com/3zveruga/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217739.js https://raw.githubusercontent.com/pgorsira/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217742.js https://raw.githubusercontent.com/xcarpentier/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217744.js https://raw.githubusercontent.com/mzuniga84/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217746.js https://raw.githubusercontent.com/hlboys/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217748.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/StochRSI.js
+
+StochRSI-1525217750.js https://raw.githubusercontent.com/Penhall/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217753.js https://raw.githubusercontent.com/tyndallm/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217755.js https://raw.githubusercontent.com/mathvdh/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217757.js https://raw.githubusercontent.com/rsjudge17/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217759.js https://raw.githubusercontent.com/TheArchiver/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217762.js https://raw.githubusercontent.com/mmouse-/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217765.js https://raw.githubusercontent.com/ChazEpps/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217767.js https://raw.githubusercontent.com/gazbert/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217769.js https://raw.githubusercontent.com/Alex-van-der-Peet/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217771.js https://raw.githubusercontent.com/sserrano44/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217773.js https://raw.githubusercontent.com/ucfyao/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217775.js https://raw.githubusercontent.com/fallenangel3k/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217778.js https://raw.githubusercontent.com/larsschenk/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217780.js https://raw.githubusercontent.com/drakotopar/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217782.js https://raw.githubusercontent.com/JetCrusherTorpedo/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217784.js https://raw.githubusercontent.com/nichtdu/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217786.js https://raw.githubusercontent.com/skynode/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217789.js https://raw.githubusercontent.com/hectorj/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217791.js https://raw.githubusercontent.com/wanguolin/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217793.js https://raw.githubusercontent.com/RodrigoSagach/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217796.js https://raw.githubusercontent.com/security-geeks/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217798.js https://raw.githubusercontent.com/CorySavit/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217800.js https://raw.githubusercontent.com/Nophi/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525217803.js https://raw.githubusercontent.com/hoddy/gekko/stable/methods/StochRSI.js
+
+exponential-moving-averages-1525217805.js https://raw.githubusercontent.com/BMBmikeG/gekko/master/methods/exponential-moving-averages.js
+
+custom-1525217807.js https://raw.githubusercontent.com/mlmurray/gekko/master/methods/custom.js
+
+talib-custom.js https://raw.githubusercontent.com/Aerius42/gekko/develop/methods/talib-custom.js
+
+exponential-moving-averages-1525217811.js https://raw.githubusercontent.com/mc96107/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217813.js https://raw.githubusercontent.com/siergiej/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217816.js https://raw.githubusercontent.com/DanBUK/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217818.js https://raw.githubusercontent.com/MarcDiethelm/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217820.js https://raw.githubusercontent.com/alpha1125/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217823.js https://raw.githubusercontent.com/abgabe/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217825.js https://raw.githubusercontent.com/mehmeta/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217828.js https://raw.githubusercontent.com/pulsecat/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217830.js https://raw.githubusercontent.com/MatracasPT/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217833.js https://raw.githubusercontent.com/jrose400/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217835.js https://raw.githubusercontent.com/mshome86/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217843.js https://raw.githubusercontent.com/sawantuday/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217845.js https://raw.githubusercontent.com/czzarr/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217847.js https://raw.githubusercontent.com/Mwako/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217849.js https://raw.githubusercontent.com/totekp/gekko/master/methods/exponential-moving-averages.js
+
+debug-advice.js https://raw.githubusercontent.com/cdyfng/gekko/develop/methods/debug-advice.js
+
+debug-advice-1525217854.js https://raw.githubusercontent.com/Aerius42/gekko/develop/methods/debug-advice.js
+
+exponential-moving-averages-1525217856.js https://raw.githubusercontent.com/eliransapir/gekko/master/methods/exponential-moving-averages.js
+
+custom-1525217858.js https://raw.githubusercontent.com/consp/gekko/master/methods/custom.js
+
+custom-1525217860.js https://raw.githubusercontent.com/NeoBelerophon/gekko/master/methods/custom.js
+
+custom-1525217863.js https://raw.githubusercontent.com/ahousley/gekko/master/methods/custom.js
+
+custom-1525217865.js https://raw.githubusercontent.com/tauren/gekko/master/methods/custom.js
+
+custom-1525217867.js https://raw.githubusercontent.com/netvarun/gekko/master/methods/custom.js
+
+custom-1525217869.js https://raw.githubusercontent.com/bobzoller/gekko/master/methods/custom.js
+
+custom-1525217871.js https://raw.githubusercontent.com/reixd/gekko/master/methods/custom.js
+
+custom-1525217874.js https://raw.githubusercontent.com/wildownes/gekko/master/methods/custom.js
+
+exponential-moving-averages-1525217876.js https://raw.githubusercontent.com/f0ster/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217879.js https://raw.githubusercontent.com/andrepcg/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217881.js https://raw.githubusercontent.com/cyberaa/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217883.js https://raw.githubusercontent.com/whiskers75/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217886.js https://raw.githubusercontent.com/alpha492/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217888.js https://raw.githubusercontent.com/1xhabit/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217890.js https://raw.githubusercontent.com/marin8703/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217892.js https://raw.githubusercontent.com/holoiii/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217895.js https://raw.githubusercontent.com/eodgooch/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217897.js https://raw.githubusercontent.com/smallsaucepan/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217899.js https://raw.githubusercontent.com/caffeinewriter/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217901.js https://raw.githubusercontent.com/danielwhite84/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217904.js https://raw.githubusercontent.com/jellea/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217906.js https://raw.githubusercontent.com/valosip4/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217908.js https://raw.githubusercontent.com/oldrev/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217910.js https://raw.githubusercontent.com/ellocofray/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217912.js https://raw.githubusercontent.com/phillipfickl/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217915.js https://raw.githubusercontent.com/AUSTRALIANBITCOINS/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217917.js https://raw.githubusercontent.com/fuerbtc/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217919.js https://raw.githubusercontent.com/stasbovanenko/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217921.js https://raw.githubusercontent.com/ghazi1917/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217924.js https://raw.githubusercontent.com/Thorsson/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217926.js https://raw.githubusercontent.com/skiltz/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217928.js https://raw.githubusercontent.com/mtab3000/gekko/master/methods/exponential-moving-averages.js
+
+CCI-1525217930.js https://raw.githubusercontent.com/SamThomp/gekko/master/methods/CCI.js
+
+StochRSI-1525217932.js https://raw.githubusercontent.com/SamThomp/gekko/master/methods/StochRSI.js
+
+MACD-1525217935.js https://raw.githubusercontent.com/astefanetti/gekko/Pascal66_elliot_waves/methods/MACD.js
+
+MACD-1525217937.js https://raw.githubusercontent.com/nozyqubis/gekko/Pascal66_elliot_waves/methods/MACD.js
+
+MACD-1525217939.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/MACD.js
+
+nikiehihsa.js https://raw.githubusercontent.com/astefanetti/gekko/Pascal66_elliot_waves/methods/nikiehihsa.js
+
+nikiehihsa-1525217944.js https://raw.githubusercontent.com/nozyqubis/gekko/Pascal66_elliot_waves/methods/nikiehihsa.js
+
+nikiehihsa-1525217946.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/nikiehihsa.js
+
+nikiehihsa-1525217948.js https://raw.githubusercontent.com/epscylonb/gekko/master/methods/nikiehihsa.js
+
+nikiehihsa-1525217950.js https://raw.githubusercontent.com/sushiomsky/gekko/master/methods/nikiehihsa.js
+
+candle-method.js https://raw.githubusercontent.com/goddabuzz/gekko/master/methods/candle-method.js
+
+candle-method-1525217955.js https://raw.githubusercontent.com/kornifex/gekko/master/methods/candle-method.js
+
+candle-method-1525217957.js https://raw.githubusercontent.com/madelponte/gekko/master/methods/candle-method.js
+
+exponential-moving-averages-1525217960.js https://raw.githubusercontent.com/goddabuzz/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217962.js https://raw.githubusercontent.com/kornifex/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525217964.js https://raw.githubusercontent.com/madelponte/gekko/master/methods/exponential-moving-averages.js
+
+PPO-1525217966.js https://raw.githubusercontent.com/lolocoding/gekko/master/methods/PPO.js
+
+PPO-1525217969.js https://raw.githubusercontent.com/daviddahl/gekko/master/methods/PPO.js
+
+PPO-1525217971.js https://raw.githubusercontent.com/bhanuc/gekko/master/methods/PPO.js
+
+PPO-1525217973.js https://raw.githubusercontent.com/dmdstar/gekko/master/methods/PPO.js
+
+MACD-1525217975.js https://raw.githubusercontent.com/lolocoding/gekko/master/methods/MACD.js
+
+MACD-1525217977.js https://raw.githubusercontent.com/daviddahl/gekko/master/methods/MACD.js
+
+MACD-1525217980.js https://raw.githubusercontent.com/bhanuc/gekko/master/methods/MACD.js
+
+MACD-1525217982.js https://raw.githubusercontent.com/dmdstar/gekko/master/methods/MACD.js
+
+realtime-candle-fetcher-1525217984.js https://raw.githubusercontent.com/Mwako/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217987.js https://raw.githubusercontent.com/totekp/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217989.js https://raw.githubusercontent.com/eliransapir/gekko/master/methods/realtime-candle-fetcher.js
+
+custom-1525217991.js https://raw.githubusercontent.com/bugron/gekko/0.2/methods/custom.js
+
+custom-1525217993.js https://raw.githubusercontent.com/AztecSmith/gekko/0.2/methods/custom.js
+
+realtime-candle-fetcher-1525217996.js https://raw.githubusercontent.com/Storegud/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525217998.js https://raw.githubusercontent.com/yori1989/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218000.js https://raw.githubusercontent.com/shermdog/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218003.js https://raw.githubusercontent.com/PabloC/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218005.js https://raw.githubusercontent.com/nbphuoc/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218007.js https://raw.githubusercontent.com/rvienna/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218009.js https://raw.githubusercontent.com/GoodDragon/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218012.js https://raw.githubusercontent.com/carmaa/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218014.js https://raw.githubusercontent.com/Devouring/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218016.js https://raw.githubusercontent.com/suissa/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218019.js https://raw.githubusercontent.com/keichan34/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218021.js https://raw.githubusercontent.com/jonghyeopkim/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218023.js https://raw.githubusercontent.com/markholland83/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218025.js https://raw.githubusercontent.com/adonis74/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218028.js https://raw.githubusercontent.com/gardner/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218030.js https://raw.githubusercontent.com/ckeenan/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218032.js https://raw.githubusercontent.com/dangerousbeans/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218035.js https://raw.githubusercontent.com/vkramskikh/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218037.js https://raw.githubusercontent.com/chronic8000/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218039.js https://raw.githubusercontent.com/azizmb/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218041.js https://raw.githubusercontent.com/jfollas/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218043.js https://raw.githubusercontent.com/andreyber/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218046.js https://raw.githubusercontent.com/cariocaboreal/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218048.js https://raw.githubusercontent.com/jss4856/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218050.js https://raw.githubusercontent.com/elksson/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218052.js https://raw.githubusercontent.com/levitt/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218055.js https://raw.githubusercontent.com/gm1972/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218057.js https://raw.githubusercontent.com/DeveloperUX/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218059.js https://raw.githubusercontent.com/kennethklee/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218061.js https://raw.githubusercontent.com/nerdlabs/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218064.js https://raw.githubusercontent.com/brianberlin/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218066.js https://raw.githubusercontent.com/johndoe75/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218068.js https://raw.githubusercontent.com/noconstruct/gekko/master/methods/realtime-candle-fetcher.js
+
+talib-macd-1525218071.js https://raw.githubusercontent.com/Aerius42/gekko/develop/methods/talib-macd.js
+
+StochRSI-1525218073.js https://raw.githubusercontent.com/Optictrollz/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525218075.js https://raw.githubusercontent.com/Niller2005/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525218077.js https://raw.githubusercontent.com/DanielBodnar/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525218080.js https://raw.githubusercontent.com/jhnferraris/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525218082.js https://raw.githubusercontent.com/cnspot/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525218084.js https://raw.githubusercontent.com/valeriominetti/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525218086.js https://raw.githubusercontent.com/carlos8f/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525218088.js https://raw.githubusercontent.com/digideskio/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525218091.js https://raw.githubusercontent.com/jensWorkGit/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525218093.js https://raw.githubusercontent.com/fufulabs/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525218095.js https://raw.githubusercontent.com/derifo/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525218098.js https://raw.githubusercontent.com/cheey2003/gekko/stable/methods/StochRSI.js
+
+StochRSI-1525218100.js https://raw.githubusercontent.com/bugron/gekko/0.2/methods/StochRSI.js
+
+StochRSI-1525218102.js https://raw.githubusercontent.com/AztecSmith/gekko/0.2/methods/StochRSI.js
+
+exponential-moving-averages-1525218104.js https://raw.githubusercontent.com/Storegud/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218106.js https://raw.githubusercontent.com/yori1989/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218109.js https://raw.githubusercontent.com/shermdog/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218111.js https://raw.githubusercontent.com/PabloC/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218113.js https://raw.githubusercontent.com/nbphuoc/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218115.js https://raw.githubusercontent.com/rvienna/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218118.js https://raw.githubusercontent.com/GoodDragon/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218120.js https://raw.githubusercontent.com/Devouring/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218122.js https://raw.githubusercontent.com/suissa/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218125.js https://raw.githubusercontent.com/keichan34/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218127.js https://raw.githubusercontent.com/jonghyeopkim/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218129.js https://raw.githubusercontent.com/markholland83/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218132.js https://raw.githubusercontent.com/adonis74/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218134.js https://raw.githubusercontent.com/gardner/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218136.js https://raw.githubusercontent.com/ckeenan/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218139.js https://raw.githubusercontent.com/dangerousbeans/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218141.js https://raw.githubusercontent.com/vkramskikh/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218143.js https://raw.githubusercontent.com/chronic8000/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218145.js https://raw.githubusercontent.com/azizmb/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218147.js https://raw.githubusercontent.com/jfollas/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218150.js https://raw.githubusercontent.com/andreyber/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218152.js https://raw.githubusercontent.com/cariocaboreal/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218154.js https://raw.githubusercontent.com/jss4856/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218156.js https://raw.githubusercontent.com/elksson/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218159.js https://raw.githubusercontent.com/levitt/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218161.js https://raw.githubusercontent.com/gm1972/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218163.js https://raw.githubusercontent.com/DeveloperUX/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218165.js https://raw.githubusercontent.com/kennethklee/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218168.js https://raw.githubusercontent.com/nerdlabs/gekko/master/methods/exponential-moving-averages.js
+
+exponential-moving-averages-1525218170.js https://raw.githubusercontent.com/brianberlin/gekko/master/methods/exponential-moving-averages.js
+
+realtime-candle-fetcher-1525218172.js https://raw.githubusercontent.com/mc96107/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218174.js https://raw.githubusercontent.com/siergiej/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218176.js https://raw.githubusercontent.com/DanBUK/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218178.js https://raw.githubusercontent.com/MarcDiethelm/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218181.js https://raw.githubusercontent.com/alpha1125/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218183.js https://raw.githubusercontent.com/abgabe/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218185.js https://raw.githubusercontent.com/mehmeta/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218188.js https://raw.githubusercontent.com/pulsecat/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218190.js https://raw.githubusercontent.com/MatracasPT/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218195.js https://raw.githubusercontent.com/jrose400/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218197.js https://raw.githubusercontent.com/mshome86/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218199.js https://raw.githubusercontent.com/sawantuday/gekko/master/methods/realtime-candle-fetcher.js
+
+realtime-candle-fetcher-1525218201.js https://raw.githubusercontent.com/czzarr/gekko/master/methods/realtime-candle-fetcher.js
+
+jazzbre.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/jazzbre.js
+
+custom-1525228183.js https://raw.githubusercontent.com/jazzbre/gekko/stable/strategies/custom.js
+
+trix-fab-1.ods https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/trix-fab-1.ods
+
+RSI.js https://raw.githubusercontent.com/padioca/gekko/develop/strategies/RSI.js
+
+gannSwing.js https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/strategies/gannSwing.js
+
+RSI-MACD.js https://raw.githubusercontent.com/NFS002/gekko/stable/strategies/RSI-MACD.js
+
+RSI-MACD-1525228201.js https://raw.githubusercontent.com/laredoza/gekko/stable/strategies/RSI-MACD.js
+
+RSI_BULL_BEAR.toml https://raw.githubusercontent.com/misterboe/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_Bull_Bear_Adx_Mod.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/RSI_Bull_Bear_Adx_Mod.js
+
+RSI_Bull_Bear_Adx_Mod-1525228213.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/RSI_Bull_Bear_Adx_Mod.js
+
+RSI_Bull_Bear_Adx_Mod-1525228217.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/RSI_Bull_Bear_Adx_Mod.js
+
+RSI_Bull_Bear_Adx.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/RSI_Bull_Bear_Adx.js
+
+RSI_Bull_Bear_Adx-1525228224.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/RSI_Bull_Bear_Adx.js
+
+RSI_Bull_Bear_Adx-1525228227.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/RSI_Bull_Bear_Adx.js
+
+custom-1525228231.js https://raw.githubusercontent.com/talinside/gekko/stable/strategies/custom.js
+
+custom-1525228236.js https://raw.githubusercontent.com/ramsesaguirre/gekko/stable/strategies/custom.js
+
+custom-1525228239.js https://raw.githubusercontent.com/emildimitrov/gekko/stable/strategies/custom.js
+
+custom-1525228243.js https://raw.githubusercontent.com/jonrh/gekko/stable/strategies/custom.js
+
+custom-1525228246.js https://raw.githubusercontent.com/pau1m/gekko/stable/strategies/custom.js
+
+custom-1525228250.js https://raw.githubusercontent.com/PlasticCog/gekko/stable/strategies/custom.js
+
+custom-1525228254.js https://raw.githubusercontent.com/dskvr/gekko/stable/strategies/custom.js
+
+custom-1525228258.js https://raw.githubusercontent.com/zhumzhu/gekko/stable/strategies/custom.js
+
+custom-1525228261.js https://raw.githubusercontent.com/Senmumu/gekko/stable/strategies/custom.js
+
+custom-1525228265.js https://raw.githubusercontent.com/kazi308/gekko/stable/strategies/custom.js
+
+custom-1525228269.js https://raw.githubusercontent.com/Reddmist/gekko/stable/strategies/custom.js
+
+custom-1525228273.js https://raw.githubusercontent.com/nford/gekko/stable/strategies/custom.js
+
+custom-1525228276.js https://raw.githubusercontent.com/dvs39/gekko/stable/strategies/custom.js
+
+custom-1525228280.js https://raw.githubusercontent.com/sad8c/gekko/stable/strategies/custom.js
+
+custom-1525228284.js https://raw.githubusercontent.com/Hotwings/gekko/stable/strategies/custom.js
+
+custom-1525228288.js https://raw.githubusercontent.com/anantmittal/gekko/stable/strategies/custom.js
+
+tulip-multi-strat.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/tulip-multi-strat.js
+
+Combination-3.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/Combination-3.js
+
+mounirs-ga-version-2.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/mounirs-ga-version-2.js
+
+Benny.js https://raw.githubusercontent.com/hiyan/gekkowk/develop/strategies/Benny.js
+
+ult-obv-fab.js https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/ult-obv-fab.js
+
+StochRSI-1525228311.js https://raw.githubusercontent.com/padioca/gekko/develop/strategies/StochRSI.js
+
+StochRSI-GA.js https://raw.githubusercontent.com/trainerbill/gekko/develop/strategies/StochRSI-GA.js
+
+BodhiDI_public.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/BodhiDI_public.js
+
+BollingerBands.js https://raw.githubusercontent.com/laravellously/nengobot/stable/strategies/BollingerBands.js
+
+custom-1525228326.js https://raw.githubusercontent.com/marcuslopes/gekko/stable/strategies/custom.js
+
+RSI-1525228330.js https://raw.githubusercontent.com/SirEOF/gekko/stable/strategies/RSI.js
+
+RSI-1525228334.js https://raw.githubusercontent.com/kza95/gekko/stable/strategies/RSI.js
+
+RSI-1525228338.js https://raw.githubusercontent.com/admatteson/https-github.com-askmike-gekko/develop/strategies/RSI.js
+
+RSI-1525228341.js https://raw.githubusercontent.com/tudorconstantin/gekko/stable/strategies/RSI.js
+
+RSI-1525228345.js https://raw.githubusercontent.com/alexpantyukhin/gekko/stable/strategies/RSI.js
+
+RSI-1525228349.js https://raw.githubusercontent.com/inevity/gekko/stable/strategies/RSI.js
+
+RSI-1525228353.js https://raw.githubusercontent.com/Nowelec/gekko/stable/strategies/RSI.js
+
+RSI-1525228356.js https://raw.githubusercontent.com/CryptDev/gekko/stable/strategies/RSI.js
+
+RSI-1525228360.js https://raw.githubusercontent.com/furcy75/gekko/stable/strategies/RSI.js
+
+RSI-1525228364.js https://raw.githubusercontent.com/coderjoe/gekko/stable/strategies/RSI.js
+
+RSI-1525228368.js https://raw.githubusercontent.com/thanhhoang09/gekko/stable/strategies/RSI.js
+
+RSI-1525228371.js https://raw.githubusercontent.com/jeremyloe/gekko/stable/strategies/RSI.js
+
+RSI-1525228375.js https://raw.githubusercontent.com/benediktharter/gekko/stable/strategies/RSI.js
+
+RSI-1525228379.js https://raw.githubusercontent.com/tperalta82/gekko/stable/strategies/RSI.js
+
+RSI-1525228382.js https://raw.githubusercontent.com/billotronic/gekko/stable/strategies/RSI.js
+
+RSI-1525228386.js https://raw.githubusercontent.com/breadncircus/gekko/stable/strategies/RSI.js
+
+MK_RSI_BULL_BEAR.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/MK_RSI_BULL_BEAR.js
+
+MK_RSI_BULL_BEAR-1525228393.js https://raw.githubusercontent.com/skimonkey/gekko/develop/strategies/MK_RSI_BULL_BEAR.js
+
+zuki_nn.js https://raw.githubusercontent.com/wattta/gekko-neuralnet/master/strategies/zuki_nn.js
+
+EMA_OR_PRICE_DIV.js https://raw.githubusercontent.com/imperator6/gekko/stable/strategies/EMA_OR_PRICE_DIV.js
+
+DDEMA.js https://raw.githubusercontent.com/christianbaier/gekko/feature-backtest-datapreview/strategies/DDEMA.js
+
+DDEMA-1525228409.js https://raw.githubusercontent.com/Argiris88/gekko-1/feature-backtest-datapreview/strategies/DDEMA.js
+
+DDEMA-1525228413.js https://raw.githubusercontent.com/taddeusb90/gekko-1/feature-backtest-datapreview/strategies/DDEMA.js
+
+RSI_BULL_BEAR.js https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525228421.js https://raw.githubusercontent.com/gamert/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525228424.js https://raw.githubusercontent.com/woolf-wen/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525228428.js https://raw.githubusercontent.com/silentair1973/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525228432.js https://raw.githubusercontent.com/jnoll21/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525228435.js https://raw.githubusercontent.com/harbop/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525228439.js https://raw.githubusercontent.com/khc8858/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+ATR_ADX.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/ATR_ADX.js
+
+ATR_ADX-1525228447.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/ATR_ADX.js
+
+ATR_ADX-1525228450.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/ATR_ADX.js
+
+ATR_ADX-1525228454.js https://raw.githubusercontent.com/DerSebel/gekko/develop/strategies/ATR_ADX.js
+
+RU.js https://raw.githubusercontent.com/rgermanov/gekko/stable/strategies/RU.js
+
+stratego_smaxv7_SL.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/stratego_smaxv7_SL.js
+
+custom-fab3.ods https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/custom-fab3.ods
+
+CCI_custom.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/CCI_custom.js
+
+TEMA.toml https://raw.githubusercontent.com/tommiehansen/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525228476.toml https://raw.githubusercontent.com/edimisonneves/gekko_tools/master/strategies/TEMA.toml
+
+talib-macd-1525228481.js https://raw.githubusercontent.com/padioca/gekko/develop/strategies/talib-macd.js
+
+PPOTSI.js https://raw.githubusercontent.com/trainerbill/gekko/develop/strategies/PPOTSI.js
+
+loosai.js https://raw.githubusercontent.com/muphy/gekko/stable/strategies/loosai.js
+
+ao-ac-fab.js https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/ao-ac-fab.js
+
+ao-fab-base.ods https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/ao-fab-base.ods
+
+ao-fab-base.js https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/ao-fab-base.js
+
+experimenter.js https://raw.githubusercontent.com/christianbaier/gekko/feature-backtest-datapreview/strategies/experimenter.js
+
+experimenter-1525228507.js https://raw.githubusercontent.com/Argiris88/gekko-1/feature-backtest-datapreview/strategies/experimenter.js
+
+experimenter-1525228511.js https://raw.githubusercontent.com/taddeusb90/gekko-1/feature-backtest-datapreview/strategies/experimenter.js
+
+RSI_BB_ADX_ReEntry.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/RSI_BB_ADX_ReEntry.js
+
+RSI_BB_ADX_ReEntry-1525228519.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/RSI_BB_ADX_ReEntry.js
+
+custom-1525228524.js https://raw.githubusercontent.com/thanhlmm/gekko/develop/strategies/custom.js
+
+RSI_BULL_BEAR-1525228527.js https://raw.githubusercontent.com/dreymen/gekko/develop/strategies/RSI_BULL_BEAR.js
+
+rsidyn.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/rsidyn.js
+
+RSI_BULL_BEAR-1525228536.toml https://raw.githubusercontent.com/gamert/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228540.toml https://raw.githubusercontent.com/woolf-wen/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228543.toml https://raw.githubusercontent.com/silentair1973/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228547.toml https://raw.githubusercontent.com/jnoll21/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228551.toml https://raw.githubusercontent.com/harbop/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228554.toml https://raw.githubusercontent.com/khc8858/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228558.toml https://raw.githubusercontent.com/wupeng1211/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228562.toml https://raw.githubusercontent.com/Kohette/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228566.toml https://raw.githubusercontent.com/rabassis/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228569.toml https://raw.githubusercontent.com/msmmi/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228573.toml https://raw.githubusercontent.com/imperfectarc/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228577.toml https://raw.githubusercontent.com/pepijnblom/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228581.toml https://raw.githubusercontent.com/uzi92505/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228584.toml https://raw.githubusercontent.com/G-Unit-Projects/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228588.toml https://raw.githubusercontent.com/vreugdedal/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228592.toml https://raw.githubusercontent.com/bcexecd/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228595.toml https://raw.githubusercontent.com/deepland/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228599.toml https://raw.githubusercontent.com/Kralg/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228603.toml https://raw.githubusercontent.com/phbprogramming/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228606.toml https://raw.githubusercontent.com/bogadopedro/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228610.toml https://raw.githubusercontent.com/in-elite/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228614.toml https://raw.githubusercontent.com/s-ferdie/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228618.toml https://raw.githubusercontent.com/quickdry/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228622.toml https://raw.githubusercontent.com/kidwalom/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228625.toml https://raw.githubusercontent.com/GO1984/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228629.toml https://raw.githubusercontent.com/vicmarto/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228633.toml https://raw.githubusercontent.com/JasLin/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525228636.toml https://raw.githubusercontent.com/ankasem/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+MACD_custom.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/MACD_custom.js
+
+talib-macd-1525228644.js https://raw.githubusercontent.com/SirEOF/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228648.js https://raw.githubusercontent.com/mogupta/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228651.js https://raw.githubusercontent.com/kza95/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228655.js https://raw.githubusercontent.com/admatteson/https-github.com-askmike-gekko/develop/strategies/talib-macd.js
+
+talib-macd-1525228659.js https://raw.githubusercontent.com/tudorconstantin/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228663.js https://raw.githubusercontent.com/alexpantyukhin/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228666.js https://raw.githubusercontent.com/inevity/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228670.js https://raw.githubusercontent.com/Nowelec/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228674.js https://raw.githubusercontent.com/CryptDev/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228677.js https://raw.githubusercontent.com/furcy75/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228681.js https://raw.githubusercontent.com/coderjoe/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228685.js https://raw.githubusercontent.com/carlosfvp/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228688.js https://raw.githubusercontent.com/thanhhoang09/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228692.js https://raw.githubusercontent.com/jeremyloe/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228697.js https://raw.githubusercontent.com/benediktharter/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228701.js https://raw.githubusercontent.com/tperalta82/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228704.js https://raw.githubusercontent.com/billotronic/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228708.js https://raw.githubusercontent.com/breadncircus/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228712.js https://raw.githubusercontent.com/kryptolynx/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228715.js https://raw.githubusercontent.com/RyanCwynar/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228719.js https://raw.githubusercontent.com/talinside/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228723.js https://raw.githubusercontent.com/ramsesaguirre/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228727.js https://raw.githubusercontent.com/emildimitrov/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228731.js https://raw.githubusercontent.com/jonrh/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228735.js https://raw.githubusercontent.com/pau1m/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228738.js https://raw.githubusercontent.com/PlasticCog/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228742.js https://raw.githubusercontent.com/dskvr/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228746.js https://raw.githubusercontent.com/zhumzhu/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228750.js https://raw.githubusercontent.com/Senmumu/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228753.js https://raw.githubusercontent.com/kazi308/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228757.js https://raw.githubusercontent.com/Reddmist/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228761.js https://raw.githubusercontent.com/nford/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228765.js https://raw.githubusercontent.com/dvs39/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228768.js https://raw.githubusercontent.com/sad8c/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228772.js https://raw.githubusercontent.com/Hotwings/gekko/stable/strategies/talib-macd.js
+
+talib-macd-1525228776.js https://raw.githubusercontent.com/anantmittal/gekko/stable/strategies/talib-macd.js
+
+n8.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/n8.js
+
+n8-1525228783.js https://raw.githubusercontent.com/wangvincentt/gekko/develop/strategies/n8.js
+
+n8-1525228787.js https://raw.githubusercontent.com/Saichovsky/gekko/master/strategies/n8.js
+
+n8-1525228791.js https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/strategies/n8.js
+
+n8-1525228794.js https://raw.githubusercontent.com/thanhlmm/gekko/develop/strategies/n8.js
+
+n8-1525228798.js https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/strategies/n8.js
+
+n8-1525228802.js https://raw.githubusercontent.com/pepijnblom/gekko/stable/strategies/n8.js
+
+DEMA-1525228806.js https://raw.githubusercontent.com/jazzbre/gekko/stable/strategies/DEMA.js
+
+ManuNet.js https://raw.githubusercontent.com/Alocaly/GekkoStrategies/master/strategies/ManuNet.js
+
+ManuNet-1525228814.js https://raw.githubusercontent.com/davidle68/GekkoStrategies/master/strategies/ManuNet.js
+
+Dave.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/Dave.js
+
+EMADIV.js https://raw.githubusercontent.com/imperator6/gekko/stable/strategies/EMADIV.js
+
+TEMA.js https://raw.githubusercontent.com/10io/gekko/develop/strategies/TEMA.js
+
+SchaffTrendCycle.js https://raw.githubusercontent.com/msmmi/GekkoSchaffTrendCycle/master/strategies/SchaffTrendCycle.js
+
+talib-macd-1525228833.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/talib-macd.js
+
+bryanbeck.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/bryanbeck.js
+
+stopTrailing.js https://raw.githubusercontent.com/hariseldon78/gekko/stable/strategies/stopTrailing.js
+
+RSI_BULL_BEAR_ADX.js https://raw.githubusercontent.com/s-ferdie/gekko/develop/strategies/RSI_BULL_BEAR_ADX.js
+
+tulip-macd.js https://raw.githubusercontent.com/padioca/gekko/develop/strategies/tulip-macd.js
+
+custom-1525228853.js https://raw.githubusercontent.com/hariseldon78/gekko/stable/strategies/custom.js
+
+jazzbre-1525228856.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/jazzbre.js
+
+custom-vix-fix.js https://raw.githubusercontent.com/BDav24/gekko/develop/strategies/custom-vix-fix.js
+
+RSI_Bull_Bear_Adx-1525228864.js https://raw.githubusercontent.com/DerSebel/gekko/develop/strategies/RSI_Bull_Bear_Adx.js
+
+tulip-adx.js https://raw.githubusercontent.com/padioca/gekko/develop/strategies/tulip-adx.js
+
+RSI_BULL_BEAR_ADX_PINGPONG.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/RSI_BULL_BEAR_ADX_PINGPONG.js
+
+Dave-1525228875.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/Dave.js
+
+Dave-1525228879.js https://raw.githubusercontent.com/digidigo/gekko/stable/strategies/Dave.js
+
+BB.js https://raw.githubusercontent.com/bvanhou/gekko/stable/strategies/BB.js
+
+BitBankStrategy3.js https://raw.githubusercontent.com/BitBanknz/gekko/develop/strategies/BitBankStrategy3.js
+
+neuralnet.js https://raw.githubusercontent.com/SirTificate/gekko-neuralnet/master/strategies/neuralnet.js
+
+neuralnet-1525228895.js https://raw.githubusercontent.com/Kenzitron/gekko-neuralnet/master/strategies/neuralnet.js
+
+ghelper_Interface.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/ghelper_Interface.js
+
+ghelper_Interface-1525228903.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/ghelper_Interface.js
+
+ghelper_Interface-1525228907.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/ghelper_Interface.js
+
+forex.coffee https://raw.githubusercontent.com/shatting/gekko/stable/strategies/forex.coffee
+
+RSI_BULL_BEAR_ADX.toml https://raw.githubusercontent.com/tommiehansen/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525228918.toml https://raw.githubusercontent.com/edimisonneves/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525228922.toml https://raw.githubusercontent.com/gamert/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525228926.toml https://raw.githubusercontent.com/woolf-wen/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525228930.toml https://raw.githubusercontent.com/silentair1973/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+bestone.js https://raw.githubusercontent.com/10io/gekko/develop/strategies/bestone.js
+
+varPPO.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/varPPO.js
+
+MACD_1520024643.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/MACD_1520024643.js
+
+RSI_BB_Adx.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/RSI_BB_Adx.js
+
+RSI_BB_Adx-1525228948.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/RSI_BB_Adx.js
+
+CCI-1525228952.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/CCI.js
+
+trix-fab-1.js https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/trix-fab-1.js
+
+DEMA-1525228960.js https://raw.githubusercontent.com/laravellously/nengobot/stable/strategies/DEMA.js
+
+buyatsellat_ui.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/buyatsellat_ui.js
+
+buyatsellat_ui-1525228968.js https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/strategies/buyatsellat_ui.js
+
+buyatsellat_ui-1525228973.js https://raw.githubusercontent.com/today-not-someday/gekko/develop/strategies/buyatsellat_ui.js
+
+EMACrossover.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/EMACrossover.js
+
+RSI_BULL_BEAR_ADX-1525228981.js https://raw.githubusercontent.com/10io/gekko/develop/strategies/RSI_BULL_BEAR_ADX.js
+
+talib-macd-1525228985.js https://raw.githubusercontent.com/Catwhisker/gekko/develop/strategies/talib-macd.js
+
+ATR_ADX0.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/ATR_ADX0.js
+
+ATR_ADX0-1525228992.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/ATR_ADX0.js
+
+ATR_ADX0-1525228996.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/ATR_ADX0.js
+
+Supertrend.js https://raw.githubusercontent.com/padioca/gekko/develop/strategies/Supertrend.js
+
+Supertrend-1525229003.js https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/strategies/Supertrend.js
+
+bestone-updated-hardcoded-config.js https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/strategies/bestone-updated-hardcoded-config.js
+
+ao-ac-fab.ods https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/ao-ac-fab.ods
+
+varPPO-1525229015.js https://raw.githubusercontent.com/SirEOF/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229018.js https://raw.githubusercontent.com/mogupta/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229022.js https://raw.githubusercontent.com/kza95/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229026.js https://raw.githubusercontent.com/admatteson/https-github.com-askmike-gekko/develop/strategies/varPPO.js
+
+varPPO-1525229029.js https://raw.githubusercontent.com/tudorconstantin/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229033.js https://raw.githubusercontent.com/alexpantyukhin/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229037.js https://raw.githubusercontent.com/inevity/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229040.js https://raw.githubusercontent.com/Nowelec/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229045.js https://raw.githubusercontent.com/CryptDev/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229048.js https://raw.githubusercontent.com/furcy75/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229052.js https://raw.githubusercontent.com/coderjoe/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229056.js https://raw.githubusercontent.com/carlosfvp/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229059.js https://raw.githubusercontent.com/thanhhoang09/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229063.js https://raw.githubusercontent.com/jeremyloe/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229067.js https://raw.githubusercontent.com/benediktharter/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229071.js https://raw.githubusercontent.com/tperalta82/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229074.js https://raw.githubusercontent.com/billotronic/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229079.js https://raw.githubusercontent.com/breadncircus/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229082.js https://raw.githubusercontent.com/kryptolynx/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229086.js https://raw.githubusercontent.com/RyanCwynar/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229090.js https://raw.githubusercontent.com/talinside/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229094.js https://raw.githubusercontent.com/ramsesaguirre/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229097.js https://raw.githubusercontent.com/emildimitrov/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229101.js https://raw.githubusercontent.com/jonrh/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229105.js https://raw.githubusercontent.com/pau1m/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229109.js https://raw.githubusercontent.com/PlasticCog/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229113.js https://raw.githubusercontent.com/dskvr/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229116.js https://raw.githubusercontent.com/zhumzhu/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229120.js https://raw.githubusercontent.com/Senmumu/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229124.js https://raw.githubusercontent.com/kazi308/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229127.js https://raw.githubusercontent.com/Reddmist/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229131.js https://raw.githubusercontent.com/nford/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229135.js https://raw.githubusercontent.com/dvs39/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229141.js https://raw.githubusercontent.com/sad8c/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229144.js https://raw.githubusercontent.com/Hotwings/gekko/stable/strategies/varPPO.js
+
+varPPO-1525229148.js https://raw.githubusercontent.com/anantmittal/gekko/stable/strategies/varPPO.js
+
+CUSTOM-PPO.js https://raw.githubusercontent.com/trainerbill/gekko/develop/strategies/CUSTOM-PPO.js
+
+TSI.js https://raw.githubusercontent.com/padioca/gekko/develop/strategies/TSI.js
+
+EMADIV2.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/EMADIV2.js
+
+RSI_BULL_BEAR_ADX-1525229163.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/RSI_BULL_BEAR_ADX.js
+
+custom-fab.js https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/custom-fab.js
+
+indicator-test.js https://raw.githubusercontent.com/christianbaier/gekko/feature-backtest-datapreview/strategies/indicator-test.js
+
+indicator-test-1525229174.js https://raw.githubusercontent.com/Argiris88/gekko-1/feature-backtest-datapreview/strategies/indicator-test.js
+
+indicator-test-1525229178.js https://raw.githubusercontent.com/taddeusb90/gekko-1/feature-backtest-datapreview/strategies/indicator-test.js
+
+RSI_BULL_BEAR_ADX-1525229182.toml https://raw.githubusercontent.com/jnoll21/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525229185.toml https://raw.githubusercontent.com/harbop/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525229189.toml https://raw.githubusercontent.com/khc8858/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525229193.toml https://raw.githubusercontent.com/misterboe/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525229197.toml https://raw.githubusercontent.com/G-Unit-Projects/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525229201.toml https://raw.githubusercontent.com/vreugdedal/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525229205.toml https://raw.githubusercontent.com/bcexecd/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525229208.toml https://raw.githubusercontent.com/deepland/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525229213.toml https://raw.githubusercontent.com/Kralg/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525229217.toml https://raw.githubusercontent.com/phbprogramming/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525229221.toml https://raw.githubusercontent.com/bogadopedro/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525229225.toml https://raw.githubusercontent.com/in-elite/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525229228.toml https://raw.githubusercontent.com/s-ferdie/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525229232.toml https://raw.githubusercontent.com/quickdry/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+NEO.js https://raw.githubusercontent.com/gcobs0834/gekko/develop/strategies/NEO.js
+
+custom-1525229239.js https://raw.githubusercontent.com/Rebinskiy/gekko/trend-based/strategies/custom.js
+
+custom-1525229243.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/custom.js
+
+TEMA-1525229247.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/TEMA.js
+
+RSI_BULL_BEAR_small.js https://raw.githubusercontent.com/Saichovsky/gekko/master/strategies/RSI_BULL_BEAR_small.js
+
+RSI_BULL_BEAR_small-1525229254.js https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/strategies/RSI_BULL_BEAR_small.js
+
+cloggy_bestone.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/cloggy_bestone.js
+
+Bro-StochRSI-ADX-DI.js https://raw.githubusercontent.com/BrandonYuen/gekko/develop/strategies/Bro-StochRSI-ADX-DI.js
+
+trix-fab.ods https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/trix-fab.ods
+
+CCI-1525229269.js https://raw.githubusercontent.com/SirEOF/gekko/stable/strategies/CCI.js
+
+CCI-1525229273.js https://raw.githubusercontent.com/mogupta/gekko/stable/strategies/CCI.js
+
+CCI-1525229277.js https://raw.githubusercontent.com/tudorconstantin/gekko/stable/strategies/CCI.js
+
+CCI-1525229281.js https://raw.githubusercontent.com/alexpantyukhin/gekko/stable/strategies/CCI.js
+
+CCI-1525229285.js https://raw.githubusercontent.com/inevity/gekko/stable/strategies/CCI.js
+
+CCI-1525229289.js https://raw.githubusercontent.com/Nowelec/gekko/stable/strategies/CCI.js
+
+CCI-1525229293.js https://raw.githubusercontent.com/CryptDev/gekko/stable/strategies/CCI.js
+
+CCI-1525229296.js https://raw.githubusercontent.com/furcy75/gekko/stable/strategies/CCI.js
+
+CCI-1525229300.js https://raw.githubusercontent.com/coderjoe/gekko/stable/strategies/CCI.js
+
+CCI-1525229304.js https://raw.githubusercontent.com/carlosfvp/gekko/stable/strategies/CCI.js
+
+CCI-1525229308.js https://raw.githubusercontent.com/thanhhoang09/gekko/stable/strategies/CCI.js
+
+CCI-1525229312.js https://raw.githubusercontent.com/jeremyloe/gekko/stable/strategies/CCI.js
+
+CCI-1525229315.js https://raw.githubusercontent.com/benediktharter/gekko/stable/strategies/CCI.js
+
+CCI-1525229319.js https://raw.githubusercontent.com/tperalta82/gekko/stable/strategies/CCI.js
+
+CCI-1525229323.js https://raw.githubusercontent.com/billotronic/gekko/stable/strategies/CCI.js
+
+CCI-1525229327.js https://raw.githubusercontent.com/breadncircus/gekko/stable/strategies/CCI.js
+
+CCI-1525229330.js https://raw.githubusercontent.com/kryptolynx/gekko/stable/strategies/CCI.js
+
+CCI-1525229334.js https://raw.githubusercontent.com/RyanCwynar/gekko/stable/strategies/CCI.js
+
+CCI-1525229338.js https://raw.githubusercontent.com/talinside/gekko/stable/strategies/CCI.js
+
+CCI-1525229342.js https://raw.githubusercontent.com/ramsesaguirre/gekko/stable/strategies/CCI.js
+
+CCI-1525229346.js https://raw.githubusercontent.com/emildimitrov/gekko/stable/strategies/CCI.js
+
+CCI-1525229349.js https://raw.githubusercontent.com/jonrh/gekko/stable/strategies/CCI.js
+
+CCI-1525229353.js https://raw.githubusercontent.com/pau1m/gekko/stable/strategies/CCI.js
+
+CCI-1525229356.js https://raw.githubusercontent.com/PlasticCog/gekko/stable/strategies/CCI.js
+
+CCI-1525229360.js https://raw.githubusercontent.com/dskvr/gekko/stable/strategies/CCI.js
+
+CCI-1525229364.js https://raw.githubusercontent.com/zhumzhu/gekko/stable/strategies/CCI.js
+
+CCI-1525229368.js https://raw.githubusercontent.com/Senmumu/gekko/stable/strategies/CCI.js
+
+CCI-1525229372.js https://raw.githubusercontent.com/kazi308/gekko/stable/strategies/CCI.js
+
+CCI-1525229375.js https://raw.githubusercontent.com/Reddmist/gekko/stable/strategies/CCI.js
+
+CCI-1525229379.js https://raw.githubusercontent.com/nford/gekko/stable/strategies/CCI.js
+
+CCI-1525229383.js https://raw.githubusercontent.com/dvs39/gekko/stable/strategies/CCI.js
+
+CCI-1525229386.js https://raw.githubusercontent.com/sad8c/gekko/stable/strategies/CCI.js
+
+CCI-1525229390.js https://raw.githubusercontent.com/Hotwings/gekko/stable/strategies/CCI.js
+
+CCI-1525229394.js https://raw.githubusercontent.com/anantmittal/gekko/stable/strategies/CCI.js
+
+RSI_BULL_BEAR-1525229398.js https://raw.githubusercontent.com/s-ferdie/gekko/develop/strategies/RSI_BULL_BEAR.js
+
+ATR_MA.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/ATR_MA.js
+
+RsiStopLoss.js https://raw.githubusercontent.com/RevREB/gekko-estrategias/stable/strategies/RsiStopLoss.js
+
+RsiStopLoss-1525229409.js https://raw.githubusercontent.com/eduardoarn/gekko-estrategias/stable/strategies/RsiStopLoss.js
+
+RSI_BULL_BEAR_ADX-1525229413.js https://raw.githubusercontent.com/harbop/gekko/develop/strategies/RSI_BULL_BEAR_ADX.js
+
+bestone_updated_hardcoded.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/bestone_updated_hardcoded.js
+
+bestone-updated-hardcoded-config-1525229421.js https://raw.githubusercontent.com/Saichovsky/gekko/master/strategies/bestone-updated-hardcoded-config.js
+
+bestone-updated-hardcoded-config-1525229424.js https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/strategies/bestone-updated-hardcoded-config.js
+
+bestone-updated-hardcoded-config-1525229428.js https://raw.githubusercontent.com/pepijnblom/gekko/stable/strategies/bestone-updated-hardcoded-config.js
+
+StochRSI_MACD_BB.js https://raw.githubusercontent.com/laravellously/nengobot/stable/strategies/StochRSI_MACD_BB.js
+
+rider.js https://raw.githubusercontent.com/10io/gekko/develop/strategies/rider.js
+
+BBRSI.js https://raw.githubusercontent.com/hiyan/gekkowk/develop/strategies/BBRSI.js
+
+x2_rsi.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/x2_rsi.js
+
+tulip-multi-custom.js https://raw.githubusercontent.com/Homskiy/gekko/develop/strategies/tulip-multi-custom.js
+
+RSI_Bull_Bear_Adx_Stop.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/RSI_Bull_Bear_Adx_Stop.js
+
+RSI_test.js https://raw.githubusercontent.com/zhuoyizhang/gekko/stable/strategies/RSI_test.js
+
+PPO-1525229458.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/PPO.js
+
+strategy_template.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/strategy_template.js
+
+strategy_template-1525229465.js https://raw.githubusercontent.com/wangvincentt/gekko/develop/strategies/strategy_template.js
+
+strategy_template-1525229469.js https://raw.githubusercontent.com/thanhlmm/gekko/develop/strategies/strategy_template.js
+
+HL_Scalp.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/HL_Scalp.js
+
+HL_Scalp-1525229477.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/HL_Scalp.js
+
+RSI-1525229481.js https://raw.githubusercontent.com/muphy/gekko/stable/strategies/RSI.js
+
+BB-1525229485.js https://raw.githubusercontent.com/okibcn/gekko/stable/strategies/BB.js
+
+n8_v2_BB_RSI_SL.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/n8_v2_BB_RSI_SL.js
+
+stop-loss.js https://raw.githubusercontent.com/aterjung/gekko/develop/strategies/stop-loss.js
+
+DEMACrossover.js https://raw.githubusercontent.com/brucebarrera/gekko/develop/strategies/DEMACrossover.js
+
+DEMACrossover-1525229500.js https://raw.githubusercontent.com/vrfurl/gekko/stable/strategies/DEMACrossover.js
+
+Entry_Plus.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/Entry_Plus.js
+
+Entry_Plus-1525229507.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/Entry_Plus.js
+
+RSI_BULL_BEAR-1525229511.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/RSI_BULL_BEAR.js
+
+Supertrend_Gab0.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/Supertrend_Gab0.js
+
+custom-1525229519.js https://raw.githubusercontent.com/ljm625/gekko/stable/strategies/custom.js
+
+custom-1525229522.js https://raw.githubusercontent.com/yinqianwu/gekko/stable/strategies/custom.js
+
+TSI-1525229526.js https://raw.githubusercontent.com/Catwhisker/gekko/develop/strategies/TSI.js
+
+ult-obv-fab.ods https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/ult-obv-fab.ods
+
+neuralnet_v2.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/neuralnet_v2.js
+
+RSI-1525229538.js https://raw.githubusercontent.com/NFS002/gekko/stable/strategies/RSI.js
+
+RSI-1525229541.js https://raw.githubusercontent.com/laredoza/gekko/stable/strategies/RSI.js
+
+custom-1525229545.js https://raw.githubusercontent.com/11447416/gekko/stable/strategies/custom.js
+
+DEMA-1525229549.js https://raw.githubusercontent.com/SirEOF/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229552.js https://raw.githubusercontent.com/mogupta/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229556.js https://raw.githubusercontent.com/kza95/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229560.js https://raw.githubusercontent.com/admatteson/https-github.com-askmike-gekko/develop/strategies/DEMA.js
+
+DEMA-1525229564.js https://raw.githubusercontent.com/tudorconstantin/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229568.js https://raw.githubusercontent.com/alexpantyukhin/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229571.js https://raw.githubusercontent.com/inevity/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229575.js https://raw.githubusercontent.com/Nowelec/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229579.js https://raw.githubusercontent.com/CryptDev/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229583.js https://raw.githubusercontent.com/furcy75/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229586.js https://raw.githubusercontent.com/coderjoe/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229590.js https://raw.githubusercontent.com/carlosfvp/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229594.js https://raw.githubusercontent.com/thanhhoang09/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229598.js https://raw.githubusercontent.com/jeremyloe/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229601.js https://raw.githubusercontent.com/benediktharter/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229605.js https://raw.githubusercontent.com/tperalta82/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229609.js https://raw.githubusercontent.com/billotronic/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229612.js https://raw.githubusercontent.com/breadncircus/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229616.js https://raw.githubusercontent.com/kryptolynx/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229620.js https://raw.githubusercontent.com/RyanCwynar/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229624.js https://raw.githubusercontent.com/talinside/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229627.js https://raw.githubusercontent.com/ramsesaguirre/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229631.js https://raw.githubusercontent.com/emildimitrov/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229635.js https://raw.githubusercontent.com/jonrh/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229638.js https://raw.githubusercontent.com/pau1m/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229642.js https://raw.githubusercontent.com/PlasticCog/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229646.js https://raw.githubusercontent.com/dskvr/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229649.js https://raw.githubusercontent.com/zhumzhu/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229653.js https://raw.githubusercontent.com/Senmumu/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229657.js https://raw.githubusercontent.com/kazi308/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229661.js https://raw.githubusercontent.com/Reddmist/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229664.js https://raw.githubusercontent.com/nford/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229668.js https://raw.githubusercontent.com/dvs39/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229672.js https://raw.githubusercontent.com/sad8c/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229675.js https://raw.githubusercontent.com/Hotwings/gekko/stable/strategies/DEMA.js
+
+DEMA-1525229679.js https://raw.githubusercontent.com/anantmittal/gekko/stable/strategies/DEMA.js
+
+L1-TrailingStop.js https://raw.githubusercontent.com/NFS002/gekko/stable/strategies/L1-TrailingStop.js
+
+L1-TrailingStop-1525229687.js https://raw.githubusercontent.com/laredoza/gekko/stable/strategies/L1-TrailingStop.js
+
+Tutle.md https://raw.githubusercontent.com/thanhlmm/gekko/develop/strategies/Tutle.md
+
+.%7Elock.hma-fab-base.ods%23 https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/.%7Elock.hma-fab-base.ods%23
+
+aroon_public.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/aroon_public.js
+
+aroon_public-1525229702.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/aroon_public.js
+
+aroon_public-1525229706.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/aroon_public.js
+
+aroon_public-1525229710.js https://raw.githubusercontent.com/DerSebel/gekko/develop/strategies/aroon_public.js
+
+DEMARSICrossover.js https://raw.githubusercontent.com/brucebarrera/gekko/develop/strategies/DEMARSICrossover.js
+
+DEMARSICrossover-1525229717.js https://raw.githubusercontent.com/vrfurl/gekko/stable/strategies/DEMARSICrossover.js
+
+rsibased-min.js https://raw.githubusercontent.com/wangvincentt/gekko/develop/strategies/rsibased-min.js
+
+RSI_BULL_BEAR_ADX-1525229725.js https://raw.githubusercontent.com/misterboe/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525229728.js https://raw.githubusercontent.com/padioca/gekko/develop/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525229732.js https://raw.githubusercontent.com/G-Unit-Projects/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525229736.js https://raw.githubusercontent.com/vreugdedal/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525229739.js https://raw.githubusercontent.com/bcexecd/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525229743.js https://raw.githubusercontent.com/deepland/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525229747.js https://raw.githubusercontent.com/Kralg/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525229751.js https://raw.githubusercontent.com/phbprogramming/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525229754.js https://raw.githubusercontent.com/bogadopedro/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525229758.js https://raw.githubusercontent.com/in-elite/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+custom-1525229762.js https://raw.githubusercontent.com/cgDevimer/gekko/stable/strategies/custom.js
+
+hma-fab-base.js https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/hma-fab-base.js
+
+gekko-custom.js https://raw.githubusercontent.com/pprados/gekko/mydevelop/strategies/gekko-custom.js
+
+RSI_BULL_BEAR-1525229773.js https://raw.githubusercontent.com/skimonkey/gekko/develop/strategies/RSI_BULL_BEAR.js
+
+rsidyn-1525229777.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/rsidyn.js
+
+ML.js https://raw.githubusercontent.com/gcobs0834/gekko/develop/strategies/ML.js
+
+PPO-1525229785.js https://raw.githubusercontent.com/laravellously/nengobot/stable/strategies/PPO.js
+
+stopTake.js https://raw.githubusercontent.com/hariseldon78/gekko/stable/strategies/stopTake.js
+
+SchaffTrendCycle-1525229792.js https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/strategies/SchaffTrendCycle.js
+
+SchaffTrendCycle-1525229796.js https://raw.githubusercontent.com/zschro/GekkoSchaffTrendCycle/master/strategies/SchaffTrendCycle.js
+
+RSI_BB_ADX_Peak.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/RSI_BB_ADX_Peak.js
+
+STC_Bull_Bear_Adx.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/STC_Bull_Bear_Adx.js
+
+STC_Bull_Bear_Adx-1525229807.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/STC_Bull_Bear_Adx.js
+
+CCI-1525229811.js https://raw.githubusercontent.com/langhai8045/gekko_template/master/strategies/CCI.js
+
+DEMA-1525229815.js https://raw.githubusercontent.com/Catwhisker/gekko/develop/strategies/DEMA.js
+
+bestone-1525229818.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/bestone.js
+
+bestone-1525229822.js https://raw.githubusercontent.com/wangvincentt/gekko/develop/strategies/bestone.js
+
+BuyAtSellAt.js https://raw.githubusercontent.com/laravellously/nengobot/stable/strategies/BuyAtSellAt.js
+
+TEMA-1525229830.js https://raw.githubusercontent.com/tommiehansen/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525229834.js https://raw.githubusercontent.com/edimisonneves/gekko_tools/master/strategies/TEMA.js
+
+bestone-tulip.js https://raw.githubusercontent.com/thanhlmm/gekko/develop/strategies/bestone-tulip.js
+
+bestone-tulip-1525229843.js https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/strategies/bestone-tulip.js
+
+bestone-tulip-1525229847.js https://raw.githubusercontent.com/pepijnblom/gekko/stable/strategies/bestone-tulip.js
+
+Benny-1525229850.js https://raw.githubusercontent.com/bennyn/gekko/develop/strategies/Benny.js
+
+Benny-1525229854.js https://raw.githubusercontent.com/jovanovicdusan/gekko/develop/strategies/Benny.js
+
+CUSTOM_RSI.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/CUSTOM_RSI.js
+
+neuralnet_v2-1525229862.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/neuralnet_v2.js
+
+neuralnet_v2-1525229865.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/neuralnet_v2.js
+
+neuralnet_v2-1525229869.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/neuralnet_v2.js
+
+neuralnet_v2-1525229873.js https://raw.githubusercontent.com/DerSebel/gekko/develop/strategies/neuralnet_v2.js
+
+tulip-macd-1525229877.js https://raw.githubusercontent.com/Catwhisker/gekko/develop/strategies/tulip-macd.js
+
+RSI_BULL_BEAR_ADX-1525229881.js https://raw.githubusercontent.com/kidwalom/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+custom-1525229884.js https://raw.githubusercontent.com/ztnark/gekko/stable/strategies/custom.js
+
+BBRSI-1525229888.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/BBRSI.js
+
+BBRSI-1525229892.js https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/strategies/BBRSI.js
+
+BBRSI-1525229895.js https://raw.githubusercontent.com/VNadygin/gekko/develop/strategies/BBRSI.js
+
+BBRSI-1525229899.js https://raw.githubusercontent.com/hellerox/gekko/develop/strategies/BBRSI.js
+
+BBRSI-1525229903.js https://raw.githubusercontent.com/atselevich/gekko/develop/strategies/BBRSI.js
+
+RSI_BULL_BEAR_ADX_T.js https://raw.githubusercontent.com/hiyan/gekkowk/develop/strategies/RSI_BULL_BEAR_ADX_T.js
+
+debug-advice-1525229911.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/debug-advice.js
+
+enhanced_boll.js https://raw.githubusercontent.com/ljm625/gekko/stable/strategies/enhanced_boll.js
+
+enhanced_boll-1525229918.js https://raw.githubusercontent.com/yinqianwu/gekko/stable/strategies/enhanced_boll.js
+
+CCI-1525229922.js https://raw.githubusercontent.com/Rebinskiy/gekko/trend-based/strategies/CCI.js
+
+RSI_BULL_BEAR_ADX_PINGPONG.toml https://raw.githubusercontent.com/wupeng1211/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX_PINGPONG.toml
+
+RSI_BULL_BEAR_ADX_PINGPONG-1525229929.toml https://raw.githubusercontent.com/Kohette/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX_PINGPONG.toml
+
+RSI_BULL_BEAR_ADX_PINGPONG-1525229938.toml https://raw.githubusercontent.com/rabassis/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX_PINGPONG.toml
+
+RSI_BULL_BEAR_ADX_PINGPONG-1525229942.toml https://raw.githubusercontent.com/msmmi/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX_PINGPONG.toml
+
+RSI_BULL_BEAR_ADX_PINGPONG-1525229946.toml https://raw.githubusercontent.com/imperfectarc/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX_PINGPONG.toml
+
+RSI_BULL_BEAR_ADX_PINGPONG-1525229949.toml https://raw.githubusercontent.com/pepijnblom/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX_PINGPONG.toml
+
+RSI_BULL_BEAR_ADX_PINGPONG-1525229953.toml https://raw.githubusercontent.com/uzi92505/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX_PINGPONG.toml
+
+zuki_nn-1525229957.js https://raw.githubusercontent.com/gekkowarez/gekko-neuralnet/master/strategies/zuki_nn.js
+
+zuki_nn-1525229961.js https://raw.githubusercontent.com/guybeju/gekko-neuralnet/master/strategies/zuki_nn.js
+
+DL.js https://raw.githubusercontent.com/gcobs0834/gekko/develop/strategies/DL.js
+
+RSI_BULL_BEAR-1525229968.js https://raw.githubusercontent.com/misterboe/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525229972.js https://raw.githubusercontent.com/padioca/gekko/develop/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525229975.js https://raw.githubusercontent.com/wupeng1211/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525229979.js https://raw.githubusercontent.com/Kohette/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525229983.js https://raw.githubusercontent.com/rabassis/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525229987.js https://raw.githubusercontent.com/msmmi/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525229991.js https://raw.githubusercontent.com/imperfectarc/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525229995.js https://raw.githubusercontent.com/pepijnblom/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525229998.js https://raw.githubusercontent.com/uzi92505/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525230002.js https://raw.githubusercontent.com/Saichovsky/gekko/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525230006.js https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525230009.js https://raw.githubusercontent.com/G-Unit-Projects/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525230013.js https://raw.githubusercontent.com/vreugdedal/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525230017.js https://raw.githubusercontent.com/bcexecd/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525230021.js https://raw.githubusercontent.com/deepland/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525230024.js https://raw.githubusercontent.com/Kralg/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525230028.js https://raw.githubusercontent.com/phbprogramming/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525230033.js https://raw.githubusercontent.com/bogadopedro/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525230037.js https://raw.githubusercontent.com/in-elite/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525230041.js https://raw.githubusercontent.com/scragz/gekko/develop/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525230044.js https://raw.githubusercontent.com/s-ferdie/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525230048.js https://raw.githubusercontent.com/quickdry/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525230052.js https://raw.githubusercontent.com/kidwalom/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525230056.js https://raw.githubusercontent.com/thanhlmm/gekko/develop/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525230059.js https://raw.githubusercontent.com/GO1984/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525230063.js https://raw.githubusercontent.com/vicmarto/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525230067.js https://raw.githubusercontent.com/JasLin/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525230071.js https://raw.githubusercontent.com/ankasem/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+DEMA-1525230074.js https://raw.githubusercontent.com/padioca/gekko/develop/strategies/DEMA.js
+
+DEMA-GA.js https://raw.githubusercontent.com/trainerbill/gekko/develop/strategies/DEMA-GA.js
+
+RSI_BULL_BEAR_ADX_PINGPONG-1525230082.js https://raw.githubusercontent.com/wupeng1211/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX_PINGPONG.js
+
+RSI_BULL_BEAR_ADX_PINGPONG-1525230086.js https://raw.githubusercontent.com/Kohette/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX_PINGPONG.js
+
+RSI_BULL_BEAR_ADX_PINGPONG-1525230089.js https://raw.githubusercontent.com/rabassis/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX_PINGPONG.js
+
+RSI_BULL_BEAR_ADX_PINGPONG-1525230093.js https://raw.githubusercontent.com/msmmi/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX_PINGPONG.js
+
+RSI_BULL_BEAR_ADX_PINGPONG-1525230097.js https://raw.githubusercontent.com/imperfectarc/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX_PINGPONG.js
+
+RSI_BULL_BEAR_ADX_PINGPONG-1525230101.js https://raw.githubusercontent.com/pepijnblom/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX_PINGPONG.js
+
+RSI_BULL_BEAR_ADX_PINGPONG-1525230105.js https://raw.githubusercontent.com/uzi92505/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX_PINGPONG.js
+
+DEMA_MtGox.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/DEMA_MtGox.js
+
+alpha.js https://raw.githubusercontent.com/gcobs0834/gekko/develop/strategies/alpha.js
+
+alpha_new.js https://raw.githubusercontent.com/pepijnblom/gekko/stable/strategies/alpha_new.js
+
+ultimate-fab.ods https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/ultimate-fab.ods
+
+Combination-2.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/Combination-2.js
+
+RSI-1525230127.js https://raw.githubusercontent.com/anhpha/gekko/develop/strategies/RSI.js
+
+DEMA-1525230131.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/DEMA.js
+
+RSI_BB_ADX_Peak-1525230135.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/RSI_BB_ADX_Peak.js
+
+MACD-1525230139.js https://raw.githubusercontent.com/nani3105/gekko/master/strategies/MACD.js
+
+PingPong.js https://raw.githubusercontent.com/laravellously/nengobot/stable/strategies/PingPong.js
+
+RSI_BULL_BEAR_ADX-1525230146.js https://raw.githubusercontent.com/scragz/gekko/develop/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525230150.js https://raw.githubusercontent.com/thanhlmm/gekko/develop/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525230153.js https://raw.githubusercontent.com/GO1984/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525230157.js https://raw.githubusercontent.com/vicmarto/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525230161.js https://raw.githubusercontent.com/JasLin/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525230165.js https://raw.githubusercontent.com/ankasem/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_Bull_Bear_Adx_Stop-1525230168.js https://raw.githubusercontent.com/hiyan/gekkowk/develop/strategies/RSI_Bull_Bear_Adx_Stop.js
+
+UO.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/UO.js
+
+aroon_public-1525230176.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/aroon_public.js
+
+MACD-1525230179.js https://raw.githubusercontent.com/muphy/gekko/stable/strategies/MACD.js
+
+neuralnet-1525230183.js https://raw.githubusercontent.com/gekkowarez/gekko-neuralnet/master/strategies/neuralnet.js
+
+neuralnet-1525230187.js https://raw.githubusercontent.com/guybeju/gekko-neuralnet/master/strategies/neuralnet.js
+
+neuralnet-1525230191.js https://raw.githubusercontent.com/GO1984/gekko-neuralnet/master/strategies/neuralnet.js
+
+neuralnet-1525230195.js https://raw.githubusercontent.com/lokidaibel/gekko-neuralnet/master/strategies/neuralnet.js
+
+neuralnet-1525230200.js https://raw.githubusercontent.com/pepijnblom/gekko-neuralnet/master/strategies/neuralnet.js
+
+neuralnet-1525230204.js https://raw.githubusercontent.com/gintsgints/gekko-neuralnet/master/strategies/neuralnet.js
+
+MK_RSI_BULL_BEAR-1525230207.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/MK_RSI_BULL_BEAR.js
+
+custom_raw.js https://raw.githubusercontent.com/MatSchaeff/gekko-playground/stable/strategies/custom_raw.js
+
+A1RSI.js https://raw.githubusercontent.com/andreialecu/gekko/stable/strategies/A1RSI.js
+
+RSI-1525230218.js https://raw.githubusercontent.com/TinyCalf/gekko/stable/strategies/RSI.js
+
+RSI-1525230222.js https://raw.githubusercontent.com/Scott-S/gekko/stable/strategies/RSI.js
+
+RSI-1525230226.js https://raw.githubusercontent.com/kdaye/gekko/stable/strategies/RSI.js
+
+RSI-1525230229.js https://raw.githubusercontent.com/ycaihua/gekko/stable/strategies/RSI.js
+
+RSI-1525230233.js https://raw.githubusercontent.com/troyth/gekko/stable/strategies/RSI.js
+
+RSI-1525230237.js https://raw.githubusercontent.com/saadmahboob/gekko/stable/strategies/RSI.js
+
+RSI-1525230241.js https://raw.githubusercontent.com/Hatollint/gekko/stable/strategies/RSI.js
+
+RSI-1525230244.js https://raw.githubusercontent.com/anandagarwaal/gekko/stable/strategies/RSI.js
+
+RSI-1525230249.js https://raw.githubusercontent.com/andremog/gekko/stable/strategies/RSI.js
+
+RSI-1525230253.js https://raw.githubusercontent.com/CptanPanic/gekko/stable/strategies/RSI.js
+
+RSI-1525230256.js https://raw.githubusercontent.com/sireeshraju/gekko/stable/strategies/RSI.js
+
+RSI-1525230260.js https://raw.githubusercontent.com/clarkallan-trader/gekko/stable/strategies/RSI.js
+
+RSI-1525230264.js https://raw.githubusercontent.com/cryofrost/gekko/stable/strategies/RSI.js
+
+RSI-1525230268.js https://raw.githubusercontent.com/likizju/gekko/stable/strategies/RSI.js
+
+RSI-1525230271.js https://raw.githubusercontent.com/diogo-silveira/gekko/stable/strategies/RSI.js
+
+RSI-1525230275.js https://raw.githubusercontent.com/enml/gekko/stable/strategies/RSI.js
+
+RSI-1525230279.js https://raw.githubusercontent.com/harssh/gekko/stable/strategies/RSI.js
+
+RSI-1525230282.js https://raw.githubusercontent.com/JiaHaobo/gekko/stable/strategies/RSI.js
+
+RSI-1525230286.js https://raw.githubusercontent.com/altfund/gekko/stable/strategies/RSI.js
+
+RSI-1525230290.js https://raw.githubusercontent.com/tannvdts/gekko/stable/strategies/RSI.js
+
+RSI-1525230294.js https://raw.githubusercontent.com/aqibbak/gekko/stable/strategies/RSI.js
+
+RSI-1525230297.js https://raw.githubusercontent.com/stefangordon/gekko/stable/strategies/RSI.js
+
+RSI-1525230301.js https://raw.githubusercontent.com/badwtg1111/gekko/stable/strategies/RSI.js
+
+RSI-1525230305.js https://raw.githubusercontent.com/mwaeckerlin/gekko/stable/strategies/RSI.js
+
+RSI-1525230309.js https://raw.githubusercontent.com/langit/gekko/stable/strategies/RSI.js
+
+RSI-1525230312.js https://raw.githubusercontent.com/pfletcherhill/gekko/stable/strategies/RSI.js
+
+RSI-1525230316.js https://raw.githubusercontent.com/wahln/gekko/stable/strategies/RSI.js
+
+RSI-1525230320.js https://raw.githubusercontent.com/Dodo33/gekko/stable/strategies/RSI.js
+
+RSI-1525230323.js https://raw.githubusercontent.com/WXLWEB/gekko/stable/strategies/RSI.js
+
+EMADIV2-1525230334.js https://raw.githubusercontent.com/imperator6/gekko/stable/strategies/EMADIV2.js
+
+StochRSI_MACD.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/StochRSI_MACD.js
+
+RsiStopLoss-1525230342.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/RsiStopLoss.js
+
+RSI-1525230346.js https://raw.githubusercontent.com/willianscsilva/gekko/master/strategies/RSI.js
+
+MACD-1525230349.js https://raw.githubusercontent.com/padioca/gekko/develop/strategies/MACD.js
+
+neuralnet-1525230353.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/neuralnet.js
+
+RSI_BULL_BEAR-1525230357.js https://raw.githubusercontent.com/tommiehansen/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+RSI_BULL_BEAR-1525230361.js https://raw.githubusercontent.com/edimisonneves/gekko_tools/master/strategies/RSI_BULL_BEAR.js
+
+TDM_SEQ.js https://raw.githubusercontent.com/MeanSquaredError/gekko/develop/strategies/TDM_SEQ.js
+
+StochRSI_MACD_BB-1525230369.js https://raw.githubusercontent.com/langhai8045/gekko/stable/strategies/StochRSI_MACD_BB.js
+
+StochRSI_MACD_BB-1525230372.js https://raw.githubusercontent.com/langhai8045/gekko_template/master/strategies/StochRSI_MACD_BB.js
+
+StochRSI-1525230376.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/StochRSI.js
+
+BitBankStrategy.js https://raw.githubusercontent.com/BitBanknz/gekko/develop/strategies/BitBankStrategy.js
+
+aroon_public-1525230384.js https://raw.githubusercontent.com/Saichovsky/gekko/master/strategies/aroon_public.js
+
+aroon_public-1525230388.js https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/strategies/aroon_public.js
+
+DEBUG_toggle-advice.js https://raw.githubusercontent.com/Saichovsky/gekko/master/strategies/DEBUG_toggle-advice.js
+
+DEBUG_toggle-advice-1525230395.js https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/strategies/DEBUG_toggle-advice.js
+
+DEBUG_toggle-advice-1525230400.js https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/strategies/DEBUG_toggle-advice.js
+
+tulip-macd-1525230404.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/tulip-macd.js
+
+Combination-1.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/Combination-1.js
+
+Combination-1-1525230411.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/Combination-1.js
+
+custom-1525230415.js https://raw.githubusercontent.com/beogip/gekko/develop/strategies/custom.js
+
+CUSTOM-STOCHRSI.js https://raw.githubusercontent.com/trainerbill/gekko/develop/strategies/CUSTOM-STOCHRSI.js
+
+TEMA-1525230422.js https://raw.githubusercontent.com/hiyan/gekkowk/develop/strategies/TEMA.js
+
+BB-1525230426.js https://raw.githubusercontent.com/hellerox/gekko/develop/strategies/BB.js
+
+BB-1525230430.js https://raw.githubusercontent.com/atselevich/gekko/develop/strategies/BB.js
+
+gannswing.js https://raw.githubusercontent.com/pprados/gekko/mydevelop/strategies/gannswing.js
+
+trend-based.js https://raw.githubusercontent.com/Rebinskiy/gekko/trend-based/strategies/trend-based.js
+
+RSI_BULL_BEAR_ADX-1525230441.js https://raw.githubusercontent.com/hiyan/gekkowk/develop/strategies/RSI_BULL_BEAR_ADX.js
+
+STC.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/STC.js
+
+STC-1525230448.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/STC.js
+
+NEO-1525230452.js https://raw.githubusercontent.com/jmaked/g3kk0/develop/strategies/NEO.js
+
+RSI_BULL_BEAR_ADX_PINGPONG-1525230456.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/RSI_BULL_BEAR_ADX_PINGPONG.js
+
+DI.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/DI.js
+
+old_kdj.js https://raw.githubusercontent.com/ljm625/gekko/stable/strategies/old_kdj.js
+
+old_kdj-1525230467.js https://raw.githubusercontent.com/yinqianwu/gekko/stable/strategies/old_kdj.js
+
+RSI_BULL_BEAR_ADX-1525230471.js https://raw.githubusercontent.com/Saichovsky/gekko/master/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525230475.js https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525230478.js https://raw.githubusercontent.com/s-ferdie/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525230482.js https://raw.githubusercontent.com/quickdry/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+saichovsky.js https://raw.githubusercontent.com/Saichovsky/gekko/master/strategies/saichovsky.js
+
+saichovsky-1525230490.js https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/strategies/saichovsky.js
+
+oosai.js https://raw.githubusercontent.com/muphy/gekko/stable/strategies/oosai.js
+
+alpha_new-1525230497.js https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/strategies/alpha_new.js
+
+neuralnet-1525230501.js https://raw.githubusercontent.com/dreymen/gekko/develop/strategies/neuralnet.js
+
+mounirs-ga-version-1.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/mounirs-ga-version-1.js
+
+mounirs-ga-version-1-1525230508.js https://raw.githubusercontent.com/wangvincentt/gekko/develop/strategies/mounirs-ga-version-1.js
+
+mounirs-ga-version-1-1525230512.js https://raw.githubusercontent.com/thanhlmm/gekko/develop/strategies/mounirs-ga-version-1.js
+
+mounirs-ga-version-1-1525230516.js https://raw.githubusercontent.com/pepijnblom/gekko/stable/strategies/mounirs-ga-version-1.js
+
+RSI-1525230519.js https://raw.githubusercontent.com/mogupta/gekko/stable/strategies/RSI.js
+
+RSI-1525230523.js https://raw.githubusercontent.com/kryptolynx/gekko/stable/strategies/RSI.js
+
+RSI-1525230527.js https://raw.githubusercontent.com/RyanCwynar/gekko/stable/strategies/RSI.js
+
+RSI-1525230530.js https://raw.githubusercontent.com/talinside/gekko/stable/strategies/RSI.js
+
+RSI-1525230534.js https://raw.githubusercontent.com/ramsesaguirre/gekko/stable/strategies/RSI.js
+
+RSI-1525230538.js https://raw.githubusercontent.com/emildimitrov/gekko/stable/strategies/RSI.js
+
+RSI-1525230541.js https://raw.githubusercontent.com/jonrh/gekko/stable/strategies/RSI.js
+
+RSI-1525230545.js https://raw.githubusercontent.com/pau1m/gekko/stable/strategies/RSI.js
+
+RSI-1525230549.js https://raw.githubusercontent.com/PlasticCog/gekko/stable/strategies/RSI.js
+
+RSI-1525230553.js https://raw.githubusercontent.com/dskvr/gekko/stable/strategies/RSI.js
+
+RSI-1525230556.js https://raw.githubusercontent.com/zhumzhu/gekko/stable/strategies/RSI.js
+
+RSI-1525230560.js https://raw.githubusercontent.com/Senmumu/gekko/stable/strategies/RSI.js
+
+RSI-1525230564.js https://raw.githubusercontent.com/kazi308/gekko/stable/strategies/RSI.js
+
+RSI-1525230568.js https://raw.githubusercontent.com/Reddmist/gekko/stable/strategies/RSI.js
+
+RSI-1525230571.js https://raw.githubusercontent.com/nford/gekko/stable/strategies/RSI.js
+
+RSI-1525230575.js https://raw.githubusercontent.com/dvs39/gekko/stable/strategies/RSI.js
+
+RSI-1525230578.js https://raw.githubusercontent.com/sad8c/gekko/stable/strategies/RSI.js
+
+RSI-1525230582.js https://raw.githubusercontent.com/Hotwings/gekko/stable/strategies/RSI.js
+
+RSI-1525230586.js https://raw.githubusercontent.com/anantmittal/gekko/stable/strategies/RSI.js
+
+BuySell.js https://raw.githubusercontent.com/danielhusar/gekko/stable/strategies/BuySell.js
+
+FIXPRICE.js https://raw.githubusercontent.com/imperator6/gekko/stable/strategies/FIXPRICE.js
+
+FIXPRICE-1525230597.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/FIXPRICE.js
+
+custom-1525230601.js https://raw.githubusercontent.com/ilap/gekko/develop/strategies/custom.js
+
+StratLV.js https://raw.githubusercontent.com/laravellously/nengobot/stable/strategies/StratLV.js
+
+CandlesPatterns.js https://raw.githubusercontent.com/pprados/gekko/mydevelop/strategies/CandlesPatterns.js
+
+ATR_ADX_v2.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/ATR_ADX_v2.js
+
+ATR_ADX_v2-1525230616.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/ATR_ADX_v2.js
+
+ATR_ADX_v2-1525230619.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/ATR_ADX_v2.js
+
+ATR_ADX_v2-1525230623.js https://raw.githubusercontent.com/DerSebel/gekko/develop/strategies/ATR_ADX_v2.js
+
+custom-fab-ao.ods https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/custom-fab-ao.ods
+
+FIBO.js https://raw.githubusercontent.com/PegasusHash/gekko-extended/master/strategies/FIBO.js
+
+adosc-fab.ods https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/adosc-fab.ods
+
+custom-1525230639.js https://raw.githubusercontent.com/kevinxh/gekko/develop/strategies/custom.js
+
+myRSI.js https://raw.githubusercontent.com/roelplieger/gekko/develop/strategies/myRSI.js
+
+BitBankStrategy2.js https://raw.githubusercontent.com/BitBanknz/gekko/develop/strategies/BitBankStrategy2.js
+
+Combination-2-1525230650.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/Combination-2.js
+
+lsma.js https://raw.githubusercontent.com/hariseldon78/gekko/stable/strategies/lsma.js
+
+L1-Scalping.js https://raw.githubusercontent.com/NFS002/gekko/stable/strategies/L1-Scalping.js
+
+L1-Scalping-1525230662.js https://raw.githubusercontent.com/laredoza/gekko/stable/strategies/L1-Scalping.js
+
+tulip-multi-strat-1525230666.js https://raw.githubusercontent.com/Catwhisker/gekko/develop/strategies/tulip-multi-strat.js
+
+adosc-fab.js https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/adosc-fab.js
+
+MACD-1525230673.js https://raw.githubusercontent.com/jazzbre/gekko/stable/strategies/MACD.js
+
+myRSI-1525230677.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/myRSI.js
+
+NN.js https://raw.githubusercontent.com/zschro/gekko-neuralnet/master/strategies/NN.js
+
+RSI-1525230684.js https://raw.githubusercontent.com/Catwhisker/gekko/develop/strategies/RSI.js
+
+MACD_custom-1525230688.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/MACD_custom.js
+
+MACD_custom-1525230692.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/MACD_custom.js
+
+MACD_custom-1525230695.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/MACD_custom.js
+
+MACD_custom-1525230699.js https://raw.githubusercontent.com/DerSebel/gekko/develop/strategies/MACD_custom.js
+
+Bro-RSI.js https://raw.githubusercontent.com/BrandonYuen/gekko/develop/strategies/Bro-RSI.js
+
+TSI-1525230707.js https://raw.githubusercontent.com/SirEOF/gekko/stable/strategies/TSI.js
+
+TSI-1525230711.js https://raw.githubusercontent.com/mogupta/gekko/stable/strategies/TSI.js
+
+TSI-1525230715.js https://raw.githubusercontent.com/kza95/gekko/stable/strategies/TSI.js
+
+TSI-1525230719.js https://raw.githubusercontent.com/admatteson/https-github.com-askmike-gekko/develop/strategies/TSI.js
+
+TSI-1525230723.js https://raw.githubusercontent.com/tudorconstantin/gekko/stable/strategies/TSI.js
+
+TSI-1525230726.js https://raw.githubusercontent.com/alexpantyukhin/gekko/stable/strategies/TSI.js
+
+TSI-1525230730.js https://raw.githubusercontent.com/inevity/gekko/stable/strategies/TSI.js
+
+TSI-1525230734.js https://raw.githubusercontent.com/Nowelec/gekko/stable/strategies/TSI.js
+
+TSI-1525230738.js https://raw.githubusercontent.com/CryptDev/gekko/stable/strategies/TSI.js
+
+TSI-1525230741.js https://raw.githubusercontent.com/furcy75/gekko/stable/strategies/TSI.js
+
+TSI-1525230745.js https://raw.githubusercontent.com/coderjoe/gekko/stable/strategies/TSI.js
+
+TSI-1525230749.js https://raw.githubusercontent.com/carlosfvp/gekko/stable/strategies/TSI.js
+
+TSI-1525230753.js https://raw.githubusercontent.com/thanhhoang09/gekko/stable/strategies/TSI.js
+
+TSI-1525230757.js https://raw.githubusercontent.com/jeremyloe/gekko/stable/strategies/TSI.js
+
+TSI-1525230760.js https://raw.githubusercontent.com/benediktharter/gekko/stable/strategies/TSI.js
+
+TSI-1525230764.js https://raw.githubusercontent.com/tperalta82/gekko/stable/strategies/TSI.js
+
+TSI-1525230768.js https://raw.githubusercontent.com/billotronic/gekko/stable/strategies/TSI.js
+
+TSI-1525230772.js https://raw.githubusercontent.com/breadncircus/gekko/stable/strategies/TSI.js
+
+TSI-1525230776.js https://raw.githubusercontent.com/kryptolynx/gekko/stable/strategies/TSI.js
+
+TSI-1525230780.js https://raw.githubusercontent.com/RyanCwynar/gekko/stable/strategies/TSI.js
+
+TSI-1525230783.js https://raw.githubusercontent.com/talinside/gekko/stable/strategies/TSI.js
+
+TSI-1525230787.js https://raw.githubusercontent.com/ramsesaguirre/gekko/stable/strategies/TSI.js
+
+TSI-1525230791.js https://raw.githubusercontent.com/emildimitrov/gekko/stable/strategies/TSI.js
+
+TSI-1525230795.js https://raw.githubusercontent.com/jonrh/gekko/stable/strategies/TSI.js
+
+TSI-1525230799.js https://raw.githubusercontent.com/pau1m/gekko/stable/strategies/TSI.js
+
+TSI-1525230803.js https://raw.githubusercontent.com/PlasticCog/gekko/stable/strategies/TSI.js
+
+TSI-1525230807.js https://raw.githubusercontent.com/dskvr/gekko/stable/strategies/TSI.js
+
+TSI-1525230811.js https://raw.githubusercontent.com/zhumzhu/gekko/stable/strategies/TSI.js
+
+TSI-1525230815.js https://raw.githubusercontent.com/Senmumu/gekko/stable/strategies/TSI.js
+
+TSI-1525230818.js https://raw.githubusercontent.com/kazi308/gekko/stable/strategies/TSI.js
+
+TSI-1525230822.js https://raw.githubusercontent.com/Reddmist/gekko/stable/strategies/TSI.js
+
+TSI-1525230826.js https://raw.githubusercontent.com/nford/gekko/stable/strategies/TSI.js
+
+TSI-1525230829.js https://raw.githubusercontent.com/dvs39/gekko/stable/strategies/TSI.js
+
+TSI-1525230833.js https://raw.githubusercontent.com/sad8c/gekko/stable/strategies/TSI.js
+
+TSI-1525230837.js https://raw.githubusercontent.com/Hotwings/gekko/stable/strategies/TSI.js
+
+TSI-1525230840.js https://raw.githubusercontent.com/anantmittal/gekko/stable/strategies/TSI.js
+
+STC_ZSchoro.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/STC_ZSchoro.js
+
+STC_ZSchoro-1525230848.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/STC_ZSchoro.js
+
+buyatsellat_ui.toml https://raw.githubusercontent.com/today-not-someday/gekko/develop/strategies/buyatsellat_ui.toml
+
+STC_Compare.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/STC_Compare.js
+
+STC_Compare-1525230859.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/STC_Compare.js
+
+RSI_BULL_BEAR_ADX-1525230863.js https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525230867.js https://raw.githubusercontent.com/gamert/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525230871.js https://raw.githubusercontent.com/woolf-wen/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525230874.js https://raw.githubusercontent.com/silentair1973/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+hma-fab-base.ods https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/hma-fab-base.ods
+
+custom_ema233.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/custom_ema233.js
+
+RSI_Bull_Bear_Adx_Stop-1525230887.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/RSI_Bull_Bear_Adx_Stop.js
+
+noop-1525230890.js https://raw.githubusercontent.com/ninextycode/gekko/stable/strategies/noop.js
+
+RSI_BULL_BEAR-1525230894.js https://raw.githubusercontent.com/gcobs0834/gekko/develop/strategies/RSI_BULL_BEAR.js
+
+RSI-overbought.js https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/RSI-overbought.js
+
+custom-1525230901.js https://raw.githubusercontent.com/meirarc/gekko/stable/strategies/custom.js
+
+Strat.js https://raw.githubusercontent.com/laravellously/nengobot/stable/strategies/Strat.js
+
+CCI-1525230909.js https://raw.githubusercontent.com/kza95/gekko/stable/strategies/CCI.js
+
+CCI-1525230912.js https://raw.githubusercontent.com/admatteson/https-github.com-askmike-gekko/develop/strategies/CCI.js
+
+PPO-1525230916.js https://raw.githubusercontent.com/SirEOF/gekko/stable/strategies/PPO.js
+
+PPO-1525230920.js https://raw.githubusercontent.com/mogupta/gekko/stable/strategies/PPO.js
+
+PPO-1525230924.js https://raw.githubusercontent.com/kza95/gekko/stable/strategies/PPO.js
+
+PPO-1525230927.js https://raw.githubusercontent.com/admatteson/https-github.com-askmike-gekko/develop/strategies/PPO.js
+
+PPO-1525230932.js https://raw.githubusercontent.com/tudorconstantin/gekko/stable/strategies/PPO.js
+
+PPO-1525230935.js https://raw.githubusercontent.com/alexpantyukhin/gekko/stable/strategies/PPO.js
+
+PPO-1525230939.js https://raw.githubusercontent.com/inevity/gekko/stable/strategies/PPO.js
+
+PPO-1525230943.js https://raw.githubusercontent.com/Nowelec/gekko/stable/strategies/PPO.js
+
+PPO-1525230946.js https://raw.githubusercontent.com/CryptDev/gekko/stable/strategies/PPO.js
+
+PPO-1525230950.js https://raw.githubusercontent.com/furcy75/gekko/stable/strategies/PPO.js
+
+PPO-1525230954.js https://raw.githubusercontent.com/coderjoe/gekko/stable/strategies/PPO.js
+
+PPO-1525230958.js https://raw.githubusercontent.com/carlosfvp/gekko/stable/strategies/PPO.js
+
+PPO-1525230962.js https://raw.githubusercontent.com/thanhhoang09/gekko/stable/strategies/PPO.js
+
+PPO-1525230965.js https://raw.githubusercontent.com/jeremyloe/gekko/stable/strategies/PPO.js
+
+PPO-1525230969.js https://raw.githubusercontent.com/benediktharter/gekko/stable/strategies/PPO.js
+
+PPO-1525230973.js https://raw.githubusercontent.com/tperalta82/gekko/stable/strategies/PPO.js
+
+PPO-1525230976.js https://raw.githubusercontent.com/billotronic/gekko/stable/strategies/PPO.js
+
+PPO-1525230980.js https://raw.githubusercontent.com/breadncircus/gekko/stable/strategies/PPO.js
+
+PPO-1525230984.js https://raw.githubusercontent.com/kryptolynx/gekko/stable/strategies/PPO.js
+
+PPO-1525230988.js https://raw.githubusercontent.com/RyanCwynar/gekko/stable/strategies/PPO.js
+
+PPO-1525230991.js https://raw.githubusercontent.com/talinside/gekko/stable/strategies/PPO.js
+
+PPO-1525230995.js https://raw.githubusercontent.com/ramsesaguirre/gekko/stable/strategies/PPO.js
+
+PPO-1525230999.js https://raw.githubusercontent.com/emildimitrov/gekko/stable/strategies/PPO.js
+
+PPO-1525231003.js https://raw.githubusercontent.com/jonrh/gekko/stable/strategies/PPO.js
+
+PPO-1525231006.js https://raw.githubusercontent.com/pau1m/gekko/stable/strategies/PPO.js
+
+PPO-1525231010.js https://raw.githubusercontent.com/PlasticCog/gekko/stable/strategies/PPO.js
+
+PPO-1525231014.js https://raw.githubusercontent.com/dskvr/gekko/stable/strategies/PPO.js
+
+PPO-1525231017.js https://raw.githubusercontent.com/zhumzhu/gekko/stable/strategies/PPO.js
+
+PPO-1525231021.js https://raw.githubusercontent.com/Senmumu/gekko/stable/strategies/PPO.js
+
+PPO-1525231025.js https://raw.githubusercontent.com/kazi308/gekko/stable/strategies/PPO.js
+
+PPO-1525231029.js https://raw.githubusercontent.com/Reddmist/gekko/stable/strategies/PPO.js
+
+PPO-1525231032.js https://raw.githubusercontent.com/nford/gekko/stable/strategies/PPO.js
+
+PPO-1525231036.js https://raw.githubusercontent.com/dvs39/gekko/stable/strategies/PPO.js
+
+PPO-1525231040.js https://raw.githubusercontent.com/sad8c/gekko/stable/strategies/PPO.js
+
+PPO-1525231044.js https://raw.githubusercontent.com/Hotwings/gekko/stable/strategies/PPO.js
+
+PPO-1525231047.js https://raw.githubusercontent.com/anantmittal/gekko/stable/strategies/PPO.js
+
+neuralnet-1525231052.js https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/strategies/neuralnet.js
+
+neuralnet-1525231056.js https://raw.githubusercontent.com/zschro/gekko-neuralnet/master/strategies/neuralnet.js
+
+saichovsky-1525231060.js https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/strategies/saichovsky.js
+
+RSI_BULL_BEAR-1525231063.toml https://raw.githubusercontent.com/tommiehansen/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+RSI_BULL_BEAR-1525231067.toml https://raw.githubusercontent.com/edimisonneves/gekko_tools/master/strategies/RSI_BULL_BEAR.toml
+
+custom-1525231071.js https://raw.githubusercontent.com/Batteryman212/icg-gekko/remotes/origin/stable/strategies/custom.js
+
+MACROSS.js https://raw.githubusercontent.com/tomtom87/gekko/stable/strategies/MACROSS.js
+
+trix-fab.js https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/trix-fab.js
+
+DEMA-1525231082.js https://raw.githubusercontent.com/Saichovsky/gekko/master/strategies/DEMA.js
+
+DEMA-1525231086.js https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/strategies/DEMA.js
+
+DEMA-1525231090.js https://raw.githubusercontent.com/nani3105/gekko/master/strategies/DEMA.js
+
+DEMA-1525231094.js https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/strategies/DEMA.js
+
+bestone-1525231097.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/bestone.js
+
+PPO-TSI-RSI.js https://raw.githubusercontent.com/trainerbill/gekko/develop/strategies/PPO-TSI-RSI.js
+
+DEMA-1525231105.js https://raw.githubusercontent.com/bennettoh/20180308-gekko/cmroche-origin/product_updates/strategies/DEMA.js
+
+TEMA-1525231108.js https://raw.githubusercontent.com/srich36/gekko_bot/stable/strategies/TEMA.js
+
+RSI_BULL_BEAR_ADX-1525231112.js https://raw.githubusercontent.com/tommiehansen/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525231116.js https://raw.githubusercontent.com/edimisonneves/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+mounirs-ga-version-1-1525231119.js https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/strategies/mounirs-ga-version-1.js
+
+CSV_Export.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/CSV_Export.js
+
+CSV_Export-1525231127.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/CSV_Export.js
+
+CSV_Export-1525231131.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/CSV_Export.js
+
+CSV_Export-1525231135.js https://raw.githubusercontent.com/DerSebel/gekko/develop/strategies/CSV_Export.js
+
+n8_helped.js https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/strategies/n8_helped.js
+
+RSI-1525231143.js https://raw.githubusercontent.com/nani3105/gekko/master/strategies/RSI.js
+
+L1-CCI_MACD.js https://raw.githubusercontent.com/NFS002/gekko/stable/strategies/L1-CCI_MACD.js
+
+L1-CCI_MACD-1525231150.js https://raw.githubusercontent.com/laredoza/gekko/stable/strategies/L1-CCI_MACD.js
+
+buyatsellat.js https://raw.githubusercontent.com/Saichovsky/gekko/master/strategies/buyatsellat.js
+
+buyatsellat-1525231159.js https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/strategies/buyatsellat.js
+
+custom-fab3.js https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/custom-fab3.js
+
+RSI_BULL_BEAR-1525231166.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/RSI_BULL_BEAR.js
+
+rsi-bull-bear.js https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/rsi-bull-bear.js
+
+neuralnet-1525231174.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/neuralnet.js
+
+neuralnet-1525231178.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/neuralnet.js
+
+neuralnet-1525231182.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/neuralnet.js
+
+neuralnet-1525231186.js https://raw.githubusercontent.com/DerSebel/gekko/develop/strategies/neuralnet.js
+
+noop-1525231189.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/noop.js
+
+CCI-1525231193.js https://raw.githubusercontent.com/Catwhisker/gekko/develop/strategies/CCI.js
+
+scarface_v2.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/scarface_v2.js
+
+EMACrossover-1525231201.js https://raw.githubusercontent.com/brucebarrera/gekko/develop/strategies/EMACrossover.js
+
+EMACrossover-1525231204.js https://raw.githubusercontent.com/vrfurl/gekko/stable/strategies/EMACrossover.js
+
+GA.js https://raw.githubusercontent.com/gcobs0834/gekko/develop/strategies/GA.js
+
+GA1.js https://raw.githubusercontent.com/gcobs0834/gekko/develop/strategies/GA1.js
+
+RSI_BULL_BEAR_ADX-1525231215.toml https://raw.githubusercontent.com/kidwalom/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525231219.toml https://raw.githubusercontent.com/GO1984/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525231223.toml https://raw.githubusercontent.com/vicmarto/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525231227.toml https://raw.githubusercontent.com/JasLin/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+RSI_BULL_BEAR_ADX-1525231230.toml https://raw.githubusercontent.com/ankasem/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.toml
+
+PHA.js https://raw.githubusercontent.com/anhpha/gekko/develop/strategies/PHA.js
+
+BB-1525231238.js https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/strategies/BB.js
+
+TEMA-1525231241.toml https://raw.githubusercontent.com/gamert/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231245.toml https://raw.githubusercontent.com/woolf-wen/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231249.toml https://raw.githubusercontent.com/silentair1973/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231253.toml https://raw.githubusercontent.com/jnoll21/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231256.toml https://raw.githubusercontent.com/harbop/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231260.toml https://raw.githubusercontent.com/khc8858/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231264.toml https://raw.githubusercontent.com/misterboe/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231267.toml https://raw.githubusercontent.com/wupeng1211/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231271.toml https://raw.githubusercontent.com/Kohette/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231275.toml https://raw.githubusercontent.com/rabassis/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231284.toml https://raw.githubusercontent.com/msmmi/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231288.toml https://raw.githubusercontent.com/imperfectarc/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231292.toml https://raw.githubusercontent.com/pepijnblom/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231296.toml https://raw.githubusercontent.com/uzi92505/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231300.toml https://raw.githubusercontent.com/G-Unit-Projects/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231303.toml https://raw.githubusercontent.com/vreugdedal/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231307.toml https://raw.githubusercontent.com/bcexecd/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231311.toml https://raw.githubusercontent.com/deepland/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231315.toml https://raw.githubusercontent.com/Kralg/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231318.toml https://raw.githubusercontent.com/phbprogramming/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231322.toml https://raw.githubusercontent.com/bogadopedro/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231325.toml https://raw.githubusercontent.com/in-elite/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231329.toml https://raw.githubusercontent.com/s-ferdie/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231333.toml https://raw.githubusercontent.com/quickdry/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231337.toml https://raw.githubusercontent.com/kidwalom/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231340.toml https://raw.githubusercontent.com/GO1984/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231344.toml https://raw.githubusercontent.com/vicmarto/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231348.toml https://raw.githubusercontent.com/JasLin/gekko_tools/master/strategies/TEMA.toml
+
+TEMA-1525231351.toml https://raw.githubusercontent.com/ankasem/gekko_tools/master/strategies/TEMA.toml
+
+MACD-1525231355.js https://raw.githubusercontent.com/Catwhisker/gekko/develop/strategies/MACD.js
+
+MACD-1525231359.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/MACD.js
+
+DEMACrossover-1525231363.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/DEMACrossover.js
+
+buyatsellat-1525231366.js https://raw.githubusercontent.com/pprados/gekko/mydevelop/strategies/buyatsellat.js
+
+jml.js https://raw.githubusercontent.com/juyeong/gekko/develop/strategies/jml.js
+
+RSI-1525231374.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/RSI.js
+
+WBM1.js https://raw.githubusercontent.com/brucebarrera/gekko/develop/strategies/WBM1.js
+
+WBM1-1525231381.js https://raw.githubusercontent.com/vrfurl/gekko/stable/strategies/WBM1.js
+
+DynBuySell.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/DynBuySell.js
+
+STC-1525231389.js https://raw.githubusercontent.com/gobeli/gekko/stable/strategies/STC.js
+
+CCI-1525231392.js https://raw.githubusercontent.com/padioca/gekko/develop/strategies/CCI.js
+
+bryanbeck-1525231396.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/bryanbeck.js
+
+mounirs-ga-version-1-1525231400.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/mounirs-ga-version-1.js
+
+custom-1525231404.js https://raw.githubusercontent.com/Scott-S/gekko/stable/strategies/custom.js
+
+gannswing-1525231408.js https://raw.githubusercontent.com/phatwila/gekko/stable/strategies/gannswing.js
+
+RSI-PHA.js https://raw.githubusercontent.com/anhpha/gekko/develop/strategies/RSI-PHA.js
+
+Turtle.js https://raw.githubusercontent.com/thanhlmm/gekko/develop/strategies/Turtle.js
+
+buyatsellat-1525231419.js https://raw.githubusercontent.com/today-not-someday/gekko/develop/strategies/buyatsellat.js
+
+custom-1525231423.js https://raw.githubusercontent.com/ninextycode/gekko/stable/strategies/custom.js
+
+TEMA-1525231427.js https://raw.githubusercontent.com/douglasgc/gekko/develop/strategies/TEMA.js
+
+UO-1525231431.js https://raw.githubusercontent.com/SirEOF/gekko/stable/strategies/UO.js
+
+UO-1525231435.js https://raw.githubusercontent.com/mogupta/gekko/stable/strategies/UO.js
+
+UO-1525231438.js https://raw.githubusercontent.com/kza95/gekko/stable/strategies/UO.js
+
+UO-1525231442.js https://raw.githubusercontent.com/admatteson/https-github.com-askmike-gekko/develop/strategies/UO.js
+
+UO-1525231446.js https://raw.githubusercontent.com/tudorconstantin/gekko/stable/strategies/UO.js
+
+UO-1525231449.js https://raw.githubusercontent.com/alexpantyukhin/gekko/stable/strategies/UO.js
+
+UO-1525231453.js https://raw.githubusercontent.com/inevity/gekko/stable/strategies/UO.js
+
+UO-1525231457.js https://raw.githubusercontent.com/Nowelec/gekko/stable/strategies/UO.js
+
+UO-1525231461.js https://raw.githubusercontent.com/CryptDev/gekko/stable/strategies/UO.js
+
+UO-1525231464.js https://raw.githubusercontent.com/furcy75/gekko/stable/strategies/UO.js
+
+UO-1525231468.js https://raw.githubusercontent.com/coderjoe/gekko/stable/strategies/UO.js
+
+UO-1525231472.js https://raw.githubusercontent.com/carlosfvp/gekko/stable/strategies/UO.js
+
+UO-1525231475.js https://raw.githubusercontent.com/thanhhoang09/gekko/stable/strategies/UO.js
+
+UO-1525231479.js https://raw.githubusercontent.com/jeremyloe/gekko/stable/strategies/UO.js
+
+UO-1525231483.js https://raw.githubusercontent.com/benediktharter/gekko/stable/strategies/UO.js
+
+UO-1525231487.js https://raw.githubusercontent.com/tperalta82/gekko/stable/strategies/UO.js
+
+UO-1525231490.js https://raw.githubusercontent.com/billotronic/gekko/stable/strategies/UO.js
+
+UO-1525231494.js https://raw.githubusercontent.com/breadncircus/gekko/stable/strategies/UO.js
+
+UO-1525231498.js https://raw.githubusercontent.com/kryptolynx/gekko/stable/strategies/UO.js
+
+UO-1525231502.js https://raw.githubusercontent.com/RyanCwynar/gekko/stable/strategies/UO.js
+
+UO-1525231505.js https://raw.githubusercontent.com/talinside/gekko/stable/strategies/UO.js
+
+UO-1525231509.js https://raw.githubusercontent.com/ramsesaguirre/gekko/stable/strategies/UO.js
+
+UO-1525231513.js https://raw.githubusercontent.com/emildimitrov/gekko/stable/strategies/UO.js
+
+UO-1525231517.js https://raw.githubusercontent.com/jonrh/gekko/stable/strategies/UO.js
+
+UO-1525231520.js https://raw.githubusercontent.com/pau1m/gekko/stable/strategies/UO.js
+
+UO-1525231524.js https://raw.githubusercontent.com/PlasticCog/gekko/stable/strategies/UO.js
+
+UO-1525231528.js https://raw.githubusercontent.com/dskvr/gekko/stable/strategies/UO.js
+
+UO-1525231531.js https://raw.githubusercontent.com/zhumzhu/gekko/stable/strategies/UO.js
+
+UO-1525231535.js https://raw.githubusercontent.com/Senmumu/gekko/stable/strategies/UO.js
+
+UO-1525231539.js https://raw.githubusercontent.com/kazi308/gekko/stable/strategies/UO.js
+
+UO-1525231544.js https://raw.githubusercontent.com/Reddmist/gekko/stable/strategies/UO.js
+
+UO-1525231547.js https://raw.githubusercontent.com/nford/gekko/stable/strategies/UO.js
+
+UO-1525231551.js https://raw.githubusercontent.com/dvs39/gekko/stable/strategies/UO.js
+
+UO-1525231555.js https://raw.githubusercontent.com/sad8c/gekko/stable/strategies/UO.js
+
+UO-1525231559.js https://raw.githubusercontent.com/Hotwings/gekko/stable/strategies/UO.js
+
+UO-1525231563.js https://raw.githubusercontent.com/anantmittal/gekko/stable/strategies/UO.js
+
+jake.js https://raw.githubusercontent.com/airbnbbkk/gekko/master/strategies/jake.js
+
+tulip-adx-1525231570.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/tulip-adx.js
+
+NEO-1525231574.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/NEO.js
+
+tulip-adx-1525231578.js https://raw.githubusercontent.com/Catwhisker/gekko/develop/strategies/tulip-adx.js
+
+BBRSI-1525231581.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/BBRSI.js
+
+timeframes.js https://raw.githubusercontent.com/zappra/gekko/develop/strategies/timeframes.js
+
+mounirs-ga-version-1-1525231589.js https://raw.githubusercontent.com/Saichovsky/gekko/master/strategies/mounirs-ga-version-1.js
+
+mounirs-ga-version-1-1525231593.js https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/strategies/mounirs-ga-version-1.js
+
+TEMA-1525231596.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/TEMA.js
+
+alpha_new-1525231600.js https://raw.githubusercontent.com/Saichovsky/gekko/master/strategies/alpha_new.js
+
+alpha_new-1525231604.js https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/strategies/alpha_new.js
+
+ATR_MA-1525231607.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/ATR_MA.js
+
+ATR_MA-1525231611.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/ATR_MA.js
+
+ATR_MA-1525231617.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/ATR_MA.js
+
+ATR_MA-1525231620.js https://raw.githubusercontent.com/DerSebel/gekko/develop/strategies/ATR_MA.js
+
+n8-1525231625.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/n8.js
+
+BitBankStrategyOnlyBacktestingPreprocessedData.js https://raw.githubusercontent.com/BitBanknz/gekko/develop/strategies/BitBankStrategyOnlyBacktestingPreprocessedData.js
+
+mounirs-ga-version-2-1525231633.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/mounirs-ga-version-2.js
+
+mounirs-ga-version-2-1525231637.js https://raw.githubusercontent.com/wangvincentt/gekko/develop/strategies/mounirs-ga-version-2.js
+
+mounirs-ga-version-2-1525231641.js https://raw.githubusercontent.com/thanhlmm/gekko/develop/strategies/mounirs-ga-version-2.js
+
+mounirs-ga-version-2-1525231645.js https://raw.githubusercontent.com/pepijnblom/gekko/stable/strategies/mounirs-ga-version-2.js
+
+CCI-1525231648.js https://raw.githubusercontent.com/NFS002/gekko/stable/strategies/CCI.js
+
+CCI-1525231652.js https://raw.githubusercontent.com/laredoza/gekko/stable/strategies/CCI.js
+
+CCI-1525231656.js https://raw.githubusercontent.com/TinyCalf/gekko/stable/strategies/CCI.js
+
+CCI-1525231659.js https://raw.githubusercontent.com/Scott-S/gekko/stable/strategies/CCI.js
+
+CCI-1525231663.js https://raw.githubusercontent.com/kdaye/gekko/stable/strategies/CCI.js
+
+CCI-1525231667.js https://raw.githubusercontent.com/ycaihua/gekko/stable/strategies/CCI.js
+
+CCI-1525231670.js https://raw.githubusercontent.com/troyth/gekko/stable/strategies/CCI.js
+
+CCI-1525231674.js https://raw.githubusercontent.com/saadmahboob/gekko/stable/strategies/CCI.js
+
+CCI-1525231678.js https://raw.githubusercontent.com/Hatollint/gekko/stable/strategies/CCI.js
+
+CCI-1525231682.js https://raw.githubusercontent.com/anandagarwaal/gekko/stable/strategies/CCI.js
+
+CCI-1525231685.js https://raw.githubusercontent.com/andremog/gekko/stable/strategies/CCI.js
+
+CCI-1525231689.js https://raw.githubusercontent.com/CptanPanic/gekko/stable/strategies/CCI.js
+
+CCI-1525231693.js https://raw.githubusercontent.com/sireeshraju/gekko/stable/strategies/CCI.js
+
+CCI-1525231696.js https://raw.githubusercontent.com/clarkallan-trader/gekko/stable/strategies/CCI.js
+
+CCI-1525231700.js https://raw.githubusercontent.com/cryofrost/gekko/stable/strategies/CCI.js
+
+CCI-1525231704.js https://raw.githubusercontent.com/likizju/gekko/stable/strategies/CCI.js
+
+CCI-1525231708.js https://raw.githubusercontent.com/diogo-silveira/gekko/stable/strategies/CCI.js
+
+CCI-1525231711.js https://raw.githubusercontent.com/enml/gekko/stable/strategies/CCI.js
+
+CCI-1525231715.js https://raw.githubusercontent.com/harssh/gekko/stable/strategies/CCI.js
+
+CCI-1525231719.js https://raw.githubusercontent.com/JiaHaobo/gekko/stable/strategies/CCI.js
+
+CCI-1525231723.js https://raw.githubusercontent.com/altfund/gekko/stable/strategies/CCI.js
+
+CCI-1525231726.js https://raw.githubusercontent.com/tannvdts/gekko/stable/strategies/CCI.js
+
+CCI-1525231730.js https://raw.githubusercontent.com/aqibbak/gekko/stable/strategies/CCI.js
+
+CCI-1525231734.js https://raw.githubusercontent.com/stefangordon/gekko/stable/strategies/CCI.js
+
+CCI-1525231737.js https://raw.githubusercontent.com/badwtg1111/gekko/stable/strategies/CCI.js
+
+CCI-1525231741.js https://raw.githubusercontent.com/mwaeckerlin/gekko/stable/strategies/CCI.js
+
+CCI-1525231745.js https://raw.githubusercontent.com/langit/gekko/stable/strategies/CCI.js
+
+CCI-1525231749.js https://raw.githubusercontent.com/pfletcherhill/gekko/stable/strategies/CCI.js
+
+CCI-1525231753.js https://raw.githubusercontent.com/wahln/gekko/stable/strategies/CCI.js
+
+CCI-1525231756.js https://raw.githubusercontent.com/Dodo33/gekko/stable/strategies/CCI.js
+
+CCI-1525231760.js https://raw.githubusercontent.com/WXLWEB/gekko/stable/strategies/CCI.js
+
+alpha-1525231764.js https://raw.githubusercontent.com/rafaeldelucena/Gekko_Trading_Resources/master/strategies/alpha.js
+
+alpha-1525231768.js https://raw.githubusercontent.com/rafaeldelucena/Gekko_Trading_Resources/master/strategies/alpha.js
+
+TEMA-1525231771.js https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/strategies/TEMA.js
+
+TEMA-1525231775.js https://raw.githubusercontent.com/gamert/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231779.js https://raw.githubusercontent.com/woolf-wen/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231782.js https://raw.githubusercontent.com/silentair1973/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231786.js https://raw.githubusercontent.com/jnoll21/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231790.js https://raw.githubusercontent.com/harbop/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231794.js https://raw.githubusercontent.com/khc8858/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231797.js https://raw.githubusercontent.com/misterboe/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231801.js https://raw.githubusercontent.com/padioca/gekko/develop/strategies/TEMA.js
+
+TEMA-1525231805.js https://raw.githubusercontent.com/wupeng1211/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231808.js https://raw.githubusercontent.com/Kohette/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231812.js https://raw.githubusercontent.com/rabassis/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231817.js https://raw.githubusercontent.com/msmmi/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231820.js https://raw.githubusercontent.com/imperfectarc/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231824.js https://raw.githubusercontent.com/pepijnblom/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231828.js https://raw.githubusercontent.com/uzi92505/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231831.js https://raw.githubusercontent.com/Saichovsky/gekko/master/strategies/TEMA.js
+
+TEMA-1525231835.js https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/strategies/TEMA.js
+
+TEMA-1525231839.js https://raw.githubusercontent.com/G-Unit-Projects/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231842.js https://raw.githubusercontent.com/vreugdedal/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231846.js https://raw.githubusercontent.com/bcexecd/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231850.js https://raw.githubusercontent.com/deepland/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231854.js https://raw.githubusercontent.com/Kralg/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231857.js https://raw.githubusercontent.com/phbprogramming/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231861.js https://raw.githubusercontent.com/bogadopedro/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231865.js https://raw.githubusercontent.com/in-elite/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231868.js https://raw.githubusercontent.com/scragz/gekko/develop/strategies/TEMA.js
+
+TEMA-1525231872.js https://raw.githubusercontent.com/s-ferdie/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231876.js https://raw.githubusercontent.com/quickdry/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231885.js https://raw.githubusercontent.com/kidwalom/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231889.js https://raw.githubusercontent.com/thanhlmm/gekko/develop/strategies/TEMA.js
+
+TEMA-1525231893.js https://raw.githubusercontent.com/GO1984/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231897.js https://raw.githubusercontent.com/vicmarto/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231900.js https://raw.githubusercontent.com/JasLin/gekko_tools/master/strategies/TEMA.js
+
+TEMA-1525231904.js https://raw.githubusercontent.com/ankasem/gekko_tools/master/strategies/TEMA.js
+
+robbot.js https://raw.githubusercontent.com/gobeli/gekko/stable/strategies/robbot.js
+
+ilap.js https://raw.githubusercontent.com/ilap/gekko/develop/strategies/ilap.js
+
+StochRSI_MACD-1525231915.js https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/StochRSI_MACD.js
+
+customPivotJbk.js https://raw.githubusercontent.com/Fred-grais/gekko_reloaded/stable/strategies/customPivotJbk.js
+
+neuralnet-1525231923.js https://raw.githubusercontent.com/hiyan/gekkowk/develop/strategies/neuralnet.js
+
+RSI_Autotune.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/RSI_Autotune.js
+
+RSI_Autotune-1525231930.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/RSI_Autotune.js
+
+neuralnet_v2-1525231934.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/neuralnet_v2.js
+
+forex.js https://raw.githubusercontent.com/shatting/gekko/stable/strategies/forex.js
+
+Pascal.js https://raw.githubusercontent.com/Herklos/gekko/stable/strategies/Pascal.js
+
+n8_v2.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/n8_v2.js
+
+cloggy_bestone-1525231949.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/cloggy_bestone.js
+
+cloggy_bestone-1525231952.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/cloggy_bestone.js
+
+cloggy_bestone-1525231956.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/cloggy_bestone.js
+
+cloggy_bestone-1525231960.js https://raw.githubusercontent.com/DerSebel/gekko/develop/strategies/cloggy_bestone.js
+
+mounirs-ga-version-2-1525231964.js https://raw.githubusercontent.com/Saichovsky/gekko/master/strategies/mounirs-ga-version-2.js
+
+mounirs-ga-version-2-1525231968.js https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/strategies/mounirs-ga-version-2.js
+
+mounirs-ga-version-2-1525231972.js https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/strategies/mounirs-ga-version-2.js
+
+RSI-beta.js https://raw.githubusercontent.com/PegasusHash/gekko-extended/master/strategies/RSI-beta.js
+
+RSI-beta-1525231980.js https://raw.githubusercontent.com/thegamecat/gekko/stable/strategies/RSI-beta.js
+
+alpha-1525231983.js https://raw.githubusercontent.com/pepijnblom/gekko/stable/strategies/alpha.js
+
+_STRATEGIES.txt https://raw.githubusercontent.com/Homskiy/gekko/develop/strategies/_STRATEGIES.txt
+
+custom_old.js https://raw.githubusercontent.com/ljm625/gekko/stable/strategies/custom_old.js
+
+custom_old-1525231994.js https://raw.githubusercontent.com/yinqianwu/gekko/stable/strategies/custom_old.js
+
+CUSTOM-RSI.js https://raw.githubusercontent.com/trainerbill/gekko/develop/strategies/CUSTOM-RSI.js
+
+bestone_updated_hardcoded-1525232003.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/bestone_updated_hardcoded.js
+
+bestone-updated-hardcoded-config-1525232006.js https://raw.githubusercontent.com/thanhlmm/gekko/develop/strategies/bestone-updated-hardcoded-config.js
+
+bear-market.js https://raw.githubusercontent.com/wangvincentt/gekko/develop/strategies/bear-market.js
+
+DEMA-1525232014.js https://raw.githubusercontent.com/MatSchaeff/gekko-playground/stable/strategies/DEMA.js
+
+TMA.js https://raw.githubusercontent.com/Catwhisker/gekko/develop/strategies/TMA.js
+
+alpha-1525232022.js https://raw.githubusercontent.com/Saichovsky/gekko/master/strategies/alpha.js
+
+alpha-1525232026.js https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/strategies/alpha.js
+
+alpha-1525232030.js https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/strategies/alpha.js
+
+ATR_ADX_v2-1525232034.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/ATR_ADX_v2.js
+
+tulip-fab-multi.js https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/tulip-fab-multi.js
+
+RSI-1525232041.js https://raw.githubusercontent.com/carlosfvp/gekko/stable/strategies/RSI.js
+
+mounirs-ga-version-2-1525232045.js https://raw.githubusercontent.com/rafaeldelucena/Gekko_Trading_Resources/master/strategies/mounirs-ga-version-2.js
+
+mounirs-ga-version-2-1525232049.js https://raw.githubusercontent.com/rafaeldelucena/Gekko_Trading_Resources/master/strategies/mounirs-ga-version-2.js
+
+EMADIV-1525232052.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/EMADIV.js
+
+tulip-multi-custom-old.js https://raw.githubusercontent.com/Homskiy/gekko/develop/strategies/tulip-multi-custom-old.js
+
+enhanced_kdj.js https://raw.githubusercontent.com/ljm625/gekko/stable/strategies/enhanced_kdj.js
+
+enhanced_kdj-1525232064.js https://raw.githubusercontent.com/yinqianwu/gekko/stable/strategies/enhanced_kdj.js
+
+RSI_BULL_BEAR_ADX-1525232068.js https://raw.githubusercontent.com/srich36/gekko_bot/stable/strategies/RSI_BULL_BEAR_ADX.js
+
+DI-1525232071.js https://raw.githubusercontent.com/gcobs0834/gekko/develop/strategies/DI.js
+
+BuySellOrStopLoss.js https://raw.githubusercontent.com/brucebarrera/gekko/develop/strategies/BuySellOrStopLoss.js
+
+BuySellOrStopLoss-1525232079.js https://raw.githubusercontent.com/vrfurl/gekko/stable/strategies/BuySellOrStopLoss.js
+
+alpha.toml https://raw.githubusercontent.com/rafaeldelucena/Gekko_Trading_Resources/master/strategies/alpha.toml
+
+alpha-1525232086.toml https://raw.githubusercontent.com/rafaeldelucena/Gekko_Trading_Resources/master/strategies/alpha.toml
+
+mounirs-ga-version-1-1525232090.js https://raw.githubusercontent.com/rafaeldelucena/Gekko_Trading_Resources/master/strategies/mounirs-ga-version-1.js
+
+mounirs-ga-version-1-1525232095.js https://raw.githubusercontent.com/rafaeldelucena/Gekko_Trading_Resources/master/strategies/mounirs-ga-version-1.js
+
+BodhiDI_public-1525232098.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/BodhiDI_public.js
+
+TWIG.js https://raw.githubusercontent.com/PegasusHash/gekko-extended/master/strategies/TWIG.js
+
+UO-1525232106.js https://raw.githubusercontent.com/Catwhisker/gekko/develop/strategies/UO.js
+
+README.MD https://raw.githubusercontent.com/rafaeldelucena/Gekko_Trading_Resources/master/strategies/README.MD
+
+README-1525232113.MD https://raw.githubusercontent.com/rafaeldelucena/Gekko_Trading_Resources/master/strategies/README.MD
+
+.Rhistory https://raw.githubusercontent.com/ninextycode/gekko/stable/strategies/.Rhistory
+
+EMA_OR_PRICE_DIV-1525232120.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/EMA_OR_PRICE_DIV.js
+
+BodhiDI_public-1525232124.js https://raw.githubusercontent.com/Saichovsky/gekko/master/strategies/BodhiDI_public.js
+
+BodhiDI_public-1525232128.js https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/strategies/BodhiDI_public.js
+
+DEMA-1525232131.js https://raw.githubusercontent.com/Rebinskiy/gekko/trend-based/strategies/DEMA.js
+
+RSI_BULL_BEAR-1525232135.js https://raw.githubusercontent.com/srich36/gekko_bot/stable/strategies/RSI_BULL_BEAR.js
+
+rsi_bear_bull.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/rsi_bear_bull.js
+
+rsi_bear_bull-1525232144.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/rsi_bear_bull.js
+
+rsi_bear_bull-1525232148.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/rsi_bear_bull.js
+
+rsi_bear_bull-1525232151.js https://raw.githubusercontent.com/DerSebel/gekko/develop/strategies/rsi_bear_bull.js
+
+STI-DEMA.js https://raw.githubusercontent.com/dmandalinic/gekko/stable/strategies/STI-DEMA.js
+
+2xTheMarket-min.js https://raw.githubusercontent.com/wangvincentt/gekko/develop/strategies/2xTheMarket-min.js
+
+profit.js https://raw.githubusercontent.com/ztnark/gekko/stable/strategies/profit.js
+
+CCI_custom-1525232166.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/CCI_custom.js
+
+CCI_custom-1525232170.js https://raw.githubusercontent.com/Homskiy/gekko/develop/strategies/CCI_custom.js
+
+RSICUSTOM.js https://raw.githubusercontent.com/willianscsilva/gekko/master/strategies/RSICUSTOM.js
+
+neuralnet-1525232177.js https://raw.githubusercontent.com/davidle68/gekko-neuralnet/master/strategies/neuralnet.js
+
+neuralnet-1525232181.js https://raw.githubusercontent.com/ducdan/gekko-neuralnet/master/strategies/neuralnet.js
+
+MACD-MFI-ADX.js https://raw.githubusercontent.com/bvanhou/gekko/stable/strategies/MACD-MFI-ADX.js
+
+gannswing-1525232189.js https://raw.githubusercontent.com/gobeli/gekko/stable/strategies/gannswing.js
+
+ultosc-fab.js https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/ultosc-fab.js
+
+StochRSI-1525232196.js https://raw.githubusercontent.com/Catwhisker/gekko/develop/strategies/StochRSI.js
+
+buyatsellat_ui-1525232200.js https://raw.githubusercontent.com/laravellously/nengobot/stable/strategies/buyatsellat_ui.js
+
+NN_ADX_RSI.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/NN_ADX_RSI.js
+
+RSI_BULL_BEAR-1525232208.js https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/strategies/RSI_BULL_BEAR.js
+
+RSI_BB_ADX_Peak_OLD.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/RSI_BB_ADX_Peak_OLD.js
+
+RSI_BB_ADX_Peak_OLD-1525232215.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/RSI_BB_ADX_Peak_OLD.js
+
+RSI_BB_ADX_Peak-1525232219.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/RSI_BB_ADX_Peak.js
+
+RSI_BB_ADX_Peak-1525232223.js https://raw.githubusercontent.com/DerSebel/gekko/develop/strategies/RSI_BB_ADX_Peak.js
+
+RSI_BULL_BEAR_ADX-1525232226.js https://raw.githubusercontent.com/jnoll21/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525232230.js https://raw.githubusercontent.com/harbop/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+RSI_BULL_BEAR_ADX-1525232234.js https://raw.githubusercontent.com/khc8858/gekko_tools/master/strategies/RSI_BULL_BEAR_ADX.js
+
+chang.js https://raw.githubusercontent.com/OptimalMatch/gekko/stable/strategies/chang.js
+
+custom-1525232242.js https://raw.githubusercontent.com/jasonheecs/gekko/stable/strategies/custom.js
+
+signals.js https://raw.githubusercontent.com/Rebinskiy/gekko/trend-based/strategies/signals.js
+
+TSI-1525232249.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/TSI.js
+
+PPO-1525232253.js https://raw.githubusercontent.com/padioca/gekko/develop/strategies/PPO.js
+
+PPO-GA.js https://raw.githubusercontent.com/trainerbill/gekko/develop/strategies/PPO-GA.js
+
+mounirs_esto.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/mounirs_esto.js
+
+mounirs_esto-1525232264.js https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/strategies/mounirs_esto.js
+
+RSI_Bull_Bear_Adx_Stop-1525232267.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/RSI_Bull_Bear_Adx_Stop.js
+
+RSI_Bull_Bear_Adx_Stop-1525232271.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/RSI_Bull_Bear_Adx_Stop.js
+
+RSI_Bull_Bear_Adx_Stop-1525232275.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/RSI_Bull_Bear_Adx_Stop.js
+
+RSI_Bull_Bear_Adx_Stop-1525232279.js https://raw.githubusercontent.com/DerSebel/gekko/develop/strategies/RSI_Bull_Bear_Adx_Stop.js
+
+forex_utils.coffee https://raw.githubusercontent.com/shatting/gekko/stable/strategies/forex_utils.coffee
+
+PPO-1525232286.js https://raw.githubusercontent.com/Catwhisker/gekko/develop/strategies/PPO.js
+
+custom-1525232290.js https://raw.githubusercontent.com/amitgandhinz/gekko/develop/strategies/custom.js
+
+custom-fab-ao.js https://raw.githubusercontent.com/scidran/gekko-s/stable/strategies/custom-fab-ao.js
+
+custom-1525232298.js https://raw.githubusercontent.com/Medardas/gekko/develop/strategies/custom.js
+
+RSI-custom.js https://raw.githubusercontent.com/kevinxh/gekko/develop/strategies/RSI-custom.js
+
+Supertrend-1525232305.js https://raw.githubusercontent.com/pprados/gekko/mydevelop/strategies/Supertrend.js
+
+MACD-CCI-RSI.js https://raw.githubusercontent.com/WildcatKSS/gekko-strategies/master/strategies/MACD-CCI-RSI.js
+

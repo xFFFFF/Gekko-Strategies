@@ -1,0 +1,14 @@
+# Source: https://raw.githubusercontent.com/vrfurl/gekko/stable/config/strategies/DEMACrossover.toml
+# Nothing to configure yet
+
+# Please select 1 min interval and require a history of at least 34 candles
+
+
+# Tell the bot if the first trade should be a buy or sell
+firstTrade = "buy"
+
+shortSize = 13
+
+longSize = 34
+
+[demaCrossover]

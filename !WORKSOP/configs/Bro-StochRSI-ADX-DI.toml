@@ -1,0 +1,4 @@
+rsiInterval = 3
+
+[thresholds]
+minAdx = 0

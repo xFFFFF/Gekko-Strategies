@@ -1,0 +1,10 @@
+
+interval = 8
+
+#lower is buy/sell faster
+sellat = 0.4
+buyat = 1.5 
+
+stop_percent = 0.96
+stop_enabled = true
+

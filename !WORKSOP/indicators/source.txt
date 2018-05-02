@@ -1,0 +1,472 @@
+LRC-1525193022.js https://raw.githubusercontent.com/AztecSmith/gekko/0.2/methods/indicators/LRC.js
+
+SMA.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/indicators/SMA.js
+
+x3nikiehihsa.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/indicators/x3nikiehihsa.js
+
+x3nikiehihsa-1525193500.js https://raw.githubusercontent.com/epscylonb/gekko/master/methods/indicators/x3nikiehihsa.js
+
+x3nikiehihsa-1525193502.js https://raw.githubusercontent.com/sushiomsky/gekko/master/methods/indicators/x3nikiehihsa.js
+
+x2EMA.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/indicators/x2EMA.js
+
+x2EMA-1525193506.js https://raw.githubusercontent.com/epscylonb/gekko/master/methods/indicators/x2EMA.js
+
+x2EMA-1525193508.js https://raw.githubusercontent.com/sushiomsky/gekko/master/methods/indicators/x2EMA.js
+
+x3EMA.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/indicators/x3EMA.js
+
+x3EMA-1525193512.js https://raw.githubusercontent.com/epscylonb/gekko/master/methods/indicators/x3EMA.js
+
+x3EMA-1525193514.js https://raw.githubusercontent.com/sushiomsky/gekko/master/methods/indicators/x3EMA.js
+
+CCI.js https://raw.githubusercontent.com/SamThomp/gekko/master/methods/indicators/CCI.js
+
+CCI-1525193518.js https://raw.githubusercontent.com/bugron/gekko/0.2/methods/indicators/CCI.js
+
+CCI-1525193520.js https://raw.githubusercontent.com/AztecSmith/gekko/0.2/methods/indicators/CCI.js
+
+x2MACD.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/indicators/x2MACD.js
+
+x2MACD-1525193525.js https://raw.githubusercontent.com/epscylonb/gekko/master/methods/indicators/x2MACD.js
+
+x2MACD-1525193527.js https://raw.githubusercontent.com/sushiomsky/gekko/master/methods/indicators/x2MACD.js
+
+LRC.js https://raw.githubusercontent.com/SamThomp/gekko/master/methods/indicators/LRC.js
+
+Alligator.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/indicators/Alligator.js
+
+ZERO.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/indicators/ZERO.js
+
+ZERO-1525193535.js https://raw.githubusercontent.com/epscylonb/gekko/master/methods/indicators/ZERO.js
+
+ZERO-1525193538.js https://raw.githubusercontent.com/sushiomsky/gekko/master/methods/indicators/ZERO.js
+
+nikiehihsa.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/indicators/nikiehihsa.js
+
+nikiehihsa-1525193542.js https://raw.githubusercontent.com/epscylonb/gekko/master/methods/indicators/nikiehihsa.js
+
+nikiehihsa-1525193544.js https://raw.githubusercontent.com/sushiomsky/gekko/master/methods/indicators/nikiehihsa.js
+
+BinarySearch.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/indicators/BinarySearch.js
+
+BinarySearch-1525193548.js https://raw.githubusercontent.com/epscylonb/gekko/master/methods/indicators/BinarySearch.js
+
+BinarySearch-1525193550.js https://raw.githubusercontent.com/sushiomsky/gekko/master/methods/indicators/BinarySearch.js
+
+windowstats.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/indicators/windowstats.js
+
+windowstats-1525193554.js https://raw.githubusercontent.com/epscylonb/gekko/master/methods/indicators/windowstats.js
+
+windowstats-1525193556.js https://raw.githubusercontent.com/sushiomsky/gekko/master/methods/indicators/windowstats.js
+
+CCI-1525193558.js https://raw.githubusercontent.com/cdyfng/gekko/develop/methods/indicators/CCI.js
+
+CCI-1525193561.js https://raw.githubusercontent.com/Aerius42/gekko/develop/methods/indicators/CCI.js
+
+EMA.js https://raw.githubusercontent.com/kuzetsa/gekko/Pascal66_elliot_waves/methods/indicators/EMA.js
+
+EMA-1525193565.js https://raw.githubusercontent.com/epscylonb/gekko/master/methods/indicators/EMA.js
+
+EMA-1525193567.js https://raw.githubusercontent.com/sushiomsky/gekko/master/methods/indicators/EMA.js
+
+LRC-1525193569.js https://raw.githubusercontent.com/bugron/gekko/0.2/methods/indicators/LRC.js
+
+LRC-1525193571.js https://raw.githubusercontent.com/AztecSmith/gekko/0.2/methods/indicators/LRC.js
+
+TALib-port-tester_ATR.js https://raw.githubusercontent.com/srich36/gekko_bot/stable/strategies/indicators/TALib-port-tester_ATR.js
+
+NN.js https://raw.githubusercontent.com/zschro/gekko-neuralnet/master/strategies/indicators/NN.js
+
+PHA.js https://raw.githubusercontent.com/anhpha/gekko/develop/strategies/indicators/PHA.js
+
+TALib-port-tester_DX.js https://raw.githubusercontent.com/srich36/gekko_bot/stable/strategies/indicators/TALib-port-tester_DX.js
+
+RSI.js https://raw.githubusercontent.com/illion20/gekko/develop/strategies/indicators/RSI.js
+
+BB2.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/indicators/BB2.js
+
+ATR.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/indicators/ATR.js
+
+ATR-1525204226.js https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/strategies/indicators/ATR.js
+
+ATR-1525204228.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/indicators/ATR.js
+
+ATR-1525204230.js https://raw.githubusercontent.com/srich36/gekko_bot/stable/strategies/indicators/ATR.js
+
+ATR-1525204232.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/indicators/ATR.js
+
+ATR-1525204234.js https://raw.githubusercontent.com/harbop/gekko/develop/strategies/indicators/ATR.js
+
+ATR-1525204237.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/ATR.js
+
+EMA-1525204239.js https://raw.githubusercontent.com/douglasgc/gekko/develop/strategies/indicators/EMA.js
+
+RSI-1525204241.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/RSI.js
+
+CCI-1525204243.js https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/strategies/indicators/CCI.js
+
+BB.js https://raw.githubusercontent.com/langhai8045/gekko/stable/strategies/indicators/BB.js
+
+BB-1525204247.js https://raw.githubusercontent.com/langhai8045/gekko_template/master/strategies/indicators/BB.js
+
+RSI-1525204249.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/indicators/RSI.js
+
+RSI-1525204252.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/indicators/RSI.js
+
+TALib-port-tester_HMA.js https://raw.githubusercontent.com/srich36/gekko_bot/stable/strategies/indicators/TALib-port-tester_HMA.js
+
+DX.js https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/strategies/indicators/DX.js
+
+EMA_.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/EMA_.js
+
+LOOSAI.js https://raw.githubusercontent.com/muphy/gekko/stable/strategies/indicators/LOOSAI.js
+
+BB-1525204262.js https://raw.githubusercontent.com/laravellously/nengobot/stable/strategies/indicators/BB.js
+
+STC.js https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/strategies/indicators/STC.js
+
+STC-1525204267.js https://raw.githubusercontent.com/zschro/GekkoSchaffTrendCycle/master/strategies/indicators/STC.js
+
+SMA-1525204269.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/SMA.js
+
+BB-1525204272.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/BB.js
+
+PPO.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/PPO.js
+
+SO.js https://raw.githubusercontent.com/dmandalinic/gekko/stable/strategies/indicators/SO.js
+
+TWIG.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/indicators/TWIG.js
+
+TWIG-1525204281.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/indicators/TWIG.js
+
+TWIG-1525204283.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/indicators/TWIG.js
+
+TWIG-1525204285.js https://raw.githubusercontent.com/DerSebel/gekko/develop/strategies/indicators/TWIG.js
+
+EMA-1525204287.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/EMA.js
+
+SMA-1525204289.js https://raw.githubusercontent.com/Saichovsky/gekko/master/strategies/indicators/SMA.js
+
+SMA-1525204292.js https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/strategies/indicators/SMA.js
+
+SMA-1525204295.js https://raw.githubusercontent.com/nani3105/gekko/master/strategies/indicators/SMA.js
+
+TALib-port-tester_BBANDS.js https://raw.githubusercontent.com/srich36/gekko_bot/stable/strategies/indicators/TALib-port-tester_BBANDS.js
+
+EMA-1525204302.js https://raw.githubusercontent.com/nani3105/gekko/master/strategies/indicators/EMA.js
+
+MACD.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/MACD.js
+
+HMA.js https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/strategies/indicators/HMA.js
+
+HMA-1525204309.js https://raw.githubusercontent.com/srich36/gekko_bot/stable/strategies/indicators/HMA.js
+
+wvf.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/wvf.js
+
+wvf-1525204313.js https://raw.githubusercontent.com/caux/gekkostuff/master/strategies/indicators/wvf.js
+
+RMA.js https://raw.githubusercontent.com/illion20/gekko/develop/strategies/indicators/RMA.js
+
+MACD-1525204317.js https://raw.githubusercontent.com/dmandalinic/gekko/stable/strategies/indicators/MACD.js
+
+TDM_SEQ.js https://raw.githubusercontent.com/MeanSquaredError/gekko/develop/strategies/indicators/TDM_SEQ.js
+
+TALib-port-tester_ADX.js https://raw.githubusercontent.com/srich36/gekko_bot/stable/strategies/indicators/TALib-port-tester_ADX.js
+
+DEMA_.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/DEMA_.js
+
+BBANDS.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/indicators/BBANDS.js
+
+BBANDS-1525204328.js https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/strategies/indicators/BBANDS.js
+
+BBANDS-1525204330.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/indicators/BBANDS.js
+
+BBANDS-1525204333.js https://raw.githubusercontent.com/srich36/gekko_bot/stable/strategies/indicators/BBANDS.js
+
+BBANDS-1525204335.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/indicators/BBANDS.js
+
+BBANDS-1525204337.js https://raw.githubusercontent.com/harbop/gekko/develop/strategies/indicators/BBANDS.js
+
+BBANDS-1525204340.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/BBANDS.js
+
+EMA-1525204342.js https://raw.githubusercontent.com/dmandalinic/gekko/stable/strategies/indicators/EMA.js
+
+StopLoss.js https://raw.githubusercontent.com/dreymen/gekko/develop/strategies/indicators/StopLoss.js
+
+TSI.js https://raw.githubusercontent.com/Saichovsky/gekko/master/strategies/indicators/TSI.js
+
+TSI-1525204350.js https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/strategies/indicators/TSI.js
+
+TSI-1525204352.js https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/strategies/indicators/TSI.js
+
+TSI-1525204354.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/TSI.js
+
+OOSAI.js https://raw.githubusercontent.com/muphy/gekko/stable/strategies/indicators/OOSAI.js
+
+LRC-1525204359.js https://raw.githubusercontent.com/Saichovsky/gekko/master/strategies/indicators/LRC.js
+
+LRC-1525204361.js https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/strategies/indicators/LRC.js
+
+ROC.js https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/strategies/indicators/ROC.js
+
+HEIKEN.js https://raw.githubusercontent.com/bvanhou/gekko/stable/strategies/indicators/HEIKEN.js
+
+DEMA.js https://raw.githubusercontent.com/bennettoh/20180308-gekko/cmroche-origin/product_updates/strategies/indicators/DEMA.js
+
+MACDValues.js https://raw.githubusercontent.com/dmandalinic/gekko/stable/strategies/indicators/MACDValues.js
+
+TWIG-1525204371.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/TWIG.js
+
+LRC-1525204374.js https://raw.githubusercontent.com/hiyan/gekkowk/develop/strategies/indicators/LRC.js
+
+StopLoss-1525204376.js https://raw.githubusercontent.com/wattta/gekko-neuralnet/master/strategies/indicators/StopLoss.js
+
+StopLoss-1525204378.js https://raw.githubusercontent.com/hiyan/gekkowk/develop/strategies/indicators/StopLoss.js
+
+StopLoss-1525204380.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/indicators/StopLoss.js
+
+StopLoss-1525204382.js https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/strategies/indicators/StopLoss.js
+
+StopLoss-1525204385.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/indicators/StopLoss.js
+
+StopLoss-1525204387.js https://raw.githubusercontent.com/zschro/gekko-neuralnet/master/strategies/indicators/StopLoss.js
+
+StopLoss-1525204389.js https://raw.githubusercontent.com/SirTificate/gekko-neuralnet/master/strategies/indicators/StopLoss.js
+
+StopLoss-1525204391.js https://raw.githubusercontent.com/Kenzitron/gekko-neuralnet/master/strategies/indicators/StopLoss.js
+
+StopLoss-1525204394.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/indicators/StopLoss.js
+
+StopLoss-1525204396.js https://raw.githubusercontent.com/gekkowarez/gekko-neuralnet/master/strategies/indicators/StopLoss.js
+
+StopLoss-1525204398.js https://raw.githubusercontent.com/guybeju/gekko-neuralnet/master/strategies/indicators/StopLoss.js
+
+StopLoss-1525204400.js https://raw.githubusercontent.com/DerSebel/gekko/develop/strategies/indicators/StopLoss.js
+
+StopLoss-1525204403.js https://raw.githubusercontent.com/GO1984/gekko-neuralnet/master/strategies/indicators/StopLoss.js
+
+StopLoss-1525204405.js https://raw.githubusercontent.com/lokidaibel/gekko-neuralnet/master/strategies/indicators/StopLoss.js
+
+StopLoss-1525204407.js https://raw.githubusercontent.com/pepijnblom/gekko-neuralnet/master/strategies/indicators/StopLoss.js
+
+StopLoss-1525204409.js https://raw.githubusercontent.com/gintsgints/gekko-neuralnet/master/strategies/indicators/StopLoss.js
+
+StopLoss-1525204411.js https://raw.githubusercontent.com/davidle68/gekko-neuralnet/master/strategies/indicators/StopLoss.js
+
+StopLoss-1525204414.js https://raw.githubusercontent.com/ducdan/gekko-neuralnet/master/strategies/indicators/StopLoss.js
+
+TALib-port-tester_TRANGE.js https://raw.githubusercontent.com/srich36/gekko_bot/stable/strategies/indicators/TALib-port-tester_TRANGE.js
+
+TRANGE.js https://raw.githubusercontent.com/hiyan/gekkowk/develop/strategies/indicators/TRANGE.js
+
+STC_broken.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/indicators/STC_broken.js
+
+STC_broken-1525204423.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/indicators/STC_broken.js
+
+DEMA-1525204425.js https://raw.githubusercontent.com/laravellously/nengobot/stable/strategies/indicators/DEMA.js
+
+BB-1525204427.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/indicators/BB.js
+
+BB-1525204430.js https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/strategies/indicators/BB.js
+
+BB-1525204432.js https://raw.githubusercontent.com/VNadygin/gekko/develop/strategies/indicators/BB.js
+
+BB-1525204434.js https://raw.githubusercontent.com/hellerox/gekko/develop/strategies/indicators/BB.js
+
+BB-1525204436.js https://raw.githubusercontent.com/atselevich/gekko/develop/strategies/indicators/BB.js
+
+BB-1525204438.js https://raw.githubusercontent.com/bvanhou/gekko/stable/strategies/indicators/BB.js
+
+STC_Rob.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/indicators/STC_Rob.js
+
+STC_Rob-1525204443.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/indicators/STC_Rob.js
+
+ATR-1525204445.js https://raw.githubusercontent.com/hiyan/gekkowk/develop/strategies/indicators/ATR.js
+
+TALib-port-tester_WMA.js https://raw.githubusercontent.com/srich36/gekko_bot/stable/strategies/indicators/TALib-port-tester_WMA.js
+
+FIBO.js https://raw.githubusercontent.com/PegasusHash/gekko-extended/master/strategies/indicators/FIBO.js
+
+FIBO-1525204451.js https://raw.githubusercontent.com/thegamecat/gekko/stable/strategies/indicators/FIBO.js
+
+MACD-1525204453.js https://raw.githubusercontent.com/shatting/gekko/stable/strategies/indicators/MACD.js
+
+DEMA-1525204455.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/DEMA.js
+
+MACD-1525204458.js https://raw.githubusercontent.com/muphy/gekko/stable/strategies/indicators/MACD.js
+
+SMA-1525204460.js https://raw.githubusercontent.com/illion20/gekko/develop/strategies/indicators/SMA.js
+
+StopLoss-1525204462.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/StopLoss.js
+
+MACD-1525204464.js https://raw.githubusercontent.com/OptimalMatch/gekko/stable/strategies/indicators/MACD.js
+
+IndicatorInterface.js https://raw.githubusercontent.com/dmandalinic/gekko/stable/strategies/indicators/IndicatorInterface.js
+
+ICHIMOKU.js https://raw.githubusercontent.com/krieghof/gekko/develop/strategies/indicators/ICHIMOKU.js
+
+ICHIMOKU-1525204471.js https://raw.githubusercontent.com/krieghof/gekko/develop/strategies/indicators/ICHIMOKU.js
+
+TWIG-1525204473.js https://raw.githubusercontent.com/thegamecat/gekko/stable/strategies/indicators/TWIG.js
+
+Benny-SMA.js https://raw.githubusercontent.com/hiyan/gekkowk/develop/strategies/indicators/Benny-SMA.js
+
+Benny-SMA-1525204477.js https://raw.githubusercontent.com/bennyn/gekko/develop/strategies/indicators/Benny-SMA.js
+
+Benny-SMA-1525204479.js https://raw.githubusercontent.com/jovanovicdusan/gekko/develop/strategies/indicators/Benny-SMA.js
+
+HEIKEN-1525204481.js https://raw.githubusercontent.com/krieghof/gekko/develop/strategies/indicators/HEIKEN.js
+
+HEIKEN-1525204483.js https://raw.githubusercontent.com/krieghof/gekko/develop/strategies/indicators/HEIKEN.js
+
+TRANGE-1525204486.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/indicators/TRANGE.js
+
+TRANGE-1525204488.js https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/strategies/indicators/TRANGE.js
+
+TRANGE-1525204490.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/indicators/TRANGE.js
+
+TRANGE-1525204492.js https://raw.githubusercontent.com/srich36/gekko_bot/stable/strategies/indicators/TRANGE.js
+
+TRANGE-1525204494.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/indicators/TRANGE.js
+
+TRANGE-1525204496.js https://raw.githubusercontent.com/harbop/gekko/develop/strategies/indicators/TRANGE.js
+
+TRANGE-1525204498.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/TRANGE.js
+
+VWMA.js https://raw.githubusercontent.com/illion20/gekko/develop/strategies/indicators/VWMA.js
+
+store.js https://raw.githubusercontent.com/dmandalinic/gekko/stable/strategies/indicators/store.js
+
+CCI-1525204505.js https://raw.githubusercontent.com/Saichovsky/gekko/master/strategies/indicators/CCI.js
+
+CCI-1525204507.js https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/strategies/indicators/CCI.js
+
+ADX.js https://raw.githubusercontent.com/illion20/gekko/develop/strategies/indicators/ADX.js
+
+LRC-1525204511.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/LRC.js
+
+WMA.js https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/strategies/indicators/WMA.js
+
+WMA-1525204515.js https://raw.githubusercontent.com/srich36/gekko_bot/stable/strategies/indicators/WMA.js
+
+BB-1525204518.js https://raw.githubusercontent.com/illion20/gekko/develop/strategies/indicators/BB.js
+
+EMA-1525204520.js https://raw.githubusercontent.com/Saichovsky/gekko/master/strategies/indicators/EMA.js
+
+EMA-1525204522.js https://raw.githubusercontent.com/mauroprojetos/gekko-1/master/strategies/indicators/EMA.js
+
+EMA-1525204524.js https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/strategies/indicators/EMA.js
+
+RENKO.js https://raw.githubusercontent.com/krieghof/gekko/develop/strategies/indicators/RENKO.js
+
+RENKO-1525204529.js https://raw.githubusercontent.com/krieghof/gekko/develop/strategies/indicators/RENKO.js
+
+PIVOTHIGHLOW.js https://raw.githubusercontent.com/Fred-grais/gekko_reloaded/stable/strategies/indicators/PIVOTHIGHLOW.js
+
+MOMENTUM.js https://raw.githubusercontent.com/douglasgc/gekko/develop/strategies/indicators/MOMENTUM.js
+
+BB-1525204535.js https://raw.githubusercontent.com/hiyan/gekkowk/develop/strategies/indicators/BB.js
+
+README.md https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/indicators/README.md
+
+CandlesPatterns.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/indicators/CandlesPatterns.js
+
+CandlesPatterns-1525204541.js https://raw.githubusercontent.com/pprados/gekko/mydevelop/strategies/indicators/CandlesPatterns.js
+
+FISHER.js https://raw.githubusercontent.com/illion20/gekko/develop/strategies/indicators/FISHER.js
+
+RSI-beta.js https://raw.githubusercontent.com/PegasusHash/gekko-extended/master/strategies/indicators/RSI-beta.js
+
+MACD_tf.js https://raw.githubusercontent.com/illion20/gekko/develop/strategies/indicators/MACD_tf.js
+
+RSI-1525204550.js https://raw.githubusercontent.com/carlosfvp/gekko/stable/strategies/indicators/RSI.js
+
+EMA-1525204552.js https://raw.githubusercontent.com/shatting/gekko/stable/strategies/indicators/EMA.js
+
+BB-1525204554.js https://raw.githubusercontent.com/amitgandhinz/gekko/develop/strategies/indicators/BB.js
+
+SMMA.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/SMMA.js
+
+DX-1525204559.js https://raw.githubusercontent.com/hiyan/gekkowk/develop/strategies/indicators/DX.js
+
+DX-1525204561.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/indicators/DX.js
+
+DX-1525204563.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/indicators/DX.js
+
+DX-1525204565.js https://raw.githubusercontent.com/srich36/gekko_bot/stable/strategies/indicators/DX.js
+
+DX-1525204567.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/indicators/DX.js
+
+DX-1525204569.js https://raw.githubusercontent.com/harbop/gekko/develop/strategies/indicators/DX.js
+
+DX-1525204571.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/DX.js
+
+STC-1525204573.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/indicators/STC.js
+
+STC-1525204575.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/indicators/STC.js
+
+CCI-1525204578.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/CCI.js
+
+STC-1525204580.js https://raw.githubusercontent.com/dmandalinic/gekko/stable/strategies/indicators/STC.js
+
+ADX-1525204582.js https://raw.githubusercontent.com/hiyan/gekkowk/develop/strategies/indicators/ADX.js
+
+ADX-1525204584.js https://raw.githubusercontent.com/RJPGriffin/gekko/develop/strategies/indicators/ADX.js
+
+ADX-1525204586.js https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/strategies/indicators/ADX.js
+
+ADX-1525204588.js https://raw.githubusercontent.com/willianfcamara/gekko/develop/strategies/indicators/ADX.js
+
+ADX-1525204591.js https://raw.githubusercontent.com/srich36/gekko_bot/stable/strategies/indicators/ADX.js
+
+ADX-1525204593.js https://raw.githubusercontent.com/jamespfarrell/gekko-1/develop/strategies/indicators/ADX.js
+
+ADX-1525204595.js https://raw.githubusercontent.com/harbop/gekko/develop/strategies/indicators/ADX.js
+
+ADX-1525204597.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/ADX.js
+
+UO.js https://raw.githubusercontent.com/PapaKarma/gekko_Ellie/develop/strategies/indicators/UO.js
+
+VWAP.js https://raw.githubusercontent.com/illion20/gekko/develop/strategies/indicators/VWAP.js
+
+TWIG-1525204603.js https://raw.githubusercontent.com/PegasusHash/gekko-extended/master/strategies/indicators/TWIG.js
+
+MACDHistogram.js https://raw.githubusercontent.com/dmandalinic/gekko/stable/strategies/indicators/MACDHistogram.js
+
+README-1525204609.md https://raw.githubusercontent.com/harbop/gekko/develop/strategies/indicators/README.md
+
+EMA_tf.js https://raw.githubusercontent.com/illion20/gekko/develop/strategies/indicators/EMA_tf.js
+
+STC-1525204613.js https://raw.githubusercontent.com/gobeli/gekko/stable/strategies/indicators/STC.js
+
+CCI-1525204615.js https://raw.githubusercontent.com/Rakeshpatel87p/gekko/stable/strategies/indicators/CCI.js
+
+DEMA-1525204617.js https://raw.githubusercontent.com/dmandalinic/gekko/stable/strategies/indicators/DEMA.js
+
+Stoch.js https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/strategies/indicators/Stoch.js
+
+PSAR.js https://raw.githubusercontent.com/illion20/gekko/develop/strategies/indicators/PSAR.js
+
+zTrailingStop.js https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/strategies/indicators/zTrailingStop.js
+
+zTrailingStop-1525204626.js https://raw.githubusercontent.com/zschro/GekkoSchaffTrendCycle/master/strategies/indicators/zTrailingStop.js
+
+zTrailingStop-1525204628.js https://raw.githubusercontent.com/zschro/gekko-neuralnet/master/strategies/indicators/zTrailingStop.js
+
+ATR-1525204630.js https://raw.githubusercontent.com/krieghof/gekko/develop/strategies/indicators/ATR.js
+
+ATR-1525204632.js https://raw.githubusercontent.com/krieghof/gekko/develop/strategies/indicators/ATR.js
+
+Dave.js https://raw.githubusercontent.com/ipostol/gekko/develop/strategies/indicators/Dave.js
+
+Dave-1525204640.js https://raw.githubusercontent.com/digidigo/gekko/stable/strategies/indicators/Dave.js
+
+LRC-1525204642.js https://raw.githubusercontent.com/SamuraiWaffle/gekko/develop/strategies/indicators/LRC.js
+
+DMI.js https://raw.githubusercontent.com/jim-toth/gekko-with-extras/stable/strategies/indicators/DMI.js
+
+VR.js https://raw.githubusercontent.com/ljm625/gekko/stable/strategies/indicators/VR.js
+
+VR-1525204648.js https://raw.githubusercontent.com/yinqianwu/gekko/stable/strategies/indicators/VR.js
+

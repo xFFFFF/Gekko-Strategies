@@ -1,0 +1,23 @@
+# Scale based of the 'scaleMaxSize' previous candles
+scaleMaxSize = 50
+
+# 'max', 'average', 'median' or 'fixed'
+strategy ='average'
+
+# After a pattern and trend identified, confirm the trend
+persistence = 1
+
+# Doji is limited to 4% of the current scale
+dojiLimit = 0.04
+
+# Short body is limited to 15% of the current scale
+shortLimit = 0.15
+
+# Long body must be bigger of 20% of the current scale
+longLimit = 0.20
+
+# Tolerance of 4% when compare equality of two shadows
+sameShadowLimit = 0.04
+
+# Number of candle in the same direction before an Hammer or HangingMan
+persistanceBeforHammerOrHangingMan = 2

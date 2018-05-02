@@ -1,0 +1,12 @@
+price_buffer_len = 100
+scale = -1
+min_predictions = 1000
+
+RsiPeriod1=14
+RsiPeriod2=9
+
+SMA1=10
+SMA2=80
+
+buyZonePercent=0.01
+sellZonePercent=0.01

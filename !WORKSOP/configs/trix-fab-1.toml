@@ -1,0 +1,7 @@
+[parameters1]
+optInTimePeriod = 7
+
+[salvezze]
+takeprofit = 0.01
+stoploss = 0.01
+

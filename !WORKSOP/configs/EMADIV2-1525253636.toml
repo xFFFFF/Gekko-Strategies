@@ -1,0 +1,4 @@
+# Source: https://raw.githubusercontent.com/imperator6/gekko/stable/config/strategies/EMADIV2.toml
+ema = 50
+long = -3
+short = 3

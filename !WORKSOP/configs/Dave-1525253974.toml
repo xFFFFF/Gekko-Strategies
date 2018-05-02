@@ -1,0 +1,9 @@
+short = 2
+long = 10
+
+[thresholds]
+down = 0.01
+up = 0.01
+getOut = 0.03
+persistence = 1
+maxExposureLength = 30

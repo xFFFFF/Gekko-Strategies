@@ -1,0 +1,13 @@
+# ATR period
+ATR = 22
+
+#ADX period
+ADX = 22
+
+# Stop Offset (higher increases price:stop difference)
+Sell_Offset = 3
+Buy_Offset = 7
+
+#ADX multiplier (higher reduces price:stop difference)
+Sell_ADX_Modifier = 1.9
+Buy_ADX_Modifier = 0.7

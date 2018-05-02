@@ -1,0 +1,14 @@
+# constant multiplier. 0.015 gets to around 70% fit
+constant = 0.015
+
+# history size, make same or smaller than history
+history = 90
+
+[thresholds]
+up = 150
+down = -30
+takeProfit = 20
+minProfit = 5
+takeLoss = -10
+persistence = 0
+negativeProfit = 1

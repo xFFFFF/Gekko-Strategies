@@ -1,0 +1,8 @@
+my_custom_setting = 10
+
+short = 10
+long = 21
+
+[thresholds]
+down = -0.025
+up = 0.025

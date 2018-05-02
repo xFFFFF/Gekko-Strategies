@@ -1,0 +1,8 @@
+apiKey = "API-KEY"
+pair = "BTC_ETH"
+maxFeatureSetAgeInSeconds = 60
+candlePeriodInMinutes = 1
+
+[backTest]
+enable = true
+csvPath = "/mnt/d/BitBank/BTC_ETH.csv"

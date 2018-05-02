@@ -1,0 +1,12 @@
+historySize = 10
+trendDuration = 2
+
+[myStoch]
+highThreshold = 80
+lowThreshold = 20
+optInFastKPeriod = 14
+optInSlowKPeriod = 5
+optInSlowDPeriod = 5
+
+[trailingStop] 
+percentage = 1

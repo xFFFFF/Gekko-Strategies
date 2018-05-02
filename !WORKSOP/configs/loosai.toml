@@ -1,0 +1,41 @@
+# 기준 봉 크기
+candle_duration = 30 #단위는 min
+#매수 조건
+#case1
+[buy]
+  [buy.condition]
+    [buy.condition.case1]
+      use = true
+      prev_candle_count = 3  #(이전 {3}개 봉
+      prev_volume_surge_ratio = 3 # 이전 봉들의 평균거래량 * {x} 배
+      min_base_vol = 15 # 볼륨 이상일 때만 확인. 단위 btc
+      prev_price_surge_ratio = 1.001 #1-3. 이전 {3}개봉의 평균가격(각 봉의(open+close)/2의 평균)보다 {0.1%}이상 상승)
+    [buy.condition.case2]
+      use = true
+      prev_candle_count = 3  #(이전 {3}개 봉
+      prev_volume_surge_ratio2 = 2 # 이전 봉들의 평균거래량 * {x} 배
+      prev_max_num_candle = 10 #2-3. 이전 {10}개봉의 최고가격
+
+#매도 조건
+[sell]
+  [sell.condition]
+    [sell.condition.case1]
+      use = true
+      nth_candle = 0  #{K} 0번봉(현재봉, 매수시점의 봉) 저점 미만시 매도
+      min_base_vol = 30 #최소 거래량
+    [sell.condition.case2]
+      use = true
+      loss_ratio = 0.98 # 손절가율 2% 미만이면 손절
+      min_base_vol = 30 #최소 거래량
+    [sell.condition.case3]
+      use = true
+      min_base_vol = 30 #최소 거래량
+      [sell.condition.case3.range1]
+        a = 1.05
+        b = 0.9 # 5%이상 수익시 수익률 기준으로 90%하락하면 매도
+      [sell.condition.case3.range2]
+        a = 1.1
+        b = 0.3
+      [sell.condition.case3.range3]
+        a = 1.2
+        b = 0.2

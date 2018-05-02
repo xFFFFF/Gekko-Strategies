@@ -1,0 +1,11 @@
+threshold_buy = 1.0
+threshold_sell = -1.0
+
+learning_rate = 0.01
+momentum = 0.1
+decay = 0.01
+stoploss_enabled = false
+stoploss_threshold = 0.85
+hodl_threshold = 1
+price_buffer_len = 100
+min_predictions = 1000

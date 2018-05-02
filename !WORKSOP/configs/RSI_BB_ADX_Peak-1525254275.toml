@@ -1,0 +1,27 @@
+# SMA Trends
+SMA_long = 1000
+SMA_short = 50
+
+# BULL
+BULL_RSI = 10
+BULL_RSI_high = 80
+BULL_RSI_low = 60
+
+# BEAR
+BEAR_RSI = 15
+BEAR_RSI_high = 50
+BEAR_RSI_low = 20
+
+# MODIFY RSI (depending on ADX)
+BULL_MOD_high = 5
+BULL_MOD_low = -5
+BEAR_MOD_high = 15
+BEAR_MOD_low = -5
+
+# ADX
+ADX = 3
+ADX_high = 70
+ADX_low = 50
+
+# Stop Loss
+Stop_Loss_Percent = 50

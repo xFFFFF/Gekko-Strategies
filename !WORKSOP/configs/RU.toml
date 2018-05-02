@@ -1,0 +1,16 @@
+[EMA]
+fast = 5
+slow = 10
+
+[CCI]
+constant = 0.015
+history = 20
+
+[stopLoss]
+enabled = false
+percents = 2
+
+[thresholds]
+up = 160
+down = -30
+persistence = 0

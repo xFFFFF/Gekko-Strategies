@@ -1,0 +1,16 @@
+short = 10
+long = 21
+interval = 14
+signal = 9
+
+[thresholds]
+down = -0.025
+up = 0.025
+
+[chart.indicatorColors]
+ema1 = "cyan"
+ema2 = "pink"
+ema3 = "orange"
+ema4 = "yellow"
+ema5 = "black"
+ppo = "purple"

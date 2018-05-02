@@ -1,0 +1,15 @@
+force_short_threshold = 0.05
+optInFastK_Period = 9
+optInSlowK_Period = 3
+optInSlowK_MAType = 0
+optInSlowD_Period = 3
+optInSlowD_MAType = 0
+K_high_level = 70
+K_low_level  = 30
+D_high_level = 80
+D_low_level = 20
+period = 5
+volume_avg_date = 8
+volume_multiply = 1.2
+buy_last_time=5
+sell_last_time=5

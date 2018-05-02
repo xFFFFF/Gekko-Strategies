@@ -1,0 +1,24 @@
+tradeLimit = 99999999999999
+# Tell the bot if the first trade should be a buy or sell
+ firstTrade = "buy"
+
+[sell]
+enabled = false
+limitPrice = 99999999999999
+
+
+[stopLoss]
+enabled =  false
+lessThanOrEqualTo = -99999999999999
+pauseOnStopLoss = false
+
+
+[buy]
+enabled = false
+limitPrice = -99999999999999
+
+
+[buyRange]
+enabled = false
+lessThanOrEqualTo = -99999999999999
+greaterThanOrEqualTo = 99999999999999

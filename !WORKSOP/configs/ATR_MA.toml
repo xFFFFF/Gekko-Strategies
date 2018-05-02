@@ -1,0 +1,4 @@
+ATR = 10
+MA = 10
+Sell_ATR_Multiplier = 0.5
+BUY_ATR_Multiplier = 0.5
