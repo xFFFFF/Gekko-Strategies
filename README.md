@@ -7,6 +7,8 @@
     
 [Gekko](http://github.com/askmike/gekko) Trading Bot. Repository of strategies which I found at Git and Google, orginal source is in README or .js file. Strategies was backtested, results are in [backtest_database.csv](https://github.com/xFFFFF/Gekko-Strategies/blob/master/backtest_database.csv) file.
 
+I used [ForksScraper](https://github.com/xFFFFF/ForksScraper) and [Gekko BacktestTool](https://github.com/xFFFFF/Gekko-BacktestTool) to create content of this repository.
+
 ## Best strategy
 Results are sorted by amount of best profit/day on unique **DATASETS** and second by percent of profitable **BACKTESTS**.     
 .   
