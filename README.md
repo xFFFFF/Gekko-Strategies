@@ -80,6 +80,6 @@ I warn you that not everything can work as it should.
 - Neural network price predictions strategy via external API - https://github.com/BitBanknz/bitbank-gekko
 
 ## Donate?
-![Nie biorę](https://i.imgur.com/Ae4Ptmf.jpg) 
+![Nie biorę](https://i.imgur.com/Ae4Ptmf.jpg)   ![Imgur](https://i.imgur.com/FxIxQGr.png)
 
 I am not the author of the strategies posted here. Donate authors. If you like my work then share your strategy. That's all.   
