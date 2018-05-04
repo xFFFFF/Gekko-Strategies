@@ -10,7 +10,7 @@
 I used [ForksScraper](https://github.com/xFFFFF/ForksScraper) and [Gekko BacktestTool](https://github.com/xFFFFF/Gekko-BacktestTool) to create content of this repository.
 
 ## Best strategy
-Results are sorted by amount of best profit/day on unique **DATASETS** and second by percent of profitable **BACKTESTS**.     
+Results are sorted by amount of best profit/day on unique **DATASETS**.     
 .   
 ![Stats of strategies](http://i.imgur.com/UFn4P7U.png)
 
