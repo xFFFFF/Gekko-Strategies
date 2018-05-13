@@ -34,9 +34,9 @@ Feel free if You want share strategies on this repo. I will backtest it after pu
 - Japonicus - genetic algorithm - https://github.com/Gab0/japonicus
 - GekkoGA - genetic algorithm - https://github.com/gekkowarez/gekkoga
 - Complete image to VirtualBox with Gekko - https://github.com/tsungminyang/gekko
-- Gekko in Quasar Framework - https://github.com/H256/gekko-quasar-ui
 - Gekko Automated Backtest - https://github.com/tommiehansen/gab
 - Kill, start market watchers/traders in Gekko UI - https://github.com/CyborgDroid/gekko-python
+- GekkoWarez Bruteforce Backtester - https://github.com/gekkowarez/bruteforce
 
 ### Datasets
 - Complete datasets in SQLite files: https://github.com/xFFFFF/Gekko-Datasets
@@ -44,13 +44,13 @@ Feel free if You want share strategies on this repo. I will backtest it after pu
 ### Gekko Addons
 I warn you that not everything can work as it should.
 #### Indicators
-- Wix-Fix https://github.com/caux/gekkostuff
-- Indicators by Gab0 - https://github.com/Gab0/gekko-extra-indicators
-- Fibonnaci - https://github.com/thegamecat/gekko-trading-stuff
+- Vix-Fix https://github.com/caux/gekkostuff
+- HMA, ADX and others - https://github.com/Gab0/gekko-extra-indicators
+- Fibonnaci and others - https://github.com/thegamecat/gekko-trading-stuff
 - Neaptic - https://github.com/jmatty1983/gekkoNeatapticIndicator
-- HMA and others - https://github.com/jmatty1983/gekkoIndicators
+- HMA and others (in JS, not Gekko) - https://github.com/jmatty1983/gekkoIndicators
 - PSAR - https://github.com/illion20/gekko/tree/develop/strategies/indicators
-- Custom RSI - https://github.com/CyborgDroid/gekkoIndicators
+- ZScore and others - https://github.com/CyborgDroid/gekkoIndicators
 
 #### Exchanges
 - CCXT - https://github.com/Yoyae/gekko
@@ -61,6 +61,7 @@ I warn you that not everything can work as it should.
 - Mercado - https://github.com/brvollino/gekko
 - Mock - https://github.com/ilap/gekko/
 - Dragonex - https://github.com/BoBoSama/gekko
+- Bitfinex (websocket!) - https://github.com/cmroche/gekko/tree/bitfinex_ws
 
 #### Plugins
 - Market report - https://github.com/hiyan/gekkowk/
@@ -77,7 +78,14 @@ I warn you that not everything can work as it should.
 
 ### Others
 - Send buy/sell advice to Gekko via IRC - https://github.com/gshearer/hodlgreed
+- Like above but with Telegram - https://github.com/askmike/gekko/pull/2103/files
 - Neural network price predictions strategy via external API - https://github.com/BitBanknz/bitbank-gekko
+- Partial balance trading - https://github.com/Ali1/gekko/tree/0b1e98c47c012faeac92eecdcf66def595b6adcf
+- Brute forcer strat parameters in Gekko - https://github.com/askmike/gekko/pull/1204
+- Unofficial Gekko UI (showing indicator results on chart) in Quasar - https://github.com/H256/gekko-quasar-ui
+- Above UI implemented in Gekko - https://github.com/H256/gekko
+- Batch backtests in Gekko - https://github.com/askmike/gekko/pull/1109
+- Use different candleSizes in strategy - https://github.com/zappra/gekko/blob/develop/strategies/timeframes.js
 
 ## Donate?
 ![Nie biorę](https://i.imgur.com/Ae4Ptmf.jpg)   ![Imgur](https://i.imgur.com/FxIxQGr.png)   
