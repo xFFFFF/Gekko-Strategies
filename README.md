@@ -37,6 +37,7 @@ Feel free if You want share strategies on this repo. I will backtest it after pu
 - Gekko Automated Backtest - https://github.com/tommiehansen/gab
 - Kill, start market watchers/traders in Gekko UI - https://github.com/CyborgDroid/gekko-python
 - GekkoWarez Bruteforce Backtester - https://github.com/gekkowarez/bruteforce
+- MultiGekko - generate configs for CLI - https://github.com/bettimms/multi-gekko
 
 ### Datasets
 - Complete datasets in SQLite files: https://github.com/xFFFFF/Gekko-Datasets
