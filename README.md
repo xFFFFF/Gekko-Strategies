@@ -38,6 +38,7 @@ Feel free if You want share strategies on this repo. I will backtest it after pu
 - Kill, start market watchers/traders in Gekko UI - https://github.com/CyborgDroid/gekko-python
 - GekkoWarez Bruteforce Backtester - https://github.com/gekkowarez/bruteforce
 - MultiGekko - generate configs for CLI - https://github.com/bettimms/multi-gekko
+- PostgresSQL Docker environment locally to be used by Gekko - https://github.com/mikemichaelis/postgekko
 
 ### Datasets
 - Complete datasets in SQLite files: https://github.com/xFFFFF/Gekko-Datasets
@@ -63,6 +64,7 @@ I warn you that not everything can work as it should.
 - Mock - https://github.com/ilap/gekko/
 - Dragonex - https://github.com/BoBoSama/gekko
 - Bitfinex (websocket!) - https://github.com/cmroche/gekko/tree/bitfinex_ws
+- Bitfinex margin trading - https://github.com/martinvasapollo/gekko/commit/1940a3a3a3763ca2a5f5eef9c8840867b6bbc60d
 
 #### Plugins
 - Market report - https://github.com/hiyan/gekkowk/
