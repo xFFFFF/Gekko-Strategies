@@ -49,3 +49,6 @@
 [submodule "neuralnet_zschro"]
 	path = neuralnet_zschro
 	url = https://github.com/zschro/gekko-neuralnet
+[submodule "NNv2"]
+	path = NNv2
+	url = https://github.com/zschro/gekko-neuralnet
