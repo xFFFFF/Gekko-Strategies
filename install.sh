@@ -13,6 +13,7 @@ fi
 
 echo "Install strategies to $g directory";
 #sed "s!\./!!g; s/^/\"/g; s/$/\"/g"
+IFS=$'\n'
 e=($(find . -name *.js | grep -E 'indicators' ))
 for i in "${e[@]}"
 do
@@ -34,3 +35,4 @@ echo "Copy strategy config: $i"
 cp $i $g/config/strategies/
 done
 echo "Install complete"
+unset IFS 
