@@ -20,8 +20,9 @@ Feel free if You want share strategies on this repo. I will backtest it after pu
 ### Unix-like   
 1. `git clone https://github.com/xFFFFF/Gekko-Strategies`   
 2. `cd Gekko-Strategies`   
-3. `bash install.sh`   
-4. Restart Gekko   
+3. `git submodule update --init`
+4. `bash install.sh`   
+5. Restart Gekko   
 
 ### Windows
 1. Download: https://github.com/xFFFFF/Gekko-Strategies/archive/master.zip   
