@@ -47,7 +47,12 @@ function processfiles(){
 	IFS=$'\n'
 	for src in `cat ${tmpfile}`
 	do
-#		echo "Source file: ${src}"
+		# If the same file is already present we skip it
+		if [ -e "$location$name" ] && [ -z "$(diff "${src}" "${location}${name}")" ]
+		then
+			continue
+		fi
+		echo "Source file: ${src}"
 		folder=`echo "$src" | tr '/' '\n' | head -n 2 | tail -n 1 | tr ' ' '_'`
 		name=`echo "$src"| tr '/' '\n' | tail -n 1`
 		oname="$name"
@@ -61,12 +66,6 @@ function processfiles(){
 			do
 				if [ -n "$(diff "$pre" "$other")" ]
 				then
-					if [ $(diff "$pre" "$other" | wc -l) -lt 10 ]
-					then
-						diff "$pre" "$other"
-						echo "compared $pre $other"
-						read
-					fi
 					name="${cont}-${folder}.${ext}"
 					break
 				fi
@@ -75,12 +74,6 @@ function processfiles(){
 		# Second check: is there a different file under the same name in target folder
 		if [ -e "$location$name" ] && [ -n "$(diff "${src}" "${location}${name}")" ]
 		then
-			if [ $(diff "$src" "$location$name" | wc -l) -lt 10 ]
-			then
-				diff "$pre" "$other"
-				echo "compared $src $location$name"
-				read
-			fi
 			name="${cont}-${folder}.${ext}"
 		fi
 		count=1
@@ -94,14 +87,14 @@ function processfiles(){
 		if [ -e "$location$name" ] && [ -z "$(diff "${src}" "${location}${name}")" ]
 		then
 			echo "Exact same file already present"
-			return
+			continue
 		fi
 		# If we changed the name report the change
 		if [ "$oname" != "$name" ] 
 		then
 			echo "New name: $name"
 		fi
-#		cp "$src" "$location/$name"
+		cp "$src" "$location/$name"
 	done
 	unset IFS
 }
