@@ -72,6 +72,7 @@ I warn you that not everything can work as it should.
 - Multi Trader - https://github.com/roelplieger/gekko/
 - Multi PaperTrader - https://github.com/roelplieger/gekko
 - MySQL - https://github.com/jordanmmyers/mb-dev
+- Zoomable chart with indicators, customisability and setup documentation - https://github.com/benjamin-glitsos/gekko-plotly-plugin
 - Draw indicators results - https://github.com/christianbaier/gekko
 - Gekko strategies in Python - https://github.com/pauljherrera/gekko_python
 - Display indicators in backtest results- https://github.com/Catwhisker/gekko
