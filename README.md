@@ -18,7 +18,7 @@ Remember, these are just **BACKTESTS**. Not real trading!
 Feel free if You want share strategies on this repo. I will backtest it after push.   
 ## Installation
 ### Unix-like   
-1. `git clone https://github.com/xFFFFF/Gekko-Strategies`   
+1. `git clone --recursive https://github.com/xFFFFF/Gekko-Strategies`   
 2. `cd Gekko-Strategies`   
 3. `bash install.sh`   
 4. Restart Gekko   
